@@ -200,42 +200,10 @@ internal fun SettingsScreen(
             }
             item {
                 SettingsPreferenceItem(
-                    icon = Icons.TwoTone.ContentCopy,
-                    title = stringResource(CommonR.string.deduplicator_tool_name),
-                    subtitle = stringResource(eu.darken.sdmse.deduplicator.R.string.deduplicator_explanation_short),
-                    onClick = { onToolSettingsClick("Deduplicator") },
-                )
-            }
-            item {
-                SettingsPreferenceItem(
                     icon = Icons.TwoTone.Apps,
                     title = stringResource(CommonR.string.appcontrol_tool_name),
                     subtitle = stringResource(eu.darken.sdmse.appcontrol.R.string.appcontrol_explanation_short),
                     onClick = { onToolSettingsClick("AppControl") },
-                )
-            }
-            item {
-                SettingsPreferenceItem(
-                    icon = Icons.TwoTone.Compress,
-                    title = stringResource(CommonR.string.squeezer_tool_name),
-                    subtitle = stringResource(eu.darken.sdmse.squeezer.R.string.squeezer_explanation_short),
-                    onClick = { onToolSettingsClick("Squeezer") },
-                )
-            }
-            item {
-                SettingsPreferenceItem(
-                    icon = Icons.TwoTone.Swipe,
-                    title = stringResource(CommonR.string.swiper_tool_name),
-                    subtitle = stringResource(eu.darken.sdmse.swiper.R.string.swiper_tool_description),
-                    onClick = { onToolSettingsClick("Swiper") },
-                )
-            }
-            item {
-                SettingsPreferenceItem(
-                    icon = Icons.TwoTone.DataUsage,
-                    title = stringResource(CommonR.string.analyzer_tool_name),
-                    subtitle = stringResource(eu.darken.sdmse.analyzer.R.string.analyzer_explanation_short),
-                    onClick = { onToolSettingsClick("Analyzer") },
                 )
             }
 
@@ -264,14 +232,6 @@ internal fun SettingsScreen(
                     title = stringResource(CommonR.string.stats_label),
                     subtitle = stringResource(eu.darken.sdmse.common.stats.R.string.stats_settings_desc),
                     onClick = onStatsClick,
-                )
-            }
-            item {
-                SettingsPreferenceItem(
-                    icon = Icons.TwoTone.Alarm,
-                    title = stringResource(eu.darken.sdmse.scheduler.R.string.scheduler_settings_label),
-                    subtitle = stringResource(eu.darken.sdmse.scheduler.R.string.scheduler_settings_summary),
-                    onClick = onSchedulerClick,
                 )
             }
             item {

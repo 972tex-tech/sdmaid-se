@@ -59,11 +59,6 @@ fun OneClickOptionsDialog(
                 checked = appCleanerEnabled,
                 onCheckedChange = onAppCleanerChanged,
             )
-            OneClickSwitchRow(
-                label = stringResource(CommonR.string.deduplicator_tool_name),
-                checked = deduplicatorEnabled,
-                onCheckedChange = onDeduplicatorChanged,
-            )
         }
     }
 }

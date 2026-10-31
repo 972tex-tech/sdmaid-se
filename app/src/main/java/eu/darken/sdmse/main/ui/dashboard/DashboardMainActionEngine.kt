@@ -103,7 +103,7 @@ class DashboardMainActionEngine(
         generalSettings.oneClickCorpseFinderEnabled.flow,
         generalSettings.oneClickSystemCleanerEnabled.flow,
         generalSettings.oneClickAppCleanerEnabled.flow,
-        generalSettings.oneClickDeduplicatorEnabled.flow,
+        generalSettings.oneClickDeduplicatorEnabled.flow.map { false }, // Deduplicator is trimmed from this build
     ) { corpseFinderEnabled, systemCleanerEnabled, appCleanerEnabled, deduplicatorEnabled ->
         OneClickOptionsState(
             corpseFinderEnabled = corpseFinderEnabled,
@@ -778,7 +778,7 @@ class DashboardMainActionEngine(
             }
         }
         launchMainBranch(isTracked = startsRun, isCleanup = isCleanup) {
-            if (!generalSettings.oneClickDeduplicatorEnabled.value()) {
+            if (true) { // Deduplicator is trimmed from this build
                 log(TAG, VERBOSE) { "Deduplicator is disabled one-click mode." }
                 return@launchMainBranch
             }

@@ -71,7 +71,7 @@ class OneTapCleaner @Inject constructor(
         val corpseEnabled = generalSettings.oneClickCorpseFinderEnabled.value()
         val systemEnabled = generalSettings.oneClickSystemCleanerEnabled.value()
         val appCleanerEnabled = generalSettings.oneClickAppCleanerEnabled.value()
-        val deduplicatorEnabled = generalSettings.oneClickDeduplicatorEnabled.value()
+        val deduplicatorEnabled = false // Deduplicator is trimmed from this build
 
         if (!corpseEnabled && !systemEnabled && !appCleanerEnabled && !deduplicatorEnabled) {
             log(TAG, INFO) { "runOneClick(): no one-tap tools enabled" }
@@ -106,8 +106,7 @@ class OneTapCleaner @Inject constructor(
         if (generalSettings.oneClickCorpseFinderEnabled.value()) submitScanTask(CorpseFinderScanTask())
         if (generalSettings.oneClickSystemCleanerEnabled.value()) submitScanTask(SystemCleanerScanTask())
         if (generalSettings.oneClickAppCleanerEnabled.value()) submitScanTask(AppCleanerScanTask())
-        if (generalSettings.oneClickDeduplicatorEnabled.value()) submitScanTask(DeduplicatorScanTask())
-    }
+            }
 
     private suspend fun submitScanTask(task: SDMTool.Task) {
         try {

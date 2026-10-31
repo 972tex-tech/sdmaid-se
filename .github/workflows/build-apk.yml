@@ -1,0 +1,41 @@
+name: Build APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ trim-down ]
+
+permissions:
+  contents: read
+
+jobs:
+  build-foss-debug:
+    name: Build FOSS debug APK
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd #v6.0.2
+        with:
+          persist-credentials: false
+
+      - name: Setup project and build environment
+        uses: ./.github/actions/common-setup
+
+      - name: Assemble FOSS debug
+        run: ./gradlew app:assembleFossDebug --stacktrace
+
+      - name: Upload APK
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f #v7.0.0
+        with:
+          name: sdmaid-trimmed-foss-debug
+          path: app/build/outputs/apk/foss/debug/*.apk
+          if-no-files-found: error
+
+      - name: Upload build log on failure
+        if: failure()
+        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f #v7.0.0
+        with:
+          name: build-reports
+          path: |
+            **/build/reports/**
+          if-no-files-found: ignore
