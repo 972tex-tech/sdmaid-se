@@ -5,7 +5,6 @@ import eu.darken.sdmse.appcleaner.core.hasData
 import eu.darken.sdmse.appcleaner.core.tasks.AppCleanerProcessingTask
 import eu.darken.sdmse.appcleaner.core.tasks.AppCleanerScanTask
 import eu.darken.sdmse.appcleaner.ui.AppJunkDetailsRoute
-import eu.darken.sdmse.analyzer.core.Analyzer
 import eu.darken.sdmse.appcontrol.core.AppControl
 import eu.darken.sdmse.common.SdmSeLinks
 import eu.darken.sdmse.common.flow.intervalFlow
@@ -23,27 +22,17 @@ import eu.darken.sdmse.corpsefinder.core.hasData
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderDeleteTask
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderScanTask
 import eu.darken.sdmse.corpsefinder.ui.CorpseDetailsRoute
-import eu.darken.sdmse.deduplicator.core.Deduplicator
-import eu.darken.sdmse.deduplicator.core.hasData
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorDeleteTask
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorScanTask
-import eu.darken.sdmse.deduplicator.ui.DeduplicatorDetailsRoute
 import eu.darken.sdmse.main.core.SDMTool
 import eu.darken.sdmse.main.core.taskmanager.getLatestResult
 import eu.darken.sdmse.main.core.taskmanager.isBusy
-import eu.darken.sdmse.main.ui.dashboard.cards.AnalyzerDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.AppControlDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.MotdDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.SetupDashboardCardItem
-import eu.darken.sdmse.main.ui.dashboard.cards.SqueezerDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.StatsDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.TitleDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.ToolDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.UpdateDashboardCardItem
 import eu.darken.sdmse.setup.SetupRoute
-import eu.darken.sdmse.squeezer.core.Squeezer
-import eu.darken.sdmse.squeezer.core.tasks.SqueezerProcessTask
-import eu.darken.sdmse.squeezer.ui.SqueezerSetupRoute
 import eu.darken.sdmse.stats.core.LowStorage
 import eu.darken.sdmse.stats.core.SpaceTracker
 import eu.darken.sdmse.stats.core.db.SpaceSnapshotEntity
@@ -302,81 +291,6 @@ internal fun DashboardViewModel.buildAppCleanerItem(): Flow<ToolDashboardCardIte
     )
 }
 
-internal fun DashboardViewModel.buildDeduplicatorItem(): Flow<ToolDashboardCardItem?> = combine(
-    (deduplicator.state as Flow<Deduplicator.State?>).onStart { emit(null) },
-    taskManager.state.map { it.getLatestResult(SDMTool.Type.DEDUPLICATOR) },
-    upgradeInfo.map { it?.isPro ?: false },
-) { state, lastResult, isPro ->
-    val data = state?.data
-    // The single value the card renders: a frozen cleanup receipt, or a summary rebuilt from live
-    // scan findings. Gating the discard on this rather than on its inputs keeps "there is something on
-    // the card" and "there is something to clear" from ever drifting apart.
-    val cardResult = resolveScanCardResult(
-        isInitializing = state == null,
-        isWorking = state?.progress != null,
-        data = data,
-        hasData = data.hasData,
-        lastResult = lastResult,
-        lastResultIsScan = lastResult is DeduplicatorScanTask.Success,
-    ) { it.toScanSuccess() }
-    ToolDashboardCardItem(
-        toolType = SDMTool.Type.DEDUPLICATOR,
-        isInitializing = state == null,
-        result = cardResult,
-        progress = state?.progress,
-        showProRequirement = !isPro,
-        onScan = {
-            launch { submitTask(DeduplicatorScanTask()) }
-        },
-        onDelete = {
-            launch {
-                val event = DashboardEvents.DeduplicatorDeleteConfirmation(
-                    task = DeduplicatorDeleteTask(),
-                    clusters = deduplicator.state.first().data?.clusters?.sortedByDescending { it.averageSize }
-                )
-                events.tryEmit(event)
-            }
-        }.takeIf { state?.data?.hasData == true },
-        onCancel = {
-            launch { taskManager.cancel(SDMTool.Type.DEDUPLICATOR) }
-        },
-        onViewTool = { showDeduplicator() },
-        onViewDetails = {
-            navTo(DeduplicatorDetailsRoute())
-        },
-        onDismissResult = {
-            launch {
-                // See buildCorpseFinderItem: bail if a task started since composition, and clear the
-                // live data before the recorded result so the card can't flash the leftover figure.
-                if (taskManager.state.first().isBusy(SDMTool.Type.DEDUPLICATOR)) return@launch
-                deduplicator.discardScanData()
-                taskManager.forgetCompleted(SDMTool.Type.DEDUPLICATOR)
-            }
-        }.takeIf { cardResult != null && state?.progress == null },
-    )
-}
-
-internal fun DashboardViewModel.buildSqueezerItem(): Flow<SqueezerDashboardCardItem?> =
-    (squeezer.state as Flow<Squeezer.State?>)
-        .onStart { emit(null) }
-        .mapLatest { state ->
-            SqueezerDashboardCardItem(
-                isInitializing = state == null,
-                data = state?.data,
-                progress = state?.progress,
-                // Process results only: performProcess prunes the data before submit() stores its
-                // result, so an unfiltered lastResult would show the preceding scan summary where
-                // a compression receipt belongs.
-                result = state?.lastResult as? SqueezerProcessTask.Result,
-                onViewDetails = {
-                    navTo(SqueezerSetupRoute)
-                },
-                onCancel = {
-                    launch { taskManager.cancel(SDMTool.Type.SQUEEZER) }
-                },
-            )
-        }
-
 internal fun DashboardViewModel.buildAppControlItem(): Flow<AppControlDashboardCardItem?> =
     (appControl.state as Flow<AppControl.State?>)
         .onStart { emit(null) }
@@ -390,49 +304,6 @@ internal fun DashboardViewModel.buildAppControlItem(): Flow<AppControlDashboardC
                 }
             )
         }
-
-internal fun DashboardViewModel.buildAnalyzerItem(): Flow<AnalyzerDashboardCardItem?> = combine(
-    // Each input emits an immediate fallback so the card shell renders in the first grid frame;
-    // the trend slot shimmers (isLoadingTrend) until the Room history query resolves.
-    (analyzer.data as Flow<Analyzer.Data?>).onStart { emit(null) },
-    analyzer.progress.onStart { emit(null) },
-    intervalFlow(1.hours)
-        .flatMapLatest { _ ->
-            // The forecast needs a LIVE reading: sampling is six-hourly, so the newest persisted
-            // row can be hours stale and a download that already crossed the floor would still
-            // read as filling. Re-read per history emission, otherwise a cleanup (which forces a
-            // snapshot, and so a re-emission) would be forecast against pre-cleanup free space.
-            spaceHistoryRepo.getAllHistory(Instant.now() - Duration.ofDays(7))
-                .mapLatest { AnalyzerTrendInput(snapshots = it, primaryStorage = spaceTracker.readPrimaryStorage()) }
-        }
-        .onStart<AnalyzerTrendInput?> { emit(null) },
-    analyzerSettings.lowStorageThresholdBytes.flow,
-) { data, progress, trend, customThreshold ->
-    val primary = trend?.primaryStorage
-    AnalyzerDashboardCardItem(
-        data = data,
-        progress = progress,
-        combinedDelta = trend?.let { calculateCombinedDelta(it.snapshots) },
-        forecast = if (trend != null && primary != null) {
-            StorageForecaster.forecast(
-                history = trend.snapshots.filter { it.storageId == primary.storageId },
-                current = primary,
-                lowStorageThresholdBytes = LowStorage.resolveThreshold(primary.spaceCapacity, customThreshold),
-            )
-        } else {
-            null
-        },
-        isLoadingTrend = trend == null,
-        onViewDetails = {
-            navTo(DeviceStorageRoute)
-        },
-    )
-}
-
-internal data class AnalyzerTrendInput(
-    val snapshots: List<SpaceSnapshotEntity>,
-    val primaryStorage: SpaceTracker.StorageSnapshot?,
-)
 
 internal fun calculateCombinedDelta(snapshots: List<SpaceSnapshotEntity>): Long? {
     val totals = snapshots

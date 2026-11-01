@@ -226,12 +226,7 @@ dependencies {
     implementation(project(":app-tool-corpsefinder"))
     implementation(project(":app-tool-systemcleaner"))
     implementation(project(":app-tool-appcleaner"))
-    implementation(project(":app-tool-deduplicator"))
-    implementation(project(":app-tool-squeezer"))
-    implementation(project(":app-tool-analyzer"))
-    implementation(project(":app-tool-swiper"))
     implementation(project(":app-tool-appcontrol"))
-    implementation(project(":app-tool-scheduler"))
 
     addDI()
     addCoroutines()
@@ -251,9 +246,7 @@ dependencies {
     addGlance()
     addNavigation3()
     addWorkerManager()
-    // WorkManager exposes ListenableFuture in its API (TaskWorkerControl.kt).
-    // Media3 Transformer (via app-tool-squeezer) transitively pulls in full Guava at runtime,
-    // but `implementation` scoping means it doesn't reach this module's compile classpath.
+    // WorkManager exposes ListenableFuture in its API (TaskWorkerControl.kt), so Guava must be on the compile classpath.
     implementation("com.google.guava:guava:33.3.1-android")
     addRoomDb()
 

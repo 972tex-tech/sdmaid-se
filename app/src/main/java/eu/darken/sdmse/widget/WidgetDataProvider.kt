@@ -1,6 +1,6 @@
 package eu.darken.sdmse.widget
 
-import eu.darken.sdmse.analyzer.core.AnalyzerSettings
+import eu.darken.sdmse.stats.core.LowStorageSettings
 import eu.darken.sdmse.common.coroutine.AppScope
 import eu.darken.sdmse.common.debug.logging.Logging.Priority.VERBOSE
 import eu.darken.sdmse.common.debug.logging.Logging.Priority.WARN
@@ -30,14 +30,14 @@ import javax.inject.Singleton
  * total and the working/cancellable task state, clamps them, and maps them to an immutable
  * [WidgetRenderState]. Freed bytes come from the [StatsSettings] DataStore value (the source of
  * truth) rather than the throttled `StatsRepo.state`. Each volume is also flagged against the
- * configured low-storage threshold ([AnalyzerSettings.lowStorageThresholdBytes]).
+ * configured low-storage threshold ([LowStorageSettings.lowStorageThresholdBytes]).
  */
 @Singleton
 class WidgetDataProvider @Inject constructor(
     @AppScope appScope: CoroutineScope,
     private val spaceTracker: SpaceTracker,
     private val statsSettings: StatsSettings,
-    private val analyzerSettings: AnalyzerSettings,
+    private val lowStorageSettings: LowStorageSettings,
     private val taskSubmitter: TaskSubmitter,
     private val oneTapRunGuard: OneTapRunGuard,
 ) {
@@ -58,7 +58,7 @@ class WidgetDataProvider @Inject constructor(
         oneTapRunGuard.running,
         taskSubmitter.state.map { !it.isIdle to it.hasCancellable }.distinctUntilChanged(),
         statsSettings.totalSpaceFreed.flow,
-        analyzerSettings.lowStorageThresholdBytes.flow,
+        lowStorageSettings.lowStorageThresholdBytes.flow,
     ) { guardRunning, (busy, cancellable), freed, lowThreshold ->
         Signals(
             working = guardRunning || busy,

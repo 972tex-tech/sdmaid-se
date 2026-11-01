@@ -10,7 +10,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.twotone.Apps
 import androidx.compose.material.icons.twotone.FilterAlt
-import androidx.compose.material.icons.twotone.FolderOpen
 import androidx.compose.material3.Icon
 import androidx.compose.material3.ListItem
 import androidx.compose.material3.ListItemDefaults
@@ -28,7 +27,6 @@ import eu.darken.sdmse.common.exclusion.R
 @Composable
 internal fun CreateExclusionTypeSheet(
     onPickPackage: () -> Unit = {},
-    onPickPath: () -> Unit = {},
     onPickSegment: () -> Unit = {},
 ) {
     Column(
@@ -48,13 +46,6 @@ internal fun CreateExclusionTypeSheet(
             leadingContent = { Icon(Icons.TwoTone.Apps, contentDescription = null) },
             headlineContent = { Text(stringResource(R.string.exclusion_type_package)) },
             supportingContent = { Text(stringResource(R.string.exclusion_create_pkg_hint)) },
-        )
-        ListItem(
-            modifier = Modifier.clickable(onClick = onPickPath),
-            colors = ListItemDefaults.colors(containerColor = Color.Transparent),
-            leadingContent = { Icon(Icons.TwoTone.FolderOpen, contentDescription = null) },
-            headlineContent = { Text(stringResource(R.string.exclusion_type_path)) },
-            supportingContent = { Text(stringResource(R.string.exclusion_create_path_hint)) },
         )
         ListItem(
             modifier = Modifier.clickable(onClick = onPickSegment),

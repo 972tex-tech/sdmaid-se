@@ -1,6 +1,5 @@
 package eu.darken.sdmse.stats.core
 
-import eu.darken.sdmse.analyzer.core.AnalyzerSettings
 import eu.darken.sdmse.common.datastore.value
 import eu.darken.sdmse.common.debug.logging.Logging.Priority.ERROR
 import eu.darken.sdmse.common.debug.logging.Logging.Priority.VERBOSE
@@ -38,7 +37,7 @@ import javax.inject.Singleton
 class LowSpaceMonitor @Inject constructor(
     private val spaceTracker: SpaceTracker,
     private val spaceHistoryRepo: SpaceHistoryRepo,
-    private val analyzerSettings: AnalyzerSettings,
+    private val lowStorageSettings: LowStorageSettings,
     private val upgradeRepo: UpgradeRepo,
     private val notifications: LowSpaceNotifications,
 ) {
@@ -67,7 +66,7 @@ class LowSpaceMonitor @Inject constructor(
         log(TAG, VERBOSE) { "start()" }
 
         combine(
-            analyzerSettings.lowSpaceNotificationEnabled.flow,
+            lowStorageSettings.lowSpaceNotificationEnabled.flow,
             // `null` means "not known yet", not "not Pro": the pre-billing seed reports non-Pro even
             // for paying users, and acting on it would cancel and re-arm on every process start,
             // re-notifying a user who already dismissed the warning. Mapping (instead of filtering
@@ -116,8 +115,8 @@ class LowSpaceMonitor @Inject constructor(
     }
 
     private suspend fun checkInternal() {
-        val enabled = analyzerSettings.lowSpaceNotificationEnabled.value()
-        val armed = analyzerSettings.lowSpaceNotificationArmed.value()
+        val enabled = lowStorageSettings.lowSpaceNotificationEnabled.value()
+        val armed = lowStorageSettings.lowSpaceNotificationArmed.value()
 
         // recordSnapshot() returns Unit and is throttled to 30 minutes, so the worker holds no
         // fresh reading of its own.
@@ -143,7 +142,7 @@ class LowSpaceMonitor @Inject constructor(
                 current = primary,
                 lowStorageThresholdBytes = LowStorage.resolveThreshold(
                     capacityBytes = primary.spaceCapacity,
-                    customThresholdBytes = analyzerSettings.lowStorageThresholdBytes.value(),
+                    customThresholdBytes = lowStorageSettings.lowStorageThresholdBytes.value(),
                 ),
             )
         } else {
@@ -189,9 +188,9 @@ class LowSpaceMonitor @Inject constructor(
 
     /** Writes only on an actual change, so a device with the feature off takes no six-hourly write. */
     private suspend fun setArmed(value: Boolean) {
-        if (analyzerSettings.lowSpaceNotificationArmed.value() == value) return
+        if (lowStorageSettings.lowSpaceNotificationArmed.value() == value) return
         log(TAG) { "setArmed($value)" }
-        analyzerSettings.lowSpaceNotificationArmed.value(value)
+        lowStorageSettings.lowSpaceNotificationArmed.value(value)
     }
 
     companion object {

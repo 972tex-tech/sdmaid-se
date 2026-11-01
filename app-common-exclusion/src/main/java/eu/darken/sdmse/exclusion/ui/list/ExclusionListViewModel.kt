@@ -308,10 +308,6 @@ class ExclusionListViewModel @Inject constructor(
         navTo(eu.darken.sdmse.common.navigation.routes.AppControlListRoute)
     }
 
-    fun openStoragePicker() {
-        navTo(eu.darken.sdmse.common.navigation.routes.DeviceStorageRoute)
-    }
-
     fun openSegmentEditor() {
         navTo(
             SegmentExclusionEditorRoute(

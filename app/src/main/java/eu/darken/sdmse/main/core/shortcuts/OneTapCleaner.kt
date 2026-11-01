@@ -10,8 +10,6 @@ import eu.darken.sdmse.common.upgrade.UpgradeRepo
 import eu.darken.sdmse.common.upgrade.isProForUi
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderOneClickTask
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderScanTask
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorOneClickTask
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorScanTask
 import eu.darken.sdmse.main.core.GeneralSettings
 import eu.darken.sdmse.main.core.SDMTool
 import eu.darken.sdmse.main.core.taskmanager.TaskManager
@@ -71,9 +69,8 @@ class OneTapCleaner @Inject constructor(
         val corpseEnabled = generalSettings.oneClickCorpseFinderEnabled.value()
         val systemEnabled = generalSettings.oneClickSystemCleanerEnabled.value()
         val appCleanerEnabled = generalSettings.oneClickAppCleanerEnabled.value()
-        val deduplicatorEnabled = false // Deduplicator is trimmed from this build
 
-        if (!corpseEnabled && !systemEnabled && !appCleanerEnabled && !deduplicatorEnabled) {
+        if (!corpseEnabled && !systemEnabled && !appCleanerEnabled) {
             log(TAG, INFO) { "runOneClick(): no one-tap tools enabled" }
             return Outcome.NothingEnabled
         }
@@ -90,7 +87,6 @@ class OneTapCleaner @Inject constructor(
             if (corpseEnabled) submitOneTapTask(CorpseFinderOneClickTask())
             if (systemEnabled) submitOneTapTask(SystemCleanerOneClickTask())
             if (appCleanerEnabled) submitOneTapTask(AppCleanerOneClickTask(shortcutMode = shortcutMode))
-            if (deduplicatorEnabled) submitOneTapTask(DeduplicatorOneClickTask())
         } finally {
             oneTapRunGuard.finish()
         }
@@ -150,7 +146,6 @@ class OneTapCleaner @Inject constructor(
             SDMTool.Type.CORPSEFINDER,
             SDMTool.Type.SYSTEMCLEANER,
             SDMTool.Type.APPCLEANER,
-            SDMTool.Type.DEDUPLICATOR,
         )
     }
 }

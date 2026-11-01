@@ -121,17 +121,6 @@
             android:exported="false" />
 
         <receiver
-            android:name="eu.darken.sdmse.scheduler.core.SchedulerRestoreReceiver"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-
-        <receiver
             android:name=".widget.SdmHomeWidgetReceiver"
             android:exported="true"
             android:label="@string/widget_home_title">

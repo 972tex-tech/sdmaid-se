@@ -9,18 +9,12 @@ import eu.darken.sdmse.common.compose.dialog.SdmConfirmDialog
 import eu.darken.sdmse.common.compose.dialog.SdmDialogAction
 import eu.darken.sdmse.common.debug.recorder.ui.ShortRecordingDialog
 import eu.darken.sdmse.corpsefinder.R as CorpseFinderR
-import eu.darken.sdmse.deduplicator.core.Duplicate
-import eu.darken.sdmse.deduplicator.ui.dialogs.PreviewDeletionDialog
-import eu.darken.sdmse.deduplicator.ui.dialogs.PreviewDeletionMode
 import eu.darken.sdmse.systemcleaner.R as SystemCleanerR
 
 internal sealed interface DashboardDialogState {
     data object CorpseFinderDelete : DashboardDialogState
     data object SystemCleanerDelete : DashboardDialogState
     data object AppCleanerDelete : DashboardDialogState
-    data class DeduplicatorDelete(
-        val clusters: List<Duplicate.Cluster>,
-    ) : DashboardDialogState
     data object Todo : DashboardDialogState
     data object ShortRecordingWarning : DashboardDialogState
     data class MainActionDelete(
@@ -44,9 +38,6 @@ internal fun DashboardEventDialogs(
     onShowSystemCleaner: () -> Unit,
     onConfirmAppCleaner: () -> Unit,
     onShowAppCleaner: () -> Unit,
-    onConfirmDeduplicator: () -> Unit,
-    onShowDeduplicator: () -> Unit,
-    onPreviewDeduplicator: (eu.darken.sdmse.common.previews.PreviewOptions) -> Unit,
     onStopShortRecording: () -> Unit,
     onConfirmMainAction: (BottomBarState.Action) -> Unit,
 ) {
@@ -72,14 +63,6 @@ internal fun DashboardEventDialogs(
             onConfirm = { onConfirmAppCleaner(); onDismiss() },
             onDetails = { onShowAppCleaner(); onDismiss() },
             onDismiss = onDismiss,
-        )
-
-        is DashboardDialogState.DeduplicatorDelete -> PreviewDeletionDialog(
-            mode = PreviewDeletionMode.All(clusters = state.clusters),
-            onConfirm = { onConfirmDeduplicator(); onDismiss() },
-            onDismiss = onDismiss,
-            onPreviewClick = onPreviewDeduplicator,
-            onShowDetails = { onShowDeduplicator(); onDismiss() },
         )
 
         DashboardDialogState.Todo -> SdmConfirmDialog(

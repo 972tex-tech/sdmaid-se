@@ -96,5 +96,4 @@ data class OneClickOptionsState(
     val corpseFinderEnabled: Boolean = true,
     val systemCleanerEnabled: Boolean = true,
     val appCleanerEnabled: Boolean = true,
-    val deduplicatorEnabled: Boolean = false,
 )

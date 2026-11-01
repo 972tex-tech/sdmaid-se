@@ -1,8 +1,6 @@
 package eu.darken.sdmse.main.ui.dashboard
 
 import dagger.hilt.android.lifecycle.HiltViewModel
-import eu.darken.sdmse.analyzer.core.Analyzer
-import eu.darken.sdmse.analyzer.core.AnalyzerSettings
 import eu.darken.sdmse.common.navigation.routes.DeviceStorageRoute
 import eu.darken.sdmse.appcleaner.core.AppCleaner
 import eu.darken.sdmse.appcleaner.core.hasData
@@ -58,14 +56,6 @@ import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderScanTask
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderSchedulerTask
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderTask
 import eu.darken.sdmse.corpsefinder.core.tasks.UninstallWatcherTask
-import eu.darken.sdmse.deduplicator.core.Deduplicator
-import eu.darken.sdmse.deduplicator.ui.DeduplicatorDetailsRoute
-import eu.darken.sdmse.deduplicator.ui.DeduplicatorListRoute
-import eu.darken.sdmse.deduplicator.core.hasData
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorDeleteTask
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorOneClickTask
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorScanTask
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorTask
 import eu.darken.sdmse.main.core.CurriculumVitae
 import eu.darken.sdmse.main.core.DashboardCardConfig
 import eu.darken.sdmse.main.core.DashboardCardType
@@ -76,7 +66,6 @@ import eu.darken.sdmse.main.core.release.ReleaseManager
 import eu.darken.sdmse.main.core.taskmanager.TaskManager
 import eu.darken.sdmse.main.core.taskmanager.TaskSubmitter
 import eu.darken.sdmse.main.core.taskmanager.getLatestResult
-import eu.darken.sdmse.main.ui.dashboard.cards.AnalyzerDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.DashboardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.AnniversaryDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.AppControlDashboardCardItem
@@ -85,24 +74,14 @@ import eu.darken.sdmse.main.ui.dashboard.cards.DryRunWarningDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.ErrorDataAreaDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.MotdDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.ReviewDashboardCardItem
-import eu.darken.sdmse.main.ui.dashboard.cards.SchedulerDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.SetupDashboardCardItem
-import eu.darken.sdmse.main.ui.dashboard.cards.SqueezerDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.StatsDashboardCardItem
-import eu.darken.sdmse.main.ui.dashboard.cards.SwiperDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.TitleDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.ToolDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.UpdateDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.UpgradeDashboardCardItem
-import eu.darken.sdmse.scheduler.core.SchedulerManager
-import eu.darken.sdmse.scheduler.ui.SchedulerManagerRoute
 import eu.darken.sdmse.setup.SetupManager
 import eu.darken.sdmse.setup.SetupRoute
-import eu.darken.sdmse.squeezer.core.Squeezer
-import eu.darken.sdmse.squeezer.ui.SqueezerSetupRoute
-import eu.darken.sdmse.squeezer.core.tasks.SqueezerProcessTask
-import eu.darken.sdmse.squeezer.core.tasks.SqueezerScanTask
-import eu.darken.sdmse.squeezer.core.tasks.SqueezerTask
 import eu.darken.sdmse.stats.core.Report
 import eu.darken.sdmse.stats.core.SpaceHistoryRepo
 import eu.darken.sdmse.stats.core.SpaceTracker
@@ -110,10 +89,8 @@ import eu.darken.sdmse.stats.core.StatsRepo
 import eu.darken.sdmse.stats.core.StatsSettings
 import eu.darken.sdmse.stats.ui.AffectedFilesRoute
 import eu.darken.sdmse.stats.ui.ReportsRoute
-import eu.darken.sdmse.common.navigation.routes.SwiperSessionsRoute
 import eu.darken.sdmse.systemcleaner.ui.FilterContentDetailsRoute
 import eu.darken.sdmse.systemcleaner.ui.SystemCleanerListRoute
-import eu.darken.sdmse.swiper.core.Swiper
 import eu.darken.sdmse.systemcleaner.core.SystemCleaner
 import eu.darken.sdmse.systemcleaner.core.hasData
 import eu.darken.sdmse.systemcleaner.core.tasks.SystemCleanerOneClickTask
@@ -151,16 +128,10 @@ class DashboardViewModel @Inject constructor(
     internal val systemCleaner: SystemCleaner,
     internal val appCleaner: AppCleaner,
     internal val appControl: AppControl,
-    internal val analyzer: Analyzer,
-    internal val analyzerSettings: AnalyzerSettings,
     debugCardProvider: DebugCardProvider,
-    internal val deduplicator: Deduplicator,
-    internal val squeezer: Squeezer,
-    swiper: Swiper,
     private val upgradeRepo: UpgradeRepo,
     private val generalSettings: GeneralSettings,
     internal val webpageTool: WebpageTool,
-    schedulerManager: SchedulerManager,
     internal val updateService: UpdateService,
     private val sessionManager: DebugLogSessionManager,
     internal val motdRepo: MotdRepo,
@@ -237,30 +208,7 @@ class DashboardViewModel @Inject constructor(
 
     private val appCleanerItem: Flow<ToolDashboardCardItem> = buildAppCleanerItem()
 
-    private val deduplicatorItem: Flow<ToolDashboardCardItem?> = buildDeduplicatorItem()
-
-    private val squeezerItem: Flow<SqueezerDashboardCardItem?> = buildSqueezerItem()
-
     private val appControlItem: Flow<AppControlDashboardCardItem?> = buildAppControlItem()
-
-    private val analyzerItem: Flow<AnalyzerDashboardCardItem?> = buildAnalyzerItem()
-
-    private val schedulerItem: Flow<SchedulerDashboardCardItem?> = combine(
-        // Self-seed null so the card is present (as an initializing placeholder) in the very first
-        // skeleton frame instead of popping in after schedulerManager.state (DynamicStateFlow on IO)
-        // resolves. null renders a neutral loading card, not a misleading "no active schedules".
-        (schedulerManager.state as Flow<SchedulerManager.State?>).onStart { emit(null) },
-        taskManager.state,
-    ) { schedulerState, taskState ->
-        SchedulerDashboardCardItem(
-            isInitializing = schedulerState == null,
-            schedulerState = schedulerState ?: SchedulerManager.State(schedules = emptySet()),
-            taskState = taskState,
-            onManageClicked = {
-                navTo(SchedulerManagerRoute)
-            }
-        )
-    }
 
     private val dataAreaItem: Flow<ErrorDataAreaDashboardCardItem?> = areaManager.latestResult
         .map { result -> dataAreaCardFor(result) { launch { areaManager.reload() } } }
@@ -285,20 +233,6 @@ class DashboardViewModel @Inject constructor(
     private val statsItem: Flow<StatsDashboardCardItem?> = buildStatsItem()
 
     private val anniversaryItem: Flow<AnniversaryDashboardCardItem?> = anniversaryProvider.item
-
-    private val swiperItem: Flow<SwiperDashboardCardItem?> = combine(
-        // Self-seed null so the card is present (as an initializing placeholder) in the very first
-        // skeleton frame instead of popping in after the Room-backed sessions query resolves.
-        (swiper.getSessionsWithStats() as Flow<List<Swiper.SessionWithStats>?>).onStart { emit(null) },
-        swiper.progress.onStart { emit(null) },
-    ) { sessionsWithStats, progress ->
-        SwiperDashboardCardItem(
-            isInitializing = sessionsWithStats == null,
-            sessionsWithStats = sessionsWithStats ?: emptyList(),
-            progress = progress,
-            onViewDetails = { showSwiper() }
-        )
-    }
 
     private val dashboardCardConfig: Flow<DashboardCardConfig> = generalSettings.dashboardCardConfig.flow
         .replayingShare(vmScope)
@@ -325,16 +259,11 @@ class DashboardViewModel @Inject constructor(
         corpseFinderItem.listStateDiag("corpse"),
         systemCleanerItem.listStateDiag("system"),
         appCleanerItem.listStateDiag("app"),
-        deduplicatorItem.listStateDiag("dedup"),
-        squeezerItem.listStateDiag("squeezer"),
         appControlItem.listStateDiag("appControl"),
-        analyzerItem.listStateDiag("analyzer"),
-        schedulerItem.listStateDiag("scheduler"),
         motdItem.listStateSource("motd", null),
         reviewItem.listStateSource("review", null),
         anniversaryItem.listStateSource("anniversary", null),
         statsItem.listStateSource("stats", null),
-        swiperItem.listStateDiag("swiper"),
         easterEggTriggered.listStateDiag("easterEgg"),
         cardConfigWithRefresh.listStateDiag("cardConfig"),
     ) { sessions: List<DebugLogSession>,
@@ -347,16 +276,11 @@ class DashboardViewModel @Inject constructor(
         corpseFinderItem: ToolDashboardCardItem?,
         systemCleanerItem: ToolDashboardCardItem?,
         appCleanerItem: ToolDashboardCardItem?,
-        deduplicatorItem: ToolDashboardCardItem?,
-        squeezerItem: SqueezerDashboardCardItem?,
         appControlItem: AppControlDashboardCardItem?,
-        analyzerItem: AnalyzerDashboardCardItem?,
-        schedulerItem: SchedulerDashboardCardItem?,
         motdItem: MotdDashboardCardItem?,
         reviewItem: ReviewDashboardCardItem?,
         anniversaryItem: AnniversaryDashboardCardItem?,
         statsItem: StatsDashboardCardItem?,
-        swiperItem: SwiperDashboardCardItem?,
         easterEggTriggered,
         cardConfig: DashboardCardConfig ->
         val items = mutableListOf<DashboardItem>(titleInfo)
@@ -367,8 +291,6 @@ class DashboardViewModel @Inject constructor(
             corpseFinderItem?.isInitializing,
             systemCleanerItem?.isInitializing,
             appCleanerItem?.isInitializing,
-            deduplicatorItem?.isInitializing,
-            squeezerItem?.isInitializing,
             appControlItem?.isInitializing,
         ).any { it }
 
@@ -473,7 +395,6 @@ class DashboardViewModel @Inject constructor(
         corpseFinder = corpseFinder,
         systemCleaner = systemCleaner,
         appCleaner = appCleaner,
-        deduplicator = deduplicator,
         generalSettings = generalSettings,
         upgradeRepo = upgradeRepo,
         upgradeInfo = upgradeInfo,
@@ -544,11 +465,6 @@ class DashboardViewModel @Inject constructor(
         navTo(AppCleanerListRoute)
     }
 
-    fun showDeduplicator() {
-        log(TAG, INFO) { "showDeduplicatorDetails()" }
-        navTo(DeduplicatorListRoute)
-    }
-
     /**
      * Hero-chip tap. Routes by the *rendered* card mode (passed up from the card, not re-read from
      * state): a "will be freed" chip opens the live findings list to review; a "freed" chip opens
@@ -573,7 +489,6 @@ class DashboardViewModel @Inject constructor(
             SDMTool.Type.CORPSEFINDER -> showCorpseFinder()
             SDMTool.Type.SYSTEMCLEANER -> showSystemCleaner()
             SDMTool.Type.APPCLEANER -> showAppCleaner()
-            SDMTool.Type.DEDUPLICATOR -> showDeduplicator()
             else -> log(TAG, WARN) { "showTool() ignoring unsupported type: $type" }
         }
     }
@@ -590,21 +505,6 @@ class DashboardViewModel @Inject constructor(
             Report.Status.SUCCESS, Report.Status.PARTIAL_SUCCESS -> navTo(AffectedFilesRoute(report.reportId))
             else -> navTo(ReportsRoute)
         }
-    }
-
-    fun showSwiper() {
-        log(TAG, INFO) { "showSwiper()" }
-        navTo(SwiperSessionsRoute)
-    }
-
-    fun confirmDeduplicatorDeletion() = launch {
-        log(TAG, INFO) { "confirmDeduplicatorDeletion()" }
-
-        if (!upgradeRepo.isProForUi()) {
-            navTo(UpgradeRoute())
-            return@launch
-        }
-        submitTask(DeduplicatorDeleteTask())
     }
 
     fun confirmStopRecording() = launch {
@@ -651,16 +551,6 @@ class DashboardViewModel @Inject constructor(
                 is AppCleanerOneClickTask.Success -> events.tryEmit(DashboardEvents.TaskResult(result))
             }
 
-            is DeduplicatorTask.Result -> when (result) {
-                is DeduplicatorScanTask.Success -> {}
-                is DeduplicatorDeleteTask.Success -> events.tryEmit(DashboardEvents.TaskResult(result))
-                is DeduplicatorOneClickTask.Success -> events.tryEmit(DashboardEvents.TaskResult(result))
-            }
-
-            is SqueezerTask.Result -> when (result) {
-                is SqueezerScanTask.Success -> {}
-                is SqueezerProcessTask.Success -> events.tryEmit(DashboardEvents.TaskResult(result))
-            }
         }
         return result
     }

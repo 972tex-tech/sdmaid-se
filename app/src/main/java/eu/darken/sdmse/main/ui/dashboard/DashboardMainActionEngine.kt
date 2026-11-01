@@ -22,11 +22,6 @@ import eu.darken.sdmse.corpsefinder.core.hasData
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderDeleteTask
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderOneClickTask
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderScanTask
-import eu.darken.sdmse.deduplicator.core.Deduplicator
-import eu.darken.sdmse.deduplicator.core.hasData
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorDeleteTask
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorOneClickTask
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorScanTask
 import eu.darken.sdmse.main.core.GeneralSettings
 import eu.darken.sdmse.main.core.SDMTool
 import eu.darken.sdmse.main.core.taskmanager.TaskManager
@@ -81,7 +76,6 @@ class DashboardMainActionEngine(
     private val corpseFinder: CorpseFinder,
     private val systemCleaner: SystemCleaner,
     private val appCleaner: AppCleaner,
-    private val deduplicator: Deduplicator,
     private val generalSettings: GeneralSettings,
     private val upgradeRepo: UpgradeRepo,
     /** The VM's shared upgrade flow (immediate null first value) — NOT the raw repo flow. */
@@ -103,13 +97,11 @@ class DashboardMainActionEngine(
         generalSettings.oneClickCorpseFinderEnabled.flow,
         generalSettings.oneClickSystemCleanerEnabled.flow,
         generalSettings.oneClickAppCleanerEnabled.flow,
-        generalSettings.oneClickDeduplicatorEnabled.flow.map { false }, // Deduplicator is trimmed from this build
-    ) { corpseFinderEnabled, systemCleanerEnabled, appCleanerEnabled, deduplicatorEnabled ->
+    ) { corpseFinderEnabled, systemCleanerEnabled, appCleanerEnabled ->
         OneClickOptionsState(
             corpseFinderEnabled = corpseFinderEnabled,
             systemCleanerEnabled = systemCleanerEnabled,
             appCleanerEnabled = appCleanerEnabled,
-            deduplicatorEnabled = deduplicatorEnabled,
         )
     }
 
@@ -303,7 +295,6 @@ class DashboardMainActionEngine(
                 corpseFinder.state,
                 systemCleaner.state,
                 appCleaner.state,
-                deduplicator.state,
                 generalSettings.enableDashboardOneClick.flow,
                 oneClickOptionsState,
                 freedResult,
@@ -314,7 +305,6 @@ class DashboardMainActionEngine(
                 corpseState,
                 filterState,
                 junkState,
-                dedupeState,
                 oneClickMode,
                 oneClickOptions,
                 freed,
@@ -327,7 +317,6 @@ class DashboardMainActionEngine(
                     corpse = corpseState.data,
                     system = filterState.data,
                     app = junkState.data,
-                    dedupe = dedupeState.data,
                     oneClick = oneClickOptions,
                     isPro = upgradeInfo?.isPro == true,
                     oneClickMode = oneClickMode,
@@ -352,7 +341,6 @@ class DashboardMainActionEngine(
                         corpse = corpseState.data,
                         system = filterState.data,
                         app = junkState.data,
-                        dedupe = dedupeState.data,
                         oneClick = oneClickOptions,
                         isPro = upgradeInfo?.isPro == true,
                         scanTimes = taskState.latestScanTimes(),
@@ -371,7 +359,6 @@ class DashboardMainActionEngine(
                             corpse = corpseState.data,
                             system = filterState.data,
                             app = junkState.data,
-                            dedupe = dedupeState.data,
                             tools = provenance?.submitted.orEmpty(),
                         )
                         // Pro-gated findings that survived alongside the outcome, minus anything the
@@ -382,7 +369,6 @@ class DashboardMainActionEngine(
                         // twice under contradictory framing ("5 MB left" and "unlock 5 MB more").
                         val locked = lockedSlices(
                             app = junkState.data,
-                            dedupe = dedupeState.data,
                             oneClick = oneClickOptions,
                             isPro = upgradeInfo?.isPro == true,
                         ).filterNot { it.type in provenance?.submitted.orEmpty() }
@@ -585,13 +571,11 @@ class DashboardMainActionEngine(
             corpseFinder.discardScanData()
             systemCleaner.discardScanData()
             appCleaner.discardScanData()
-            deduplicator.discardScanData()
             // The dashboard tool cards show the last *task result*, not the tools' data; forget
             // those too or the cards keep advertising freeable space that no longer exists.
             taskManager.forgetCompleted(SDMTool.Type.CORPSEFINDER)
             taskManager.forgetCompleted(SDMTool.Type.SYSTEMCLEANER)
             taskManager.forgetCompleted(SDMTool.Type.APPCLEANER)
-            taskManager.forgetCompleted(SDMTool.Type.DEDUPLICATOR)
             // Discard returns the dashboard to its pristine state; the next card-triggered scan
             // must not inherit this run's auto-expand and pop the hero open by itself.
             heroExpanded.value = false
@@ -701,8 +685,8 @@ class DashboardMainActionEngine(
         if (startsRun) {
             // One atomic publish: a settle edge must never be visible without the id and arm it
             // belongs to. Counters before the cleanup bookkeeping below.
-            branchesInFlight.set(4) // CorpseFinder + SystemCleaner + AppCleaner + Deduplicator
-            batchState.update { BatchState(id = it.id + 1, pending = 4, autoExpandArmed = true) }
+            branchesInFlight.set(3) // CorpseFinder + SystemCleaner + AppCleaner
+            batchState.update { BatchState(id = it.id + 1, pending = 3, autoExpandArmed = true) }
             submittedTasks.value = emptyMap()
             // Dropped for scans too, not just cleanups: a scan that is cancelled or submits nothing
             // never completes, so the successful-scan collector below would not clear [freedResult]
@@ -777,29 +761,6 @@ class DashboardMainActionEngine(
                 }
             }
         }
-        launchMainBranch(isTracked = startsRun, isCleanup = isCleanup) {
-            if (true) { // Deduplicator is trimmed from this build
-                log(TAG, VERBOSE) { "Deduplicator is disabled one-click mode." }
-                return@launchMainBranch
-            }
-
-            when (actionState) {
-                BottomBarState.Action.SCAN -> submitTask(DeduplicatorScanTask())
-                BottomBarState.Action.WORKING_CANCELABLE -> taskManager.cancel(SDMTool.Type.DEDUPLICATOR)
-                BottomBarState.Action.WORKING -> {}
-                BottomBarState.Action.DELETE -> if (deduplicator.state.first().data != null && upgradeRepo.isProForUi()) {
-                    runCleanup(SDMTool.Type.DEDUPLICATOR, DeduplicatorDeleteTask())
-                }
-
-                BottomBarState.Action.ONECLICK -> {
-                    if (upgradeRepo.isProForUi()) {
-                        runCleanup(SDMTool.Type.DEDUPLICATOR, DeduplicatorOneClickTask())
-                    } else if (deduplicator.state.first().data.hasData && !freeToolsWillRun()) {
-                        onUpgradeRequired()
-                    }
-                }
-            }
-        }
     }
 
     /**
@@ -851,7 +812,6 @@ class DashboardMainActionEngine(
             SDMTool.Type.CORPSEFINDER,
             SDMTool.Type.SYSTEMCLEANER,
             SDMTool.Type.APPCLEANER,
-            SDMTool.Type.DEDUPLICATOR,
         )
 
         /** Hero-derivation retry backoff: 1s, doubling per consecutive failure, capped at a minute. */
@@ -904,7 +864,6 @@ class DashboardMainActionEngine(
             corpse: CorpseFinder.Data?,
             system: SystemCleaner.Data?,
             app: AppCleaner.Data?,
-            dedupe: Deduplicator.Data?,
             oneClick: OneClickOptionsState,
             isPro: Boolean,
             oneClickMode: Boolean,
@@ -917,7 +876,6 @@ class DashboardMainActionEngine(
             corpse.hasData && oneClick.corpseFinderEnabled -> BottomBarState.Action.DELETE
             system.hasData && oneClick.systemCleanerEnabled -> BottomBarState.Action.DELETE
             app.hasActionableData && oneClick.appCleanerEnabled -> BottomBarState.Action.DELETE
-            dedupe.hasData && oneClick.deduplicatorEnabled && isPro -> BottomBarState.Action.DELETE
             oneClickMode -> BottomBarState.Action.ONECLICK
             else -> BottomBarState.Action.SCAN
         }
@@ -933,7 +891,6 @@ class DashboardMainActionEngine(
          */
         internal fun lockedSlices(
             app: AppCleaner.Data?,
-            dedupe: Deduplicator.Data?,
             oneClick: OneClickOptionsState,
             isPro: Boolean,
         ): List<HeroSummary.ToolSlice> {
@@ -941,9 +898,6 @@ class DashboardMainActionEngine(
             return buildList {
                 app?.takeIf { oneClick.appCleanerEnabled && it.hasActionableData }?.let {
                     add(HeroSummary.ToolSlice(SDMTool.Type.APPCLEANER, it.actionableSize, it.actionableCount))
-                }
-                dedupe?.takeIf { oneClick.deduplicatorEnabled && it.hasData }?.let {
-                    add(HeroSummary.ToolSlice(SDMTool.Type.DEDUPLICATOR, it.redundantSize, it.redundantCount))
                 }
             }
         }
@@ -959,7 +913,6 @@ class DashboardMainActionEngine(
             corpse: CorpseFinder.Data?,
             system: SystemCleaner.Data?,
             app: AppCleaner.Data?,
-            dedupe: Deduplicator.Data?,
             oneClick: OneClickOptionsState,
             isPro: Boolean,
             scanTimes: Map<SDMTool.Type, Instant> = emptyMap(),
@@ -974,11 +927,8 @@ class DashboardMainActionEngine(
                 app?.takeIf { oneClick.appCleanerEnabled && isPro && it.hasActionableData }?.let {
                     add(HeroSummary.ToolSlice(SDMTool.Type.APPCLEANER, it.actionableSize, it.actionableCount))
                 }
-                dedupe?.takeIf { oneClick.deduplicatorEnabled && isPro && it.hasData }?.let {
-                    add(HeroSummary.ToolSlice(SDMTool.Type.DEDUPLICATOR, it.redundantSize, it.redundantCount))
-                }
             }
-            val locked = lockedSlices(app = app, dedupe = dedupe, oneClick = oneClick, isPro = isPro)
+            val locked = lockedSlices(app = app, oneClick = oneClick, isPro = isPro)
             if (tools.isEmpty()) {
                 if (locked.isEmpty()) return null
                 // Nothing this user can free, but Pro-gated findings are sitting there. The amounts
@@ -1024,7 +974,6 @@ class DashboardMainActionEngine(
             corpse: CorpseFinder.Data?,
             system: SystemCleaner.Data?,
             app: AppCleaner.Data?,
-            dedupe: Deduplicator.Data?,
             tools: Set<SDMTool.Type>,
         ): Residue? {
             val slices = buildList {
@@ -1036,9 +985,6 @@ class DashboardMainActionEngine(
                 }
                 app?.takeIf { SDMTool.Type.APPCLEANER in tools && it.hasData }?.let {
                     add(HeroSummary.ToolSlice(SDMTool.Type.APPCLEANER, it.totalSize, it.totalCount))
-                }
-                dedupe?.takeIf { SDMTool.Type.DEDUPLICATOR in tools && it.hasData }?.let {
-                    add(HeroSummary.ToolSlice(SDMTool.Type.DEDUPLICATOR, it.redundantSize, it.redundantCount))
                 }
             }
             return Residue(size = slices.sumOf { it.size }, count = slices.sumOf { it.count })
@@ -1083,8 +1029,7 @@ internal fun TaskSubmitter.State.latestScanTimes(): Map<SDMTool.Type, Instant> =
         task.isComplete && when (task.result) {
             is CorpseFinderScanTask.Success,
             is SystemCleanerScanTask.Success,
-            is AppCleanerScanTask.Success,
-            is DeduplicatorScanTask.Success -> true
+            is AppCleanerScanTask.Success -> true
             else -> false
         }
     }

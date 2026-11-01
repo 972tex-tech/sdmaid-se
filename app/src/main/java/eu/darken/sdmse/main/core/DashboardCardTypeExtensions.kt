@@ -27,7 +27,8 @@ val DashboardCardType.labelRes: Int
         DashboardCardType.SWIPER -> CommonR.string.swiper_tool_name
         DashboardCardType.SQUEEZER -> CommonR.string.squeezer_tool_name
         DashboardCardType.ANALYZER -> CommonR.string.analyzer_tool_name
-        DashboardCardType.SCHEDULER -> eu.darken.sdmse.scheduler.R.string.scheduler_label
+        // Removed tool; only kept so stored dashboard configs still deserialize. Never shown.
+        DashboardCardType.SCHEDULER -> android.R.string.unknownName
         DashboardCardType.STATS -> CommonR.string.stats_label
     }
 

@@ -4,7 +4,6 @@ import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
-import eu.darken.sdmse.deduplicator.core.arbiter.ArbiterCriterium
 import eu.darken.sdmse.exclusion.core.types.Exclusion
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.modules.SerializersModule
@@ -26,7 +25,6 @@ class SerializationAppModule {
         serializersModule = SerializersModule {
             include(ioModule)
             contextual(Exclusion::class, Exclusion.serializer())
-            contextual(ArbiterCriterium::class, ArbiterCriterium.serializer())
         }
     }
 }

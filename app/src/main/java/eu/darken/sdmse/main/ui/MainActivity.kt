@@ -295,7 +295,6 @@ class MainActivity : ComponentActivity() {
     private fun shortcutRoute(intent: Intent?): NavigationDestination? =
         when (intent?.getStringExtra(ShortcutActivity.EXTRA_SHORTCUT_ACTION)) {
             ShortcutActivity.ACTION_OPEN_APPCONTROL -> AppControlListRoute
-            ShortcutActivity.ACTION_OPEN_ANALYZER -> DeviceStorageRoute
             ShortcutActivity.ACTION_UPGRADE -> UpgradeRoute()
             else -> null
         }

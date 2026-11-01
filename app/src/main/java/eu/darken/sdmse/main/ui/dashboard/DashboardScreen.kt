@@ -64,11 +64,9 @@ import eu.darken.sdmse.main.ui.dashboard.bottom.BottomBar
 import eu.darken.sdmse.main.ui.dashboard.cards.DashboardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.DashboardListCard
 import eu.darken.sdmse.main.ui.dashboard.cards.SetupDashboardCardItem
-import eu.darken.sdmse.main.ui.dashboard.cards.SwiperDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.ToolDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.tour.DashboardTour
 import eu.darken.sdmse.main.ui.navigation.SettingsRoute
-import eu.darken.sdmse.squeezer.ui.SqueezerSetupRoute
 import kotlin.math.abs
 
 @Composable
@@ -102,12 +100,6 @@ fun DashboardScreenHost(
                     dialogState = DashboardDialogState.AppCleanerDelete
                 }
 
-                is DashboardEvents.DeduplicatorDeleteConfirmation -> {
-                    dialogState = DashboardDialogState.DeduplicatorDelete(
-                        clusters = event.clusters ?: emptyList(),
-                    )
-                }
-
                 DashboardEvents.SetupDismissHint -> {
                     val result = snackbarHostState.showSnackbar(
                         message = activity.getString(R.string.setup_dismiss_hint),
@@ -133,8 +125,6 @@ fun DashboardScreenHost(
                     }
                 }
 
-                DashboardEvents.SqueezerSetup -> vm.navTo(SqueezerSetupRoute)
-
                 DashboardEvents.ShowShortRecordingWarning -> {
                     dialogState = DashboardDialogState.ShortRecordingWarning
                 }
@@ -159,9 +149,6 @@ fun DashboardScreenHost(
         onShowSystemCleaner = vm::showSystemCleaner,
         onConfirmAppCleaner = vm::confirmAppJunkDeletion,
         onShowAppCleaner = vm::showAppCleaner,
-        onConfirmDeduplicator = vm::confirmDeduplicatorDeletion,
-        onShowDeduplicator = vm::showDeduplicator,
-        onPreviewDeduplicator = { options -> vm.navTo(eu.darken.sdmse.common.previews.PreviewRoute(options = options)) },
         onStopShortRecording = vm::confirmStopRecording,
         onConfirmMainAction = vm::mainAction,
     )
@@ -326,9 +313,6 @@ internal fun DashboardScreen(
     val hasSetup = remember(items) {
         items?.any { it is SetupDashboardCardItem } == true
     }
-    val hasSwiper = remember(items) {
-        items?.any { it is SwiperDashboardCardItem } == true
-    }
     val firstToolIndex = remember(items) {
         items?.indexOfFirst { it is ToolDashboardCardItem }?.takeIf { it >= 0 }
     }
@@ -336,10 +320,10 @@ internal fun DashboardScreen(
     // the tour starts. Otherwise an item-list refresh mid-tour (a new card appears or order
     // shifts) could leave the lambdas scrolling to a stale index.
     val itemsState = rememberUpdatedState(items)
-    val tourDef = remember(gridState, hasSetup, hasSwiper) {
+    val tourDef = remember(gridState, hasSetup) {
         DashboardTour.definition(
             includeSetup = hasSetup,
-            includeManualTool = hasSwiper,
+            includeManualTool = false,
             // Scroll the LazyVerticalGrid to each step's target before it renders: with a tall
             // setup card or compact device, the target card can be off-screen and otherwise
             // wouldn't register a target rect (LazyGrid composes only visible items).
@@ -348,9 +332,6 @@ internal fun DashboardScreen(
             },
             prepareTools = {
                 scrollToFirstMatching(gridState, itemsState.value) { it is ToolDashboardCardItem }
-            },
-            prepareManualTool = {
-                scrollToFirstMatching(gridState, itemsState.value) { it is SwiperDashboardCardItem }
             },
             // Leave the dashboard in its natural starting position after the user successfully
             // finishes the tour. The framework does not invoke this for skip/dismiss/disable.
@@ -591,8 +572,6 @@ internal fun DashboardScreen(
                                 Modifier.guidedTourTarget(DashboardTour.SETUP_TARGET)
                             item.stableId == firstToolStableId ->
                                 Modifier.guidedTourTarget(DashboardTour.TOOLS_TARGET)
-                            item is SwiperDashboardCardItem ->
-                                Modifier.guidedTourTarget(DashboardTour.MANUAL_TOOL_TARGET)
                             else -> Modifier
                         }
                         // Wrapper Box because DashboardListCard doesn't forward the modifier to

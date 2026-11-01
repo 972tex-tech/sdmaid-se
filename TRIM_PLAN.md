@@ -17,18 +17,27 @@ Known leftovers (harmless, removed in phase 2): the hidden tools' flows still ru
 (Swiper DB query, Analyzer, Scheduler state), widget and `LowSpaceMonitor` still read `AnalyzerSettings`, and
 unit tests that assert Deduplicator one-click behaviour will fail (`OneTapCleanerTest`, `DashboardMainActionEngineTest`).
 
-## Phase 2: delete, one tool per commit, CI after each
+## Phase 2: delete (done in one pass, unverified until CI is green)
 
-Order (least to most entangled): Swiper, Squeezer, Scheduler, Deduplicator, Analyzer.
-Per tool:
+Removed the Deduplicator, Squeezer, Analyzer, Swiper and Scheduler modules (Gradle, kover, manifest receiver) and every
+reference in the app module: dashboard view model, card flows, hero/main-action engine, events, dialogs, screen and tour,
+settings, one-tap cleaner, Hilt bindings.
 
-1. Remove `include` from `settings.gradle`, `implementation`/`kover` lines from `app/build.gradle.kts` and root `build.gradle.kts`.
-2. Delete the module directory.
-3. Remove its imports/constructor params/flows in `DashboardViewModel`, `DashboardCardFlows`, `DashboardEvents*`, `DashboardScreen`, `ToolDashboardResources`.
-4. Remove its branch from exhaustive `when`s (`submitTask`, `DashboardCardTypeExtensions`, `SerializationAppModule`).
-5. Analyzer only: replace `AnalyzerSettings` use in `LowSpaceMonitor` and `WidgetDataProvider`.
-6. Scheduler only: drop `SchedulerRestoreReceiver` from `AndroidManifest.xml` and `SchedulerTaskFactoryImpl`.
-7. Delete matching tests; push; fix compile errors from the CI log.
+Behaviour changes to be aware of:
+
+- Low-storage notification: its settings now live in `LowStorageSettings` (new datastore), but its toggle was in the
+  Analyzer settings screen, so it can no longer be switched on. Previously saved threshold/toggle values are not carried over.
+- Widget storage tap and the "open analyzer" shortcut now just open the dashboard.
+- Exclusions: the "pick a path" option is gone (it used the Analyzer's storage browser). Package and segment exclusions remain.
+- Dashboard tour no longer has the manual-tool (Swiper) step.
+- `DashboardCardType` still lists the removed types so saved dashboard configs keep deserializing; they are never shown.
+
+Follow-ups:
+
+- Unit tests referencing removed code no longer compile (`DashboardMainActionEngineTest`, `DashboardViewModelResilienceTest`,
+  `OneTapCleanerTest`, `LowSpaceMonitorTest`, `WidgetDataProviderTest`, `NavigationIdConsistencyTest`, `DashboardCardConfigTest`,
+  and other Dashboard*Test files) plus `DashboardScreenshots.kt`. `app:assembleFossDebug` is unaffected; `testFossDebugUnitTest` is not.
+- `crowdin.yml` still lists the removed modules' string files (harmless).
 
 ## Before sharing the APK
 

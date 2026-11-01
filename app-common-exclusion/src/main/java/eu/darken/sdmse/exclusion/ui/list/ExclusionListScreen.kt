@@ -192,7 +192,6 @@ fun ExclusionListScreenHost(
         SdmModalBottomSheet(onDismiss = { pendingTypePicker = false }) { dismiss ->
             CreateExclusionTypeSheet(
                 onPickPackage = { dismiss { vm.openAppControl() } },
-                onPickPath = { dismiss { vm.openStoragePicker() } },
                 onPickSegment = { dismiss { vm.openSegmentEditor() } },
             )
         }
