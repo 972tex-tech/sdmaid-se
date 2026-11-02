@@ -32,9 +32,6 @@ class DashboardMainActionDialogTest : BaseComposeRobolectricTest() {
                     onShowSystemCleaner = {},
                     onConfirmAppCleaner = {},
                     onShowAppCleaner = {},
-                    onConfirmDeduplicator = {},
-                    onShowDeduplicator = {},
-                    onPreviewDeduplicator = {},
                     onStopShortRecording = {},
                     onConfirmMainAction = onConfirmMainAction,
                 )

@@ -4,15 +4,11 @@ import eu.darken.sdmse.appcleaner.core.AppCleaner
 import eu.darken.sdmse.appcleaner.core.tasks.AppCleanerOneClickTask
 import eu.darken.sdmse.appcleaner.core.tasks.AppCleanerProcessingTask
 import eu.darken.sdmse.common.datastore.DataStoreValue
-import eu.darken.sdmse.common.files.APath
 import eu.darken.sdmse.common.upgrade.UpgradeRepo
 import eu.darken.sdmse.corpsefinder.core.Corpse
 import eu.darken.sdmse.corpsefinder.core.CorpseFinder
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderDeleteTask
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderScanTask
-import eu.darken.sdmse.deduplicator.core.Deduplicator
-import eu.darken.sdmse.deduplicator.core.Duplicate
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorDeleteTask
 import eu.darken.sdmse.main.core.GeneralSettings
 import eu.darken.sdmse.main.core.SDMTool
 import eu.darken.sdmse.main.core.taskmanager.TaskManager
@@ -70,7 +66,6 @@ internal class DashboardMainActionEngineTest : BaseTest() {
         val corpseState: MutableStateFlow<CorpseFinder.State>,
         val systemCleaner: SystemCleaner,
         val appCleaner: AppCleaner,
-        val deduplicator: Deduplicator,
         /** The auto-show setting, live: flip it to stage a user toggling it while the engine runs. */
         val heroAutoShow: MutableStateFlow<Boolean>,
         val submittedTasks: MutableList<SDMTool.Task>,
@@ -147,10 +142,8 @@ internal class DashboardMainActionEngineTest : BaseTest() {
         corpseFinderOneClick: Boolean = true,
         otherToolsOneClick: Boolean = false,
         appCleanerOneClick: Boolean = otherToolsOneClick,
-        deduplicatorOneClick: Boolean = otherToolsOneClick,
         corpseData: CorpseFinder.Data? = null,
         appData: AppCleaner.Data? = null,
-        dedupeData: Deduplicator.Data? = null,
         isPro: Boolean = false,
         /** Initial value of the "show summary automatically" setting; see [Harness.heroAutoShow]. */
         heroAutoShow: Boolean = true,
@@ -185,15 +178,11 @@ internal class DashboardMainActionEngineTest : BaseTest() {
         val appCleaner = mockk<AppCleaner>(relaxed = true).apply {
             every { state } returns MutableStateFlow(mockk(relaxed = true) { every { data } returns appData })
         }
-        val deduplicator = mockk<Deduplicator>(relaxed = true).apply {
-            every { state } returns MutableStateFlow(mockk(relaxed = true) { every { data } returns dedupeData })
-        }
         val heroAutoShowFlow = MutableStateFlow(heroAutoShow)
         val generalSettings = mockk<GeneralSettings>(relaxed = true).apply {
             every { oneClickCorpseFinderEnabled } returns mockBool(corpseFinderOneClick)
             every { oneClickSystemCleanerEnabled } returns mockBool(otherToolsOneClick)
             every { oneClickAppCleanerEnabled } returns mockBool(appCleanerOneClick)
-            every { oneClickDeduplicatorEnabled } returns mockBool(deduplicatorOneClick)
             every { enableDashboardOneClick } returns mockBool(false)
             every { dashboardHeroAutoShow } returns mockBool(heroAutoShowSource ?: heroAutoShowFlow)
         }
@@ -213,7 +202,6 @@ internal class DashboardMainActionEngineTest : BaseTest() {
             corpseFinder = corpseFinder,
             systemCleaner = systemCleaner,
             appCleaner = appCleaner,
-            deduplicator = deduplicator,
             generalSettings = generalSettings,
             upgradeRepo = mockk<UpgradeRepo>(relaxed = true) {
                 // isProForUi() reads isPro and isSettled off the same Info; an unsettled mock would
@@ -244,7 +232,6 @@ internal class DashboardMainActionEngineTest : BaseTest() {
             corpseStateFlow,
             systemCleaner,
             appCleaner,
-            deduplicator,
             heroAutoShowFlow,
             submittedTasks,
             branchErrors,
@@ -268,11 +255,9 @@ internal class DashboardMainActionEngineTest : BaseTest() {
         coVerify(exactly = 1) { h.corpseFinder.discardScanData() }
         coVerify(exactly = 1) { h.systemCleaner.discardScanData() }
         coVerify(exactly = 1) { h.appCleaner.discardScanData() }
-        coVerify(exactly = 1) { h.deduplicator.discardScanData() }
         coVerify(exactly = 1) { h.taskManager.forgetCompleted(SDMTool.Type.CORPSEFINDER) }
         coVerify(exactly = 1) { h.taskManager.forgetCompleted(SDMTool.Type.SYSTEMCLEANER) }
         coVerify(exactly = 1) { h.taskManager.forgetCompleted(SDMTool.Type.APPCLEANER) }
-        coVerify(exactly = 1) { h.taskManager.forgetCompleted(SDMTool.Type.DEDUPLICATOR) }
     }
 
     @Test
@@ -1064,41 +1049,6 @@ internal class DashboardMainActionEngineTest : BaseTest() {
     }
 
     @Test
-    fun `a non-Pro Deduplicator-only scan produces a locked-only hero`() {
-        // The case the old DELETE-only hero gate swallowed: without Pro the Deduplicator never arms
-        // DELETE, so the main action resolves to SCAN and buildHeroSummary was never reached — the
-        // findings were invisible with no card at all. A builder unit test cannot catch that.
-        val lockedSpace = 42L * 1024 * 1024
-        val dedupeData = Deduplicator.Data(
-            clusters = setOf(
-                mockk<Duplicate.Cluster>(relaxed = true) {
-                    every { redundantSize } returns lockedSpace
-                    every { redundantCount } returns 4
-                },
-            ),
-        )
-        val h = harness(
-            corpseFinderOneClick = false,
-            deduplicatorOneClick = true,
-            dedupeData = dedupeData,
-            isPro = false,
-        )
-
-        try {
-            val bar = h.barState()
-
-            bar.actionState shouldBe BottomBarState.Action.SCAN
-            val hero = bar.heroSummary!!
-            hero.mode shouldBe HeroSummary.Mode.LOCKED_ONLY
-            hero.totalSize shouldBe 0L
-            hero.lockedSize shouldBe lockedSpace
-            hero.lockedTools.map { it.type } shouldBe listOf(SDMTool.Type.DEDUPLICATOR)
-        } finally {
-            h.engineScope.cancel()
-        }
-    }
-
-    @Test
     fun `a zero-result cleanup still reports what stayed locked`() {
         // The cleanup ran on the free tool and freed nothing, while AppCleaner's findings sat there
         // unclaimed behind Pro — exactly the moment worth surfacing the upsell.
@@ -1159,157 +1109,5 @@ internal class DashboardMainActionEngineTest : BaseTest() {
 
         h.engine.dismissHero()
         h.engine.isHeroExpanded.value shouldBe false
-    }
-
-    /**
-     * Deduplicator-only post-delete setup. Bespoke rather than [harness] because this path needs both
-     * deduplicator data and a real delete result, neither of which [harness] models.
-     */
-    private class DedupeDeleteSetup(
-        val engine: DashboardMainActionEngine,
-        val engineScope: CoroutineScope,
-        val dedupState: MutableStateFlow<Deduplicator.State>,
-    ) {
-        fun hero(): HeroSummary = runBlocking {
-            engine.bottomBarState(listIsReady = MutableStateFlow(true))
-                .first { it?.heroSummary != null }!!
-                .heroSummary!!
-        }
-    }
-
-    private fun dedupeDeleteSetup(heroAutoShow: Boolean = true): DedupeDeleteSetup {
-        val proInfo = mockk<UpgradeRepo.Info>(relaxed = true) {
-            every { isPro } returns true
-            every { isSettled } returns true
-        }
-        val upgradeRepo = mockk<UpgradeRepo>(relaxed = true) {
-            every { upgradeInfo } returns MutableStateFlow(proInfo)
-        }
-        val taskManager = mockk<TaskManager>(relaxed = true) {
-            every { state } returns MutableStateFlow(TaskSubmitter.State())
-        }
-        val corpseFinder = mockk<CorpseFinder>(relaxed = true) {
-            every { state } returns MutableStateFlow(mockk(relaxed = true) { every { data } returns null })
-        }
-        val systemCleaner = mockk<SystemCleaner>(relaxed = true) {
-            every { state } returns MutableStateFlow(mockk(relaxed = true) { every { data } returns null })
-        }
-        val appCleaner = mockk<AppCleaner>(relaxed = true) {
-            every { state } returns MutableStateFlow(mockk(relaxed = true) { every { data } returns null })
-        }
-        // Real Data with a populated cluster, NOT a relaxed mock: `hasData` reads `clusters.isNotEmpty()`,
-        // and a relaxed mock answers that with an empty set — which makes the main action resolve to SCAN
-        // and no FREEABLE hero gets built at all, so a residue test against a mock would pass vacuously.
-        val dedupData = Deduplicator.Data(
-            clusters = setOf(
-                mockk<Duplicate.Cluster>(relaxed = true) {
-                    // Deliberately different from DEDUPE_FREED_SPACE so a headline sourced from the
-                    // residue instead of the cleanup is distinguishable, not just a mode mismatch.
-                    every { redundantSize } returns DEDUPE_RESIDUE_SPACE
-                    every { redundantCount } returns 1
-                },
-            ),
-        )
-        val dedupState = MutableStateFlow(Deduplicator.State(data = dedupData, progress = null))
-        val deduplicator = mockk<Deduplicator>(relaxed = true) {
-            every { state } returns dedupState
-        }
-        val generalSettings = mockk<GeneralSettings>(relaxed = true) {
-            every { oneClickCorpseFinderEnabled } returns mockBool(false)
-            every { oneClickSystemCleanerEnabled } returns mockBool(false)
-            every { oneClickAppCleanerEnabled } returns mockBool(false)
-            every { oneClickDeduplicatorEnabled } returns mockBool(true)
-            every { enableDashboardOneClick } returns mockBool(false)
-            every { dashboardHeroAutoShow } returns mockBool(heroAutoShow)
-        }
-        val deleteResult = DeduplicatorDeleteTask.Success(
-            affectedSpace = DEDUPE_FREED_SPACE,
-            affectedPaths = setOf(mockk<APath>(relaxed = true), mockk<APath>(relaxed = true)),
-        )
-
-        val engineScope = CoroutineScope(SupervisorJob() + Dispatchers.Unconfined)
-        val engine = DashboardMainActionEngine(
-            scope = engineScope,
-            taskManager = taskManager,
-            corpseFinder = corpseFinder,
-            systemCleaner = systemCleaner,
-            appCleaner = appCleaner,
-            deduplicator = deduplicator,
-            generalSettings = generalSettings,
-            upgradeRepo = upgradeRepo,
-            upgradeInfo = MutableStateFlow(proInfo),
-            submitTask = { task -> if (task is DeduplicatorDeleteTask) deleteResult else mockk(relaxed = true) },
-            onUpgradeRequired = {},
-            onStateError = {},
-        )
-        return DedupeDeleteSetup(engine = engine, engineScope = engineScope, dedupState = dedupState)
-    }
-
-    @Test
-    fun `freed hero includes the deduplicator removable-file count`() {
-        // Regression for the post-delete path: a deduplicator-only cleanup must report the deleted
-        // file count, not 0. The FREED itemCount used to exclude the deduplicator entirely.
-        val setup = dedupeDeleteSetup()
-
-        try {
-            setup.engine.mainAction(BottomBarState.Action.DELETE)
-            // A delete that clears everything prunes the now-empty data.
-            setup.dedupState.value = Deduplicator.State(data = null, progress = null)
-
-            val hero = setup.hero()
-
-            hero.mode shouldBe HeroSummary.Mode.FREED
-            hero.totalSize shouldBe DEDUPE_FREED_SPACE
-            hero.itemCount shouldBe 2
-            hero.tools.single { it.type == SDMTool.Type.DEDUPLICATOR }.count shouldBe 2
-        } finally {
-            setup.engineScope.cancel()
-        }
-    }
-
-    @Test
-    fun `a cleanup that freed something still reports it when residue survives`() {
-        // Regression for "the one-click freed 1 GB but the card said 5.8 MB can be freed": some junk
-        // can never be cleared — a locked system app's cache fails on every run — so a successful
-        // cleanup routinely leaves data behind. That residue must not rebuild into a FREEABLE hero
-        // that outranks the FREED one and makes the run read as if it found almost nothing.
-        val setup = dedupeDeleteSetup()
-
-        try {
-            setup.engine.mainAction(BottomBarState.Action.DELETE)
-            // Deliberately no pruning: the data survives the delete, as it does whenever anything was
-            // un-clearable. The main action therefore still resolves to DELETE and a FREEABLE hero is
-            // built from the leftovers — it just must not outrank the FREED one.
-
-            val hero = setup.hero()
-
-            hero.mode shouldBe HeroSummary.Mode.FREED
-            // The cleanup's total, not the surviving cluster's DEDUPE_RESIDUE_SPACE.
-            hero.totalSize shouldBe DEDUPE_FREED_SPACE
-        } finally {
-            setup.engineScope.cancel()
-        }
-    }
-
-    @Test
-    fun `a cleanup that freed data stays collapsed when auto-show is off`() {
-        // The ordinary post-scan cleanup path: the FREED outcome is still built and still reaches the
-        // bar's compact chip, it just does not throw the card open.
-        val setup = dedupeDeleteSetup(heroAutoShow = false)
-
-        try {
-            setup.engine.mainAction(BottomBarState.Action.DELETE)
-            setup.dedupState.value = Deduplicator.State(data = null, progress = null)
-
-            setup.hero().mode shouldBe HeroSummary.Mode.FREED
-            setup.engine.isHeroExpanded.value shouldBe false
-        } finally {
-            setup.engineScope.cancel()
-        }
-    }
-
-    companion object {
-        private const val DEDUPE_FREED_SPACE = 51L * 1024 * 1024
-        private const val DEDUPE_RESIDUE_SPACE = 5L * 1024 * 1024
     }
 }

@@ -37,9 +37,14 @@ Follow-ups:
 - Unit tests referencing removed code no longer compile (`DashboardMainActionEngineTest`, `DashboardViewModelResilienceTest`,
   `OneTapCleanerTest`, `LowSpaceMonitorTest`, `WidgetDataProviderTest`, `NavigationIdConsistencyTest`, `DashboardCardConfigTest`,
   and other Dashboard*Test files) plus `DashboardScreenshots.kt`. `app:assembleFossDebug` is unaffected; `testFossDebugUnitTest` is not.
-- `crowdin.yml` still lists the removed modules' string files (harmless).
+- `crowdin.yml` cleaned.
 
 ## Before sharing the APK
 
 SD Maid SE is GPL-3.0, so a fork must stay GPL-3.0 with source available. The icons, logos and mascots are not
 GPL-licensed: replace them and rename the app/application ID before distributing.
+
+## Rebrand (done)
+
+App name Tidy, applicationId `com.tidy.cleaner` (namespace unchanged), original vector icon and mascot, upstream attribution in Acknowledgements.
+Unit tests were updated by hand for the removed modules; three Deduplicator post-delete tests were deleted. Not compiled here: run CI.

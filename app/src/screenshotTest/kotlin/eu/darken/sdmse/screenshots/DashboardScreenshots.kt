@@ -7,7 +7,6 @@ import eu.darken.sdmse.appcleaner.core.tasks.AppCleanerScanTask
 import eu.darken.sdmse.common.WebpageTool
 import eu.darken.sdmse.common.compose.preview.PreviewWrapper
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderScanTask
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorScanTask
 import eu.darken.sdmse.main.core.SDMTool
 import eu.darken.sdmse.main.ui.dashboard.BottomBarState
 import eu.darken.sdmse.main.ui.dashboard.DashboardScreen
@@ -56,7 +55,6 @@ fun DashboardScreenshot() {
                     toolCard(SDMTool.Type.CORPSEFINDER, CorpseFinderScanTask.Success(itemCount = 12, recoverableSpace = 129 * KB)),
                     toolCard(SDMTool.Type.SYSTEMCLEANER, SystemCleanerScanTask.Success(itemCount = 51, recoverableSpace = 852 * MB)),
                     toolCard(SDMTool.Type.APPCLEANER, AppCleanerScanTask.Success(itemCount = 498, recoverableSpace = 87 * MB)),
-                    toolCard(SDMTool.Type.DEDUPLICATOR, DeduplicatorScanTask.Success(itemCount = 60, recoverableSpace = 32 * MB)),
                 ),
             ),
             bottomBarState = BottomBarState(
@@ -66,13 +64,12 @@ fun DashboardScreenshot() {
                 queuedTasks = 0,
                 heroSummary = HeroSummary(
                     mode = HeroSummary.Mode.FREEABLE,
-                    totalSize = 971 * MB,
-                    itemCount = 621,
+                    totalSize = 939 * MB,
+                    itemCount = 561,
                     tools = listOf(
                         HeroSummary.ToolSlice(SDMTool.Type.CORPSEFINDER, 129 * KB, 12),
                         HeroSummary.ToolSlice(SDMTool.Type.SYSTEMCLEANER, 852 * MB, 51),
                         HeroSummary.ToolSlice(SDMTool.Type.APPCLEANER, 87 * MB, 498),
-                        HeroSummary.ToolSlice(SDMTool.Type.DEDUPLICATOR, 32 * MB, 60),
                     ),
                 ),
                 upgradeInfo = null,
