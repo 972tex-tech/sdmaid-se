@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Umphathi wokukhetha</string>
     <string name="exclusion_manager_desc">Phatha ukukhethwa kwamafayela nezinhlelo zokusebenza.</string>
-    <string name="exclusion_explanation_body1">Yekela iziwali nezicelo ukuzivikela ezinkundleni ze-SD Maid, noma ukuthi ushiye izinto ezingakhukhuleki futhi wenze umsebenzi ngokushesha.</string>
+    <string name="exclusion_explanation_body1">Yekela iziwali nezicelo ukuzivikela ezinkundleni ze-Tidy, noma ukuthi ushiye izinto ezingakhukhuleki futhi wenze umsebenzi ngokushesha.</string>
     <string name="exclusion_add_new_hint">Asikho izikisiso okwenziwe. Sebenzisa inkinobho ye-+ ukudala enye, noma yekela izinto ezivela kumiphumela yanoma yikuphi ithuluzi.</string>
     <string name="exclusion_create_action">Dala ukukhishwa</string>
     <string name="exclusion_edit_action">Hlela ukukhishwa</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Vumela ukufana okungaphelele</string>
     <string name="exclusion_option_ignore_casing">Ziba amagama amakhulu namancane</string>
     <string name="exclusion_editor_affected_tools_label">Amathuluzi athintekile</string>
-    <string name="exclusion_editor_path_explanation">Ukukhishwa kwendlela kuvimbela i-SD Maid ekuqhubekeni nokucubungula noma yiziphi izindlela ezifanayo. Lokhu kusebenza kumafayela, amafolda namafolda angaphansi.</string>
-    <string name="exclusion_editor_pkg_explanation">Ukukhishwa kohlelo kuvimbela i-SD Maid ekucubunguleni noma yimaphi amaphakheji afanayo.</string>
+    <string name="exclusion_editor_path_explanation">Ukukhishwa kwendlela kuvimbela i-Tidy ekuqhubekeni nokucubungula noma yiziphi izindlela ezifanayo. Lokhu kusebenza kumafayela, amafolda namafolda angaphansi.</string>
+    <string name="exclusion_editor_pkg_explanation">Ukukhishwa kohlelo kuvimbela i-Tidy ekucubunguleni noma yimaphi amaphakheji afanayo.</string>
     <string name="exclusion_editor_segment_explanation">Ukukhishwa okusekelwe kusegimenti kufana nokukhishwa kwendlela kodwa kuvumela ukufana okungaphelele. Isibonelo: \"DCIM/Camera\" kukhipha \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Susa lokhu kukhishwa?</string>
     <string name="exclusion_reset_default_exclusions">Buyisela ukukhishwa okuzenzakalelayo</string>

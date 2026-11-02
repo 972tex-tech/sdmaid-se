@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">استثنا مینیجر</string>
     <string name="exclusion_manager_desc">فائل اور ایپ استثنائات کا انتظام کریں۔</string>
-    <string name="exclusion_explanation_body1">SD Maid کے ٹولز سے فائلوں اور ایپس کی حفاظت کے لیے انہیں استثنائی کریں، یا غیر متعلقہ اشیاء کو چھوڑ کر کارروائیوں کو تیز کریں۔</string>
+    <string name="exclusion_explanation_body1">Tidy کے ٹولز سے فائلوں اور ایپس کی حفاظت کے لیے انہیں استثنائی کریں، یا غیر متعلقہ اشیاء کو چھوڑ کر کارروائیوں کو تیز کریں۔</string>
     <string name="exclusion_add_new_hint">ابھی کوئی استثناء نہیں۔ ایک بنانے کے لیے + بٹن استعمال کریں، یا کسی بھی ٹول کے نتائج سے اشیاء کو استثنا کریں۔</string>
     <string name="exclusion_create_action">استثنا بنائیں</string>
     <string name="exclusion_edit_action">استثنا تبدیل کریں</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">جزوی مماثلت کی اجازت دیں</string>
     <string name="exclusion_option_ignore_casing">کیسنگ نظر انداز کریں</string>
     <string name="exclusion_editor_affected_tools_label">متاثر ٹولز</string>
-    <string name="exclusion_editor_path_explanation">پاتھ استثنا SD Maid کو کسی بھی مماثل پاتھ کی مزید پروسیسنگ سے روکتا ہے۔ یہ فائلوں، فولڈرز اور ذیلی فولڈرز پر لاگو ہوتا ہے۔</string>
-    <string name="exclusion_editor_pkg_explanation">ایپ استثنا SD Maid کو کسی بھی مماثل پیکجز کی پروسیسنگ سے روکتا ہے۔</string>
+    <string name="exclusion_editor_path_explanation">پاتھ استثنا Tidy کو کسی بھی مماثل پاتھ کی مزید پروسیسنگ سے روکتا ہے۔ یہ فائلوں، فولڈرز اور ذیلی فولڈرز پر لاگو ہوتا ہے۔</string>
+    <string name="exclusion_editor_pkg_explanation">ایپ استثنا Tidy کو کسی بھی مماثل پیکجز کی پروسیسنگ سے روکتا ہے۔</string>
     <string name="exclusion_editor_segment_explanation">سیگمنٹ پر مبنی استثنا پاتھ استثنا کی طرح ہے لیکن جزوی مماثلات کی اجازت دیتا ہے۔ مثال: \"DCIM/Camera\" سے \"/sdcard/DCIM/Camera/photo.png\" باہر ہو جاتا ہے۔</string>
     <string name="exclusion_editor_remove_confirmation_message">اس استثنا کو ہٹائیں؟</string>
     <string name="exclusion_reset_default_exclusions">ڈیفالٹ استثنائات بحال کریں</string>

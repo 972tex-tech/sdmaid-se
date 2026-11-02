@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Tot uw dienst.</string>
     <string name="slogan_message_1">Schoon en netjes.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Bezig met laden</string>
     <string name="general_progress_loading_app_data">App-gegevens laden</string>
     <string name="general_progress_loading_data_areas">Datagebieden laden</string>
-    <string name="general_data_areas_unavailable_message">Kon de gegevensgebieden niet laden, de opslaglocaties waarmee SD Maid kan werken.</string>
+    <string name="general_data_areas_unavailable_message">Kon de gegevensgebieden niet laden, de opslaglocaties waarmee Tidy kan werken.</string>
     <string name="general_progress_loading_egg_0">Nog steeds sneller dan een iPhone</string>
     <string name="general_progress_loading_egg_1">Meer RAM downloaden</string>
     <string name="general_progress_loading_egg_2">Spoedig™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">Serviceverbinding verbroken</string>
     <string name="general_error_ipc_deadobject_description">De verbinding met een essentiële service (bijv. Magisk, Porter, Shizuku of andere systeemservices) is onverwacht verbroken. Start je apparaat opnieuw op. Controleer op updates als het probleem aanhoudt, of neem contact met me op zodat ik het kan oplossen.</string>
     <string name="general_error_upgrade_required_title">Upgrade vereist</string>
-    <string name="general_error_upgrade_required_description">Deze functie vereist een upgrade. Upgrade SD Maid SE om deze te gebruiken.</string>
+    <string name="general_error_upgrade_required_description">Deze functie vereist een upgrade. Upgrade Tidy om deze te gebruiken.</string>
     <string name="general_user_label_owner">Eigenaar</string>
     <string name="general_user_label_system">Systeem</string>
     <string name="setup_title">Instelling</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">Toon instellingen</string>
     <string name="ui_theme_color_sunset_label">Zonsondergang</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Deze functie vereist root-toegang, maar SD Maid kon deze op dit apparaat niet verkrijgen.</string>
+    <string name="access_blocked_root_unavailable">Deze functie vereist root-toegang, maar Tidy kon deze op dit apparaat niet verkrijgen.</string>
     <string name="access_blocked_root_declined">Deze functie vereist root-toegang. Je kunt dit inschakelen via het instellingenscherm.</string>
     <string name="access_blocked_root_or_shizuku">Deze functie vereist root- of ADB-toegang, die niet beschikbaar is op dit apparaat.</string>
     <string name="backup_restore_error_invalid_title">Ongeldig back-upbestand</string>
-    <string name="backup_restore_error_invalid_body">Dit bestand is geen geldige SD Maid back-up of is beschadigd.</string>
-    <string name="backup_restore_error_version_body">Deze back-up is gemaakt met een nieuwere versie van SD Maid. Werk de app bij en probeer het opnieuw.</string>
+    <string name="backup_restore_error_invalid_body">Dit bestand is geen geldige Tidy back-up of is beschadigd.</string>
+    <string name="backup_restore_error_version_body">Deze back-up is gemaakt met een nieuwere versie van Tidy. Werk de app bij en probeer het opnieuw.</string>
     <string name="backup_restore_error_restore_failed_title">Herstel mislukt</string>
     <string name="backup_restore_error_restore_failed_body">Deze onderdelen konden niet worden hersteld: %1$s. Uw vorige configuratie is opgeslagen en kan worden teruggebracht.</string>
     <string name="backup_restore_error_safety_title">Herstel niet gestart</string>
-    <string name="backup_restore_error_safety_body">SD Maid kon geen veiligheidsmomentopname van uw huidige configuratie opslaan, dus er is niets gewijzigd.</string>
+    <string name="backup_restore_error_safety_body">Tidy kon geen veiligheidsmomentopname van uw huidige configuratie opslaan, dus er is niets gewijzigd.</string>
     <string name="backup_restore_error_busy_title">Even geduld</string>
     <string name="backup_restore_error_busy_body">Er wordt momenteel een schoonmaaktaak of een andere back-upbewerking uitgevoerd. Probeer het opnieuw wanneer dit is voltooid.</string>
     <string name="backup_restore_error_schema_title">Incompatibele back-up</string>
-    <string name="backup_restore_error_schema_body">De databaseindeling van de back-up komt niet overeen met deze versie van SD Maid. Geschiedenisgegevens terugzetten wordt alleen ondersteund tussen identieke app-versies.</string>
+    <string name="backup_restore_error_schema_body">De databaseindeling van de back-up komt niet overeen met deze versie van Tidy. Geschiedenisgegevens terugzetten wordt alleen ondersteund tussen identieke app-versies.</string>
 </resources>

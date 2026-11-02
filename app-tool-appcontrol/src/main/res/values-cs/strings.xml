@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Ukončete aplikaci. Zabraňte jejímu spuštění, dokud ji neotevřete nebo dokud zařízení nebude restartováno.</string>
     <string name="appcontrol_app_uninstall_description">Odinstalujte tuto aplikaci z vašeho zařízení.</string>
     <string name="appcontrol_app_exclude_add_title">Vyloučit aplikaci</string>
-    <string name="appcontrol_app_exclude_add_description">Vyloučit tuto aplikaci z ostatních operací v SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Vyloučit tuto aplikaci z ostatních operací v Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Upravit výjimku</string>
     <string name="appcontrol_app_exclude_edit_description">Tato aplikace je nyní vyloučena z jednoho nebo více nástrojů.</string>
     <string name="appcontrol_tag_user">Uživatel</string>
@@ -119,7 +119,7 @@
     <string name="appcontrol_progress_exporting_x">Exportování %s</string>
     <string name="appcontrol_share_list_action">Sdílet seznam</string>
     <string name="appcontrol_share_list_title">Moje aplikace</string>
-    <string name="appcontrol_share_list_footer">Sdílené přes SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Sdílené přes Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Vynutit ukončení aplikací</string>
     <string name="appcontrol_force_stop_action">Vynutit ukončení</string>
     <string name="appcontrol_force_stop_confirm_title">Potvrdit vynucené ukončení</string>

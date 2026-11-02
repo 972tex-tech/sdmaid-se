@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">لە خزمەتتداین.</string>
     <string name="slogan_message_1">خاوێن و ڕێکخراو.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">بارکردن</string>
     <string name="general_progress_loading_app_data">بارکردنی داتای ئەپ</string>
     <string name="general_progress_loading_data_areas">بارکردنی ناوچەکانی داتا</string>
-    <string name="general_data_areas_unavailable_message">نەتوانرا بارکردنی شوێنە دراوسێکەكان، شوێنە جیهێشتنی کە SD Maid دەتوانێت پێیدا کار بکات.</string>
+    <string name="general_data_areas_unavailable_message">نەتوانرا بارکردنی شوێنە دراوسێکەكان، شوێنە جیهێشتنی کە Tidy دەتوانێت پێیدا کار بکات.</string>
     <string name="general_progress_loading_egg_0">هێشتا خێراترە لە ئایفۆن</string>
     <string name="general_progress_loading_egg_1">داگرتنی ڕام زیاتر</string>
     <string name="general_progress_loading_egg_2">بەم زووانە™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">پەیوەندی خزمەتگوزاری پچڕا</string>
     <string name="general_error_ipc_deadobject_description">پەیوەندی بە خزمەتی بنەڕەتیدا (بۆ نموونە Magisk, Porter, Shizuku, یان خزمەتی سیستەمی تریش) بە شێوەیەکی نا چاوەڕێکراو تێک چوو. تکاپۆ دەستگاکەت دووبارە ستارتبکە. ئەگەر کێشەکە ماوە، نوێکاری بگەڕ یان پێیت هەوڵدەم تا ئەتوانم ڕاستی بکەمەوە.</string>
     <string name="general_error_upgrade_required_title">بارگەری پێویستە</string>
-    <string name="general_error_upgrade_required_description">ئەم تایبەتمەندیە پێویستی بارگەرییە. تکایە SD Maid SE بارگەر بکە بۆ بەکارهێنانی.</string>
+    <string name="general_error_upgrade_required_description">ئەم تایبەتمەندیە پێویستی بارگەرییە. تکایە Tidy بارگەر بکە بۆ بەکارهێنانی.</string>
     <string name="general_user_label_owner">خاوەن</string>
     <string name="general_user_label_system">سیستەم</string>
     <string name="setup_title">ڕێکخستن</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">نیشاندان settings</string>
     <string name="ui_theme_color_sunset_label">ئاوابوونی خۆر</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">ئەم تایبەتمەندیە پێویستی بە دسترسی root هەیە، بەڵام SD Maid نەیتوانی لە ئەم دەستگەیەدا بییگرێت.</string>
+    <string name="access_blocked_root_unavailable">ئەم تایبەتمەندیە پێویستی بە دسترسی root هەیە، بەڵام Tidy نەیتوانی لە ئەم دەستگەیەدا بییگرێت.</string>
     <string name="access_blocked_root_declined">ئەم تایبەتمەندیە پێویستی دەسترسی root هەیە. دەتوانیت لە رێگەی سەرگێڵەی رێکخستندا چالاکی بکەیت.</string>
     <string name="access_blocked_root_or_shizuku">ئەم تایبەتمەندییە پێویستی بە root یان دەسپێشاندنی ADB دەکات، کە لە ئەم دەستگاوە بەردەست نیە.</string>
     <string name="backup_restore_error_invalid_title">فایلی پاڅپشتی نادرووست</string>
-    <string name="backup_restore_error_invalid_body">ئەم فایلە پاڅپشتی دروستی SD Maid نیە یان خراپ بوویەتی.</string>
-    <string name="backup_restore_error_version_body">ئەم پاڅپشتە بە وەشانی نوێی SD Maid دروست کراوە. تکایە ئەپلیکێشنەکە نوێ بکە و دووبارە هەوڵ بدە.</string>
+    <string name="backup_restore_error_invalid_body">ئەم فایلە پاڅپشتی دروستی Tidy نیە یان خراپ بوویەتی.</string>
+    <string name="backup_restore_error_version_body">ئەم پاڅپشتە بە وەشانی نوێی Tidy دروست کراوە. تکایە ئەپلیکێشنەکە نوێ بکە و دووبارە هەوڵ بدە.</string>
     <string name="backup_restore_error_restore_failed_title">گێڕانەوە سەرکەوتوو نەبوو</string>
     <string name="backup_restore_error_restore_failed_body">ئەم بەشانە نەتوانرا گێڕانەوە بکرێت: %1$s. ڕێکخستنی پێشووی تۆ پاشکەوتکرا و دەتوانرێت بێنرێتەوە.</string>
     <string name="backup_restore_error_safety_title">گێڕانەوە دەستپێ نەکرا</string>
-    <string name="backup_restore_error_safety_body">SD Maid نەیتوانی وێنەیەکی ئاسایشی لە ڕێکخستنی ئێستای تۆ پاشکەوت بکات، بۆیە هیچ شتێک نەگۆڕا.وە</string>
+    <string name="backup_restore_error_safety_body">Tidy نەیتوانی وێنەیەکی ئاسایشی لە ڕێکخستنی ئێستای تۆ پاشکەوت بکات، بۆیە هیچ شتێک نەگۆڕا.وە</string>
     <string name="backup_restore_error_busy_title">تکایە چاوەڕێ بکە</string>
     <string name="backup_restore_error_busy_body">کاری پاکسازی یان کاری پاڅپشتکردنەوەی دیکە ئێستا ڕوو دەدات. دووبارە هەوڵ بدە کاتێک کۆتایی هات.</string>
     <string name="backup_restore_error_schema_title">پاڅپشتی ناگونجاو</string>
-    <string name="backup_restore_error_schema_body">فۆرماتی بنکەی داتای پاڅپشت بەم وەشانەی SD Maid خۆی نادات. گێڕانەوەی زانیاری مێژوو تەنیا لە نێوان وەشانە یەکسانەکاندا پشتگیری دەکرێت.</string>
+    <string name="backup_restore_error_schema_body">فۆرماتی بنکەی داتای پاڅپشت بەم وەشانەی Tidy خۆی نادات. گێڕانەوەی زانیاری مێژوو تەنیا لە نێوان وەشانە یەکسانەکاندا پشتگیری دەکرێت.</string>
 </resources>

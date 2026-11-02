@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Xidmətinizdə.</string>
     <string name="slogan_message_1">Təmiz və səliqəli.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Yüklənir</string>
     <string name="general_progress_loading_app_data">Tətbiq məlumatları yüklənir</string>
     <string name="general_progress_loading_data_areas">Məlumat sahələri yüklənir</string>
-    <string name="general_data_areas_unavailable_message">Məlumat sahələri yüklənə bilmədi - SD Maid-in işləyə biləcəyi saxlama yerləri.</string>
+    <string name="general_data_areas_unavailable_message">Məlumat sahələri yüklənə bilmədi - Tidy-in işləyə biləcəyi saxlama yerləri.</string>
     <string name="general_progress_loading_egg_0">iPhone-dan hələ də sürətli</string>
     <string name="general_progress_loading_egg_1">Əlavə RAM yüklənir</string>
     <string name="general_progress_loading_egg_2">Tezliklə™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">Xidmət Bağlantısı İtirildi</string>
     <string name="general_error_ipc_deadobject_description">Kritik xidmətə (məsələn, Magisk, Porter, Shizuku və ya digər sistem səviyyəsində xidmətlər) bağlantı gözlənilməz şəkildə qopdu. Zəhmət olmasa cihazınızı yenidən başladın. Sorun davam edirsə, yeniləmələri yoxlayın və ya zəhmət olmasa mənimlə əlaqə saxlayın ki, bunu düzəltə bilim.</string>
     <string name="general_error_upgrade_required_title">Yüksəltmə tələb olunur</string>
-    <string name="general_error_upgrade_required_description">Bu xüsusiyyət yüksəltmə tələb edir. Bunu istifadə etmək üçün lütfən SD Maid SE-ni yüksəldin.</string>
+    <string name="general_error_upgrade_required_description">Bu xüsusiyyət yüksəltmə tələb edir. Bunu istifadə etmək üçün lütfən Tidy-ni yüksəldin.</string>
     <string name="general_user_label_owner">Sahib</string>
     <string name="general_user_label_system">Sistem</string>
     <string name="setup_title">Quraşdır</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">Parametrləri göstər</string>
     <string name="ui_theme_color_sunset_label">Günəbatış</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Bu xüsusiyyət root dəstəyini tələb edir, lakin SD Maid bu cihazda onu əldə edə bilmədi.</string>
+    <string name="access_blocked_root_unavailable">Bu xüsusiyyət root dəstəyini tələb edir, lakin Tidy bu cihazda onu əldə edə bilmədi.</string>
     <string name="access_blocked_root_declined">Bu xüsusiyyət root girişinə ehtiyac duyur. Bunu quraşdırma ekranı vasitəsilə aktivləşdirə bilərsiniz.</string>
     <string name="access_blocked_root_or_shizuku">Bu xüsusiyyət root və ya ADB girişi tələb edir, bu cihazda mövcud deyil.</string>
     <string name="backup_restore_error_invalid_title">Etibarsız ehtiyat nüsxə faylı</string>
-    <string name="backup_restore_error_invalid_body">Bu fayl keçərli SD Maid ehtiyat nüsxəsi deyil və ya zədələnmişdir.</string>
-    <string name="backup_restore_error_version_body">Bu ehtiyat nüsxəsi SD Maid-in yeni versiyası ilə yaradılmışdır. Zəhmət olmasa tətbiqi yeniləyin və yenidən cəhd edin.</string>
+    <string name="backup_restore_error_invalid_body">Bu fayl keçərli Tidy ehtiyat nüsxəsi deyil və ya zədələnmişdir.</string>
+    <string name="backup_restore_error_version_body">Bu ehtiyat nüsxəsi Tidy-in yeni versiyası ilə yaradılmışdır. Zəhmət olmasa tətbiqi yeniləyin və yenidən cəhd edin.</string>
     <string name="backup_restore_error_restore_failed_title">Bərpa uğursuz oldu</string>
     <string name="backup_restore_error_restore_failed_body">Bu hissələr bərpa edilə bilmədi: %1$s. Sizin əvvəlki konfiqurasiya saxlanılmış və geri qaytarıla bilər.</string>
     <string name="backup_restore_error_safety_title">Bərpa başlanmadı</string>
-    <string name="backup_restore_error_safety_body">SD Maid sizin cari konfiqurasiyanızın təhlükəsizlik anlıq görüntüsünü saxlaya bilmədi, buna görə heç bir şey dəyişdirilmədi.</string>
+    <string name="backup_restore_error_safety_body">Tidy sizin cari konfiqurasiyanızın təhlükəsizlik anlıq görüntüsünü saxlaya bilmədi, buna görə heç bir şey dəyişdirilmədi.</string>
     <string name="backup_restore_error_busy_title">Zəhmət olmasa gözləyin</string>
     <string name="backup_restore_error_busy_body">Bir təmizləmə tapşırığı və ya başqa bir ehtiyat nüsxə əməliyyatı hazırda çalışır. Bitəndən sonra yenidən cəhd edin.</string>
     <string name="backup_restore_error_schema_title">Uyğun olmayan ehtiyat nüsxə</string>
-    <string name="backup_restore_error_schema_body">Ehtiyat nüsxənin verilənlərin bazası formatı SD Maid-in bu versiyası ilə uyğun gəlmir. Tarix məlumatının bərpası yalnız eyni tətbiq versiyaları arasında dəstəklənir.</string>
+    <string name="backup_restore_error_schema_body">Ehtiyat nüsxənin verilənlərin bazası formatı Tidy-in bu versiyası ilə uyğun gəlmir. Tarix məlumatının bərpası yalnız eyni tətbiq versiyaları arasında dəstəklənir.</string>
 </resources>

@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Gerenciador de exceções</string>
     <string name="exclusion_manager_desc">Gerenciar exceções para arquivos e aplicativos.</string>
-    <string name="exclusion_explanation_body1">Exclua arquivos e aplicativos para protegê-los das ferramentas do SD Maid, ou para pular itens irrelevantes e acelerar as operações.</string>
+    <string name="exclusion_explanation_body1">Exclua arquivos e aplicativos para protegê-los das ferramentas do Tidy, ou para pular itens irrelevantes e acelerar as operações.</string>
     <string name="exclusion_add_new_hint">Nenhuma exclusão ainda. Use o botão + para criar uma, ou exclua itens dos resultados de qualquer ferramenta.</string>
     <string name="exclusion_create_action">Criar uma exceção</string>
     <string name="exclusion_edit_action">Editar exceção</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Permitir correspondências parciais</string>
     <string name="exclusion_option_ignore_casing">Ignorar maiúsculo/minúsculo</string>
     <string name="exclusion_editor_affected_tools_label">Ferramentas afetadas</string>
-    <string name="exclusion_editor_path_explanation">Uma exclusão de caminho de pasta impede que o SD Maid continue processando quaisquer caminhos correspondentes. Isto aplica-se a arquivos, diretórios e subdiretórios.</string>
-    <string name="exclusion_editor_pkg_explanation">Uma exceção de aplicativo impede que o SD Maid processe qualquer pacote correspondente.</string>
+    <string name="exclusion_editor_path_explanation">Uma exclusão de caminho de pasta impede que o Tidy continue processando quaisquer caminhos correspondentes. Isto aplica-se a arquivos, diretórios e subdiretórios.</string>
+    <string name="exclusion_editor_pkg_explanation">Uma exceção de aplicativo impede que o Tidy processe qualquer pacote correspondente.</string>
     <string name="exclusion_editor_segment_explanation">Uma exceção baseada em segmento é semelhante a uma exceção de caminho de pasta, mas permite correspondências parciais. Exemplo: \"DCIM/Camera\" exclui \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Remover essa exceção?</string>
     <string name="exclusion_reset_default_exclusions">Restaurar as exclusões padrão</string>

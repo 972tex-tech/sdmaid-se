@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">หยุดแอป ป้องกันไม่ให้เริ่มตัวเองจนกว่าคุณจะเปิดหรืออุปกรณ์ถูกรีบต</string>
     <string name="appcontrol_app_uninstall_description">ถอนการติดตั้งแอพนี้ออกจากอุปกรณ์</string>
     <string name="appcontrol_app_exclude_add_title">ยกเว้นแอพ</string>
-    <string name="appcontrol_app_exclude_add_description">ยกเว้นแอพนี้จากการดำเนินการอื่นๆ ใน SD Maid</string>
+    <string name="appcontrol_app_exclude_add_description">ยกเว้นแอพนี้จากการดำเนินการอื่นๆ ใน Tidy</string>
     <string name="appcontrol_app_exclude_edit_title">แก้ไขการยกเว้น</string>
     <string name="appcontrol_app_exclude_edit_description">แอพนี้ถูกยกเว้นจากเครื่องมือหนึ่งหรือมากกว่า</string>
     <string name="appcontrol_tag_user">ผู้ใช้</string>
@@ -92,7 +92,7 @@
     <string name="appcontrol_progress_exporting_x">กำลังส่งออก %s</string>
     <string name="appcontrol_share_list_action">แชร์รายการ</string>
     <string name="appcontrol_share_list_title">แอปของฉัน</string>
-    <string name="appcontrol_share_list_footer">แชร์ผ่าน SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">แชร์ผ่าน Tidy</string>
     <string name="appcontrol_force_stop_selection_action">บังคับให้หยุดแอพ</string>
     <string name="appcontrol_force_stop_action">บังคับให้หยุด</string>
     <string name="appcontrol_force_stop_confirm_title">ยืนยันการบังคับให้หยุด</string>

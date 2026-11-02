@@ -5,8 +5,8 @@
         <item quantity="other">%s آزاد کیا گیا ہے۔</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s آئٹم پر کارروائی کی گئی جب سے آپ نے SD Maid کو اپنے ڈیوائس میں دعوت دی۔</item>
-        <item quantity="other">%s آئٹمز پر کارروائی کی گئی جب سے آپ نے SD Maid کو اپنے ڈیوائس میں دعوت دی۔</item>
+        <item quantity="one">%s آئٹم پر کارروائی کی گئی جب سے آپ نے Tidy کو اپنے ڈیوائس میں دعوت دی۔</item>
+        <item quantity="other">%s آئٹمز پر کارروائی کی گئی جب سے آپ نے Tidy کو اپنے ڈیوائس میں دعوت دی۔</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">میں %d دن سے آپ کے ہاں مہمان ہوں</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">جزوی کامیابی</string>
     <string name="stats_report_status_partial_failure">ناکامی</string>
-    <string name="stats_settings_desc">SD Maid کے شماریات، رپورٹس اور ڈیٹا برقراری کا نظم بنائیں۔</string>
+    <string name="stats_settings_desc">Tidy کے شماریات، رپورٹس اور ڈیٹا برقراری کا نظم بنائیں۔</string>
     <string name="stats_settings_retention_category">برقراری</string>
     <string name="stats_settings_retention_reports_label">عام رپورٹس</string>
-    <string name="stats_settings_retention_reports_desc">بنیادی SD Maid آپریشن رپورٹس کو حذف کرنے سے پہلے دنوں کی تعداد۔</string>
+    <string name="stats_settings_retention_reports_desc">بنیادی Tidy آپریشن رپورٹس کو حذف کرنے سے پہلے دنوں کی تعداد۔</string>
     <string name="stats_settings_retention_paths_label">تفصیلی پاتھ کی معلومات</string>
-    <string name="stats_settings_retention_paths_desc">SD Maid کے ذریعے متاثر پاتھز کی تفصیلات رکھنے کے لیے دنوں کی تعداد۔</string>
+    <string name="stats_settings_retention_paths_desc">Tidy کے ذریعے متاثر پاتھز کی تفصیلات رکھنے کے لیے دنوں کی تعداد۔</string>
     <string name="stats_settings_retention_snapshots_label">سٹوریج کی تاریخ</string>
     <string name="stats_settings_retention_snapshots_desc">سٹوریج رجحان کے چارٹ کے لیے سٹوریج کے استعمال کی تصویروں کو رکھنے کے دنوں کی تعداد۔ پرانی تصویریں حذف کر دی جاتی ہیں۔</string>
     <string name="stats_settings_reset_all_label">تمام ری سیٹ کریں</string>

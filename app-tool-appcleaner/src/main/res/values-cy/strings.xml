@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Oedran lleiaf</string>
     <string name="appcleaner_include_minimumage_summary">Hepgor ffeiliau sy\'n iau na\'r oedran lleiaf.</string>
     <string name="appcleaner_automation_romtype_detection_label">Canfod system weithredu</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Gall awtomeiddio seiliedig ar hygyrchedd fethu os nad yw SD Maid yn canfod eich system weithredu yn gywir. Defnyddiwch y gosodiad hwn i ddiystyru\'r system weithredu a ganfuwyd.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Gall awtomeiddio seiliedig ar hygyrchedd fethu os nad yw Tidy yn canfod eich system weithredu yn gywir. Defnyddiwch y gosodiad hwn i ddiystyru\'r system weithredu a ganfuwyd.</string>
     <string name="appcleaner_filter_codecache_label">Storfa cod</string>
     <string name="appcleaner_filter_codecache_summary">Storfa cod JVM. Blociau o god beit wedi\'u crynhoi i god cynhenid.</string>
     <string name="appcleaner_filter_advertisement_label">Data hysbysebion</string>
@@ -62,7 +62,7 @@
     <string name="appcleaner_item_caches_inaccessible_title">Storfeydd rhagosodedig</string>
     <string name="appcleaner_item_caches_inaccessible_body">Storfeydd rhagosodedig cyhoeddus a phreifat. Nid ydynt yn hygyrch yn uniongyrchol, ond gellir eu dileu\'n anuniongyrchol (e.e. trwy wasanaeth hygyrchedd).</string>
     <string name="appcleaner_automation_unavailable_title">Gwasanaeth hygyrchedd ddim ar gael</string>
-    <string name="appcleaner_automation_unavailable_body">Mae clirio storfeydd anhygyrch yn gofyn am wasanaeth hygyrchedd SD Maid, ond nid oedd ar gael. Os nad ydych am ei ddefnyddio: Analluogwch yr opsiwn "Cynnwys storfeydd anhygyrch".</string>
+    <string name="appcleaner_automation_unavailable_body">Mae clirio storfeydd anhygyrch yn gofyn am wasanaeth hygyrchedd Tidy, ond nid oedd ar gael. Os nad ydych am ei ddefnyddio: Analluogwch yr opsiwn "Cynnwys storfeydd anhygyrch".</string>
     <string name="appcleaner_delete_confirmation_message_x">Dileu ffeiliau gwariadwy ar gyfer %s?</string>
     <string name="appcleaner_progress_shizuku_deleting_caches">Dileu storfeydd gan ddefnyddio Shizuku</string>
     <string name="appcleaner_progress_determining_inaccessible_caches">Pennu storfeydd anhygyrch</string>

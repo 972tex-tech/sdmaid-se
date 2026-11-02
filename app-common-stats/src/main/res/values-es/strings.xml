@@ -5,8 +5,8 @@
         <item quantity="other">Se han liberado %s.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s elemento ha sido procesado desde que invitaste a SD Maid a tu dispositivo.</item>
-        <item quantity="other">%s elementos han sido procesados desde que invitaste a SD Maid a tu dispositivo.</item>
+        <item quantity="one">%s elemento ha sido procesado desde que invitaste a Tidy a tu dispositivo.</item>
+        <item quantity="other">%s elementos han sido procesados desde que invitaste a Tidy a tu dispositivo.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Tu invitado por %d día.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Parcialmente</string>
     <string name="stats_report_status_partial_failure">Fallo</string>
-    <string name="stats_settings_desc">Configura las estadísticas, los informes y la permanencia de los datos de SD Maid.</string>
+    <string name="stats_settings_desc">Configura las estadísticas, los informes y la permanencia de los datos de Tidy.</string>
     <string name="stats_settings_retention_category">Permanencia</string>
     <string name="stats_settings_retention_reports_label">Informes generales</string>
-    <string name="stats_settings_retention_reports_desc">Número de días antes de borrar los informes básicos de las operaciones de SD Maid.</string>
+    <string name="stats_settings_retention_reports_desc">Número de días antes de borrar los informes básicos de las operaciones de Tidy.</string>
     <string name="stats_settings_retention_paths_label">Información detallada de la ruta</string>
-    <string name="stats_settings_retention_paths_desc">El número de días que se conservarán los detalles sobre las rutas afectadas por SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">El número de días que se conservarán los detalles sobre las rutas afectadas por Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Historial de almacenamiento</string>
     <string name="stats_settings_retention_snapshots_desc">Número de días para conservar las instantáneas de uso de almacenamiento en el gráfico de Tendencia de almacenamiento. Las instantáneas antiguas se eliminan.</string>
     <string name="stats_settings_reset_all_label">Restablecer todo</string>

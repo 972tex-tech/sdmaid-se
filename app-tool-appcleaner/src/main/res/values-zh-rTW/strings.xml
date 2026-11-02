@@ -82,7 +82,7 @@
     <string name="appcleaner_exclusion_limited_title">已排除的應用程式</string>
     <string name="appcleaner_exclusion_limited_body">您已將此應用程式從 AppCleaner 中排除。一次清除所有應用程式的快取時，會使用 ADB 存取提供的系統層級快取清理功能，該功能無法排除個別應用程式，因此此應用程式的快取資料會與其他資料一併清除。僅此處顯示的快取資料會受影響，排除項目涵蓋的其他內容仍會保持隱藏且不受更動。</string>
     <string name="appcleaner_automation_unavailable_title">無障礙服務無法使用</string>
-    <string name="appcleaner_automation_unavailable_body">清除這些快取需要 SD Maid 的無障礙服務，但該服務不可用。</string>
+    <string name="appcleaner_automation_unavailable_body">清除這些快取需要 Tidy 的無障礙服務，但該服務不可用。</string>
     <string name="appcleaner_delete_confirmation_message_x">為 %s 刪除無關緊要的檔案？</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="other">為 %d 個已選取的應用程式刪除無關緊要的檔案？</item>
@@ -93,7 +93,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">系統已停用此應用程式的「清除快取」按鈕。排除它以加快快取清除速度。</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">系統應用程式配置錯誤</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS 的安全應用程式 (com.miui.securitycenter) 缺少使用統計權限 (GET_USAGE_STATS)。這會破壞應用程式詳細資訊中的「清除資料」等功能和透過無障礙清除快取。授予權限以恢復完整功能。</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">如果「System UI」系統應用最近被強制停止（例如由應用清理工具），也可能發生這種情況。Android 隨後會阻止 SD Maid 的自動按鈕按下，直到您重新啟動裝置。</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">如果「System UI」系統應用最近被強制停止（例如由應用清理工具），也可能發生這種情況。Android 隨後會阻止 Tidy 的自動按鈕按下，直到您重新啟動裝置。</string>
     <string name="appcleaner_forcestop_before_clearing_label">清除前強制停止</string>
     <string name="appcleaner_forcestop_before_clearing_summary">清除快取前先強制停止應用程式。這有助於清除部分應用程式的快取，但可能導致應用程式異常，需要手動重新啟動。</string>
     <string name="appcleaner_progress_force_stopping">正在強制停止應用程式…</string>

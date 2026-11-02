@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">管理排除项</string>
     <string name="exclusion_manager_desc">管理排除的文件和应用。</string>
-    <string name="exclusion_explanation_body1">排除文件和应用以保护它们免受 SD Maid 工具的影响，或跳过无关项目并加快操作速度。</string>
+    <string name="exclusion_explanation_body1">排除文件和应用以保护它们免受 Tidy 工具的影响，或跳过无关项目并加快操作速度。</string>
     <string name="exclusion_add_new_hint">暂无排除项。使用 + 按钮创建一个，或从任何工具的结果中排除项目。</string>
     <string name="exclusion_create_action">创建排除项</string>
     <string name="exclusion_edit_action">编辑排除项</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">允许部分匹配</string>
     <string name="exclusion_option_ignore_casing">忽略大小写</string>
     <string name="exclusion_editor_affected_tools_label">影响的工具</string>
-    <string name="exclusion_editor_path_explanation">路径排除会使 SD Maid 无法进一步处理匹配路径，对于文件、文件夹、子文件夹同样适用。</string>
-    <string name="exclusion_editor_pkg_explanation">应用排除会阻止 SD Maid 处理匹配的安装包。</string>
+    <string name="exclusion_editor_path_explanation">路径排除会使 Tidy 无法进一步处理匹配路径，对于文件、文件夹、子文件夹同样适用。</string>
+    <string name="exclusion_editor_pkg_explanation">应用排除会阻止 Tidy 处理匹配的安装包。</string>
     <string name="exclusion_editor_segment_explanation">基于分段的排除与路径排除类似，但允许部分匹配。例如：“DCIM/Camera”会排除“/sdcard/DCIM/Camera/photo.png”。</string>
     <string name="exclusion_editor_remove_confirmation_message">确定删除此排除项吗？</string>
     <string name="exclusion_reset_default_exclusions">恢复默认排除项</string>

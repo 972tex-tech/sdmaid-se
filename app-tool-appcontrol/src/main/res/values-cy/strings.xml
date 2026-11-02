@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Stopio\'r ap. Ei atal rhag cychwyn ei hun hyd nes y byddwch yn ei agor neu fod y ddyfais yn cael ei hailgychwyn.</string>
     <string name="appcontrol_app_uninstall_description">Dadosod yr ap hwn o\'ch dyfais.</string>
     <string name="appcontrol_app_exclude_add_title">Eithrio ap</string>
-    <string name="appcontrol_app_exclude_add_description">Eithrio\'r ap hwn o weithrediadau eraill yn SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Eithrio\'r ap hwn o weithrediadau eraill yn Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Golygu eithriad</string>
     <string name="appcontrol_app_exclude_edit_description">Mae\'r ap hwn wedi\'i eithrio o un neu fwy o offer ar hyn o bryd.</string>
     <string name="appcontrol_tag_user">Defnyddiwr</string>
@@ -53,7 +53,7 @@
     <string name="appcontrol_progress_exporting_x">Allforio %s</string>
     <string name="appcontrol_share_list_action">Rhannu rhestr</string>
     <string name="appcontrol_share_list_title">Fy Apiau</string>
-    <string name="appcontrol_share_list_footer">Wedi\'i rannu trwy SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Wedi\'i rannu trwy Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Gorfodi apiau i stopio</string>
     <string name="appcontrol_force_stop_action">Gorfodi i stopio</string>
     <string name="appcontrol_force_stop_confirm_title">Cadarnhau gorfodi i stopio</string>

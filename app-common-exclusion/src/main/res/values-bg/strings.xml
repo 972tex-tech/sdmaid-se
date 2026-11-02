@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Мениджър на изключения</string>
     <string name="exclusion_manager_desc">Управление на изключения на файлове и приложения.</string>
-    <string name="exclusion_explanation_body1">Изключете файлове и приложения, за да ги защитите от инструментите на SD Maid, или прескочете неуместни елементи и ускорете операциите.</string>
+    <string name="exclusion_explanation_body1">Изключете файлове и приложения, за да ги защитите от инструментите на Tidy, или прескочете неуместни елементи и ускорете операциите.</string>
     <string name="exclusion_add_new_hint">Все още няма изключвания. Използвайте бутона +, за да създадете едно, или изключете елементи от резултатите на който и да е инструмент.</string>
     <string name="exclusion_create_action">Създаване на изключение</string>
     <string name="exclusion_edit_action">Редактиране на изключение</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Разрешаване на частични съвпадения</string>
     <string name="exclusion_option_ignore_casing">Игнориране на регистъра</string>
     <string name="exclusion_editor_affected_tools_label">Засегнати инструменти</string>
-    <string name="exclusion_editor_path_explanation">Изключването на път предотвратява SD Maid от по-нататъшна обработка на всякакви съвпадащи пътища. Това се отнася за файлове, папки и подпапки.</string>
-    <string name="exclusion_editor_pkg_explanation">Изключването на приложение предотвратява SD Maid от обработка на всякакви съвпадащи пакети.</string>
+    <string name="exclusion_editor_path_explanation">Изключването на път предотвратява Tidy от по-нататъшна обработка на всякакви съвпадащи пътища. Това се отнася за файлове, папки и подпапки.</string>
+    <string name="exclusion_editor_pkg_explanation">Изключването на приложение предотвратява Tidy от обработка на всякакви съвпадащи пакети.</string>
     <string name="exclusion_editor_segment_explanation">Изключването, базирано на сегмент, е подобно на изключването на път, но позволява частични съвпадения. Пример: \"DCIM/Camera\" изключва \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Премахване на това изключване?</string>
     <string name="exclusion_reset_default_exclusions">Възстановяване на изключенията по подразбиране</string>

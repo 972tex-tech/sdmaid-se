@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">உரிமையாளர்கள்</string>
     <string name="corpsefinder_owner_unknown">தெரியாத உரிமையாளர்</string>
     <string name="corpsefinder_corpse_hint_keeper">இந்த உருப்படியின் உரிமையாளர் நீக்கப்பட்டிருந்தாலும் நீங்கள் வைத்துக்கொள்ளக் கருதும் தரவு இருக்கலாம், எ.கா. புகைப்படங்கள் அல்லது காப்புப்பிரதிகள்.</string>
-    <string name="corpsefinder_corpse_hint_common">இந்த உருப்படிக்கு மிகவும் பொதுவான பெயர் உள்ளது மற்றும் SD Maid க்கு தெரியாத நிறுவப்பட்ட பயன்பாடுகளுக்கு சொந்தமானதாக இருக்கலாம்.</string>
+    <string name="corpsefinder_corpse_hint_common">இந்த உருப்படிக்கு மிகவும் பொதுவான பெயர் உள்ளது மற்றும் Tidy க்கு தெரியாத நிறுவப்பட்ட பயன்பாடுகளுக்கு சொந்தமானதாக இருக்கலாம்.</string>
     <string name="corpsefinder_risk_keeper_chip">விரும்பத்தக்க</string>
     <string name="corpsefinder_risk_common_chip">பொதுவான</string>
     <string name="corpsefinder_markers_dialog_title">இந்த குறியீடுகள் பற்றி</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">நிலையான எச்சம். பொதுவாக அகற்றுவது பாதுகாப்பு — இந்த கோப்புகள் இனி நிறுவப்படாத பயன்பாடுகளுக்கு சொந்தமானவை.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder நீங்கள் ஏற்கனவே நிறுவுதல் நீக்கிய பயன்பாடுகளால் விட்டுச்செல்லப்பட்ட தரவைக் கண்டறிகிறது. இது இனி நிறுவப்பட்ட எதுவுக்கும் சொந்தமில்லை, எனவே அதை நீக்குவது இடத்தை விடுவிக்கிறது. அதிகாங்சம் நீக்குவது பாதுகாப்பானது, ஆனால் நீங்கள் உறுதியில்லாதபோது குறிப்பைச் சரிபார்க்கவும்.</string>
-    <string name="tour_corpsefinder_row_body">ஒவ்வொரு உருப்படியும் எச்சத் தரவு மற்றும் அது வந்த பயன்பாடு ஆகும். குறி SD Maid இது அகற்றுவது பாதுகாப்பு என்பதில் எவ்வளவு நம்பகமாக உள்ளது என்பதைக் காட்டுகிறது — குறிகளின் அர்த்தம் என்ன என்பதை கற்றுக்கொள்ள மேலே ⓘ ஐ தொடவும்.</string>
+    <string name="tour_corpsefinder_row_body">ஒவ்வொரு உருப்படியும் எச்சத் தரவு மற்றும் அது வந்த பயன்பாடு ஆகும். குறி Tidy இது அகற்றுவது பாதுகாப்பு என்பதில் எவ்வளவு நம்பகமாக உள்ளது என்பதைக் காட்டுகிறது — குறிகளின் அர்த்தம் என்ன என்பதை கற்றுக்கொள்ள மேலே ⓘ ஐ தொடவும்.</string>
 </resources>

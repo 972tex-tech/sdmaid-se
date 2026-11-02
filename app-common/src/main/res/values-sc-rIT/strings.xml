@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">A su servìtziu tuo.</string>
     <string name="slogan_message_1">Lìmpia e ordinada.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Carrighende</string>
     <string name="general_progress_loading_app_data">Carrighende datos de s\'aplicatzione</string>
     <string name="general_progress_loading_data_areas">Carrighende àreas de datos</string>
-    <string name="general_data_areas_unavailable_message">No at poyudu carricai is zonas de datos, is localizatziones de armagosem cun chi SD Maid potèt traballare.</string>
+    <string name="general_data_areas_unavailable_message">No at poyudu carricai is zonas de datos, is localizatziones de armagosem cun chi Tidy potèt traballare.</string>
     <string name="general_progress_loading_egg_0">Prus lestru de un iPhone</string>
     <string name="general_progress_loading_egg_1">Iscarrighende prus RAM</string>
     <string name="general_progress_loading_egg_2">In breve™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">Connessione de su servìtziu pèrdida</string>
     <string name="general_error_ipc_deadobject_description">Sa conessione a unu servitzio crìticu (p.e. Magisk, Porter, Shizuku, o alteros servitzios de livellu de sistima) est stada perida inoppinatamente. Daplighe aboria sa divisa. Si sa emustione persistit, controllit is atualizatziones o cuntantami seu potzo emendare.</string>
     <string name="general_error_upgrade_required_title">Atzuada rechesta</string>
-    <string name="general_error_upgrade_required_description">Custa funtzionalidade rechesta una atzuada. Pro usala, atzua SD Maid SE.</string>
+    <string name="general_error_upgrade_required_description">Custa funtzionalidade rechesta una atzuada. Pro usala, atzua Tidy.</string>
     <string name="general_user_label_owner">Propriedàriu</string>
     <string name="general_user_label_system">Sistema</string>
     <string name="setup_title">Cunfiguratzione</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">Mustrare impostatziones</string>
     <string name="ui_theme_color_sunset_label">Tramuntu</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Custa caratzeristica rechert\'accesso root, ma SD Maid no at pottu ottenne su accesso in custu dispositivu.</string>
+    <string name="access_blocked_root_unavailable">Custa caratzeristica rechert\'accesso root, ma Tidy no at pottu ottenne su accesso in custu dispositivu.</string>
     <string name="access_blocked_root_declined">Custa funzionalidade abbisognat accessu de root. Podes abilidare in sa schermata de cunfiguratzione.</string>
     <string name="access_blocked_root_or_shizuku">Custa funtzionalidade issehet root o accesu ADB, chi no est disponìbile in custa divisa.</string>
     <string name="backup_restore_error_invalid_title">Archiviu de cusserva non vàlidu</string>
-    <string name="backup_restore_error_invalid_body">Cust\'archiviu non est una cusserva vàlida de SD Maid o est corrutu.</string>
-    <string name="backup_restore_error_version_body">Custa cusserva fuit criada cun una versione prus bena de SD Maid. Agiorna s\'aplicatzione e torra a proare.</string>
+    <string name="backup_restore_error_invalid_body">Cust\'archiviu non est una cusserva vàlida de Tidy o est corrutu.</string>
+    <string name="backup_restore_error_version_body">Custa cusserva fuit criada cun una versione prus bena de Tidy. Agiorna s\'aplicatzione e torra a proare.</string>
     <string name="backup_restore_error_restore_failed_title">Ristaturatzione fallet</string>
     <string name="backup_restore_error_restore_failed_body">Chistus partis no potiant essi ristaturados: %1$s. Sa tua configuatzione anteriore fuit sarbada e podet torrare.</string>
     <string name="backup_restore_error_safety_title">Ristaturatzione no achiada</string>
-    <string name="backup_restore_error_safety_body">SD Maid no potiat sarbbare una copia de siguridade de sa tua configuatzione atuale, assi no fuit cambiadu nada.</string>
+    <string name="backup_restore_error_safety_body">Tidy no potiat sarbbare una copia de siguridade de sa tua configuatzione atuale, assi no fuit cambiadu nada.</string>
     <string name="backup_restore_error_busy_title">Aspetta, ti pregu</string>
     <string name="backup_restore_error_busy_body">Una limpiadda o una copia de seguridad est in corssu. Torna a proare cando finiat.</string>
     <string name="backup_restore_error_schema_title">Backup incompatibile</string>
-    <string name="backup_restore_error_schema_body">Su formadu de datàbase de su backup non concordat con custa versione de SD Maid. Su ripristinaddu de is datos de istòria est suportadu solu intre versiones idênticas de s\' aplicatzione.</string>
+    <string name="backup_restore_error_schema_body">Su formadu de datàbase de su backup non concordat con custa versione de Tidy. Su ripristinaddu de is datos de istòria est suportadu solu intre versiones idênticas de s\' aplicatzione.</string>
 </resources>

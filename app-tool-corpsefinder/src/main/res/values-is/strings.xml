@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Eigendur</string>
     <string name="corpsefinder_owner_unknown">Óþekktur eigandi</string>
     <string name="corpsefinder_corpse_hint_keeper">Þessi hlutur gæti innihaldið gögn sem þú vilt halda þrátt fyrir að eigandinn hafi verið fjarlægður, t.d. myndir eða afrit.</string>
-    <string name="corpsefinder_corpse_hint_common">Þessi hlutur ber mjög algengt nafn og gæti tilheyrt forritum sem enn eru uppsett en SD Maid þekkir ekki.</string>
+    <string name="corpsefinder_corpse_hint_common">Þessi hlutur ber mjög algengt nafn og gæti tilheyrt forritum sem enn eru uppsett en Tidy þekkir ekki.</string>
     <string name="corpsefinder_risk_keeper_chip">Æskilegt</string>
     <string name="corpsefinder_risk_common_chip">Algengt</string>
     <string name="corpsefinder_markers_dialog_title">Um þessi merki</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Venjulegur afgangur. Almennt öruggt að fjarlægja — þær skrár tilheyra forritum sem eru ekki lengur uppsett.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder finnur gögn sem forrit sem þú hefur þegar fjarlægt skildu eftir. Þau tilheyra ekki lengur neinu uppsettu forriti, svo að fjarlægja þau losar um pláss. Flest þeirra eru óhættuleg að fjarlægja, en athugaðu merkimiðann ef þú ert óviss.</string>
-    <string name="tour_corpsefinder_row_body">Hvert atriði sýnir afgangsgögn og forritið sem þaú komu frá. Merkingin sýnir hversu örugg SD Maid er um að hægt sé að fjarlægja þaú — þttu á ⓘ efst til að læra hvað merkingar þýða.</string>
+    <string name="tour_corpsefinder_row_body">Hvert atriði sýnir afgangsgögn og forritið sem þaú komu frá. Merkingin sýnir hversu örugg Tidy er um að hægt sé að fjarlægja þaú — þttu á ⓘ efst til að læra hvað merkingar þýða.</string>
 </resources>

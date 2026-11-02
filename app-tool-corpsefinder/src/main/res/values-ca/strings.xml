@@ -53,12 +53,12 @@
     <string name="corpsefinder_owners_label">Propietaris</string>
     <string name="corpsefinder_owner_unknown">Propietari desconegut</string>
     <string name="corpsefinder_corpse_hint_keeper">Aquest element pot contenir dades que voleu conservar tot i que el seu propietari s\'hagi desinstal·lat, p. ex. fotos o còpies de seguretat.</string>
-    <string name="corpsefinder_corpse_hint_common">Aquest element té un nom molt comú i podria pertànyer a aplicacions encara instal·lades que l\'SD Maid no coneix.</string>
+    <string name="corpsefinder_corpse_hint_common">Aquest element té un nom molt comú i podria pertànyer a aplicacions encara instal·lades que l\'Tidy no coneix.</string>
     <string name="corpsefinder_risk_keeper_chip">Desitjable</string>
     <string name="corpsefinder_risk_common_chip">Comú</string>
     <string name="corpsefinder_markers_dialog_title">Sobre aquests marcadors</string>
     <string name="corpsefinder_markers_dialog_normal_label">Cap marcador</string>
     <string name="corpsefinder_markers_dialog_normal_description">Residu estàndard. Generalment segur d\'eliminar: aquests fitxers pertanyen a aplicacions que ja no estan instal·lades.</string>
     <string name="tour_corpsefinder_intro_body">El Cercador de brossa troba les dades que deixen les aplicacions que ja heu desinstal·lat. Ja no pertany a res instal·lat, de manera que eliminar-lo allibera espai. La majoria d\'elles són segures d\'eliminar, però activeu el marcador quan no n\'estigueu segurs.</string>
-    <string name="tour_corpsefinder_row_body">Cada element són dades sobrants i l\'aplicació d\'on prové. El marcador mostra el grau de confiança que té l\'SD Maid que es pot eliminar de manera segura; toqueu la icona ⓘ a la part superior per saber què signifiquen els marcadors.</string>
+    <string name="tour_corpsefinder_row_body">Cada element són dades sobrants i l\'aplicació d\'on prové. El marcador mostra el grau de confiança que té l\'Tidy que es pot eliminar de manera segura; toqueu la icona ⓘ a la part superior per saber què signifiquen els marcadors.</string>
 </resources>

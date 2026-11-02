@@ -62,7 +62,7 @@
     <string name="corpsefinder_owners_label">Savininkai</string>
     <string name="corpsefinder_owner_unknown">Nežinomas savininkas</string>
     <string name="corpsefinder_corpse_hint_keeper">Šiame elemente gali būti duomenų, kuriuos norite išsaugoti, nepaisant to, kad jo savininkas buvo pašalintas, pvz., nuotraukų arba atsarginių kopijų.</string>
-    <string name="corpsefinder_corpse_hint_common">Šis elementas turi labai įprastą pavadinimą ir gali priklausyti vis dar įdiegtoms programoms, kurių SD Maid nežino.</string>
+    <string name="corpsefinder_corpse_hint_common">Šis elementas turi labai įprastą pavadinimą ir gali priklausyti vis dar įdiegtoms programoms, kurių Tidy nežino.</string>
     <string name="corpsefinder_risk_keeper_chip">Pageidaujama</string>
     <string name="corpsefinder_risk_common_chip">Dažnas</string>
     <string name="corpsefinder_markers_dialog_title">Apie šias žymas</string>
@@ -70,5 +70,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Standartinis likutis. Paprastai saugus šalinti — šie failai priklauso jau pašalintoms programėlėms.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder randa duomenis, kuriuos paliko programos, kurias jau pašalinote. Jie nebepriklauso jokiai įdiegtai programai, todėl jų pašalinimas atlaisvina vietą. Dauguma jų yra saugios pašalinti, bet patikrinkite žymeklį, kai nepasitikite.</string>
-    <string name="tour_corpsefinder_row_body">Kiekvienas elementas yra likutiniai duomenys ir programėlė, iš kurios jie atsirado. Žyma rodo, kaip užtikrinta SD Maid, kad saugiai galima juos pašalinti — norėdami sužinoti, ką reiškia žymos, spustelėkite ⓘ viršuje.</string>
+    <string name="tour_corpsefinder_row_body">Kiekvienas elementas yra likutiniai duomenys ir programėlė, iš kurios jie atsirado. Žyma rodo, kaip užtikrinta Tidy, kad saugiai galima juos pašalinti — norėdami sužinoti, ką reiškia žymos, spustelėkite ⓘ viršuje.</string>
 </resources>

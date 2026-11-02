@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Stop die toepassing. Voorkom dat dit vanself begin totdat jy dit oopmaak of die toestel herbegin word.</string>
     <string name="appcontrol_app_uninstall_description">Deïnstalleer hierdie toepassing van jou toestel.</string>
     <string name="appcontrol_app_exclude_add_title">Sluit toepassing uit</string>
-    <string name="appcontrol_app_exclude_add_description">Sluit hierdie toepassing uit van ander bewerkings in SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Sluit hierdie toepassing uit van ander bewerkings in Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Wysig uitsluiting</string>
     <string name="appcontrol_app_exclude_edit_description">Hierdie toepassing is tans uitgesluit van een of meer gereedskap.</string>
     <string name="appcontrol_tag_user">Gebruiker</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Voer %s uit</string>
     <string name="appcontrol_share_list_action">Deel lys</string>
     <string name="appcontrol_share_list_title">My toepassings</string>
-    <string name="appcontrol_share_list_footer">Gedeel via SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Gedeel via Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Dwing stop toepassings</string>
     <string name="appcontrol_force_stop_action">Dwing stop</string>
     <string name="appcontrol_force_stop_confirm_title">Bevestig dwing stop</string>

@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">ਐਪ ਬੰਦ ਕਰੋ। ਇਸਨੂੰ ਉਦੋਂ ਤੱਕ ਆਪਣੇ ਆਪ ਚਾਲੂ ਹੋਣ ਤੋਂ ਰੋਕੋ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਇਸਨੂੰ ਨਾ ਖੋਲ੍ਹੋ ਜਾਂ ਡਿਵਾਈਸ ਰੀਬੂਟ ਨਾ ਕੀਤੀ ਜਾਵੇ।</string>
     <string name="appcontrol_app_uninstall_description">ਇਸ ਐਪ ਨੂੰ ਆਪਣੇ ਡਿਵਾਈਸ ਤੋਂ ਅਣਸਥਾਪਿਤ ਕਰੋ।</string>
     <string name="appcontrol_app_exclude_add_title">ਐਪ ਨੂੰ ਬਾਹਰ ਕਰੋ</string>
-    <string name="appcontrol_app_exclude_add_description">SD Maid ਵਿੱਚ ਹੋਰ ਕਾਰਵਾਈਆਂ ਤੋਂ ਇਸ ਐਪ ਨੂੰ ਬਾਹਰ ਰੱਖੋ।</string>
+    <string name="appcontrol_app_exclude_add_description">Tidy ਵਿੱਚ ਹੋਰ ਕਾਰਵਾਈਆਂ ਤੋਂ ਇਸ ਐਪ ਨੂੰ ਬਾਹਰ ਰੱਖੋ।</string>
     <string name="appcontrol_app_exclude_edit_title">ਬਾਹਰ ਰੱਖਣ ਨੂੰ ਸੰਪਾਦਿਤ ਕਰੋ</string>
     <string name="appcontrol_app_exclude_edit_description">ਇਹ ਐਪ ਵਰਤਮਾਨ ਵਿੱਚ ਇੱਕ ਜਾਂ ਵੱਧ ਟੂਲਾਂ ਤੋਂ ਬਾਹਰ ਰੱਖੀ ਗਈ ਹੈ।</string>
     <string name="appcontrol_tag_user">ਵਰਤੋਂਕਾਰ</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s ਨੂੰ ਨਿਰਯਾਤ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ</string>
     <string name="appcontrol_share_list_action">ਸੂਚੀ ਸਾਂਝੀ ਕਰੋ</string>
     <string name="appcontrol_share_list_title">ਮੇਰੀਆਂ ਐਪਾਂ</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE ਰਾਹੀਂ ਸਾਂਝੀ ਕੀਤੀ</string>
+    <string name="appcontrol_share_list_footer">Tidy ਰਾਹੀਂ ਸਾਂਝੀ ਕੀਤੀ</string>
     <string name="appcontrol_force_stop_selection_action">ਐਪਾਂ ਨੂੰ ਜ਼ਬਰਦਸਤੀ ਬੰਦ ਕਰੋ</string>
     <string name="appcontrol_force_stop_action">ਜ਼ਬਰਦਸਤੀ ਬੰਦ ਕਰੋ</string>
     <string name="appcontrol_force_stop_confirm_title">ਜ਼ਬਰਦਸਤੀ ਬੰਦ ਕਰਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</string>

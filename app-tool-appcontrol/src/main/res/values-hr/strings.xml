@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Zaustavite aplikaciju. Sprječite je od pokretanja sve dok ju ne otvorite ili dok se uređaj ne ponovno pokrene.</string>
     <string name="appcontrol_app_uninstall_description">Deinstalirajte ovu aplikaciju sa svog uređaja.</string>
     <string name="appcontrol_app_exclude_add_title">Izuzmi aplikaciju</string>
-    <string name="appcontrol_app_exclude_add_description">Izuzima ovu aplikaciju iz drugih operacija u SD Maidu.</string>
+    <string name="appcontrol_app_exclude_add_description">Izuzima ovu aplikaciju iz drugih operacija u Tidyu.</string>
     <string name="appcontrol_app_exclude_edit_title">Uredi izuzetak</string>
     <string name="appcontrol_app_exclude_edit_description">Ova je aplikacija trenutačno izuzeta iz jednog ili više alata.</string>
     <string name="appcontrol_tag_user">Korisnik</string>
@@ -110,7 +110,7 @@
     <string name="appcontrol_progress_exporting_x">Izvoz %s</string>
     <string name="appcontrol_share_list_action">Podijeli popis</string>
     <string name="appcontrol_share_list_title">Moje aplikacije</string>
-    <string name="appcontrol_share_list_footer">Podijeljeno putem SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Podijeljeno putem Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Prisilno zaustavi aplikacije</string>
     <string name="appcontrol_force_stop_action">Prisilno zaustavi</string>
     <string name="appcontrol_force_stop_confirm_title">Potvrdi prisilno zaustavljanje</string>

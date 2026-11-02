@@ -1,9 +1,9 @@
 package eu.darken.sdmse.widget
 
-import eu.darken.sdmse.analyzer.core.AnalyzerSettings
 import eu.darken.sdmse.main.core.SDMTool
 import eu.darken.sdmse.main.core.shortcuts.OneTapRunGuard
 import eu.darken.sdmse.main.core.taskmanager.TaskSubmitter
+import eu.darken.sdmse.stats.core.LowStorageSettings
 import eu.darken.sdmse.stats.core.SpaceTracker
 import eu.darken.sdmse.stats.core.StatsSettings
 import eu.darken.sdmse.widget.WidgetRenderState.Data.StorageEntry.Kind
@@ -27,7 +27,7 @@ class WidgetDataProviderTest : BaseTest() {
 
     private val spaceTracker = mockk<SpaceTracker>()
     private val statsSettings = mockk<StatsSettings>()
-    private val analyzerSettings = mockk<AnalyzerSettings>()
+    private val lowStorageSettings = mockk<LowStorageSettings>()
     private val taskSubmitter = mockk<TaskSubmitter>()
     private val oneTapRunGuard = OneTapRunGuard()
 
@@ -36,7 +36,7 @@ class WidgetDataProviderTest : BaseTest() {
     // constructing the provider uses runTest2(autoCancel = true): the sharing coroutine never
     // completes on its own.
     private fun TestScope.provider() =
-        WidgetDataProvider(this, spaceTracker, statsSettings, analyzerSettings, taskSubmitter, oneTapRunGuard)
+        WidgetDataProvider(this, spaceTracker, statsSettings, lowStorageSettings, taskSubmitter, oneTapRunGuard)
 
     private fun snapshot(free: Long, capacity: Long) = SpaceTracker.StorageSnapshot(
         storageId = "s",
@@ -79,7 +79,7 @@ class WidgetDataProviderTest : BaseTest() {
         every { statsSettings.totalSpaceFreed } returns mockDataStoreValue(freed)
         // Must actually emit: a relaxed mock hands back a Flow that never does, which stalls the
         // renderState combine forever.
-        every { analyzerSettings.lowStorageThresholdBytes } returns mockDataStoreValue(lowThreshold)
+        every { lowStorageSettings.lowStorageThresholdBytes } returns mockDataStoreValue(lowThreshold)
         every { taskSubmitter.state } returns MutableStateFlow(taskState)
     }
 
@@ -291,7 +291,7 @@ class WidgetDataProviderTest : BaseTest() {
         coEvery { spaceTracker.readPrimaryStorage() } returns snapshot(free = 100, capacity = 500)
         coEvery { spaceTracker.readSecondaryStorages() } returns emptyList()
         every { statsSettings.totalSpaceFreed } returns mockk { every { flow } returns freedFlow }
-        every { analyzerSettings.lowStorageThresholdBytes } returns mockDataStoreValue(null)
+        every { lowStorageSettings.lowStorageThresholdBytes } returns mockDataStoreValue(null)
         every { taskSubmitter.state } returns taskFlow
 
         val provider = provider()

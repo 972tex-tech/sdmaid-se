@@ -5,8 +5,8 @@
         <item quantity="other">%s ay na-free.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s item na naproseso mula nang imbitahan ninyo ang SD Maid sa inyong device.</item>
-        <item quantity="other">%s mga item na naproseso mula nang imbitahan ninyo ang SD Maid sa inyong device.</item>
+        <item quantity="one">%s item na naproseso mula nang imbitahan ninyo ang Tidy sa inyong device.</item>
+        <item quantity="other">%s mga item na naproseso mula nang imbitahan ninyo ang Tidy sa inyong device.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Panauhin mo na sa loob ng %d araw.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Bahagyang tagumpay</string>
     <string name="stats_report_status_partial_failure">Nabigo</string>
-    <string name="stats_settings_desc">I-configure ang mga statistics, report at data retention ng SD Maid.</string>
+    <string name="stats_settings_desc">I-configure ang mga statistics, report at data retention ng Tidy.</string>
     <string name="stats_settings_retention_category">Pagpapanatili</string>
     <string name="stats_settings_retention_reports_label">Mga general report</string>
-    <string name="stats_settings_retention_reports_desc">Bilang ng mga araw bago burahin ang mga basic SD Maid operation report.</string>
+    <string name="stats_settings_retention_reports_desc">Bilang ng mga araw bago burahin ang mga basic Tidy operation report.</string>
     <string name="stats_settings_retention_paths_label">Detalyadong path information</string>
-    <string name="stats_settings_retention_paths_desc">Ang bilang ng mga araw na panatilihin ang mga detalye tungkol sa mga path na naapektuhan ng SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Ang bilang ng mga araw na panatilihin ang mga detalye tungkol sa mga path na naapektuhan ng Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">History ng storage</string>
     <string name="stats_settings_retention_snapshots_desc">Bilang ng araw na itatago ang mga snapshot ng paggamit ng storage para sa Storage Trend chart. Made-delete ang mas lumang mga snapshot.</string>
     <string name="stats_settings_reset_all_label">I-reset lahat</string>

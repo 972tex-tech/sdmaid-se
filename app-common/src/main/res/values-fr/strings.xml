@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">À votre service.</string>
     <string name="slogan_message_1">Propre et bien rangé.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Chargement</string>
     <string name="general_progress_loading_app_data">Chargement des données de l’appli</string>
     <string name="general_progress_loading_data_areas">Chargement des zones de données</string>
-    <string name="general_data_areas_unavailable_message">Impossible de charger les zones de données, les emplacements de stockage avec lesquels SD Maid peut fonctionner.</string>
+    <string name="general_data_areas_unavailable_message">Impossible de charger les zones de données, les emplacements de stockage avec lesquels Tidy peut fonctionner.</string>
     <string name="general_progress_loading_egg_0">Toujours plus rapide qu’un iPhone</string>
     <string name="general_progress_loading_egg_1">Téléchargement de plus de mémoire vive</string>
     <string name="general_progress_loading_egg_2">Bientôt™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">La connexion au serveur est perdue</string>
     <string name="general_error_ipc_deadobject_description">La connexion à un service critique (par exemple Magisk, Porter, Shizuku ou d\'autres services au niveau du système) a été perdue de manière inattendue. Redémarre ton appareil. Si le problème persiste, cherche les mises à jour ou contacte-moi pour que je puisse le corriger.</string>
     <string name="general_error_upgrade_required_title">Mise à niveau requise</string>
-    <string name="general_error_upgrade_required_description">Cette fonctionnalité nécessite une mise à niveau. Veuillez mettre à niveau SD Maid SE pour l’utiliser.</string>
+    <string name="general_error_upgrade_required_description">Cette fonctionnalité nécessite une mise à niveau. Veuillez mettre à niveau Tidy pour l’utiliser.</string>
     <string name="general_user_label_owner">Propriétaire</string>
     <string name="general_user_label_system">Système</string>
     <string name="setup_title">Configuration</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">Afficher les paramètres</string>
     <string name="ui_theme_color_sunset_label">Sunset</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Cette fonction nécessite l’accès root, mais SD Maid n’a pas pu l’obtenir sur cet appareil.</string>
+    <string name="access_blocked_root_unavailable">Cette fonction nécessite l’accès root, mais Tidy n’a pas pu l’obtenir sur cet appareil.</string>
     <string name="access_blocked_root_declined">Cette fonction nécessite l’accès root. Vous pouvez l’activer via l’écran de configuration.</string>
     <string name="access_blocked_root_or_shizuku">Cette fonctionnalité a besoin d\'un accès root ou ADB, qui n\'est pas disponible sur cet appareil.</string>
     <string name="backup_restore_error_invalid_title">Fichier de sauvegarde invalide</string>
-    <string name="backup_restore_error_invalid_body">Ce fichier n’est pas une sauvegarde SD Maid valide ou est corrompu.</string>
-    <string name="backup_restore_error_version_body">Cette sauvegarde a été créée avec une version plus récente de SD Maid. Veuillez mettre à jour l’application et réessayer.</string>
+    <string name="backup_restore_error_invalid_body">Ce fichier n’est pas une sauvegarde Tidy valide ou est corrompu.</string>
+    <string name="backup_restore_error_version_body">Cette sauvegarde a été créée avec une version plus récente de Tidy. Veuillez mettre à jour l’application et réessayer.</string>
     <string name="backup_restore_error_restore_failed_title">La restauration a échoué</string>
     <string name="backup_restore_error_restore_failed_body">Ces parties n’ont pas pu être restaurées : %1$s. Votre configuration précédente a été sauvegardée et peut être restaurée.</string>
     <string name="backup_restore_error_safety_title">Restauration non démarrée</string>
-    <string name="backup_restore_error_safety_body">SD Maid n’a pas pu créer une sauvegarde de sécurité de votre configuration actuelle, c’est pourquoi rien n’a été modifié.</string>
+    <string name="backup_restore_error_safety_body">Tidy n’a pas pu créer une sauvegarde de sécurité de votre configuration actuelle, c’est pourquoi rien n’a été modifié.</string>
     <string name="backup_restore_error_busy_title">Veuillez patienter</string>
     <string name="backup_restore_error_busy_body">Une tâche de nettoyage ou une autre opération de sauvegarde est actuellement en cours. Réessayez quand elle sera terminée.</string>
     <string name="backup_restore_error_schema_title">Sauvegarde incompatible</string>
-    <string name="backup_restore_error_schema_body">Le format de base de données de la sauvegarde ne correspond pas à cette version de SD Maid. La restauration des données historiques n’est prise en charge qu’entre les versions identiques de l’appli.</string>
+    <string name="backup_restore_error_schema_body">Le format de base de données de la sauvegarde ne correspond pas à cette version de Tidy. La restauration des données historiques n’est prise en charge qu’entre les versions identiques de l’appli.</string>
 </resources>

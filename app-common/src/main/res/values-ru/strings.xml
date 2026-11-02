@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">К Вашим услугам.</string>
     <string name="slogan_message_1">Чистота и порядок.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Загрузка</string>
     <string name="general_progress_loading_app_data">Загрузка данных приложения</string>
     <string name="general_progress_loading_data_areas">Загрузка областей данных</string>
-    <string name="general_data_areas_unavailable_message">Не удалось загрузить области данных, то есть места хранения, с которыми может работать SD Maid.</string>
+    <string name="general_data_areas_unavailable_message">Не удалось загрузить области данных, то есть места хранения, с которыми может работать Tidy.</string>
     <string name="general_progress_loading_egg_0">Все ещё быстрее, чем iPhone</string>
     <string name="general_progress_loading_egg_1">Загрузка оперативной памяти</string>
     <string name="general_progress_loading_egg_2">Скоро™</string>
@@ -206,7 +206,7 @@
     <string name="general_error_ipc_deadobject_title">Потеряно соединение с сервисом</string>
     <string name="general_error_ipc_deadobject_description">Соединение с важной службой (например, Magisk, Porter, Shizuku или другими системными службами) неожиданно прервалось. Перезагрузите устройство. Если проблема не исчезнет, проверьте наличие обновлений или свяжитесь со мной, чтобы я мог её исправить.</string>
     <string name="general_error_upgrade_required_title">Требуется обновление</string>
-    <string name="general_error_upgrade_required_description">Эта функция требует обновления. Пожалуйста, обновите SD Maid SE, чтобы её использовать.</string>
+    <string name="general_error_upgrade_required_description">Эта функция требует обновления. Пожалуйста, обновите Tidy, чтобы её использовать.</string>
     <string name="general_user_label_owner">Владелец</string>
     <string name="general_user_label_system">Система</string>
     <string name="setup_title">Установка</string>
@@ -236,18 +236,18 @@
     <string name="appcontrol_systemsettings_open_title">Показать настройки</string>
     <string name="ui_theme_color_sunset_label">Закат</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Эта функция требует рут-доступа, но SD Maid не смогла получить его на этом устройстве.</string>
+    <string name="access_blocked_root_unavailable">Эта функция требует рут-доступа, но Tidy не смогла получить его на этом устройстве.</string>
     <string name="access_blocked_root_declined">Эта функция требует рут-доступа. Вы можете включить это на экране настроек.</string>
     <string name="access_blocked_root_or_shizuku">Для этой функции нужен root-доступ или доступ ADB, который недоступен на этом устройстве.</string>
     <string name="backup_restore_error_invalid_title">Недействительный файл резервной копии</string>
-    <string name="backup_restore_error_invalid_body">Этот файл не является корректной резервной копией SD Maid или повреждён.</string>
-    <string name="backup_restore_error_version_body">Эта резервная копия была создана в более новой версии SD Maid. Пожалуйста, обновите приложение и попробуйте снова.</string>
+    <string name="backup_restore_error_invalid_body">Этот файл не является корректной резервной копией Tidy или повреждён.</string>
+    <string name="backup_restore_error_version_body">Эта резервная копия была создана в более новой версии Tidy. Пожалуйста, обновите приложение и попробуйте снова.</string>
     <string name="backup_restore_error_restore_failed_title">Восстановление не удалось</string>
     <string name="backup_restore_error_restore_failed_body">Эти части не удалось восстановить: %1$s. Ваша предыдущая конфигурация была сохранена и может быть восстановлена.</string>
     <string name="backup_restore_error_safety_title">Восстановление не начато</string>
-    <string name="backup_restore_error_safety_body">SD Maid не смогла сохранить снимок Вашей текущей конфигурации, поэтому ничего не было изменено.</string>
+    <string name="backup_restore_error_safety_body">Tidy не смогла сохранить снимок Вашей текущей конфигурации, поэтому ничего не было изменено.</string>
     <string name="backup_restore_error_busy_title">Пожалуйста, подождите</string>
     <string name="backup_restore_error_busy_body">Задача очистки или другая операция резервного копирования в настоящий момент выполняется. Попробуйте снова, когда она завершится.</string>
     <string name="backup_restore_error_schema_title">Несовместимая резервная копия</string>
-    <string name="backup_restore_error_schema_body">Формат базы данных резервной копии не совпадает с этой версией SD Maid. Восстановление данных истории поддерживается только между идентичными версиями приложения.</string>
+    <string name="backup_restore_error_schema_body">Формат базы данных резервной копии не совпадает с этой версией Tidy. Восстановление данных истории поддерживается только между идентичными версиями приложения.</string>
 </resources>

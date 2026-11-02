@@ -5,8 +5,8 @@
         <item quantity="other">%s ተልቀዋል።</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">SD Maidን ወደ መሣሪያዎ ከጋበዙ ጀምሮ %s ንጥል ተሠርቷል።</item>
-        <item quantity="other">SD Maidን ወደ መሣሪያዎ ከጋበዙ ጀምሮ %s ንጥሎች ተሠርተዋል።</item>
+        <item quantity="one">Tidyን ወደ መሣሪያዎ ከጋበዙ ጀምሮ %s ንጥል ተሠርቷል።</item>
+        <item quantity="other">Tidyን ወደ መሣሪያዎ ከጋበዙ ጀምሮ %s ንጥሎች ተሠርተዋል።</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">ለ%d ቀን እንግዳዎ ነኝ።</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">ከፊል ተሳክቷል</string>
     <string name="stats_report_status_partial_failure">አልተሳካም</string>
-    <string name="stats_settings_desc">የSD Maid ስታቲስቲክ፣ ሪፖርቶችና የውሂብ ማቆያ ያዋቅሩ።</string>
+    <string name="stats_settings_desc">የTidy ስታቲስቲክ፣ ሪፖርቶችና የውሂብ ማቆያ ያዋቅሩ።</string>
     <string name="stats_settings_retention_category">ማቆያ</string>
     <string name="stats_settings_retention_reports_label">አጠቃላይ ሪፖርቶች</string>
-    <string name="stats_settings_retention_reports_desc">መሠረታዊ SD Maid ተግባር ሪፖርቶችን ከመሰረዝ በፊት የቀኖች ቁጥር።</string>
+    <string name="stats_settings_retention_reports_desc">መሠረታዊ Tidy ተግባር ሪፖርቶችን ከመሰረዝ በፊት የቀኖች ቁጥር።</string>
     <string name="stats_settings_retention_paths_label">ዝርዝር የመንገድ መረጃ</string>
-    <string name="stats_settings_retention_paths_desc">በSD Maid የተጎዱ መንገዶች ዝርዝሮችን የማቆየት የቀኖች ቁጥር።</string>
+    <string name="stats_settings_retention_paths_desc">በTidy የተጎዱ መንገዶች ዝርዝሮችን የማቆየት የቀኖች ቁጥር።</string>
     <string name="stats_settings_retention_snapshots_label">ማከማቻ ታሪክ</string>
     <string name="stats_settings_retention_snapshots_desc">ማከማቻ አሠራር ሁኔታ ምስሎች ለማከማቻ ዝንባሌ ሪአቅ ለማቆየት የቀናት ብዛት። የቆዩ ሁኔታ ምስሎች ይሰርዛሉ።</string>
     <string name="stats_settings_reset_all_label">ሁሉንም ዳግም አስጀምር</string>

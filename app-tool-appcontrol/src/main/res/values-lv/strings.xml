@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Apstādināt lietotni. Nelaujiet tai palaist sevi, līdz jūs to atverīsiet vai ierīce tiks pārstartēta.</string>
     <string name="appcontrol_app_uninstall_description">Atinstalēt šo lietotni no jūsu ierīces.</string>
     <string name="appcontrol_app_exclude_add_title">Izslēgt lietotni</string>
-    <string name="appcontrol_app_exclude_add_description">Izsliegs šo lietotni no citām SD Maid darbībām.</string>
+    <string name="appcontrol_app_exclude_add_description">Izsliegs šo lietotni no citām Tidy darbībām.</string>
     <string name="appcontrol_app_exclude_edit_title">Rediģēt izslēgumu</string>
     <string name="appcontrol_app_exclude_edit_description">Šī lietotne pašlaik ir izslēgta no viena vai vairākiem rīkiem.</string>
     <string name="appcontrol_tag_user">Lietotājs</string>
@@ -110,7 +110,7 @@
     <string name="appcontrol_progress_exporting_x">Eksportē %s</string>
     <string name="appcontrol_share_list_action">Kopīgot sarakstu</string>
     <string name="appcontrol_share_list_title">Manas lietotnes</string>
-    <string name="appcontrol_share_list_footer">Kopīgots, izmantojot SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Kopīgots, izmantojot Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Piespiedu apstādināt lietotnes</string>
     <string name="appcontrol_force_stop_action">Piespiedu apstādināšana</string>
     <string name="appcontrol_force_stop_confirm_title">Apstiprināt piespiedu apstādināšanu</string>

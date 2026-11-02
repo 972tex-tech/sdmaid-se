@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">बहिष्करण प्रबन्धक</string>
     <string name="exclusion_manager_desc">फाइल र अनुप्रयोग बहिष्करणहरू प्रबन्ध गर्नुहोस्।</string>
-    <string name="exclusion_explanation_body1">SD Maid को उपकरणहरूबाट तिनीहरूलाई सुरक्षित राख्न वा असम्बन्धित वस्तुहरू छोड्न र कार्यहरू गति बढ़ाउन फाइल र एपहरू बाहिर राख्नुहोस्।</string>
+    <string name="exclusion_explanation_body1">Tidy को उपकरणहरूबाट तिनीहरूलाई सुरक्षित राख्न वा असम्बन्धित वस्तुहरू छोड्न र कार्यहरू गति बढ़ाउन फाइल र एपहरू बाहिर राख्नुहोस्।</string>
     <string name="exclusion_add_new_hint">अझै कुनै अपवाद छैन। एउटा बनाउन + बटन प्रयोग गर्नुहोस्, वा कुनै पनि उपकरणको नतिजाबाट वस्तुहरू अपवाद गर्नुहोस्।</string>
     <string name="exclusion_create_action">बहिष्कार बनाउनुहोस्</string>
     <string name="exclusion_edit_action">बहिष्कार सम्पादन गर्नुहोस्</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">आंशिक मेलहरू अनुमति दिनुहोस्</string>
     <string name="exclusion_option_ignore_casing">केस अनदेखी गर्नुहोस्</string>
     <string name="exclusion_editor_affected_tools_label">प्रभावित उपकरणहरू</string>
-    <string name="exclusion_editor_path_explanation">पथ बहिष्कारले SD Maid लाई कुनै पनि मेल खाने पथहरू थप प्रक्रिया गर्नबाट रोक्छ। यो फाइलहरू, फोल्डरहरू र उप-फोल्डरहरूमा लागू हुन्छ।</string>
-    <string name="exclusion_editor_pkg_explanation">एप बहिष्कारले SD Maid लाई कुनै पनि मेल खाने प्याकेजहरू प्रक्रिया गर्नबाट रोक्छ।</string>
+    <string name="exclusion_editor_path_explanation">पथ बहिष्कारले Tidy लाई कुनै पनि मेल खाने पथहरू थप प्रक्रिया गर्नबाट रोक्छ। यो फाइलहरू, फोल्डरहरू र उप-फोल्डरहरूमा लागू हुन्छ।</string>
+    <string name="exclusion_editor_pkg_explanation">एप बहिष्कारले Tidy लाई कुनै पनि मेल खाने प्याकेजहरू प्रक्रिया गर्नबाट रोक्छ।</string>
     <string name="exclusion_editor_segment_explanation">एक खण्ड आधारित बहिष्कार पथ बहिष्कार जस्तै छ तर आंशिक मेलहरू अनुमति दिन्छ। उदाहरण: \"DCIM/Camera\" ले \"/sdcard/DCIM/Camera/photo.png\" लाई बहिष्कार गर्छ।</string>
     <string name="exclusion_editor_remove_confirmation_message">यो बहिष्कार हटाउने?</string>
     <string name="exclusion_reset_default_exclusions">पूर्वनिर्धारित बहिष्कारहरू पुनर्स्थापना गर्नुहोस्</string>

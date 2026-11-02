@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Az alkalmazás leállítása. Megakadályozza az önálló indulást, amíg meg nem nyitod vagy újra nem indítod az eszközt.</string>
     <string name="appcontrol_app_uninstall_description">Alkalmazás eltávolítása az eszközről.</string>
     <string name="appcontrol_app_exclude_add_title">Alkalmazás kizárása</string>
-    <string name="appcontrol_app_exclude_add_description">Zárja ki ezt az alkalmazást az SD Maid egyéb műveleteiből.</string>
+    <string name="appcontrol_app_exclude_add_description">Zárja ki ezt az alkalmazást az Tidy egyéb műveleteiből.</string>
     <string name="appcontrol_app_exclude_edit_title">Kizárás szerkesztése</string>
     <string name="appcontrol_app_exclude_edit_description">Ez az alkalmazás jelenleg ki van zárva egy vagy több eszközből.</string>
     <string name="appcontrol_tag_user">Felhasználó</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Exportálás %s</string>
     <string name="appcontrol_share_list_action">Lista megosztása</string>
     <string name="appcontrol_share_list_title">Alkalmazásaim</string>
-    <string name="appcontrol_share_list_footer">Megosztva az SD Maid SE-vel</string>
+    <string name="appcontrol_share_list_footer">Megosztva az Tidy-vel</string>
     <string name="appcontrol_force_stop_selection_action">Alkalmazások kényszerített leállítása</string>
     <string name="appcontrol_force_stop_action">Leállítás kényszerítése</string>
     <string name="appcontrol_force_stop_confirm_title">Kényszerített leállítás megerősítése</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Na usluzi.</string>
     <string name="slogan_message_1">Čisto i uredno.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Učitavanje</string>
     <string name="general_progress_loading_app_data">Učitavanje podataka aplikacije</string>
     <string name="general_progress_loading_data_areas">Učitavanje područja podataka</string>
-    <string name="general_data_areas_unavailable_message">Nije moguće učitati podatkovna područja, lokacije pohrane s kojima SD Maid može raditi.</string>
+    <string name="general_data_areas_unavailable_message">Nije moguće učitati podatkovna područja, lokacije pohrane s kojima Tidy može raditi.</string>
     <string name="general_progress_loading_egg_0">Još uvijek brži od iPhonea</string>
     <string name="general_progress_loading_egg_1">Preuzimanje više RAM-a</string>
     <string name="general_progress_loading_egg_2">Uskoro™</string>
@@ -194,7 +194,7 @@
     <string name="general_error_ipc_deadobject_title">Veza s uslugom izgubljena</string>
     <string name="general_error_ipc_deadobject_description">Veza s kritičnom uslugom (npr. Magisk, Porter, Shizuku ili druge usluge na razini sustava) neočekivano je prekinuta. Ponovno pokreni uređaj. Ako se problem nastavi, provjeri ima li ažuriranja ili mi se javi kako bih ga mogao ispraviti.</string>
     <string name="general_error_upgrade_required_title">Potrebna je nadogradnja</string>
-    <string name="general_error_upgrade_required_description">Ova značajka zahtijeva nadogradnju. Nadogradite SD Maid SE kako biste je koristili.</string>
+    <string name="general_error_upgrade_required_description">Ova značajka zahtijeva nadogradnju. Nadogradite Tidy kako biste je koristili.</string>
     <string name="general_user_label_owner">Vlasnik</string>
     <string name="general_user_label_system">Sustav</string>
     <string name="setup_title">Postavljanje</string>
@@ -223,18 +223,18 @@
     <string name="appcontrol_systemsettings_open_title">Prikaži postavke</string>
     <string name="ui_theme_color_sunset_label">Zalazak</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Ova značajka zahtijeva root pristup, ali SD Maid ga nije uspio dobiti na ovom uređaju.</string>
+    <string name="access_blocked_root_unavailable">Ova značajka zahtijeva root pristup, ali Tidy ga nije uspio dobiti na ovom uređaju.</string>
     <string name="access_blocked_root_declined">Ova funkcija zahtijeva root pristup. Možete je omogućiti preko zaslona postavki.</string>
     <string name="access_blocked_root_or_shizuku">Ova značajka zahtijeva root ili ADB pristup, koji nisu dostupni na ovom uređaju.</string>
     <string name="backup_restore_error_invalid_title">Neispravna datoteka sigurnosne kopije</string>
-    <string name="backup_restore_error_invalid_body">Ova datoteka nije valjana SD Maid sigurnosna kopija ili je oštećena.</string>
-    <string name="backup_restore_error_version_body">Ova sigurnosna kopija je napravljena s novijom verzijom SD Maida. Molimo ažurirajte aplikaciju i pokušajte ponovno.</string>
+    <string name="backup_restore_error_invalid_body">Ova datoteka nije valjana Tidy sigurnosna kopija ili je oštećena.</string>
+    <string name="backup_restore_error_version_body">Ova sigurnosna kopija je napravljena s novijom verzijom Tidya. Molimo ažurirajte aplikaciju i pokušajte ponovno.</string>
     <string name="backup_restore_error_restore_failed_title">Vraćanje nije uspjelo</string>
     <string name="backup_restore_error_restore_failed_body">Ovi dijelovi nisu mogli biti vraćeni: %1$s. Vaša prethodna konfiguracija je spremljena i može biti vraćena.</string>
     <string name="backup_restore_error_safety_title">Vraćanje nije započeto</string>
-    <string name="backup_restore_error_safety_body">SD Maid nije mogao spremiti sigurnosnu snimku vaše trenutne konfiguracije, pa ništa nije promijenjeno.</string>
+    <string name="backup_restore_error_safety_body">Tidy nije mogao spremiti sigurnosnu snimku vaše trenutne konfiguracije, pa ništa nije promijenjeno.</string>
     <string name="backup_restore_error_busy_title">Molimo pričekajte</string>
     <string name="backup_restore_error_busy_body">Zadaća čišćenja ili druga operacija sigurnosne kopije je trenutno u tijeku. Pokušajte ponovno kada se završi.</string>
     <string name="backup_restore_error_schema_title">Nekompatibilna sigurnosna kopija</string>
-    <string name="backup_restore_error_schema_body">Format baze podataka sigurnosne kopije ne odgovara ovoj verziji programa SD Maid. Vraćanje podataka iz povijesti podržano je samo između identičnih verzija aplikacije.</string>
+    <string name="backup_restore_error_schema_body">Format baze podataka sigurnosne kopije ne odgovara ovoj verziji programa Tidy. Vraćanje podataka iz povijesti podržano je samo između identičnih verzija aplikacije.</string>
 </resources>

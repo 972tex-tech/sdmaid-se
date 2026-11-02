@@ -14,7 +14,7 @@ import eu.darken.sdmse.setup.SetupRoute
 import eu.darken.sdmse.setup.SetupScreenOptions
 
 open class AutomationCompatibilityException(
-    override val message: String = "SD Maid couldn’t figure out the screen layout. If this keeps happening, your language or setup might not be fully supported. Check for updates or reach out to me so I can fix it.",
+    override val message: String = "Tidy couldn’t figure out the screen layout. If this keeps happening, your language or setup might not be fully supported. Check for updates or reach out to me so I can fix it.",
     private val additionalHint: CaString? = null,
     val suggestAdbSetup: Boolean = false,
 ) : AutomationException(), HasLocalizedError {

@@ -7,10 +7,10 @@
         <item quantity="other">%s було звільнено.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s елемент оброблено з моменту запрошення SD Maid на ваш пристрій.</item>
-        <item quantity="few">%s елементи оброблено з моменту запрошення SD Maid на ваш пристрій.</item>
-        <item quantity="many">%s елементів оброблено з моменту запрошення SD Maid на ваш пристрій.</item>
-        <item quantity="other">%s елементів оброблено з моменту запрошення SD Maid на ваш пристрій.</item>
+        <item quantity="one">%s елемент оброблено з моменту запрошення Tidy на ваш пристрій.</item>
+        <item quantity="few">%s елементи оброблено з моменту запрошення Tidy на ваш пристрій.</item>
+        <item quantity="many">%s елементів оброблено з моменту запрошення Tidy на ваш пристрій.</item>
+        <item quantity="other">%s елементів оброблено з моменту запрошення Tidy на ваш пристрій.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Ваш гість %d день.</item>
@@ -38,12 +38,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Частковий успіх</string>
     <string name="stats_report_status_partial_failure">Невдача</string>
-    <string name="stats_settings_desc">Налаштуйте статистику, звіти та збереження даних у SD Maid.</string>
+    <string name="stats_settings_desc">Налаштуйте статистику, звіти та збереження даних у Tidy.</string>
     <string name="stats_settings_retention_category">Збереження</string>
     <string name="stats_settings_retention_reports_label">Загальні звіти</string>
-    <string name="stats_settings_retention_reports_desc">Кількість днів до видалення основних звітів про роботу SD Maid.</string>
+    <string name="stats_settings_retention_reports_desc">Кількість днів до видалення основних звітів про роботу Tidy.</string>
     <string name="stats_settings_retention_paths_label">Детальна інформація про шлях</string>
-    <string name="stats_settings_retention_paths_desc">Кількість днів, протягом яких зберігається інформація про шляхи, на які вплинула SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Кількість днів, протягом яких зберігається інформація про шляхи, на які вплинула Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Історія сховища</string>
     <string name="stats_settings_retention_snapshots_desc">Кількість днів для збереження знімків використання сховища для графіка тенденцій сховища. Старіші знімки видаляються.</string>
     <string name="stats_settings_reset_all_label">Скинути все</string>

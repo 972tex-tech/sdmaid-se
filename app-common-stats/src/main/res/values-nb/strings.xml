@@ -5,8 +5,8 @@
         <item quantity="other">%s har blitt frigjort.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s element har blitt behandlet siden du inviterte SD Maid til enheten din.</item>
-        <item quantity="other">%s elementer har blitt behandlet siden du inviterte SD Maid til enheten din.</item>
+        <item quantity="one">%s element har blitt behandlet siden du inviterte Tidy til enheten din.</item>
+        <item quantity="other">%s elementer har blitt behandlet siden du inviterte Tidy til enheten din.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Din gjest i %d dag.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Delvis vellykket</string>
     <string name="stats_report_status_partial_failure">Mislykket</string>
-    <string name="stats_settings_desc">Konfigurer SD Maid sin statistikk, rapporter og dataoppbevaring.</string>
+    <string name="stats_settings_desc">Konfigurer Tidy sin statistikk, rapporter og dataoppbevaring.</string>
     <string name="stats_settings_retention_category">Oppbevaring</string>
     <string name="stats_settings_retention_reports_label">Generelle rapporter</string>
-    <string name="stats_settings_retention_reports_desc">Antall dager før sletting av standard driftsrapporter for SD Maid.</string>
+    <string name="stats_settings_retention_reports_desc">Antall dager før sletting av standard driftsrapporter for Tidy.</string>
     <string name="stats_settings_retention_paths_label">Detaljert bane-informasjon</string>
-    <string name="stats_settings_retention_paths_desc">Antall dager detaljer om baner berørt av SD Maid skal beholdes.</string>
+    <string name="stats_settings_retention_paths_desc">Antall dager detaljer om baner berørt av Tidy skal beholdes.</string>
     <string name="stats_settings_retention_snapshots_label">Lagringshistorikk</string>
     <string name="stats_settings_retention_snapshots_desc">Antall dager som lagringsbruksøyeblikksbilder skal beholdes for lagringstrenddiagrammet. Eldre øyeblikksbilder blir slettet.</string>
     <string name="stats_settings_reset_all_label">Tilbakestill alt</string>

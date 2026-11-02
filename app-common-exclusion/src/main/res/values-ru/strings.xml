@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Исключения</string>
     <string name="exclusion_manager_desc">Управление исключениями файлов и приложений.</string>
-    <string name="exclusion_explanation_body1">Исключите файлы и приложения, чтобы защитить их от инструментов SD Maid, или пропустите ненужные элементы и ускорьте операции.</string>
+    <string name="exclusion_explanation_body1">Исключите файлы и приложения, чтобы защитить их от инструментов Tidy, или пропустите ненужные элементы и ускорьте операции.</string>
     <string name="exclusion_add_new_hint">Нет исключений. Используйте кнопку +, чтобы создать исключение, или исключите элементы из результатов любого инструмента.</string>
     <string name="exclusion_create_action">Создать исключение</string>
     <string name="exclusion_edit_action">Редактировать исключение</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Разрешить частичное совпадение</string>
     <string name="exclusion_option_ignore_casing">Без учета регистра</string>
     <string name="exclusion_editor_affected_tools_label">Затрагиваемые инструменты</string>
-    <string name="exclusion_editor_path_explanation">Исключение пути не позволяет SD Maid обрабатывать указанные места. Это относится к файлам, папкам и вложенным папкам.</string>
-    <string name="exclusion_editor_pkg_explanation">Исключение приложения не позволяет SD Maid обрабатывать указанные пакеты.</string>
+    <string name="exclusion_editor_path_explanation">Исключение пути не позволяет Tidy обрабатывать указанные места. Это относится к файлам, папкам и вложенным папкам.</string>
+    <string name="exclusion_editor_pkg_explanation">Исключение приложения не позволяет Tidy обрабатывать указанные пакеты.</string>
     <string name="exclusion_editor_segment_explanation">Исключение сегмента похоже на исключение пути, но допускает частичные совпадения. Пример: \"DCIM/Camera\" исключает \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Удалить исключение?</string>
     <string name="exclusion_reset_default_exclusions">Восстановить исключения по умолчанию</string>

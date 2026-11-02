@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimální stáří</string>
     <string name="appcleaner_include_minimumage_summary">Přeskočit soubory, které jsou mladší než minimální stáří.</string>
     <string name="appcleaner_automation_romtype_detection_label">Detekce operačního systému</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Automatizace založená na přístupnosti může selhat, pokud SD Maid nezjistí váš OS správně. Použijte toto nastavení pro přepsání zjištěného OS.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Automatizace založená na přístupnosti může selhat, pokud Tidy nezjistí váš OS správně. Použijte toto nastavení pro přepsání zjištěného OS.</string>
     <string name="appcleaner_filter_codecache_label">Mezipaměť kódu</string>
     <string name="appcleaner_filter_codecache_summary">Mezipaměť kódu JVM. Bloky bajtového kódu zkompilované do nativního kódu.</string>
     <string name="appcleaner_filter_advertisement_label">Reklamní data</string>
@@ -97,7 +97,7 @@
     <string name="appcleaner_exclusion_limited_title">Vyloučená aplikace</string>
     <string name="appcleaner_exclusion_limited_body">Tuto aplikaci jste z AppCleaneru vyloučili. Vymazání mezipamětí všech aplikací najednou využívá systémové čištění mezipaměti dostupné přes přístup ADB, které nemůže jednotlivé aplikace vynechat, takže se data mezipaměti této aplikace vymaží spolu se vším ostatním. Dotčena jsou pouze zde zobrazená data mezipaměti, vše ostatní, co vyloučení pokrývá, zůstává skryté a nedotčené.</string>
     <string name="appcleaner_automation_unavailable_title">Služba přístupnosti není dostupná</string>
-    <string name="appcleaner_automation_unavailable_body">Vyčištění těchto mezipaměti vyžaduje Usnadnění SD Maidu, ale nebyl dostupný.</string>
+    <string name="appcleaner_automation_unavailable_body">Vyčištění těchto mezipaměti vyžaduje Usnadnění Tidyu, ale nebyl dostupný.</string>
     <string name="appcleaner_delete_confirmation_message_x">Smazat nepotřebné soubory pro %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Smazat nepotřebné soubory pro %d vybranou aplikaci?</item>
@@ -111,7 +111,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Systém zakázal tlačítko \"Vyčistit mezipaměť\" pro tuto aplikaci. Vylučte aplikaci pro urychlení vyčištění mezipaměti.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Chybně nakonfigurovaná systémová aplikace</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Bezpečností aplikaci v HyperOS (com.miui.securitycenter) schází oprávnění Statistika využití (GET_USAGE_STATS). Toto zamezí funkcím jako \"Vymazat data\" v detailech aplikace a vyčištění mezipaměti pomocí služby přístupnosti. Udělte oprávnění pro obnovení plné funkčnosti.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">To se může stát i tehdy, pokud byla nedávno vynuceně ukončena systémová aplikace „System UI“, například nástrojem na čištění aplikací. Android pak blokuje automatizované klepání SD Maid na tlačítka, dokud zařízení nerestartujete.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">To se může stát i tehdy, pokud byla nedávno vynuceně ukončena systémová aplikace „System UI“, například nástrojem na čištění aplikací. Android pak blokuje automatizované klepání Tidy na tlačítka, dokud zařízení nerestartujete.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Vynutit ukončení před čištěním</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Vynutit ukončení aplikací před čištěním jejich mezipaměti. Může pomoci vyčistit některé mezipaměti aplikací, ale i způsobit špatné chování aplikace a vyžadovat její manuální restart.</string>
     <string name="appcleaner_progress_force_stopping">Vynucuji ukončení aplikací…</string>

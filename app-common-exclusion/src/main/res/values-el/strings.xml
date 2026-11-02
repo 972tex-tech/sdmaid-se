@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Διαχειριστής εξαιρέσεων</string>
     <string name="exclusion_manager_desc">Διαχειριστείτε εξαιρέσεις αρχείων και εφαρμογών.</string>
-    <string name="exclusion_explanation_body1">Εξαιρέστε αρχεία και εφαρμογές για να τις προστατέψετε από τα εργαλεία του SD Maid ή για να παραλείψετε άσχετα στοιχεία και να επιταχύνετε τις λειτουργίες.</string>
+    <string name="exclusion_explanation_body1">Εξαιρέστε αρχεία και εφαρμογές για να τις προστατέψετε από τα εργαλεία του Tidy ή για να παραλείψετε άσχετα στοιχεία και να επιταχύνετε τις λειτουργίες.</string>
     <string name="exclusion_add_new_hint">Καμία εξαίρεση ακόμη. Χρησιμοποιήστε το κουμπί + για να δημιουργήσετε μία ή εξαιρέστε στοιχεία από τα αποτελέσματα οποιουδήποτε εργαλείου.</string>
     <string name="exclusion_create_action">Δημιουργία εξαίρεσης</string>
     <string name="exclusion_edit_action">Επεξεργασία εξαίρεσης</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Να επιτρέπονται μερικές αντιστοιχίες</string>
     <string name="exclusion_option_ignore_casing">Παράβλεψη πεζών-κεφαλαίων</string>
     <string name="exclusion_editor_affected_tools_label">Επηρεαζόμενα εργαλεία</string>
-    <string name="exclusion_editor_path_explanation">Μια εξαίρεση διαδρομής εμποδίζει το SD Maid να επεξεργάζεται περαιτέρω τυχόν αντίστοιχες διαδρομές. Αυτό ισχύει για αρχεία, φακέλους και υποφακέλους.</string>
-    <string name="exclusion_editor_pkg_explanation">Μια εξαίρεση εφαρμογής εμποδίζει το SD Maid από το να επεξεργαστεί τυχόν πακέτα που ταιριάζουν.</string>
+    <string name="exclusion_editor_path_explanation">Μια εξαίρεση διαδρομής εμποδίζει το Tidy να επεξεργάζεται περαιτέρω τυχόν αντίστοιχες διαδρομές. Αυτό ισχύει για αρχεία, φακέλους και υποφακέλους.</string>
+    <string name="exclusion_editor_pkg_explanation">Μια εξαίρεση εφαρμογής εμποδίζει το Tidy από το να επεξεργαστεί τυχόν πακέτα που ταιριάζουν.</string>
     <string name="exclusion_editor_segment_explanation">Μια εξαίρεση με βάση το τμήμα είναι παρόμοια με μια εξαίρεση διαδρομής, αλλά επιτρέπει μερικές αντιστοιχίες. Παράδειγμα:\"DCIM/Camera\" αποκλείει \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Διαγραφή αυτής της εξαίρεσης;</string>
     <string name="exclusion_reset_default_exclusions">Επαναφορά προεπιλεγμένων εξαιρέσεων</string>

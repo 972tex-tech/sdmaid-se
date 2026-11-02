@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimālais vecums</string>
     <string name="appcleaner_include_minimumage_summary">Izlaist failus, kas ir jaunāki par minimālo vecumu.</string>
     <string name="appcleaner_automation_romtype_detection_label">Operētājsistēmas noteikšana</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Automātizācija, kuras pamats ir pieejamība, var neizdoties, ja SD Maid nenosaka jūsu OS pareizi. Izmantojiet šo iestatījumu, lai pārrakstītu noteikto OS.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Automātizācija, kuras pamats ir pieejamība, var neizdoties, ja Tidy nenosaka jūsu OS pareizi. Izmantojiet šo iestatījumu, lai pārrakstītu noteikto OS.</string>
     <string name="appcleaner_filter_codecache_label">Koda kešatmiņa</string>
     <string name="appcleaner_filter_codecache_summary">JVM koda kešatmiņa. Baitu koda bloki, kas kompilēti natīvajā kodā.</string>
     <string name="appcleaner_filter_advertisement_label">Reklamu dati</string>
@@ -92,7 +92,7 @@
     <string name="appcleaner_exclusion_limited_title">Izslēgta lietotne</string>
     <string name="appcleaner_exclusion_limited_body">Jūs izslēdzāt šo programmu no AppCleaner. Visu programmu kešatmiņas dzēšana uzreiz izmanto sistēmā pieejamo kešatmiņas tīrīšanu caur ADB piekļuvi, kas nevar izlaist atsevišķas programmas, tāpēc šīs programmas kešotie dati tiek dzēsti kopā ar visu pārējo. Tikai šeit redzamie kešotie dati ir ietekmēti, viss pārējais, ko izslēgšana aptver, paliek slēpts un neskarts.</string>
     <string name="appcleaner_automation_unavailable_title">Pieejamības pakalpojums nav pieejams</string>
-    <string name="appcleaner_automation_unavailable_body">Šo kešatmiņu tīrīšanai nepieciešams SD Maid pieejamības pakalpojums, taču tas nebija pieejams.</string>
+    <string name="appcleaner_automation_unavailable_body">Šo kešatmiņu tīrīšanai nepieciešams Tidy pieejamības pakalpojums, taču tas nebija pieejams.</string>
     <string name="appcleaner_delete_confirmation_message_x">Dzēst iztērējamos failus lietotnei %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="zero">Dzēst iztērējamos failus %d atlasītām lietotnēm?</item>
@@ -105,7 +105,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Sistēma ir atspējojusi pogu \"Notīrīt kešatmiņu\" šai lietotnei. Izslēdziet to, lai paātrinātu kešatmiņas notīrīšanu.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Sistēmas lietotne nav pareizi konfigūrēta</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS drošības lietotnei (com.miui.securitycenter) trūkst atļaujas Lietojuma statistika (GET_USAGE_STATS). Tas bojā taisnlīnijās iestatījumos esošas funkcijas, piemēram, \"Notīrīt datus\" un kešatmiņas notīrīšanu ar pieejamības pakalpojumu. Piešķiriet atļauju, lai atjaunotu pilnu funkcionalitāti.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Tas var notikt arī tad, ja sistēmas lietotne \"System UI\" nesen ir piespiedu kārtā apturēta, piemēram, ar lietotņu tīrīšanas rīku. Tad Android bloķē SD Maid automātiskos pogu nospiedumus, līdz tu restartē ierīci.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Tas var notikt arī tad, ja sistēmas lietotne \"System UI\" nesen ir piespiedu kārtā apturēta, piemēram, ar lietotņu tīrīšanas rīku. Tad Android bloķē Tidy automātiskos pogu nospiedumus, līdz tu restartē ierīci.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Pārtraukt piemērotu apturēšanu pirms notīrīšanas</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Piemēroti apturēt lietotnes pirms kešatmiņas notīrīšanas. Tas var palīdzēt iztīrīt dažu lietotnes kešatmiņu, taču var izraisīt neparastu uzvedību un nepieciesamibu lietotni restartot manuāli.</string>
     <string name="appcleaner_progress_force_stopping">Piemērota lietotnes apturēšana…</string>

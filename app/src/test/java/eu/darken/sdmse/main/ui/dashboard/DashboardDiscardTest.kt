@@ -1,7 +1,5 @@
 package eu.darken.sdmse.main.ui.dashboard
 
-import eu.darken.sdmse.analyzer.core.Analyzer
-import eu.darken.sdmse.analyzer.core.AnalyzerSettings
 import eu.darken.sdmse.appcleaner.core.AppCleaner
 import eu.darken.sdmse.appcleaner.core.AppJunk
 import eu.darken.sdmse.appcleaner.core.tasks.AppCleanerProcessingTask
@@ -17,7 +15,6 @@ import eu.darken.sdmse.common.updater.UpdateService
 import eu.darken.sdmse.common.upgrade.UpgradeRepo
 import eu.darken.sdmse.corpsefinder.core.CorpseFinder
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderDeleteTask
-import eu.darken.sdmse.deduplicator.core.Deduplicator
 import eu.darken.sdmse.main.core.CurriculumVitae
 import eu.darken.sdmse.main.core.GeneralSettings
 import eu.darken.sdmse.main.core.SDMTool
@@ -26,14 +23,11 @@ import eu.darken.sdmse.main.core.release.ReleaseManager
 import eu.darken.sdmse.main.core.taskmanager.TaskManager
 import eu.darken.sdmse.main.core.taskmanager.TaskSubmitter
 import eu.darken.sdmse.main.ui.dashboard.cards.ToolDashboardCardItem
-import eu.darken.sdmse.scheduler.core.SchedulerManager
 import eu.darken.sdmse.setup.SetupManager
-import eu.darken.sdmse.squeezer.core.Squeezer
 import eu.darken.sdmse.stats.core.SpaceHistoryRepo
 import eu.darken.sdmse.stats.core.SpaceTracker
 import eu.darken.sdmse.stats.core.StatsRepo
 import eu.darken.sdmse.stats.core.StatsSettings
-import eu.darken.sdmse.swiper.core.Swiper
 import eu.darken.sdmse.systemcleaner.core.SystemCleaner
 import io.kotest.matchers.shouldBe
 import io.kotest.matchers.shouldNotBe
@@ -54,7 +48,7 @@ import testhelpers.coroutine.TestDispatcherProvider
 import testhelpers.coroutine.runTest2
 import java.time.Instant
 
-/** Contract of [DashboardViewModel.discardResults]: clears all four tools when idle, aborts when busy. */
+/** Contract of [DashboardViewModel.discardResults]: clears all three tools when idle, aborts when busy. */
 internal class DashboardDiscardTest : BaseTest() {
 
     private class Harness(
@@ -63,7 +57,6 @@ internal class DashboardDiscardTest : BaseTest() {
         val corpseFinder: CorpseFinder,
         val systemCleaner: SystemCleaner,
         val appCleaner: AppCleaner,
-        val deduplicator: Deduplicator,
     )
 
     private fun TestScope.harness(
@@ -83,19 +76,7 @@ internal class DashboardDiscardTest : BaseTest() {
         val appCleaner = mockk<AppCleaner>(relaxed = true).apply {
             every { state } returns appCleanerFlow
         }
-        val deduplicator = mockk<Deduplicator>(relaxed = true).apply { every { state } returns emptyFlow() }
-        val squeezer = mockk<Squeezer>(relaxed = true).apply { every { state } returns emptyFlow() }
         val appControl = mockk<AppControl>(relaxed = true).apply { every { state } returns emptyFlow() }
-        val analyzer = mockk<Analyzer>(relaxed = true).apply {
-            every { data } returns emptyFlow()
-            every { progress } returns emptyFlow()
-        }
-        // A relaxed mock's flow never emits, which would stall the Analyzer card's combine.
-        val analyzerSettings = mockk<AnalyzerSettings>(relaxed = true).apply {
-            every { lowStorageThresholdBytes } returns mockk(relaxed = true) {
-                every { flow } returns flowOf<Long?>(null)
-            }
-        }
         val statsSettings = mockk<StatsSettings>(relaxed = true).apply {
             every { retentionReports } returns mockDuration()
             every { retentionPaths } returns mockDuration()
@@ -112,23 +93,14 @@ internal class DashboardDiscardTest : BaseTest() {
             systemCleaner = systemCleaner,
             appCleaner = appCleaner,
             appControl = appControl,
-            analyzer = analyzer,
-            analyzerSettings = analyzerSettings,
             debugCardProvider = mockk<DebugCardProvider>(relaxed = true).apply {
                 every { create(any(), any(), any(), any()) } returns emptyFlow()
-            },
-            deduplicator = deduplicator,
-            squeezer = squeezer,
-            swiper = mockk<Swiper>(relaxed = true).apply {
-                every { getSessionsWithStats() } returns emptyFlow()
-                every { progress } returns emptyFlow()
             },
             upgradeRepo = mockk<UpgradeRepo>(relaxed = true).apply {
                 every { upgradeInfo } returns emptyFlow()
             },
             generalSettings = mockk<GeneralSettings>(relaxed = true),
             webpageTool = mockk<WebpageTool>(relaxed = true),
-            schedulerManager = mockk<SchedulerManager>(relaxed = true).apply { every { state } returns emptyFlow() },
             updateService = mockk<UpdateService>(relaxed = true).apply { every { availableUpdate } returns emptyFlow() },
             sessionManager = mockk<DebugLogSessionManager>(relaxed = true).apply { every { sessions } returns emptyFlow() },
             motdRepo = mockk<MotdRepo>(relaxed = true).apply { every { motd } returns emptyFlow() },
@@ -144,7 +116,7 @@ internal class DashboardDiscardTest : BaseTest() {
             spaceTracker = mockk<SpaceTracker>(relaxed = true),
             deviceDetective = mockk(relaxed = true),
         )
-        return Harness(vm, taskManager, corpseFinder, systemCleaner, appCleaner, deduplicator)
+        return Harness(vm, taskManager, corpseFinder, systemCleaner, appCleaner)
     }
 
     private fun mockDuration(): DataStoreValue<java.time.Duration> = mockk(relaxed = true) {
@@ -152,7 +124,7 @@ internal class DashboardDiscardTest : BaseTest() {
     }
 
     @Test
-    fun `discardResults clears all four tools when idle`() = runTest2 {
+    fun `discardResults clears all three tools when idle`() = runTest2 {
         val h = harness()
 
         h.vm.discardResults()
@@ -161,7 +133,6 @@ internal class DashboardDiscardTest : BaseTest() {
         coVerify(exactly = 1) { h.corpseFinder.discardScanData() }
         coVerify(exactly = 1) { h.systemCleaner.discardScanData() }
         coVerify(exactly = 1) { h.appCleaner.discardScanData() }
-        coVerify(exactly = 1) { h.deduplicator.discardScanData() }
     }
 
     @Test
@@ -174,7 +145,6 @@ internal class DashboardDiscardTest : BaseTest() {
         coVerify(exactly = 1) { h.taskManager.forgetCompleted(SDMTool.Type.CORPSEFINDER) }
         coVerify(exactly = 1) { h.taskManager.forgetCompleted(SDMTool.Type.SYSTEMCLEANER) }
         coVerify(exactly = 1) { h.taskManager.forgetCompleted(SDMTool.Type.APPCLEANER) }
-        coVerify(exactly = 1) { h.taskManager.forgetCompleted(SDMTool.Type.DEDUPLICATOR) }
     }
 
     @Test
@@ -211,7 +181,6 @@ internal class DashboardDiscardTest : BaseTest() {
         coVerify(exactly = 0) { h.corpseFinder.discardScanData() }
         coVerify(exactly = 0) { h.systemCleaner.discardScanData() }
         coVerify(exactly = 0) { h.appCleaner.discardScanData() }
-        coVerify(exactly = 0) { h.deduplicator.discardScanData() }
         coVerify(exactly = 0) { h.taskManager.forgetCompleted(any()) }
     }
 

@@ -1,7 +1,5 @@
 package eu.darken.sdmse.main.ui.dashboard
 
-import eu.darken.sdmse.analyzer.core.Analyzer
-import eu.darken.sdmse.analyzer.core.AnalyzerSettings
 import eu.darken.sdmse.appcleaner.core.AppCleaner
 import eu.darken.sdmse.appcleaner.core.AppJunk
 import eu.darken.sdmse.appcleaner.core.tasks.AppCleanerScanTask
@@ -16,7 +14,6 @@ import eu.darken.sdmse.common.updater.UpdateService
 import eu.darken.sdmse.common.upgrade.UpgradeRepo
 import eu.darken.sdmse.corpsefinder.core.CorpseFinder
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderScanTask
-import eu.darken.sdmse.deduplicator.core.Deduplicator
 import eu.darken.sdmse.main.core.CurriculumVitae
 import eu.darken.sdmse.main.core.DashboardCardConfig
 import eu.darken.sdmse.main.core.DashboardCardType
@@ -26,20 +23,14 @@ import eu.darken.sdmse.main.core.motd.MotdRepo
 import eu.darken.sdmse.main.core.release.ReleaseManager
 import eu.darken.sdmse.main.core.taskmanager.TaskManager
 import eu.darken.sdmse.main.core.taskmanager.TaskSubmitter
-import eu.darken.sdmse.scheduler.core.SchedulerManager
 import eu.darken.sdmse.setup.SetupManager
-import eu.darken.sdmse.squeezer.core.Squeezer
-import eu.darken.sdmse.main.ui.dashboard.cards.AnalyzerDashboardCardItem
-import eu.darken.sdmse.main.ui.dashboard.cards.SchedulerDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.StatsDashboardCardItem
-import eu.darken.sdmse.main.ui.dashboard.cards.SwiperDashboardCardItem
 import eu.darken.sdmse.main.ui.dashboard.cards.ToolDashboardCardItem
 import eu.darken.sdmse.stats.core.SpaceHistoryRepo
 import eu.darken.sdmse.stats.core.SpaceTracker
 import eu.darken.sdmse.stats.core.StatsRepo
 import eu.darken.sdmse.stats.core.StatsSettings
 import eu.darken.sdmse.stats.core.db.SpaceSnapshotEntity
-import eu.darken.sdmse.swiper.core.Swiper
 import eu.darken.sdmse.systemcleaner.core.SystemCleaner
 import io.kotest.assertions.withClue
 import io.kotest.matchers.nulls.shouldNotBeNull
@@ -48,7 +39,6 @@ import io.mockk.every
 import io.mockk.mockk
 import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.emptyFlow
 import kotlinx.coroutines.flow.first
@@ -117,23 +107,7 @@ internal class DashboardViewModelResilienceTest : BaseTest() {
                 else -> emptyFlow()
             }
         }
-        val deduplicator = mockk<Deduplicator>(relaxed = true).apply {
-            every { state } returns
-                if (emittingToolStates) MutableStateFlow(mockk<Deduplicator.State>(relaxed = true) { every { data } returns null }) else emptyFlow()
-        }
-        val squeezer = mockk<Squeezer>(relaxed = true).apply { every { state } returns emptyFlow() }
         val appControl = mockk<AppControl>(relaxed = true).apply { every { state } returns emptyFlow() }
-        val analyzer = mockk<Analyzer>(relaxed = true).apply {
-            every { data } returns srcOr("analyzer", emptyFlow())
-            every { progress } returns emptyFlow()
-        }
-        // A relaxed mock's flow never emits, which would stall the Analyzer card's combine.
-        val analyzerSettings = mockk<AnalyzerSettings>(relaxed = true).apply {
-            every { lowStorageThresholdBytes } returns mockk(relaxed = true) {
-                every { flow } returns flowOf<Long?>(null)
-            }
-        }
-        val schedulerManager = mockk<SchedulerManager>(relaxed = true).apply { every { state } returns emptyFlow() }
         val setupManager = mockk<SetupManager>(relaxed = true).apply { every { state } returns srcOr("setup", emptyFlow()) }
         val areaManager = mockk<DataAreaManager>(relaxed = true).apply { every { latestResult } returns srcOr("dataArea", emptyFlow()) }
         val sessionManager = mockk<DebugLogSessionManager>(relaxed = true).apply { every { sessions } returns srcOr("sessions", emptyFlow()) }
@@ -143,10 +117,6 @@ internal class DashboardViewModelResilienceTest : BaseTest() {
         val statsRepo = mockk<StatsRepo>(relaxed = true).apply { every { state } returns srcOr("stats", statsState) }
         val curriculumVitae = mockk<CurriculumVitae>(relaxed = true).also {
             every { it.installedAt } returns installedAt
-        }
-        val swiper = mockk<Swiper>(relaxed = true).apply {
-            every { getSessionsWithStats() } returns srcOr("swiper", emptyFlow())
-            every { progress } returns emptyFlow()
         }
         val upgradeRepo = mockk<UpgradeRepo>(relaxed = true).apply {
             every { upgradeInfo } returns emptyFlow()
@@ -187,16 +157,10 @@ internal class DashboardViewModelResilienceTest : BaseTest() {
             systemCleaner = systemCleaner,
             appCleaner = appCleaner,
             appControl = appControl,
-            analyzer = analyzer,
-            analyzerSettings = analyzerSettings,
             debugCardProvider = debugCardProvider,
-            deduplicator = deduplicator,
-            squeezer = squeezer,
-            swiper = swiper,
             upgradeRepo = upgradeRepo,
             generalSettings = generalSettings,
             webpageTool = mockk<WebpageTool>(relaxed = true),
-            schedulerManager = schedulerManager,
             updateService = updateService,
             sessionManager = sessionManager,
             motdRepo = motdRepo,
@@ -226,36 +190,6 @@ internal class DashboardViewModelResilienceTest : BaseTest() {
         val vm = harness()
         advanceUntilIdle()
         vm.listState.value.shouldNotBeNull()
-    }
-
-    @Test
-    fun `analyzer card shows trend shimmer until history resolves`() = runTest2 {
-        val history = MutableSharedFlow<List<SpaceSnapshotEntity>>(replay = 1)
-        val vm = harness(
-            history = history,
-            cardConfig = flowOf(DashboardCardConfig()),
-        )
-        advanceUntilIdle()
-
-        val loading = vm.listState.value
-            .shouldNotBeNull()
-            .items.filterIsInstance<AnalyzerDashboardCardItem>().single()
-        loading.isLoadingTrend shouldBe true
-        loading.combinedDelta shouldBe null
-
-        val t0 = Instant.parse("2026-06-01T00:00:00Z")
-        history.emit(
-            listOf(
-                SpaceSnapshotEntity(storageId = "a", recordedAt = t0, spaceFree = 900, spaceCapacity = 1000),
-                SpaceSnapshotEntity(storageId = "a", recordedAt = t0.plusSeconds(60), spaceFree = 800, spaceCapacity = 1000),
-            )
-        )
-        // throttleLatest(500) delays on a real-time dispatcher (TestDispatcherProvider is Unconfined),
-        // so await the resolved state instead of advancing virtual time.
-        val loaded = vm.listState
-            .mapNotNull { it?.items?.filterIsInstance<AnalyzerDashboardCardItem>()?.singleOrNull() }
-            .first { !it.isLoadingTrend }
-        loaded.combinedDelta shouldBe 100L
     }
 
     @Test
@@ -361,44 +295,11 @@ internal class DashboardViewModelResilienceTest : BaseTest() {
     @Test
     fun `listState emits even when a single source never emits`() = runTest2 {
         // One stalled source must not wedge the whole dashboard.
-        for (stall in listOf("sessions", "motd", "stats", "swiper", "analyzer", "anniversary", "setup", "dataArea", "review", "debug")) {
+        for (stall in listOf("sessions", "motd", "stats", "anniversary", "setup", "dataArea", "review", "debug")) {
             val vm = harness(stall = stall)
             advanceUntilIdle()
             withClue(stall) { vm.listState.value.shouldNotBeNull() }
         }
-    }
-
-    @Test
-    fun `scheduler and swiper cards render as initializing placeholders in the first frame`() = runTest2 {
-        // Regression guard: their backend states (DynamicStateFlow on IO / Room) don't emit here,
-        // yet the builders self-seed an initializing placeholder so the cards never pop in after the
-        // skeleton — and render a neutral loading state instead of misleading empty-state content.
-        val vm = harness()
-        advanceUntilIdle()
-
-        val items = vm.listState.value.shouldNotBeNull().items
-        items.filterIsInstance<SchedulerDashboardCardItem>().single().isInitializing shouldBe true
-        items.filterIsInstance<SwiperDashboardCardItem>().single().isInitializing shouldBe true
-    }
-
-    @Test
-    fun `cards hidden in the config are absent from the first frame`() = runTest2 {
-        val config = DashboardCardConfig(
-            cards = DashboardCardType.entries.map {
-                DashboardCardConfig.CardEntry(
-                    type = it,
-                    isVisible = it != DashboardCardType.SCHEDULER && it != DashboardCardType.SWIPER,
-                )
-            },
-        )
-        val vm = harness(cardConfig = flowOf(config))
-        advanceUntilIdle()
-
-        val items = vm.listState.value.shouldNotBeNull().items
-        // Tool cards still render as placeholders, but the two hidden ones must not appear.
-        items.filterIsInstance<ToolDashboardCardItem>().isNotEmpty() shouldBe true
-        items.filterIsInstance<SchedulerDashboardCardItem>().isEmpty() shouldBe true
-        items.filterIsInstance<SwiperDashboardCardItem>().isEmpty() shouldBe true
     }
 
     @Test

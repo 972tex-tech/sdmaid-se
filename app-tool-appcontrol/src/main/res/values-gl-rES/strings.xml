@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Deter a aplicación. Evitar que se inicie soa ata que a abras ou o dispositivo se reinicie.</string>
     <string name="appcontrol_app_uninstall_description">Desinstalar esta aplicación do teu dispositivo.</string>
     <string name="appcontrol_app_exclude_add_title">Excluír aplicación</string>
-    <string name="appcontrol_app_exclude_add_description">Excluír esta aplicación doutras operacións en SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Excluír esta aplicación doutras operacións en Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Editar exclusión</string>
     <string name="appcontrol_app_exclude_edit_description">Esta aplicación está actualmente excluída dunha ou máis ferramentas.</string>
     <string name="appcontrol_tag_user">Usuario</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Exportando %s</string>
     <string name="appcontrol_share_list_action">Compartir lista</string>
     <string name="appcontrol_share_list_title">As miñas aplicacións</string>
-    <string name="appcontrol_share_list_footer">Compartido a través de SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Compartido a través de Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Forzar detención de aplicacións</string>
     <string name="appcontrol_force_stop_action">Forzar detención</string>
     <string name="appcontrol_force_stop_confirm_title">Confirmar forzar detención</string>

@@ -5,8 +5,8 @@
         <item quantity="other">%s ruumi vabastati.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s fail töödeldud alates SD Maidi seadmesse paigaldamisest.</item>
-        <item quantity="other">%s faili töödeldud alates SD Maidi seadmesse paigaldamisest.</item>
+        <item quantity="one">%s fail töödeldud alates Tidyi seadmesse paigaldamisest.</item>
+        <item quantity="other">%s faili töödeldud alates Tidyi seadmesse paigaldamisest.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Sinu külaline %d päev.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Õnnestus enam-vähem</string>
     <string name="stats_report_status_partial_failure">Tõrge</string>
-    <string name="stats_settings_desc">Seadista SD Maidi statistikat, aruandeid ja andmete hoiustamist.</string>
+    <string name="stats_settings_desc">Seadista Tidyi statistikat, aruandeid ja andmete hoiustamist.</string>
     <string name="stats_settings_retention_category">Hoiustamine</string>
     <string name="stats_settings_retention_reports_label">Üldaruanded</string>
-    <string name="stats_settings_retention_reports_desc">Mitme päeva pärast kustuvad SD Maidi tavatoimingute aruanded.</string>
+    <string name="stats_settings_retention_reports_desc">Mitme päeva pärast kustuvad Tidyi tavatoimingute aruanded.</string>
     <string name="stats_settings_retention_paths_label">Põhjalik asukoha teave</string>
-    <string name="stats_settings_retention_paths_desc">Mitu päeva säilitada SD Maidi puhastatud asukohtade andmeid.</string>
+    <string name="stats_settings_retention_paths_desc">Mitu päeva säilitada Tidyi puhastatud asukohtade andmeid.</string>
     <string name="stats_settings_retention_snapshots_label">Salveruumi ajalugu</string>
     <string name="stats_settings_retention_snapshots_desc">Mitu päeva salveruumi kasutamise hetktõmmiseid säilitada. Vanemad hetktõmmised kustutatakse.</string>
     <string name="stats_settings_reset_all_label">Taasta kõik</string>

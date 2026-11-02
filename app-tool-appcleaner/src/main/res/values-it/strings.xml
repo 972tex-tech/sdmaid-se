@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Età minima</string>
     <string name="appcleaner_include_minimumage_summary">Salta i file che sono stati creati da meno dell\'età minima selezionata.</string>
     <string name="appcleaner_automation_romtype_detection_label">Rilevamento del sistema operativo</string>
-    <string name="appcleaner_automation_romtype_detection_summary">L\'automazione basata sull\'accessibilità potrebbe non funzionare se SD Maid non riesce a rilevare correttamente il tuo Sistema Operativo. Usa questa impostazione per sovrascrivere il tipo di Sistema Operativo rilevato.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">L\'automazione basata sull\'accessibilità potrebbe non funzionare se Tidy non riesce a rilevare correttamente il tuo Sistema Operativo. Usa questa impostazione per sovrascrivere il tipo di Sistema Operativo rilevato.</string>
     <string name="appcleaner_filter_codecache_label">Cache del codice</string>
     <string name="appcleaner_filter_codecache_summary">Cache del codice della JVM. Blocchi di bytecode compilati in codice nativo.</string>
     <string name="appcleaner_filter_advertisement_label">Dati degli annunci</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">App esclusa</string>
     <string name="appcleaner_exclusion_limited_body">Hai escluso questa app da AppCleaner. Svuotare le cache di tutte le app in una volta usa la pulizia della cache a livello di sistema disponibile tramite l\'accesso ADB, che non può escludere singole app, quindi i dati in cache di questa app vengono svuotati insieme a tutto il resto. Sono interessati solo i dati in cache mostrati qui, tutto il resto coperto dall\'esclusione resta nascosto e intatto.</string>
     <string name="appcleaner_automation_unavailable_title">Servizio di accessibilità non disponibile</string>
-    <string name="appcleaner_automation_unavailable_body">Per svuotare queste cache è necessario il servizio di accessibilità di SD Maid, ma non era disponibile.</string>
+    <string name="appcleaner_automation_unavailable_body">Per svuotare queste cache è necessario il servizio di accessibilità di Tidy, ma non era disponibile.</string>
     <string name="appcleaner_delete_confirmation_message_x">Cancellare %s file inutili?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Cancellare %d file inutili dell\'app selezionata?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Il sistema ha disabilitato il pulsante \"Cancella cache\" per questa app. Escludila per velocizzare la cancellazione della cache.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">App di sistema mal configurata</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">L\'app Sicurezza di HyperOS (com.miui.securitycenter) manca del permesso Statistiche Utilizzo (GET_USAGE_STATS). Questo compromette funzioni come \"Cancella Dati\" nei dettagli dell\'app e cancellazione cache tramite accessibilità. Concedi il permesso per ripristinare la funzionalità completa.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Questo può accadere anche se l’app di sistema \"System UI\" è stata forzatamente arrestata di recente, ad esempio da uno strumento di pulizia app. Android blocca quindi le pressioni automatiche dei pulsanti di SD Maid finché non riavvii il dispositivo.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Questo può accadere anche se l’app di sistema \"System UI\" è stata forzatamente arrestata di recente, ad esempio da uno strumento di pulizia app. Android blocca quindi le pressioni automatiche dei pulsanti di Tidy finché non riavvii il dispositivo.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Arresto forzato prima della pulizia</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Arresta forzatamente le app prima di cancellare la cache. Può aiutare a cancellare la cache di alcune app, ma potrebbe causare malfunzionamenti e richiedere il riavvio manuale.</string>
     <string name="appcleaner_progress_force_stopping">Arresto forzato delle app…</string>

@@ -7,9 +7,6 @@ import kotlinx.serialization.Serializable
 data object OnboardingWelcomeRoute : NavigationDestination
 
 @Serializable
-data object VersusSetupRoute : NavigationDestination
-
-@Serializable
 data object OnboardingPrivacyRoute : NavigationDestination
 
 @Serializable

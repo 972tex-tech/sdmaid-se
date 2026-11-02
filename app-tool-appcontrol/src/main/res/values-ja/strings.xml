@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">アプリを停止します。手動で開くかデバイスを再起動するまで、アプリの自動起動を防止します。</string>
     <string name="appcontrol_app_uninstall_description">端末からこのアプリをアンインストールします。</string>
     <string name="appcontrol_app_exclude_add_title">除外するアプリ</string>
-    <string name="appcontrol_app_exclude_add_description">SD Maidの他の操作からこのアプリを除外します。</string>
+    <string name="appcontrol_app_exclude_add_description">Tidyの他の操作からこのアプリを除外します。</string>
     <string name="appcontrol_app_exclude_edit_title">除外を編集</string>
     <string name="appcontrol_app_exclude_edit_description">このアプリは現在、1つ以上のツールから除外されています。</string>
     <string name="appcontrol_tag_user">ユーザー</string>
@@ -92,7 +92,7 @@
     <string name="appcontrol_progress_exporting_x">%s をエクスポート中</string>
     <string name="appcontrol_share_list_action">リストを共有</string>
     <string name="appcontrol_share_list_title">マイアプリ</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE で共有</string>
+    <string name="appcontrol_share_list_footer">Tidy で共有</string>
     <string name="appcontrol_force_stop_selection_action">アプリを強制停止する</string>
     <string name="appcontrol_force_stop_action">強制停止</string>
     <string name="appcontrol_force_stop_confirm_title">強制停止の確認</string>

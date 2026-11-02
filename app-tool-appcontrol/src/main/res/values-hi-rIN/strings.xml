@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s निर्यात किया जा रहा है</string>
     <string name="appcontrol_share_list_action">सूची साझा करें</string>
     <string name="appcontrol_share_list_title">मेरे एप्स</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE के माध्यम से साझा किया गया</string>
+    <string name="appcontrol_share_list_footer">Tidy के माध्यम से साझा किया गया</string>
     <string name="appcontrol_force_stop_selection_action">ऐप्स को बलपूर्वक रोकें</string>
     <string name="appcontrol_force_stop_action">बलपूर्वक रोकें</string>
     <string name="appcontrol_force_stop_confirm_title">बलपूर्वक रोकने की पुष्टि करें</string>

@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">အကြေးကို တါးကန်ပါ။ သင်မ်း ဖွစ်ချလိုက်တိုင် မရနိုင်မခွန် သိုဖွစ်ချပါက အကြေးကို ကိုယ်ကိုယ် အလုပ်ဆောင်ကို တါးကန်ကြေတာရန်။</string>
     <string name="appcontrol_app_uninstall_description">ဤအကြေးကို သင်မ်းဆိုင်မှ ဖက်ချရန်။</string>
     <string name="appcontrol_app_exclude_add_title">အကြေးကို ဖယ်ထုတ်ရန်</string>
-    <string name="appcontrol_app_exclude_add_description">SD Maid တွင် အအကြေးကို အခြအနေရာ လုပ်ဆောင်ချများမှ ဖယ်ထုတ်ရန်။</string>
+    <string name="appcontrol_app_exclude_add_description">Tidy တွင် အအကြေးကို အခြအနေရာ လုပ်ဆောင်ချများမှ ဖယ်ထုတ်ရန်။</string>
     <string name="appcontrol_app_exclude_edit_title">ဖယ်ထုတ်ခြင်း ပြင်န်ဆွဲရန်</string>
     <string name="appcontrol_app_exclude_edit_description">ဤအကြေးကို ယခင်က ကရိုးကကြေးတစ်ခု သိုလျှော့သည် ဖယ်ထုတ်ပြီးသည်။</string>
     <string name="appcontrol_tag_user">အသုံးသပြ</string>
@@ -92,7 +92,7 @@
     <string name="appcontrol_progress_exporting_x">%s ကို ထုတ်လုပ်နေစ်သည်</string>
     <string name="appcontrol_share_list_action">စာရင်းကို သိုထားလုးရန်</string>
     <string name="appcontrol_share_list_title">ကျော်မ်း အကြေးများ</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE မှတဆိုင် သိုထားလုးသည်</string>
+    <string name="appcontrol_share_list_footer">Tidy မှတဆိုင် သိုထားလုးသည်</string>
     <string name="appcontrol_force_stop_selection_action">အကြေးများကို အကြေးတပ်စတင်ပါ</string>
     <string name="appcontrol_force_stop_action">အကြေးတပ်စတင်ပါ</string>
     <string name="appcontrol_force_stop_confirm_title">အကြေးတပ်စတင်ခြင်း အတည်ပြုရန်</string>

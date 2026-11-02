@@ -53,5 +53,5 @@
     <string name="corpsefinder_owners_label">Sidien</string>
     <string name="corpsefinder_owner_unknown">Sid mhux magħruf</string>
     <string name="corpsefinder_corpse_hint_keeper">Dan l-oġġett jista\' jkun fih data li trid iżżomm minkejja li s-sid tagħha ġie diżinstallat, eż. ritratti jew backups.</string>
-    <string name="corpsefinder_corpse_hint_common">Dan l-oġġett għandu isem komuni ħafna u jista\' jappartjeni għal apps għadhom installati li SD Maid ma jafhomx.</string>
+    <string name="corpsefinder_corpse_hint_common">Dan l-oġġett għandu isem komuni ħafna u jista\' jappartjeni għal apps għadhom installati li Tidy ma jafhomx.</string>
 </resources>

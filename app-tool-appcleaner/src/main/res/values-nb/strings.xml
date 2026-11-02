@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minste alder</string>
     <string name="appcleaner_include_minimumage_summary">Hopp over filer som er yngre enn minste alder.</string>
     <string name="appcleaner_automation_romtype_detection_label">Deteksjon av operativsystem</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Tilgjengelighetsbasert automatisering kan mislykkes hvis SD Maid ikke oppdager operativsystemet ditt på riktig måte. Bruk denne innstillingen for å overstyre oppdaget OS.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Tilgjengelighetsbasert automatisering kan mislykkes hvis Tidy ikke oppdager operativsystemet ditt på riktig måte. Bruk denne innstillingen for å overstyre oppdaget OS.</string>
     <string name="appcleaner_filter_codecache_label">Kodebuffer</string>
     <string name="appcleaner_filter_codecache_summary">JVM kodebuffer. Blokker med byte-kode kompilert til systemkode.</string>
     <string name="appcleaner_filter_advertisement_label">Reklamedata</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Ekskludert app</string>
     <string name="appcleaner_exclusion_limited_body">Du ekskluderte denne appen fra AppCleaner. Sletting av hurtiglager for alle apper samtidig bruker systemomfattende hurtiglagerrensing tilgjengelig gjennom ADB-tilgang, som ikke kan ekskludere enkeltapper, så denne appens hurtiglagrede data slettes sammen med alt annet. Bare de hurtiglagrede dataene som vises her påvirkes, alt annet som eksklusjonen dekker forblir skjult og uberørt.</string>
     <string name="appcleaner_automation_unavailable_title">Tilgjengelighetstjeneste utilgjengelig</string>
-    <string name="appcleaner_automation_unavailable_body">Rensing av disse hurtigbufferne krever SD Maids tilgjengelighetstjeneste, men den var ikke tilgjengelig.</string>
+    <string name="appcleaner_automation_unavailable_body">Rensing av disse hurtigbufferne krever Tidys tilgjengelighetstjeneste, men den var ikke tilgjengelig.</string>
     <string name="appcleaner_delete_confirmation_message_x">Slette unødvendige filer for %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Slette unødvendige filer for %d valgt app?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Systemet har deaktivert knappen «Tøm hurtigbuffer» for denne appen. Ekskluder den for raskere tømming av hurtigbufferen.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Systemapp feilkonfigurert</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS sin sikkerhetsapp (com.miui.securitycenter) mangler tillatelsen for bruksstatistikk (GET_USAGE_STATS). Dette forhindrer funksjoner som «Slett data» i appdetaljer og sletting av hurtigbuffer via tilgjengelighet. Gi tillatelsen for å gjenopprette full funksjonalitet.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Dette kan også skje hvis systemappen \"System UI\" nylig ble tvangsstoppet, for eksempel av et apprengjøringsverktøy. Android blokkerer da SD Maids automatiserte knappetrykk helt til du starter enheten på nytt.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Dette kan også skje hvis systemappen \"System UI\" nylig ble tvangsstoppet, for eksempel av et apprengjøringsverktøy. Android blokkerer da Tidys automatiserte knappetrykk helt til du starter enheten på nytt.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Tving avslutning før tømming</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Tving avslutning av apper før tømming av hurtigbufferen. Det kan hjelpe med å tømme noen appers hurtigbuffere, men kan forårsake at apper oppfører seg feil og krever manuell omstart.</string>
     <string name="appcleaner_progress_force_stopping">Tvinger avslutning av apper…</string>

@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Διακόψτε την εφαρμογή. Αποτρέψτε την αυτόματη εκκίνησή της μέχρι να την ανοίξετε ή να επανεκκινηθεί η συσκευή.</string>
     <string name="appcontrol_app_uninstall_description">Απεγκατάσταση αυτής της εφαρμογής από τη συσκευή σας.</string>
     <string name="appcontrol_app_exclude_add_title">Εξαίρεση εφαρμογής</string>
-    <string name="appcontrol_app_exclude_add_description">Εξαίρεση αυτής της εφαρμογής από άλλες λειτουργίες στο SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Εξαίρεση αυτής της εφαρμογής από άλλες λειτουργίες στο Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Επεξεργασία εξαίρεσης</string>
     <string name="appcontrol_app_exclude_edit_description">Αυτή η εφαρμογή εξαιρείται επί του παρόντος από ένα ή περισσότερα εργαλεία.</string>
     <string name="appcontrol_tag_user">Χρήστη</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Εξαγωγή %s</string>
     <string name="appcontrol_share_list_action">Κοινοποίηση λίστας</string>
     <string name="appcontrol_share_list_title">Οι εφαρμογές μου</string>
-    <string name="appcontrol_share_list_footer">Κοινοποιήθηκε μέσω SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Κοινοποιήθηκε μέσω Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Επιβολή διακοπής εφαρμογών</string>
     <string name="appcontrol_force_stop_action">Επιβολή διακοπής</string>
     <string name="appcontrol_force_stop_confirm_title">Επιβεβαίωση επιβολής διακοπής</string>

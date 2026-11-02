@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">ଆପ୍ ବନ୍ଦ କରନ୍ତୁ। ଆପଣ ଏହାକୁ ଖୋଲିବା କିମ୍ବା ଡିଭାଇସ୍ ରିବୁଟ୍ ନ ହେବା ପର୍ଯ୍ୟନ୍ତ ଏହା ନିଜେ ଆରମ୍ଭ ହେବାକୁ ବାରଣ କରନ୍ତୁ।</string>
     <string name="appcontrol_app_uninstall_description">ଆପଣଙ୍କ ଡିଭାଇସରୁ ଏହି ଆପ୍ କୁ ଅନଇନଷ୍ଟଲ କରନ୍ତୁ।</string>
     <string name="appcontrol_app_exclude_add_title">ଆପ୍ କୁ ବାଦ୍ ଦିଅନ୍ତୁ</string>
-    <string name="appcontrol_app_exclude_add_description">SD Maid ର ଅନ୍ୟ କାର୍ଯ୍ୟରୁ ଏହି ଆପ୍ କୁ ବାଦ୍ ଦିଅନ୍ତୁ।</string>
+    <string name="appcontrol_app_exclude_add_description">Tidy ର ଅନ୍ୟ କାର୍ଯ୍ୟରୁ ଏହି ଆପ୍ କୁ ବାଦ୍ ଦିଅନ୍ତୁ।</string>
     <string name="appcontrol_app_exclude_edit_title">ବାଦ୍ ସମ୍ପାଦନା କରନ୍ତୁ</string>
     <string name="appcontrol_app_exclude_edit_description">ଏହି ଆପ୍ ବର୍ତ୍ତମାନ ଏକ କିମ୍ବା ଅଧିକ ଟୁଲ୍ସରୁ ବାଦ୍ ପଡ଼ିଛି।</string>
     <string name="appcontrol_tag_user">ଉପଭୋକ୍ତା</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s ରପ୍ତାନି କରୁଛି</string>
     <string name="appcontrol_share_list_action">ତାଲିକା ସେୟାର କରନ୍ତୁ</string>
     <string name="appcontrol_share_list_title">ମୋ ଆପ୍ସ</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE ମାଧ୍ୟମରେ ସେୟାର ହୋଇଛି</string>
+    <string name="appcontrol_share_list_footer">Tidy ମାଧ୍ୟମରେ ସେୟାର ହୋଇଛି</string>
     <string name="appcontrol_force_stop_selection_action">ଆପ୍ ଗୁଡ଼ିକୁ ବଳପୂର୍ବକ ବନ୍ଦ କରନ୍ତୁ</string>
     <string name="appcontrol_force_stop_action">ବଳପୂର୍ବକ ବନ୍ଦ କରନ୍ତୁ</string>
     <string name="appcontrol_force_stop_confirm_title">ବଳପୂର୍ବକ ବନ୍ଦ କରିବାକୁ ନିଶ୍ଚିତ କରନ୍ତୁ</string>

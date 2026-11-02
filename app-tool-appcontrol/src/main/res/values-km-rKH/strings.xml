@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">បង្កើតឡើកម្មវិធី។ ទឹក្រេកការចំឡើងខ្លួនខ្លួន រើឡ់អ្នកបឹកវា អ្វីឧបករណ៍ត្រូវបានបន្ថែម</string>
     <string name="appcontrol_app_uninstall_description">ដកតិត្តាក់កម្មវិធីនេចេញបីឧបករណ៍អ្នក។</string>
     <string name="appcontrol_app_exclude_add_title">ដកកម្មវិធី</string>
-    <string name="appcontrol_app_exclude_add_description">ដកកម្មវិធីនេចេញបីការដោរកនាន័លក្នុង SD Maid។</string>
+    <string name="appcontrol_app_exclude_add_description">ដកកម្មវិធីនេចេញបីការដោរកនាន័លក្នុង Tidy។</string>
     <string name="appcontrol_app_exclude_edit_title">កំណត់ការដក</string>
     <string name="appcontrol_app_exclude_edit_description">កម្មវិធីនេត្រូវបានដកចេញបីឡាឣនិងគ័ឡទៀមួយ។</string>
     <string name="appcontrol_tag_user">អ្នកប្រើបរស់</string>
@@ -92,7 +92,7 @@
     <string name="appcontrol_progress_exporting_x">កំពុងនិរ័យ %s</string>
     <string name="appcontrol_share_list_action">ច័កជ័ម្រើស</string>
     <string name="appcontrol_share_list_title">កម្មវិធីរបស់ខ្ញុន</string>
-    <string name="appcontrol_share_list_footer">បានច័កជ័ម្រើសវិញ SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">បានច័កជ័ម្រើសវិញ Tidy</string>
     <string name="appcontrol_force_stop_selection_action">បង្កើតឡើកម្មវិធីផ័ក</string>
     <string name="appcontrol_force_stop_action">បង្កើតឡើផ័ក</string>
     <string name="appcontrol_force_stop_confirm_title">បញ្ជាក់ការបង្កើតឡើផ័ក</string>

@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Tətbiqi dayandırın. Siz tətbiqi açana və ya cihaz yenidən başladılana qədər onun öz-özünə işə düşməsinin qarşısını alın.</string>
     <string name="appcontrol_app_uninstall_description">Bu tətbiqi cihazınızdan silin.</string>
     <string name="appcontrol_app_exclude_add_title">Tətbiqi istisna et</string>
-    <string name="appcontrol_app_exclude_add_description">Bu tətbiqi SD Maid-in digər əməliyyatlarından istisna et.</string>
+    <string name="appcontrol_app_exclude_add_description">Bu tətbiqi Tidy-in digər əməliyyatlarından istisna et.</string>
     <string name="appcontrol_app_exclude_edit_title">İstisnanı redaktə et</string>
     <string name="appcontrol_app_exclude_edit_description">Bu tətbiq hazırda bir və ya daha çox alətdən istisna edilib.</string>
     <string name="appcontrol_tag_user">İstifadəçi</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s ixrac edilir</string>
     <string name="appcontrol_share_list_action">Siyahını paylaş</string>
     <string name="appcontrol_share_list_title">Tətbiqlərim</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE vasitəsilə paylaşılıb</string>
+    <string name="appcontrol_share_list_footer">Tidy vasitəsilə paylaşılıb</string>
     <string name="appcontrol_force_stop_selection_action">Tətbiqləri məcburi dayandır</string>
     <string name="appcontrol_force_stop_action">Məcburi dayandır</string>
     <string name="appcontrol_force_stop_confirm_title">Məcburi dayanmanı təsdiq et</string>

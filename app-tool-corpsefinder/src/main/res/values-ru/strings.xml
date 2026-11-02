@@ -61,7 +61,7 @@
     <string name="corpsefinder_owners_label">Владельцы</string>
     <string name="corpsefinder_owner_unknown">Неизвестный владелец</string>
     <string name="corpsefinder_corpse_hint_keeper">Этот элемент может содержать данные, которые Вы хотите сохранить, несмотря на удаление его владельца, например, фотографии или резервные копии.</string>
-    <string name="corpsefinder_corpse_hint_common">Этот элемент имеет очень распространенное название и может принадлежать все ещё установленным приложениям, о которых SD Maid не знает.</string>
+    <string name="corpsefinder_corpse_hint_common">Этот элемент имеет очень распространенное название и может принадлежать все ещё установленным приложениям, о которых Tidy не знает.</string>
     <string name="corpsefinder_risk_keeper_chip">Желательно</string>
     <string name="corpsefinder_risk_common_chip">Обычный</string>
     <string name="corpsefinder_markers_dialog_title">Об этих маркерах</string>
@@ -69,5 +69,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Стандартный остаток. Обычно безопасно удалить — эти файлы принадлежат приложениям, которые больше не установлены.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder находит данные, оставленные приложениями, которые Вы уже удалили. Эти данные больше не принадлежат ничему установленному, поэтому их удаление освобождает место. Большинство из них безопасно удалять, но проверьте маркер, если Вы не уверены.</string>
-    <string name="tour_corpsefinder_row_body">Каждый элемент — это остаточные данные и приложение, из которого они поступили. Маркер показывает, насколько уверена SD Maid в том, что его можно безопасно удалить — коснитесь ⓘ вверху, чтобы узнать значение маркеров.</string>
+    <string name="tour_corpsefinder_row_body">Каждый элемент — это остаточные данные и приложение, из которого они поступили. Маркер показывает, насколько уверена Tidy в том, что его можно безопасно удалить — коснитесь ⓘ вверху, чтобы узнать значение маркеров.</string>
 </resources>

@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Edade mínima</string>
     <string name="appcleaner_include_minimumage_summary">Saltare documentos chi sunt prus zòvenes de s\'edade mínima.</string>
     <string name="appcleaner_automation_romtype_detection_label">Rilevamentu de sistema operativu</string>
-    <string name="appcleaner_automation_romtype_detection_summary">S\'automatizatzione basada in atzessibilidade podet fallire si SD Maid no rilevet curretu su sistema operativu tuo. Imprea custa impostatzione pro soverchiare su sistema operativu rilevadu.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">S\'automatizatzione basada in atzessibilidade podet fallire si Tidy no rilevet curretu su sistema operativu tuo. Imprea custa impostatzione pro soverchiare su sistema operativu rilevadu.</string>
     <string name="appcleaner_filter_codecache_label">Cache de còdighe</string>
     <string name="appcleaner_filter_codecache_summary">Cache de còdighe JVM. Blocos de bytecode cumpilados in còdighe nativu.</string>
     <string name="appcleaner_filter_advertisement_label">Datos de pubblicità</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Aplicatzione escludida</string>
     <string name="appcleaner_exclusion_limited_body">Iscluisit custa app de AppCleaner. Liborare caches pro totu is apps a sa borta impresat sa inchissione de caches disponìbile atraverssu accesu ADB, chi no potèt lassare apps individuales foras, seu is datos cache de custa app sunt liborados cun totu su residu. Sunten afetados sunten is datos cache mostrados hic, totu sa residu sa exclusione cubit serrat ascossu e intoccu.</string>
     <string name="appcleaner_automation_unavailable_title">Servitziu de atzessibilidade non disponìbile</string>
-    <string name="appcleaner_automation_unavailable_body">Sa limpida de custu cachés nescessèsita sa servizu de accesibilidade de SD Maid, ma no fuit disponìbile.</string>
+    <string name="appcleaner_automation_unavailable_body">Sa limpida de custu cachés nescessèsita sa servizu de accesibilidade de Tidy, ma no fuit disponìbile.</string>
     <string name="appcleaner_delete_confirmation_message_x">Cantzellare documentos ispentzìbiles pro %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Cantzellare documentos ispentzìbiles pro %d aplicatzione seletzionada?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Su sistema at disabilitadu su butone \"Limpiai cache\" pro custa aplicatzione. Esclude·dda pro isvelterrire sa limpiadela de cache.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Aplicatzione de sistema male cunfigurada</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">S\'aplicatzione de seguridà de HyperOS (com.miui.securitycenter) mancat de su permissu Usage Stats (GET_USAGE_STATS). Custu rompit caraterìsticas comente \"Limpiai Datos\" in detallios de aplicatzione e limpiadela de cache a travessu de atzessibilidade. Cuncede su permissu pro ripristinare sa funtzionalidade cumpleta.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Custu podet sutzèdere fintzas si s\'aplicatzione de sistema \"System UI\" est istada firmada a fortza dae pagu tempus, p.es. dae un\'aplicatzione de limpieza. Aici Android blocat is pressiones automaticas de butones de SD Maid finas a cando torras a allutire su dispositivu.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Custu podet sutzèdere fintzas si s\'aplicatzione de sistema \"System UI\" est istada firmada a fortza dae pagu tempus, p.es. dae un\'aplicatzione de limpieza. Aici Android blocat is pressiones automaticas de butones de Tidy finas a cando torras a allutire su dispositivu.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Firma a fortza prima de sa limpesa</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Firma a fortza is aplicatziones prima de limpiare sa memòria temporànea insoro. Podet agiudare a limpiare sa memòria de àteras aplicatziones, ma podet càusare cumportamentos anòmalos e netzessitare unu torrada a aviare manuale.</string>
     <string name="appcleaner_progress_force_stopping">Firmende a fortza is aplicatziones…</string>

@@ -10,7 +10,7 @@ import kotlinx.coroutines.TimeoutCancellationException
 open class AutomationTimeoutException(
     cause: TimeoutCancellationException,
 ) : AutomationException(
-    "SD Maid couldn't complete the necessary steps within the timelimit. This could mean that I need to adjust the app for your device. Consider reaching out to me so I can fix it.",
+    "Tidy couldn't complete the necessary steps within the timelimit. This could mean that I need to adjust the app for your device. Consider reaching out to me so I can fix it.",
     cause,
 ), HasLocalizedError {
 

@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Eksklusionsadministrator</string>
     <string name="exclusion_manager_desc">Administrer fil- og app-eksklusioner.</string>
-    <string name="exclusion_explanation_body1">Ekskluder filer og apps for at beskytte dem mod SD Maids værktøjer, eller for at springe irrelevante elementer over og fremskynde operationer.</string>
+    <string name="exclusion_explanation_body1">Ekskluder filer og apps for at beskytte dem mod Tidys værktøjer, eller for at springe irrelevante elementer over og fremskynde operationer.</string>
     <string name="exclusion_add_new_hint">Ingen eksklusioner endnu. Brug +-knappen for at oprette en, eller ekskluder elementer fra resultatet af ethvert værktøj.</string>
     <string name="exclusion_create_action">Opret eksklusion</string>
     <string name="exclusion_edit_action">Rediger eksklusion</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Tillad delvise matches</string>
     <string name="exclusion_option_ignore_casing">Ignorer store/små bogstaver</string>
     <string name="exclusion_editor_affected_tools_label">Påvirkede værktøjer</string>
-    <string name="exclusion_editor_path_explanation">En stieksklusion forhindrer SD Maid i at behandle matchende stier yderligere. Dette omfatter filer, mapper og undermapper.</string>
-    <string name="exclusion_editor_pkg_explanation">En app-eksklusion forhindrer SD Maid i at behandle matchende pakker.</string>
+    <string name="exclusion_editor_path_explanation">En stieksklusion forhindrer Tidy i at behandle matchende stier yderligere. Dette omfatter filer, mapper og undermapper.</string>
+    <string name="exclusion_editor_pkg_explanation">En app-eksklusion forhindrer Tidy i at behandle matchende pakker.</string>
     <string name="exclusion_editor_segment_explanation">En segmentbaseret eksklusion minder om en stieksklusion, men tillader delvise matches. Eksempel: \"DCIM/Camera\" ekskluderer \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Fjern denne eksklusion?</string>
     <string name="exclusion_reset_default_exclusions">Gendan standardeksklusioner</string>

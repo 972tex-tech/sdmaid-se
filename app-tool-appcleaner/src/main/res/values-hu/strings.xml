@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimális kor</string>
     <string name="appcleaner_include_minimumage_summary">A minimális életkornál fiatalabb fájlok kihagyása.</string>
     <string name="appcleaner_automation_romtype_detection_label">Operációs rendszer észlelés</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Az akadálymentesítésen alapuló automatizálás sikertelen lehet, ha az SD Maid nem ismeri fel helyesen az operációs rendszert. Ezzel a beállítással felülbírálhatja az észlelt operációs rendszert.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Az akadálymentesítésen alapuló automatizálás sikertelen lehet, ha az Tidy nem ismeri fel helyesen az operációs rendszert. Ezzel a beállítással felülbírálhatja az észlelt operációs rendszert.</string>
     <string name="appcleaner_filter_codecache_label">Kód gyorsítótár</string>
     <string name="appcleaner_filter_codecache_summary">JVM kód gyorsítótár. Bájtkód blokkok natív kódba fordítva.</string>
     <string name="appcleaner_filter_advertisement_label">Hirdetési adatok</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Kizárt alkalmazás</string>
     <string name="appcleaner_exclusion_limited_body">Kizártad ezt az alkalmazást az AppCleanerből. Az összes alkalmazás gyorsítótárának egyszerre történő törlése az ADB-hozzáférésen keresztül elérhető rendszerszintű gyorsítótár-tisztítást használja, amely nem tud kihagyni egyes alkalmazásokat, ezért ennek az alkalmazásnak a gyorsítótárazott adatai is törlődnek a többivel együtt. Csak az itt látható gyorsítótárazott adatokat érinti, a kizárás által lefedett minden más rejtve és érintetlen marad.</string>
     <string name="appcleaner_automation_unavailable_title">A kisegítő lehetőségek szolgáltatása nem érhető el</string>
-    <string name="appcleaner_automation_unavailable_body">Ezeknek a gyorsítótáraknak a törléséhez az SD Maid kisegítő lehetőségek szolgáltatására van szükség, de az nem volt elérhető.</string>
+    <string name="appcleaner_automation_unavailable_body">Ezeknek a gyorsítótáraknak a törléséhez az Tidy kisegítő lehetőségek szolgáltatására van szükség, de az nem volt elérhető.</string>
     <string name="appcleaner_delete_confirmation_message_x">Felesleges fájlok törlése %s számára?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Felesleges fájlok törlése %d kiválasztott alkalmazáshoz?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">A rendszer letiltotta a \"Gyorsítótár törlése\" gombot ehhez az alkalmazáshoz. Zárja ki a gyorsítótár törlésének felgyorsításához.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Rendszeralkalmazás rosszul konfigurált</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">A HyperOS biztonsági alkalmazása (com.miui.securitycenter) hiányzik a használati statisztikák engedélye (GET_USAGE_STATS). Ez megsérti az olyan funkciókat, mint az \"Adatok törlése\" az alkalmazás részleteiben és a gyorsítótár törlése az akadálymentesítésen keresztül. Adjon engedélyt a teljes funkcionalitás visszaállításához.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Ez akkor is előfordulhat, ha a „System UI” rendszeralkalmazást nem rég kényszerítve leállították, például egy alkalmazástisztító eszközzel. Ilyenkor az Android blokkolja az SD Maid automatikus gombnyomásait, amíg újra nem indítod az eszközt.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Ez akkor is előfordulhat, ha a „System UI” rendszeralkalmazást nem rég kényszerítve leállították, például egy alkalmazástisztító eszközzel. Ilyenkor az Android blokkolja az Tidy automatikus gombnyomásait, amíg újra nem indítod az eszközt.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Kényszerleállítás törlés előtt</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Alkalmazások kényszerleállítása a gyorsítótár törlése előtt. Segíthet egyes alkalmazások gyorsítótárának törlésében, de az alkalmazások hibásan működhetnek és kézi újraindítást igényelhetnek.</string>
     <string name="appcleaner_progress_force_stopping">Alkalmazások kényszerleállítása…</string>

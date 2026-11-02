@@ -21,6 +21,7 @@ android {
 
     defaultConfig {
         namespace = projectConfig.packageName
+        applicationId = "com.tidy.cleaner"
 
         minSdk = projectConfig.minSdk
         if (projectConfig.targetSdkPreview != null) {
@@ -35,7 +36,7 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         testInstrumentationRunnerArguments["clearPackageData"] = "true"
 
-        buildConfigField("String", "PACKAGENAME", "\"${projectConfig.packageName}\"")
+        buildConfigField("String", "PACKAGENAME", "\"com.tidy.cleaner\"")
         buildConfigField("String", "GITSHA", "\"${commitHashProvider.get()}\"")
         buildConfigField("String", "VERSION_CODE", "\"${projectConfig.version.code}\"")
         buildConfigField("String", "VERSION_NAME", "\"${projectConfig.version.name}\"")

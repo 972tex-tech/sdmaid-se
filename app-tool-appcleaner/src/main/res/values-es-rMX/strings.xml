@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Antigüedad mínima</string>
     <string name="appcleaner_include_minimumage_summary">Omitir archivos que sean más recientes que la antigüedad mínima.</string>
     <string name="appcleaner_automation_romtype_detection_label">Detección del sistema operativo</string>
-    <string name="appcleaner_automation_romtype_detection_summary">La automatización basada en accesibilidad puede fallar si SD Maid no detecta tu sistema operativo correctamente. Usa esta configuración para anular el sistema operativo detectado.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">La automatización basada en accesibilidad puede fallar si Tidy no detecta tu sistema operativo correctamente. Usa esta configuración para anular el sistema operativo detectado.</string>
     <string name="appcleaner_filter_codecache_label">Caché de código</string>
     <string name="appcleaner_filter_codecache_summary">Caché de código JVM. Bloques de bytecode compilados en código nativo.</string>
     <string name="appcleaner_filter_advertisement_label">Datos de publicidad</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Aplicación excluida</string>
     <string name="appcleaner_exclusion_limited_body">Excluiste esta aplicación de AppCleaner. Borrar las cachés de todas las aplicaciones a la vez usa la depuración de caché de todo el sistema disponible mediante acceso ADB, que no puede dejar aplicaciones individuales fuera, así que los datos en caché de esta aplicación se borran junto con todo lo demás. Solo se ven afectados los datos en caché que se muestran aquí; todo lo demás que cubre la exclusión permanece oculto e intacto.</string>
     <string name="appcleaner_automation_unavailable_title">Servicio de accesibilidad no disponible</string>
-    <string name="appcleaner_automation_unavailable_body">Para borrar estas cachés se necesita el servicio de accesibilidad de SD Maid, pero no estaba disponible.</string>
+    <string name="appcleaner_automation_unavailable_body">Para borrar estas cachés se necesita el servicio de accesibilidad de Tidy, pero no estaba disponible.</string>
     <string name="appcleaner_delete_confirmation_message_x">¿Eliminar archivos prescindibles de %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">¿Eliminar archivos prescindibles de %d aplicación seleccionada?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">El sistema ha desactivado el botón \"Limpiar caché\" para esta aplicación. Exclúyela para acelerar la limpieza del caché.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Aplicación del sistema mal configurada</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">La aplicación de Seguridad de HyperOS (com.miui.securitycenter) carece del permiso de Estadísticas de Uso (GET_USAGE_STATS). Esto interrumpe funciones como \"Limpiar Datos\" en detalles de aplicación y limpieza de caché a través de accesibilidad. Otorga el permiso para restaurar la funcionalidad completa.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Esto también puede ocurrir si la app del sistema \"System UI\" se detuvo forzosamente hace poco, por ejemplo mediante una herramienta de limpieza de apps. En ese caso, Android bloquea las pulsaciones de botones automatizadas de SD Maid hasta que reinicies el dispositivo.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Esto también puede ocurrir si la app del sistema \"System UI\" se detuvo forzosamente hace poco, por ejemplo mediante una herramienta de limpieza de apps. En ese caso, Android bloquea las pulsaciones de botones automatizadas de Tidy hasta que reinicies el dispositivo.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Forzar detención antes de limpiar</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Forzar la detención de aplicaciones antes de limpiar su caché. Puede ayudar a limpiar el caché de algunas aplicaciones, pero puede causar mal funcionamiento y requerir reinicio manual.</string>
     <string name="appcleaner_progress_force_stopping">Forzando detención de aplicaciones…</string>

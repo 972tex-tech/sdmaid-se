@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">ຕັວຈັດການການທ່ອນຂ້າມ</string>
     <string name="exclusion_manager_desc">ຈັດການການທ່ອນຂ້າມໄຟລ໌ ແວແອັບ.</string>
-    <string name="exclusion_explanation_body1">ຍົກເວັ້ນໄຟລ໌ ແລະ app ເພື່ອປົກປ້ອງພວກມັນຈາກເຄື່ອງມືຂອງ SD Maid, ຫລືຂ້າມລາຍການທີ່ບໍ່ກ່ຽວຂ້ອງ ແລະ ເລັ່ງການດຳເນີນການ.</string>
+    <string name="exclusion_explanation_body1">ຍົກເວັ້ນໄຟລ໌ ແລະ app ເພື່ອປົກປ້ອງພວກມັນຈາກເຄື່ອງມືຂອງ Tidy, ຫລືຂ້າມລາຍການທີ່ບໍ່ກ່ຽວຂ້ອງ ແລະ ເລັ່ງການດຳເນີນການ.</string>
     <string name="exclusion_add_new_hint">ບໍ່ມີຂໍ້ຍົກເວັ້ນເທື່ອ. ໃຊ້ປຸ່ມ + ເພື່ອສ້າງ, ຫລືຍົກເວັ້ນລາຍການຈາກຜົນລັບຂອງເຄື່ອງມືໃດໜຶ່ງ.</string>
     <string name="exclusion_create_action">ສ້າງການທ່ອນຂ້າມ</string>
     <string name="exclusion_edit_action">ແກ້ໄຂການທ່ອນຂ້າມ</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">ອະນຸຍາດການຈັບຄູ່ບາງສ່ວນ</string>
     <string name="exclusion_option_ignore_casing">ບໍ່ຄຳນຶງຕັວພິມພ໌ບນ-ລ່າງ</string>
     <string name="exclusion_editor_affected_tools_label">ເຄື່ອງມືທີ່ໄດ້ຮັບຜລກະທົບ</string>
-    <string name="exclusion_editor_path_explanation">ການທ່ອນຂ້າມທາງປ້ອງກັນ SD Maid ຈາກການປະລົງຜລທາງທີ່ຕຼງກັນ. ເທົ່ງໄຊ້ກັບໄຟລ໌ ໂຟນເດີ ແວໂຟນເດີຍ່ອຍ.</string>
-    <string name="exclusion_editor_pkg_explanation">ການທ່ອນຂ້າມແອັບປ້ອງກັນ SD Maid ຈາກການປະລົງຜລພັກເກດທີ່ຕຼງກັນ.</string>
+    <string name="exclusion_editor_path_explanation">ການທ່ອນຂ້າມທາງປ້ອງກັນ Tidy ຈາກການປະລົງຜລທາງທີ່ຕຼງກັນ. ເທົ່ງໄຊ້ກັບໄຟລ໌ ໂຟນເດີ ແວໂຟນເດີຍ່ອຍ.</string>
+    <string name="exclusion_editor_pkg_explanation">ການທ່ອນຂ້າມແອັບປ້ອງກັນ Tidy ຈາກການປະລົງຜລພັກເກດທີ່ຕຼງກັນ.</string>
     <string name="exclusion_editor_segment_explanation">ການທ່ອນຂ້າມຕາມສ່ວນມີຄວາມຄ້າຍກັບການທ່ອນຂ້າມທາງ ແຕ່ອະນຸຍາດການຈັບຄູ່ບາງສ່ວນ. ຕັວອໍນ: \"DCIM/Camera\" ທ່ອນຂ້າມ \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">ລົບການທ່ອນຂ້າມນີ້ຫຼື?</string>
     <string name="exclusion_reset_default_exclusions">ຄືນຄ່າການທ່ອນຂ້າມເຣີ່ມຕ້ນ</string>

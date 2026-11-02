@@ -57,7 +57,7 @@
     <string name="corpsefinder_owners_label">Proprietarii</string>
     <string name="corpsefinder_owner_unknown">Propietar necunoscut</string>
     <string name="corpsefinder_corpse_hint_keeper">Acest articol poate conține date pe care doriți să le păstrați, deși proprietarul său este dezinstalat, ex: fotografii sau copii de rezervă.</string>
-    <string name="corpsefinder_corpse_hint_common">Acest articol are un nume foarte comun și ar putea aparține unor aplicații încă instalate pe care SD Maid nu le cunoaște.</string>
+    <string name="corpsefinder_corpse_hint_common">Acest articol are un nume foarte comun și ar putea aparține unor aplicații încă instalate pe care Tidy nu le cunoaște.</string>
     <string name="corpsefinder_risk_keeper_chip">Dezirabil</string>
     <string name="corpsefinder_risk_common_chip">Comun</string>
     <string name="corpsefinder_markers_dialog_title">Despre acești marcatori</string>
@@ -65,5 +65,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Rest standard. De obicei sigur de șters — aceste fișiere aparțin aplicațiilor care nu mai sunt instalate.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder găsește date lăsate în urmă de aplicații pe care le-ați dezinstalat deja. Nu mai aparțin niciunei aplicații instalate, deci ștergerea lor eliberează spațiu. Cea mai mare parte este sigură de șters, dar verificați marcatorul când nu sunteți sigur.</string>
-    <string name="tour_corpsefinder_row_body">Fiecare element arată date rămase și aplicația din care provin. Marcatorul arată cât de sigur este SD Maid că este sigur să ștergi — apasă pe ⓘ de sus pentru a afla ce înseamnă marcatorii.</string>
+    <string name="tour_corpsefinder_row_body">Fiecare element arată date rămase și aplicația din care provin. Marcatorul arată cât de sigur este Tidy că este sigur să ștergi — apasă pe ⓘ de sus pentru a afla ce înseamnă marcatorii.</string>
 </resources>

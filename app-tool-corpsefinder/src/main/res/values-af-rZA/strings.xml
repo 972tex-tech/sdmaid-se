@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Eienaars</string>
     <string name="corpsefinder_owner_unknown">Onbekende eienaar</string>
     <string name="corpsefinder_corpse_hint_keeper">Hierdie item mag data bevat wat jy wil hou ten spyte van dit se eienaar wat gedeïnstalleer is, bv. foto\'s of rugsteune.</string>
-    <string name="corpsefinder_corpse_hint_common">Hierdie item het \'n baie algemene naam en kan behoort aan nog geïnstalleerde toepassings wat SD Maid nie ken nie.</string>
+    <string name="corpsefinder_corpse_hint_common">Hierdie item het \'n baie algemene naam en kan behoort aan nog geïnstalleerde toepassings wat Tidy nie ken nie.</string>
     <string name="corpsefinder_risk_keeper_chip">Wenslik</string>
     <string name="corpsefinder_risk_common_chip">Algemeen</string>
     <string name="corpsefinder_markers_dialog_title">Oor hierdie merkers</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Standaard oorblyfsel. Oor die algemeen veilig om te verwyder — hierdie lêers behoort aan apps wat nie meer geïnstalleer is nie.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder vind data wat deur gedeïnstalleerde programme agtergelaat is. Dit behoort nie meer tot iets geïnstalleerds nie, dus word ruimte bevry wanneer jy dit verwyder. Meeste daarvan is veilig om te verwyder, maar kontroleer die merker as jy onseker is.</string>
-    <string name="tour_corpsefinder_row_body">Elke item is oorblywende data en die app waar dit vandaan kom. Die merker toon hoe seker SD Maid is dat dit veilig is om te verwyder — tik die ⓘ bo-aan om te leer wat die merkers beteken.</string>
+    <string name="tour_corpsefinder_row_body">Elke item is oorblywende data en die app waar dit vandaan kom. Die merker toon hoe seker Tidy is dat dit veilig is om te verwyder — tik die ⓘ bo-aan om te leer wat die merkers beteken.</string>
 </resources>

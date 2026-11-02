@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">อายุขั้นต่ำ</string>
     <string name="appcleaner_include_minimumage_summary">ข้ามไฟล์ที่ใหม่กว่าอายุขั้นต่ำ</string>
     <string name="appcleaner_automation_romtype_detection_label">การตรวจสอบระบบปฏิบัติการ</string>
-    <string name="appcleaner_automation_romtype_detection_summary">การทำงานอัตโนมัติที่ใช้บริการช่วยเหลือการเข้าถึงอาจล้มเหลวหาก SD Maid ตรวจไม่พบระบบปฏิบัติการของคุณอย่างถูกต้อง ใช้การตั้งค่านี้เพื่อแทนที่ระบบปฏิบัติการที่ตรวจพบ</string>
+    <string name="appcleaner_automation_romtype_detection_summary">การทำงานอัตโนมัติที่ใช้บริการช่วยเหลือการเข้าถึงอาจล้มเหลวหาก Tidy ตรวจไม่พบระบบปฏิบัติการของคุณอย่างถูกต้อง ใช้การตั้งค่านี้เพื่อแทนที่ระบบปฏิบัติการที่ตรวจพบ</string>
     <string name="appcleaner_filter_codecache_label">แคชโค้ด</string>
     <string name="appcleaner_filter_codecache_summary">แคชโค้ด JVM บล็อกของไบต์โค้ดที่ถูกคอมไพล์เป็นโค้ดเนทีฟ</string>
     <string name="appcleaner_filter_advertisement_label">ข้อมูลโฆษณา</string>
@@ -82,7 +82,7 @@
     <string name="appcleaner_exclusion_limited_title">แอพที่ยกเว้น</string>
     <string name="appcleaner_exclusion_limited_body">คุณได้ยกเว้นแอปนี้จาก AppCleaner การล้างแคชของทุกแอปพร้อมกันใช้การตัดแคชทั้งระบบที่ทำได้ผ่านการเข้าถึง ADB ซึ่งเว้นแอปรายตัวไว้ไม่ได้ ดังนั้นข้อมูลแคชของแอปนี้จะถูกล้างไปพร้อมกับแอปอื่น ๆ ทั้งหมด เฉพาะข้อมูลแคชที่แสดงที่นี่เท่านั้นที่ได้รับผลกระทบ ส่วนอื่นที่การยกเว้นครอบคลุมจะยังคงถูกซ่อนและไม่ถูกแตะต้อง</string>
     <string name="appcleaner_automation_unavailable_title">บริการช่วยเหลือการเข้าถึงไม่พร้อมใช้งาน</string>
-    <string name="appcleaner_automation_unavailable_body">การล้างแคชนี้ต้องการบริการช่วยเหลือการใช้งาน SD Maid แต่ไม่พร้อมใช้งาน</string>
+    <string name="appcleaner_automation_unavailable_body">การล้างแคชนี้ต้องการบริการช่วยเหลือการใช้งาน Tidy แต่ไม่พร้อมใช้งาน</string>
     <string name="appcleaner_delete_confirmation_message_x">ลบไฟล์ที่สามารถลบทิ้งได้สำหรับ %s หรือไม่?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="other">ลบไฟล์ที่สามารถลบทิ้งได้สำหรับแอพที่เลือก %d แอพหรือไม่?</item>
@@ -93,7 +93,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">ระบบได้ปิดการใช้งานปุ่ม \"ล้างแคช\" สำหรับแอพนี้ ยกเว้นเพื่อเร่งการล้างแคช</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">แอพระบบตั้งค่าไม่ถูกต้อง</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">แอพ Security ของ HyperOS (com.miui.securitycenter) ขาดสิทธิ์สถิติการใช้งาน (GET_USAGE_STATS) สิ่งนี้ทำให้คุณสมบัติเช่น \"ล้างข้อมูล\" ในรายละเอียดแอพและการล้างแคชผ่านบริการช่วยเหลือการเข้าถึงไม่ทำงาน อนุญาตสิทธิ์เพื่อคืนคำการทำงานเต็มรูปแบบ</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">สิ่งนี้อาจเกิดขึ้นได้เช่นกันหากแอประบบ \"System UI\" เพิ่งถูกบังคับหยุดการทำงาน เช่น โดยเครื่องมือทำความสะอาดแอป ซึ่ง Android จะบล็อกการกดปุ่มอัตโนมัติของ SD Maid จนกว่าคุณจะรีสตาร์ทอุปกรณ์</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">สิ่งนี้อาจเกิดขึ้นได้เช่นกันหากแอประบบ \"System UI\" เพิ่งถูกบังคับหยุดการทำงาน เช่น โดยเครื่องมือทำความสะอาดแอป ซึ่ง Android จะบล็อกการกดปุ่มอัตโนมัติของ Tidy จนกว่าคุณจะรีสตาร์ทอุปกรณ์</string>
     <string name="appcleaner_forcestop_before_clearing_label">บังคับหยุดก่อนล้าง</string>
     <string name="appcleaner_forcestop_before_clearing_summary">บังคับหยุดแอปก่อนล้างแคช อาจช่วยล้างแคชบางแอปได้ แต่อาจทำให้แอปทำงานผิดปกติและต้องรีสตาร์ทด้วยตนเอง</string>
     <string name="appcleaner_progress_force_stopping">กำลังบังคับหยุดแอป…</string>

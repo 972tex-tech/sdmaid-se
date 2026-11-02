@@ -4,7 +4,7 @@
         <item quantity="other">%s telah dibebaskan.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="other">%s item diproses sejak anda menjemput SD Maid ke peranti anda.</item>
+        <item quantity="other">%s item diproses sejak anda menjemput Tidy ke peranti anda.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="other">Tetamu kamu selama %d hari.</item>
@@ -20,12 +20,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Berjaya sebahagian</string>
     <string name="stats_report_status_partial_failure">Gagal</string>
-    <string name="stats_settings_desc">Konfigurasi statistik SD Maid, laporan dan pengekalan data.</string>
+    <string name="stats_settings_desc">Konfigurasi statistik Tidy, laporan dan pengekalan data.</string>
     <string name="stats_settings_retention_category">Pengekalan</string>
     <string name="stats_settings_retention_reports_label">Laporan am</string>
-    <string name="stats_settings_retention_reports_desc">Bilangan hari sebelum memadam laporan operasi asas SD Maid.</string>
+    <string name="stats_settings_retention_reports_desc">Bilangan hari sebelum memadam laporan operasi asas Tidy.</string>
     <string name="stats_settings_retention_paths_label">Maklumat laluan terperinci</string>
-    <string name="stats_settings_retention_paths_desc">Bilangan hari untuk menyimpan butiran tentang laluan yang terjejas oleh SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Bilangan hari untuk menyimpan butiran tentang laluan yang terjejas oleh Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Sejarah storan</string>
     <string name="stats_settings_retention_snapshots_desc">Bilangan hari untuk menyimpan syot kilat penggunaan storan bagi carta Aliran Storan. Syot kilat yang lebih lama akan dipadamkan.</string>
     <string name="stats_settings_reset_all_label">Set semula semua</string>

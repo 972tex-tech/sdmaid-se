@@ -6,9 +6,9 @@
         <item quantity="other">%s au fost eliberați.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s articol a fost procesat de când ați invitat SD Maid pe dispozitiv.</item>
-        <item quantity="few">%s articole procesate de când ați invitat SD Maid pe dispozitiv.</item>
-        <item quantity="other">%s articole procesate de când ați invitat SD Maid pe dispozitiv.</item>
+        <item quantity="one">%s articol a fost procesat de când ați invitat Tidy pe dispozitiv.</item>
+        <item quantity="few">%s articole procesate de când ați invitat Tidy pe dispozitiv.</item>
+        <item quantity="other">%s articole procesate de când ați invitat Tidy pe dispozitiv.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Oaspetele tău de %d zi.</item>
@@ -32,12 +32,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Succes parțial</string>
     <string name="stats_report_status_partial_failure">Eșec</string>
-    <string name="stats_settings_desc">Configurați statisticile, rapoartele și păstrarea datelor SD Maid.</string>
+    <string name="stats_settings_desc">Configurați statisticile, rapoartele și păstrarea datelor Tidy.</string>
     <string name="stats_settings_retention_category">Retenție</string>
     <string name="stats_settings_retention_reports_label">Raport general</string>
-    <string name="stats_settings_retention_reports_desc">Numărul de zile înainte de ștergerea rapoartelor de bază privind operațiunile SD Maid.</string>
+    <string name="stats_settings_retention_reports_desc">Numărul de zile înainte de ștergerea rapoartelor de bază privind operațiunile Tidy.</string>
     <string name="stats_settings_retention_paths_label">Informații detaliate despre cale</string>
-    <string name="stats_settings_retention_paths_desc">Numărul de zile pentru păstrarea detaliilor despre căile afectate de SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Numărul de zile pentru păstrarea detaliilor despre căile afectate de Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Istoricul de stocare</string>
     <string name="stats_settings_retention_snapshots_desc">Numărul de zile pentru care să se păstreze instantanele de utilizare a spațiului pentru graficul Tendință de stocare. Instantanele mai vechi sunt șterse.</string>
     <string name="stats_settings_reset_all_label">Resetează totul</string>

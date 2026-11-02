@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Ελάχιστη ηλικία</string>
     <string name="appcleaner_include_minimumage_summary">Παράλειψη αρχείων που είναι μικρότερα από την ελάχιστη ηλικία.</string>
     <string name="appcleaner_automation_romtype_detection_label">Εντοπισμός λειτουργικού συστήματος</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Ο αυτοματισμός με βάση την προσβασιμότητα μπορεί να αποτύχει αν το SD Maid δεν ανιχνεύσει σωστά το λειτουργικό σας σύστημα. Χρησιμοποιήστε αυτήν τη ρύθμιση για να παρακάμψετε το λειτουργικό σύστημα που εντοπίστηκε.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Ο αυτοματισμός με βάση την προσβασιμότητα μπορεί να αποτύχει αν το Tidy δεν ανιχνεύσει σωστά το λειτουργικό σας σύστημα. Χρησιμοποιήστε αυτήν τη ρύθμιση για να παρακάμψετε το λειτουργικό σύστημα που εντοπίστηκε.</string>
     <string name="appcleaner_filter_codecache_label">Προσωρινή μνήμη κώδικα</string>
     <string name="appcleaner_filter_codecache_summary">Προσωρινή μνήμη κώδικα JVM. Τμήματα κώδικα byte μεταγλωττισμένα σε εγγενή κώδικα.</string>
     <string name="appcleaner_filter_advertisement_label">Δεδομένα διαφήμισης</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Εξαιρούμενη εφαρμογή</string>
     <string name="appcleaner_exclusion_limited_body">Εξαιρέσατε αυτή την εφαρμογή από το AppCleaner. Η εκκαθάριση της προσωρινής μνήμης όλων των εφαρμογών ταυτόχρονα χρησιμοποιεί το καθολικό κλάδεμα προσωρινής μνήμης του συστήματος που είναι διαθέσιμο μέσω πρόσβασης ADB και δεν μπορεί να αφήσει εκτός μεμονωμένες εφαρμογές, επομένως τα δεδομένα προσωρινής μνήμης αυτής της εφαρμογής εκκαθαρίζονται μαζί με όλα τα υπόλοιπα. Επηρεάζονται μόνο τα δεδομένα προσωρινής μνήμης που εμφανίζονται εδώ, ό,τι άλλο καλύπτει η εξαίρεση παραμένει κρυφό και ανέγγιχτο.</string>
     <string name="appcleaner_automation_unavailable_title">Η υπηρεσία προσβασιμότητας δεν είναι διαθέσιμη</string>
-    <string name="appcleaner_automation_unavailable_body">Ο καθαρισμός αυτών των κρυφών μνημών απαιτεί την υπηρεσία προσβασιμότητας του SD Maid, αλλά δεν ήταν διαθέσιμη.</string>
+    <string name="appcleaner_automation_unavailable_body">Ο καθαρισμός αυτών των κρυφών μνημών απαιτεί την υπηρεσία προσβασιμότητας του Tidy, αλλά δεν ήταν διαθέσιμη.</string>
     <string name="appcleaner_delete_confirmation_message_x">Διαγραφή αναλώσιμων αρχείων για %s;</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Διαγραφή αναλώσιμων αρχείων για %d επιλεγμένη εφαρμογή;</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Το σύστημα έχει απενεργοποιήσει το κουμπί \"Εκκαθάριση μνήμης cache\" για αυτήν την εφαρμογή. Εξαιρέστε το για να επιταχύνετε την εκκαθάριση της μνήμης cache.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Η εφαρμογή συστήματος δεν έχει ρυθμιστεί σωστά</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Η εφαρμογή ασφαλείας του HyperOS (com.miui.securitycenter) δεν έχει το δικαίωμα Στατιστικά χρήσης (GET_USAGE_STATS). Αυτό διακόπτει λειτουργίες όπως η \"Εκκαθάριση δεδομένων\" στις λεπτομέρειες της εφαρμογής και η εκκαθάριση της προσωρινής μνήμης μέσω προσβασιμότητας. Παραχωρήστε το δικαίωμα για να επαναφέρετε την πλήρη λειτουργικότητα.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Αυτό μπορεί επίσης να συμβεί αν η εφαρμογή συστήματος «System UI» τερματίστηκε αναγκαστικά πρόσφατα, π.χ. από ένα εργαλείο καθαρισμού εφαρμογών. Σε αυτήν την περίπτωση, το Android αποκλείει τα αυτοματοποιημένα πατήματα κουμπιών του SD Maid μέχρι να επανεκκινήσετε τη συσκευή.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Αυτό μπορεί επίσης να συμβεί αν η εφαρμογή συστήματος «System UI» τερματίστηκε αναγκαστικά πρόσφατα, π.χ. από ένα εργαλείο καθαρισμού εφαρμογών. Σε αυτήν την περίπτωση, το Android αποκλείει τα αυτοματοποιημένα πατήματα κουμπιών του Tidy μέχρι να επανεκκινήσετε τη συσκευή.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Αναγκαστική διακοπή πριν από την εκκαθάριση</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Αναγκαστική διακοπή εφαρμογών πριν από την εκκαθάριση της μνήμης cache τους. Μπορεί να βοηθήσει στην εκκαθάριση ορισμένων κρυφών μνημών εφαρμογών, αλλά μπορεί να προκαλέσει δυσλειτουργία εφαρμογών και να απαιτηθεί χειροκίνητη επανεκκίνηση.</string>
     <string name="appcleaner_progress_force_stopping">Αναγκαστική διακοπή εφαρμογών…</string>

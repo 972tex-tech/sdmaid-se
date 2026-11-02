@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Chiqarish menejeri</string>
     <string name="exclusion_manager_desc">Fayl va ilova chiqarishlarini boshqarish.</string>
-    <string name="exclusion_explanation_body1">Fayllar va ilovalarni SD Maid vositalaridan himoyalash uchun yoki ahamiyatsiz elementlarni o\'tkazib yuborib amallarni tezlashtirish uchun istisno qiling.</string>
+    <string name="exclusion_explanation_body1">Fayllar va ilovalarni Tidy vositalaridan himoyalash uchun yoki ahamiyatsiz elementlarni o\'tkazib yuborib amallarni tezlashtirish uchun istisno qiling.</string>
     <string name="exclusion_add_new_hint">Hozircha istisnolar yo\'q. Yangisini yaratish uchun + tugmasidan foydalaning yoki istalgan vosita natijalaridan elementlarni istisno qiling.</string>
     <string name="exclusion_create_action">Chiqarishni yaratish</string>
     <string name="exclusion_edit_action">Chiqarish tahriri</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Qisman moslikka ruxsat berish</string>
     <string name="exclusion_option_ignore_casing">Katta-kichik harflarni e\'tiborsiz qoldirish</string>
     <string name="exclusion_editor_affected_tools_label">Ta\'sirlangan vositalar</string>
-    <string name="exclusion_editor_path_explanation">Yo\'l chiqarishi SD Maid ni mos keladigan yo\'llarni keyingi qayta ishlashdan to\'xtatadi. Bu fayllar, papkalar va quyi papkalarga taalluqlidir.</string>
-    <string name="exclusion_editor_pkg_explanation">Ilova chiqarishi SD Maid ni mos keladigan paketlarni qayta ishlashdan to\'xtatadi.</string>
+    <string name="exclusion_editor_path_explanation">Yo\'l chiqarishi Tidy ni mos keladigan yo\'llarni keyingi qayta ishlashdan to\'xtatadi. Bu fayllar, papkalar va quyi papkalarga taalluqlidir.</string>
+    <string name="exclusion_editor_pkg_explanation">Ilova chiqarishi Tidy ni mos keladigan paketlarni qayta ishlashdan to\'xtatadi.</string>
     <string name="exclusion_editor_segment_explanation">Segmentga asoslangan chiqarish yo\'l chiqarishiga o\'xshaydi, lekin qisman moslikka ruxsat beradi. Misol: \"DCIM/Camera\" \"/sdcard/DCIM/Camera/photo.png\" ni chiqarib tashlaydi.</string>
     <string name="exclusion_editor_remove_confirmation_message">Ushbu chiqarishni olib tashlash kerakmi?</string>
     <string name="exclusion_reset_default_exclusions">Standart chiqarishlarni qayta tiklash</string>

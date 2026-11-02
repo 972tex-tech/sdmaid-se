@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimum na edad</string>
     <string name="appcleaner_include_minimumage_summary">Laktawan ang mga file na mas bata pa sa minimum na edad.</string>
     <string name="appcleaner_automation_romtype_detection_label">Pagtuklas ng operating system</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Ang accessibility-based na automation ay maaaring hindi gumana kung hindi naitama ng SD Maid ang inyong OS. Gamitin ang setting na ito para ma-override ang detected na OS.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Ang accessibility-based na automation ay maaaring hindi gumana kung hindi naitama ng Tidy ang inyong OS. Gamitin ang setting na ito para ma-override ang detected na OS.</string>
     <string name="appcleaner_filter_codecache_label">Cache ng code</string>
     <string name="appcleaner_filter_codecache_summary">JVM code cache. Mga block ng bytecode na na-compile sa native code.</string>
     <string name="appcleaner_filter_advertisement_label">Data ng advertisement</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Eksklusyong app</string>
     <string name="appcleaner_exclusion_limited_body">Na-exclude mo ang app na ito sa AppCleaner. Ang sabay-sabay na pag-clear ng cache ng lahat ng app ay gumagamit ng system-wide cache trim na available sa pamamagitan ng ADB access, na hindi makakaligtaan ang mga indibidwal na app, kaya nabubura rin ang cached data ng app na ito kasama ng lahat ng iba pa. Ang cached data lang na ipinapakita rito ang apektado, ang iba pang sakop ng exclusion ay mananatiling nakatago at hindi gagalawin.</string>
     <string name="appcleaner_automation_unavailable_title">Hindi available ang accessibility service</string>
-    <string name="appcleaner_automation_unavailable_body">Ang pag-clear ng mga cache na ito ay nangangailangan ng Accessibility Service ng SD Maid, ngunit hindi ito available.</string>
+    <string name="appcleaner_automation_unavailable_body">Ang pag-clear ng mga cache na ito ay nangangailangan ng Accessibility Service ng Tidy, ngunit hindi ito available.</string>
     <string name="appcleaner_delete_confirmation_message_x">Tanggalin ang mga expendable na file para sa %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Burahin ang mga expendable file para sa %d napiling app?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Na-disable ng system ang \"Clear cache\" button para sa app na ito. I-exclude ito para mapabilis ang cache clearing.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Hindi tama ang configuration ng system app</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Ang Security app ng HyperOS (com.miui.securitycenter) ay kulang ng Usage Stats permission (GET_USAGE_STATS). Nakakasirang ito ng mga feature tulad ng \"Clear Data\" sa app details at cache clearing sa pamamagitan ng accessibility. Bigyan ng permission para ma-restore ang buong functionality.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Maaari rin itong mangyari kung kamakailan lang na-force-stop ang system app na \"System UI\", halimbawa ng isang app cleaning tool. Bina-block ng Android ang mga awtomatikong pag-press ng button ng SD Maid hanggang sa i-restart mo ang device.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Maaari rin itong mangyari kung kamakailan lang na-force-stop ang system app na \"System UI\", halimbawa ng isang app cleaning tool. Bina-block ng Android ang mga awtomatikong pag-press ng button ng Tidy hanggang sa i-restart mo ang device.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Force-stop bago i-clear</string>
     <string name="appcleaner_forcestop_before_clearing_summary">I-force-stop ang mga app bago i-clear ang kanilang cache. Maaari itong makatulong sa pag-clear ng cache ng ilang app, ngunit maaaring magdulot ng maling pagkilos ng mga app at mangailangan ng manu-manong pag-restart.</string>
     <string name="appcleaner_progress_force_stopping">Finoforce-stop ang mga app…</string>

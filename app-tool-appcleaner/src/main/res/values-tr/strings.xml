@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Asgari dosya yaşı</string>
     <string name="appcleaner_include_minimumage_summary">Asgari sınırdan daha yeni dosyaları atlayın.</string>
     <string name="appcleaner_automation_romtype_detection_label">İşletim sistemi algılama</string>
-    <string name="appcleaner_automation_romtype_detection_summary">SD Maid işletim sisteminizi doğru algılamazsa erişilebilirlik tabanlı otomasyon başarısız olabilir. Algılanan işletim sistemini geçersiz kılmak için bu ayarı kullanın.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Tidy işletim sisteminizi doğru algılamazsa erişilebilirlik tabanlı otomasyon başarısız olabilir. Algılanan işletim sistemini geçersiz kılmak için bu ayarı kullanın.</string>
     <string name="appcleaner_filter_codecache_label">Kod önbelleği</string>
     <string name="appcleaner_filter_codecache_summary">JVM kod önbelleği. Yerel kodda derlenen bayt kodu blokları.</string>
     <string name="appcleaner_filter_advertisement_label">Reklam verileri</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Hariç tutulan uygulama</string>
     <string name="appcleaner_exclusion_limited_body">Bu uygulamayı AppCleaner\'dan hariç tuttun. Tüm uygulamaların önbelleklerini aynı anda temizlemek, ADB erişimi aracılığıyla kullanılabilen sistem genelinde önbellek temizlemesini kullanır ve bu tek tek uygulamaları dışarıda bırakamaz, bu nedenle bu uygulamanın önbelleğe alınmış verileri diğer her şeyle birlikte temizlenir. Burada gösterilen önbelleğe alınmış veriler etkilenir, hariç tutma kapsamı içerisindeki diğer her şey gizli ve dokunulmamış kalır.</string>
     <string name="appcleaner_automation_unavailable_title">Erişilebilirlik hizmeti kullanılamıyor</string>
-    <string name="appcleaner_automation_unavailable_body">Bu önbellekleri temizlemek SD Maid\'in erişilebilirlik hizmetini gerektiriyor, ancak kullanılamıyordu.</string>
+    <string name="appcleaner_automation_unavailable_body">Bu önbellekleri temizlemek Tidy\'in erişilebilirlik hizmetini gerektiriyor, ancak kullanılamıyordu.</string>
     <string name="appcleaner_delete_confirmation_message_x">%s\'a ait gereksiz dosyalar silinsin mi?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Seçilen %d uygulamanın gereksiz dosyaları silinsin mi?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Sistem bu uygulama için \"Önbelleği temizle\" düğmesini devre dışı bıraktı. Önbelleği temizlemeyi hızlandırmak için bunu hariç tutun.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Sistem uygulaması yanlış yapılandırılmış</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS\'un Güvenlik uygulamasında (com.miui.securitycenter) Kullanım İstatistikleri izni (GET_USAGE_STATS) eksik. Bu, uygulama ayrıntılarındaki \"Verileri Temizle\" ve erişilebilirlik yoluyla önbellek temizleme gibi özellikleri bozar. Tam işlevselliği geri yükleme iznini verin.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Bu durum, \"System UI\" sistem uygulamasının yakın zamanda örneğin bir uygulama temizleme aracı tarafından zorla durdurulmuş olması hâlinde de yaşanabilir. Bu durumda Android, cihazı yeniden başlatana kadar SD Maid\'in otomatik düğme basmalarını engeller.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Bu durum, \"System UI\" sistem uygulamasının yakın zamanda örneğin bir uygulama temizleme aracı tarafından zorla durdurulmuş olması hâlinde de yaşanabilir. Bu durumda Android, cihazı yeniden başlatana kadar Tidy\'in otomatik düğme basmalarını engeller.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Temizlemeden önce zorla durdur</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Önbelleklerini temizlemeden önce uygulamaları zorla durdurun. Bazı uygulamaların önbelleğini temizlemeye yardımcı olabilir, ancak uygulamaların hatalı çalışmasına ve manuel yeniden başlatma gerektirmesine neden olabilir.</string>
     <string name="appcleaner_progress_force_stopping">Uygulamalar zorla durduruluyor…</string>

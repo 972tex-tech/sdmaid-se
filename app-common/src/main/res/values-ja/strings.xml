@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">喜んでお手伝いします。</string>
     <string name="slogan_message_1">清潔で整頓されています。</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">読み込み中</string>
     <string name="general_progress_loading_app_data">アプリデータを読み込み中</string>
     <string name="general_progress_loading_data_areas">データエリアを読み込み中</string>
-    <string name="general_data_areas_unavailable_message">SD Maidが操作できるストレージの場所である、データ領域を読み込めませんでした。</string>
+    <string name="general_data_areas_unavailable_message">Tidyが操作できるストレージの場所である、データ領域を読み込めませんでした。</string>
     <string name="general_progress_loading_egg_0">Iphoneよりさらに早い</string>
     <string name="general_progress_loading_egg_1">更なるRAMをダウンロードしています。</string>
     <string name="general_progress_loading_egg_2">Soon™</string>
@@ -170,7 +170,7 @@
     <string name="general_error_ipc_deadobject_title">サービス接続が失われました</string>
     <string name="general_error_ipc_deadobject_description">重要なサービス(Magisk、Porter、Shizuku、その他のシステムレベルのサービスなど)への接続が予期せず失われました。デバイスを再起動してください。問題が解決しない場合は、アップデートを確認するか、修正できるよう私までご連絡ください。</string>
     <string name="general_error_upgrade_required_title">アップグレードが必要です</string>
-    <string name="general_error_upgrade_required_description">この機能にはアップグレードが必要です。ご利用には SD Maid SE をアップグレードしてください。</string>
+    <string name="general_error_upgrade_required_description">この機能にはアップグレードが必要です。ご利用には Tidy をアップグレードしてください。</string>
     <string name="general_user_label_owner">オーナー</string>
     <string name="general_user_label_system">システム</string>
     <string name="setup_title">セットアップ</string>
@@ -197,18 +197,18 @@
     <string name="appcontrol_systemsettings_open_title">設定を表示</string>
     <string name="ui_theme_color_sunset_label">サンセット</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">この機能にはroot権限が必要ですが、SD Maidはこのデバイスでは権限を取得できませんでした。</string>
+    <string name="access_blocked_root_unavailable">この機能にはroot権限が必要ですが、Tidyはこのデバイスでは権限を取得できませんでした。</string>
     <string name="access_blocked_root_declined">この機能にはroot権限が必要です。セットアップ画面で有効にできます。</string>
     <string name="access_blocked_root_or_shizuku">この機能にはrootまたはADBアクセスが必要ですが、このデバイスでは利用できません。</string>
     <string name="backup_restore_error_invalid_title">無効なバックアップファイル</string>
-    <string name="backup_restore_error_invalid_body">このファイルは有効なSD Maidバックアップではないか、破損しています。</string>
-    <string name="backup_restore_error_version_body">このバックアップは新しいバージョンのSD Maidで作成されました。アプリを更新して再度お試しください。</string>
+    <string name="backup_restore_error_invalid_body">このファイルは有効なTidyバックアップではないか、破損しています。</string>
+    <string name="backup_restore_error_version_body">このバックアップは新しいバージョンのTidyで作成されました。アプリを更新して再度お試しください。</string>
     <string name="backup_restore_error_restore_failed_title">復元に失敗しました</string>
     <string name="backup_restore_error_restore_failed_body">次の部分は復元できませんでした:%1$s。以前の設定は保存されており、復元できます。</string>
     <string name="backup_restore_error_safety_title">復元がまだ開始されていません</string>
-    <string name="backup_restore_error_safety_body">SD Maidが現在の設定のセーフティスナップショットを保存できなかったため、何も変更されませんでした。</string>
+    <string name="backup_restore_error_safety_body">Tidyが現在の設定のセーフティスナップショットを保存できなかったため、何も変更されませんでした。</string>
     <string name="backup_restore_error_busy_title">お待ちください</string>
     <string name="backup_restore_error_busy_body">クリーニングタスクまたは別のバックアップ操作が実行中です。完了したら、もう一度試してください。</string>
     <string name="backup_restore_error_schema_title">互換性のないバックアップ</string>
-    <string name="backup_restore_error_schema_body">バックアップのデータベース形式はこのバージョンのSD Maidと一致しません。履歴データの復元は同じアプリバージョン間でのみサポートされています。</string>
+    <string name="backup_restore_error_schema_body">バックアップのデータベース形式はこのバージョンのTidyと一致しません。履歴データの復元は同じアプリバージョン間でのみサポートされています。</string>
 </resources>

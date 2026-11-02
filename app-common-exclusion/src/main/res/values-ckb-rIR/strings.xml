@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">بەڕێوەبەری دەرخستنەکان</string>
     <string name="exclusion_manager_desc">پالپشتی بیکار هێنانی پاڵاوتن بۆ پەڕگە و بەرنامە.</string>
-    <string name="exclusion_explanation_body1">فایل و ئەپلیکێشنەکان بخەژێ لە ئامرازەکانی SD Maid بپارێزە، یان بۆ تێپەڕاندنی شتە ناپێوەندەکان و خێراکردنی کردارەکان.</string>
+    <string name="exclusion_explanation_body1">فایل و ئەپلیکێشنەکان بخەژێ لە ئامرازەکانی Tidy بپارێزە، یان بۆ تێپەڕاندنی شتە ناپێوەندەکان و خێراکردنی کردارەکان.</string>
     <string name="exclusion_add_new_hint">هێشتا هیچ بخەژێیەک نیە. دوگمەی + بەکاربھێنە بۆ درووستکردنی یەکێک، یان کردارەکان لە ئەنجامی هەر ئامرازێک بخەژێ.</string>
     <string name="exclusion_create_action">دروستکردنی دەرخستن</string>
     <string name="exclusion_edit_action">پالپشتی پاڵاوتن دەست بکە</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">ڕێگەدان بە گونجاندنی بەشێک</string>
     <string name="exclusion_option_ignore_casing">چاوپۆشی لە پیتە گەورە و بچووکەکان</string>
     <string name="exclusion_editor_affected_tools_label">ئامرازە کاریگەرەکان</string>
-    <string name="exclusion_editor_path_explanation">پاڵاوتنی ڕێ SD Maid پاڵاوت دەکات لە پالپشتی دەست بکاری بۆ هیچ ڕێی گونجاو. ئەمە بۆ پەڕگە، فۆڵدەر و ژێر فۆڵدەر جێبەجێ دەکات.</string>
-    <string name="exclusion_editor_pkg_explanation">دەرخستنی ئەپێک ڕێگەی SD Maid لەوە دەگرێت هیچ پاکێجێکی کە دەگونجێت پرۆسەس بکات.</string>
+    <string name="exclusion_editor_path_explanation">پاڵاوتنی ڕێ Tidy پاڵاوت دەکات لە پالپشتی دەست بکاری بۆ هیچ ڕێی گونجاو. ئەمە بۆ پەڕگە، فۆڵدەر و ژێر فۆڵدەر جێبەجێ دەکات.</string>
+    <string name="exclusion_editor_pkg_explanation">دەرخستنی ئەپێک ڕێگەی Tidy لەوە دەگرێت هیچ پاکێجێکی کە دەگونجێت پرۆسەس بکات.</string>
     <string name="exclusion_editor_segment_explanation">پاڵاوتنی بنیاتی سەتگۆڕ شتێک نیشتر لە پاڵاوتنی ڕێ بەڵام پاڵاوت دەکات بۆ هێڵکی ئەندۆ. نمونە: \"DCIM/Camera\" پاڵاوت دەکات \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">ئەم پاڵاوتنە لابکە؟</string>
     <string name="exclusion_reset_default_exclusions">گەڕاندنەوە default exclusions</string>

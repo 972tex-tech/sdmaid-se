@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">ការគ្រប់គ្រងការលើក់ចោល</string>
     <string name="exclusion_manager_desc">គ្រប់គ្រងការលើក់ចោលឯកសារនិងកម្មវិធី។</string>
-    <string name="exclusion_explanation_body1">លើកលែងឯកសារ និងកម្មវិធីដើម្បីការពារវាពីឧបករណ៍របស់ SD Maid ឬដើម្បីរំលងធាតុដែលមិនពាក់ព័ន្ធ ហើយបង្កើនល្បឿនប្រតិបត្តិការ។</string>
+    <string name="exclusion_explanation_body1">លើកលែងឯកសារ និងកម្មវិធីដើម្បីការពារវាពីឧបករណ៍របស់ Tidy ឬដើម្បីរំលងធាតុដែលមិនពាក់ព័ន្ធ ហើយបង្កើនល្បឿនប្រតិបត្តិការ។</string>
     <string name="exclusion_add_new_hint">គ្មានការលើកលែងនៅឡើយទេ។ ប្រើប៊ូតុង + ដើម្បីបង្កើតមួយ ឬលើកលែងធាតុពីលទ្ធផលរបស់ឧបករណ៍ណាមួយ។</string>
     <string name="exclusion_create_action">បង្កើតការលើក់ចោល</string>
     <string name="exclusion_edit_action">កែសម្រការលើក់ចោល</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">អនុញ្ញាត់ការត្រងត្រងតិចស្ម័រ៱</string>
     <string name="exclusion_option_ignore_casing">លើក់ចោលការព័រត្រងអក្សរ</string>
     <string name="exclusion_editor_affected_tools_label">ញ្នើឡើងត្រូវបានប័ស្សសកម្មលើ</string>
-    <string name="exclusion_editor_path_explanation">ការលើក់ចោលព័ត្រូទឹកឥយ SD Maid បានប័ត្រងផ័ល់ព័ត្រូត្រងត្រង៴ នេ៴ប័ញេនឮថើរឯកសារ ថត និងថតរយ៴</string>
-    <string name="exclusion_editor_pkg_explanation">ការលើក់ចោលកម្មវិធីទឹកឥយ SD Maid បានប័ត្រងក័ម្មវិធីត្រងត្រងទាំងនាំ៴</string>
+    <string name="exclusion_editor_path_explanation">ការលើក់ចោលព័ត្រូទឹកឥយ Tidy បានប័ត្រងផ័ល់ព័ត្រូត្រងត្រង៴ នេ៴ប័ញេនឮថើរឯកសារ ថត និងថតរយ៴</string>
+    <string name="exclusion_editor_pkg_explanation">ការលើក់ចោលកម្មវិធីទឹកឥយ Tidy បានប័ត្រងក័ម្មវិធីត្រងត្រងទាំងនាំ៴</string>
     <string name="exclusion_editor_segment_explanation">ការលើក់ចោលត្រងសេគមំនត់ត្រងនិងការលើក់ចោលព័ត្រូ តែអនុញ្ញាត់ការត្រងត្រងតិចស្ម័រ៴ ត័វាង: \"DCIM/Camera\" លើក់ចោល \"/sdcard/DCIM/Camera/photo.png\"៴</string>
     <string name="exclusion_editor_remove_confirmation_message">ត័ត់ការលើក់ចោលនេ៱</string>
     <string name="exclusion_reset_default_exclusions">ស្ដារការលើក់ចោលតាមត្រូវបាន</string>

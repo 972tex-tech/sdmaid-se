@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">အနည်းဆုံး သက်တမ်း</string>
     <string name="appcleaner_include_minimumage_summary">အနည်းဆုံး သက်တမ်းထက် ငယ်သော ဖိုင်များကို ကျောပါ။</string>
     <string name="appcleaner_automation_romtype_detection_label">လည်ပတ်မှုစနစ် သစ်ဆေးခြင်း</string>
-    <string name="appcleaner_automation_romtype_detection_summary">SD Maid က သင့့် OS ကို မှန်ကန်စွာ မသိရှိပါက accessibility အခှပြု အလိုအလျောက်လုပ်ဆောင်မှု ပျက်ကွက်နိုင်ပါ။ တွေ့သိရှိပါော OS ကို ကျောလွှာရန် ဤဆက်တင်ကို အသုံးပြုပါ။</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Tidy က သင့့် OS ကို မှန်ကန်စွာ မသိရှိပါက accessibility အခှပြု အလိုအလျောက်လုပ်ဆောင်မှု ပျက်ကွက်နိုင်ပါ။ တွေ့သိရှိပါော OS ကို ကျောလွှာရန် ဤဆက်တင်ကို အသုံးပြုပါ။</string>
     <string name="appcleaner_filter_codecache_label">ကုဒ် cache</string>
     <string name="appcleaner_filter_codecache_summary">JVM ကုဒ် cache။ Native ကုဒ်အဖြစ် compile လုပ်ထားသော bytecode များ။</string>
     <string name="appcleaner_filter_advertisement_label">ကြောငြာ ဒေတာ</string>
@@ -82,7 +82,7 @@
     <string name="appcleaner_exclusion_limited_title">ကျော်လွန်ခွင့်ပြုထားသည့်အပ်ပ်လီကေးရှယ်</string>
     <string name="appcleaner_exclusion_limited_body">ဤအက်ပ်ကို AppCleaner မှ ဖယ်ထားသည်။ အက်ပ်အားလုံး၏ cache ကို တစ်ပြိုင်နက် ရှင်းလင်းခြင်းသည် ADB အသုံးပြုခွင့်မှ ရနိုင်သော စနစ်တစ်ခုလုံး cache လျှော့ချမှုကို သုံးသဖြင့် အက်ပ်တစ်ခုချင်းကို ချန်ထား၍ မရပါ၊ ထို့ကြောင့် ဤအက်ပ်၏ cache ဒေတာလည်း အခြားအရာအားလုံးနှင့်အတူ ရှင်းလင်းခံရမည်။ ဤနေရာတွင် ပြထားသော cache ဒေတာသာ သက်ရောက်ပြီး ဖယ်ထုတ်မှုက အကျုံးဝင်သည့် အခြားအရာအားလုံး ဆက်လက်ဝှက်ထားပြီး မထိခိုက်ပါ။</string>
     <string name="appcleaner_automation_unavailable_title">Accessibility ဝန်ဆောင်မှု ရနိုင်မည်မဟုတ်</string>
-    <string name="appcleaner_automation_unavailable_body">ဤကြည်းများကို ရှင်းလင်းရန် SD Maid ၏ အသုံးအဆောင်ရန် လိုအပ်သည်။ သို့သော် ၎င်းသည် အသုံးပြုနိုင်သည့်အနေအထားမှာ မရှိခဲ့သည်။</string>
+    <string name="appcleaner_automation_unavailable_body">ဤကြည်းများကို ရှင်းလင်းရန် Tidy ၏ အသုံးအဆောင်ရန် လိုအပ်သည်။ သို့သော် ၎င်းသည် အသုံးပြုနိုင်သည့်အနေအထားမှာ မရှိခဲ့သည်။</string>
     <string name="appcleaner_delete_confirmation_message_x">%s အတွက် သုံးလောက်သောဖိုင်များ ဖျက်မည်လား?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="other">ရွေးချယ်ထားသော %d ခု အပ်ပ်များအတွက် သုံးလောက်သောဖိုင်များ ဖျက်မည်လား?</item>
@@ -93,7 +93,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">စနစ်က ဤအပ်ပ်အတွက် “cache ရှင်းလင်း” ခလုတ်ကို ပိတ်ထားသည်။ cache ရှင်းလင်းမှု မြန်ဆန်စေရန် ဤအပ်ပ်ကို ဖယ်ထုတ်ပါ။</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">စနစ်အပ်ပ် ဖွဲးစညးပုံမှားနေသည်</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS တာ် Security အပ်ပ် (com.miui.securitycenter) တွင် Usage Stats ခွင့်ပြုချက် (GET_USAGE_STATS) မရှိပါ။ ဤအချက်ကြောင့် အပ်ပ်အသေားစားမှ \"ဒေတာ ရှင်းလင်း\" ကဲ့သော လုပ်ဆောင်မှုများနှင့် accessibility မှတဆင့် cache ရှင်းလင်းခြင်းများ ပျက်ကွက်ဆောင်သည်။ ပြည့်ဝောသောလုပ်ဆောင်မှု ပြန်ရရှိရန် ခွင့်ပြုချက် ပေးပါ။</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">ဤသို့ဖြစ်ရခြင်းမှာ \"System UI\" စနစ်အက်ပ်ကို အက်ပ်သန့်ရှင်းရေးကိရိယာတစ်ခုခုက အနီးကပ် အတင်းရပ်တန့်ခဲ့ခြင်းကြောင့်လည်း ဖြစ်နိုင်သည်။ ထိုအခါ Android သည် စက်ပစ္စည်းကို ပြန်လည်စတင်သည်အထိ SD Maid ၏ အလိုအလျောက် ခလုတ်နှိပ်မှုများကို ပိတ်ဆို့ထားလိမ့်မည်။</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">ဤသို့ဖြစ်ရခြင်းမှာ \"System UI\" စနစ်အက်ပ်ကို အက်ပ်သန့်ရှင်းရေးကိရိယာတစ်ခုခုက အနီးကပ် အတင်းရပ်တန့်ခဲ့ခြင်းကြောင့်လည်း ဖြစ်နိုင်သည်။ ထိုအခါ Android သည် စက်ပစ္စည်းကို ပြန်လည်စတင်သည်အထိ Tidy ၏ အလိုအလျောက် ခလုတ်နှိပ်မှုများကို ပိတ်ဆို့ထားလိမ့်မည်။</string>
     <string name="appcleaner_forcestop_before_clearing_label">ရှင်းလင်းမတိုင်မီး အတင်းရပ်ခြင်း</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Cache ရှင်းလင်းမတိုင်မီး အပ်ပ်များကို အတင်းရပ်ပါ။ အချိစမ်း အပ်ပ်များတာ်အစာ် cache ရှင်းလင်းရာတွင် ကူညီနိုင်သော်လည်း သို့မဟုတ် အပ်ပ်များ ဆိုးသောဆိုးဆောင်ရွက်ပြီး လက်ဖြင့် ပြန်ဖွင့်ကျာနိုင်သည်။</string>
     <string name="appcleaner_progress_force_stopping">အပ်ပ်များကို အတင်းရပ်နေသည်…</string>

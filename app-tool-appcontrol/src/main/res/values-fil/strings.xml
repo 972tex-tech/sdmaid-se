@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Itigil ang app. Pigilan itong mag-start mismo hangga\'t hindi mo binubuksan o nire-reboot ang device.</string>
     <string name="appcontrol_app_uninstall_description">I-uninstall ang app na ito sa inyong device.</string>
     <string name="appcontrol_app_exclude_add_title">I-exclude ang app</string>
-    <string name="appcontrol_app_exclude_add_description">I-exclude ang app na ito mula sa ibang mga operasyon sa SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">I-exclude ang app na ito mula sa ibang mga operasyon sa Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">I-edit ang exclusion</string>
     <string name="appcontrol_app_exclude_edit_description">Ang app na ito ay kasalukuyang naka-exclude mula sa isa o higit pang mga tool.</string>
     <string name="appcontrol_tag_user">Gumagamit</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Ine-export ang %s</string>
     <string name="appcontrol_share_list_action">I-share ang listahan</string>
     <string name="appcontrol_share_list_title">Aking Mga App</string>
-    <string name="appcontrol_share_list_footer">Na-share sa pamamagitan ng SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Na-share sa pamamagitan ng Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Force stop ang mga app</string>
     <string name="appcontrol_force_stop_action">Puwersahang itigil</string>
     <string name="appcontrol_force_stop_confirm_title">Kumpirmahin ang force stop</string>

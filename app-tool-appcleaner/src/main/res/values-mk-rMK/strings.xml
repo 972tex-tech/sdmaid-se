@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Минимална старост</string>
     <string name="appcleaner_include_minimumage_summary">Прескокни датотеки кои се помлади од минималната старост.</string>
     <string name="appcleaner_automation_romtype_detection_label">Откривање на оперативен систем</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Автоматизацијата базирана на пристапност може да не успее ако SD Maid не го открие правилно вашиот ОС. Користете ја оваа поставка за да го надминете откриениот ОС.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Автоматизацијата базирана на пристапност може да не успее ако Tidy не го открие правилно вашиот ОС. Користете ја оваа поставка за да го надминете откриениот ОС.</string>
     <string name="appcleaner_filter_codecache_label">Кеш на код</string>
     <string name="appcleaner_filter_codecache_summary">JVM кеш на код. Блокови од бајткод компајлирани во нативен код.</string>
     <string name="appcleaner_filter_advertisement_label">Податоци за реклами</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Исклучена апликација</string>
     <string name="appcleaner_exclusion_limited_body">Ја изземавте оваа апликација од AppCleaner. Чистењето на кешот за сите апликации одеднаш користи системско чистење на кеш достапно преку ADB пристап, кое не може да изземе поединечни апликации, па кешираните податоци на оваа апликација се бришат заедно со сè останато. Засегнати се само кешираните податоци прикажани овде, сè друго што го покрива изземањето останува скриено и недопрено.</string>
     <string name="appcleaner_automation_unavailable_title">Услугата за пристапност е недостапна</string>
-    <string name="appcleaner_automation_unavailable_body">Бришењето на овие кешови бара услугата за пристапност на SD Maid, но таа не беше достапна.</string>
+    <string name="appcleaner_automation_unavailable_body">Бришењето на овие кешови бара услугата за пристапност на Tidy, но таа не беше достапна.</string>
     <string name="appcleaner_delete_confirmation_message_x">Избриши непотребни датотеки за %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Избриши непотребни датотеки за %d избрана апликација?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Системот го оневозможил копчето \"Избриши кеш\" за оваа апликација. Исклучете ја за побрзо бришење на кеш.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Системска апликација е погрешно конфигурирана</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Апликацијата Security на HyperOS (com.miui.securitycenter) нема дозвола за статистика на користење (GET_USAGE_STATS). Ова ги нарушува функциите како \"Избриши податоци\" во деталите за апликацијата и бришење кеш преку пристапност. Дајте ја дозволата за да ја вратите целосната функционалност.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Ова може да се случи и ако системската апликација „System UI“ неодамна била присилно запрена, на пр. од алатка за чистење апликации. Тогаш Android ги блокира автоматските притискања на копчиња од SD Maid сè додека не го рестартираш уредот.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Ова може да се случи и ако системската апликација „System UI“ неодамна била присилно запрена, на пр. од алатка за чистење апликации. Тогаш Android ги блокира автоматските притискања на копчиња од Tidy сè додека не го рестартираш уредот.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Принудно запирање пред бришење</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Принудно запрете апликации пред бришење на нивниот кеш. Може да помогне за бришење на кешот на некои апликации, но може да предизвика проблеми и да бара рачно рестартирање.</string>
     <string name="appcleaner_progress_force_stopping">Принудно запирање апликации…</string>

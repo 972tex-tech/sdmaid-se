@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">ആപ്പ് നിര്ത്തുക. ഉപകരണം റീബൂട് ചെയ്യുന്നത് \u0d35രെ കിആപ്പ് തുറക്കുന്നത് വരെ സ്വയം ആരംഭിക്കുന്നതിൽ നിന്ന് തടയുക.</string>
     <string name="appcontrol_app_uninstall_description">ഈ ആപ്പ് ഉപകരണത്തിൽ നിന്ന് അൻ ഇൻസ്റ്റാൾ ചെയ്യുക.</string>
     <string name="appcontrol_app_exclude_add_title">ആപ്പ് ഒഴിവാക്കുക</string>
-    <string name="appcontrol_app_exclude_add_description">SD Maid-ലെ മറ്റ് പ്രവർത്തനങ്ങളിൽ നിന്ന് ഈ ആപ്പിനെ ഒഴിവാക്കുക.</string>
+    <string name="appcontrol_app_exclude_add_description">Tidy-ലെ മറ്റ് പ്രവർത്തനങ്ങളിൽ നിന്ന് ഈ ആപ്പിനെ ഒഴിവാക്കുക.</string>
     <string name="appcontrol_app_exclude_edit_title">ഒഴിവാക്കൽ എഡിറ്റ് ചെയ്യുക</string>
     <string name="appcontrol_app_exclude_edit_description">ഈ ആപ്പ് കുറഞ്ഞത് ഒരു യമലാ ടൂളുകളിൽ നിൻന്നു ഒഴിവാക്കപ്പെട്ടിരിക്കുന്നു.</string>
     <string name="appcontrol_tag_user">ഉപയോക്താവ്</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s എക്സ്പോർട്ട് ചെയ്യുന്നു</string>
     <string name="appcontrol_share_list_action">ലിസ്റ്റ് ഷേർ ചെയ്യുക</string>
     <string name="appcontrol_share_list_title">എന്റെ ആപ്പുകൾ</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE വഴി ഷേർ ചെയ്തത്</string>
+    <string name="appcontrol_share_list_footer">Tidy വഴി ഷേർ ചെയ്തത്</string>
     <string name="appcontrol_force_stop_selection_action">ആപ്പുകൾ ഫോർസ് സ്റ്റോപ്പ് ചെയ്യുക</string>
     <string name="appcontrol_force_stop_action">ഫോർസ് സ്റ്റോപ്പ്</string>
     <string name="appcontrol_force_stop_confirm_title">ഫോർസ് സ്റ്റോപ്പ് സ്ഥിരീകരിക്കുക</string>

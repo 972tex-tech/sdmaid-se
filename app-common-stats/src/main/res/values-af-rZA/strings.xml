@@ -5,8 +5,8 @@
         <item quantity="other">%s is bevry.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s item verwerk sedert jy SD Maid na jou toestel genooi het.</item>
-        <item quantity="other">%s items verwerk sedert jy SD Maid na jou toestel genooi het.</item>
+        <item quantity="one">%s item verwerk sedert jy Tidy na jou toestel genooi het.</item>
+        <item quantity="other">%s items verwerk sedert jy Tidy na jou toestel genooi het.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Jou gas vir %d dag.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Gedeeltelike sukses</string>
     <string name="stats_report_status_partial_failure">Mislukking</string>
-    <string name="stats_settings_desc">Stel SD Maid se statistieke, verslae en data retensie op.</string>
+    <string name="stats_settings_desc">Stel Tidy se statistieke, verslae en data retensie op.</string>
     <string name="stats_settings_retention_category">Retensie</string>
     <string name="stats_settings_retention_reports_label">Algemene verslae</string>
-    <string name="stats_settings_retention_reports_desc">Aantal dae voor skrapping van basiese SD Maid bewerking verslae.</string>
+    <string name="stats_settings_retention_reports_desc">Aantal dae voor skrapping van basiese Tidy bewerking verslae.</string>
     <string name="stats_settings_retention_paths_label">Gedetailleerde pad inligting</string>
-    <string name="stats_settings_retention_paths_desc">Die aantal dae om besonderhede te hou oor paaie geaffekteer deur SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Die aantal dae om besonderhede te hou oor paaie geaffekteer deur Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Opslaggeskiedenis</string>
     <string name="stats_settings_retention_snapshots_desc">Aantal dae om opslagverbruik-momentopnames vir die opslagtendens-grafiek te bewaar. Ouer momentopnames word verwyder.</string>
     <string name="stats_settings_reset_all_label">Stel alles terug</string>

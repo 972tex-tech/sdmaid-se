@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Egalar</string>
     <string name="corpsefinder_owner_unknown">Noma\'lum ega</string>
     <string name="corpsefinder_corpse_hint_keeper">Bu element egasi o\'chirilgan bo\'lsa ham, saqlamoqchi bo\'lgan ma\'lumotlarni o\'z ichiga olishi mumkin, masalan, suratlar yoki zaxira nusxalar.</string>
-    <string name="corpsefinder_corpse_hint_common">Bu element juda keng tarqalgan nomga ega va SD Maid bilmaydigan hali ham o\'rnatilgan ilovalar ega bo\'lishi mumkin.</string>
+    <string name="corpsefinder_corpse_hint_common">Bu element juda keng tarqalgan nomga ega va Tidy bilmaydigan hali ham o\'rnatilgan ilovalar ega bo\'lishi mumkin.</string>
     <string name="corpsefinder_risk_keeper_chip">Tavsiya etiladigan</string>
     <string name="corpsefinder_risk_common_chip">Odatiy</string>
     <string name="corpsefinder_markers_dialog_title">Ushbu belgilar haqida</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Standart qoldiq. Odatda olib tashlash xavfsiz — bu fayllar endi o\'rnatilmagan ilovalarga tegishli.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder siz allaqachon o\'chirib tashlagan ilovalar qoldirib ketgan ma\'lumotlarni topadi. Bu endi hech qaysi o\'rnatilgan ilovaga tegishli emas, shuning uchun uni o\'chirib tashlash xotirani bo\'shatadi. Uning ko\'p qismi xavfsiz o\'chirilishi mumkin, lekin aniq bo\'lmaganda belgilashni tekshirib ko\'ring.</string>
-    <string name="tour_corpsefinder_row_body">Har bir element qoldiq ma\'lumot va u qaysi ilovadan qolganini bildiradi. Belgi SD Maid uni olib tashlash xavfsizligiga qanchalik ishonch bilan qaraganini ko\'rsatadi — belgilarning ma\'nosini bilish uchun yuqoridagi ⓘ belgisini bosing.</string>
+    <string name="tour_corpsefinder_row_body">Har bir element qoldiq ma\'lumot va u qaysi ilovadan qolganini bildiradi. Belgi Tidy uni olib tashlash xavfsizligiga qanchalik ishonch bilan qaraganini ko\'rsatadi — belgilarning ma\'nosini bilish uchun yuqoridagi ⓘ belgisini bosing.</string>
 </resources>

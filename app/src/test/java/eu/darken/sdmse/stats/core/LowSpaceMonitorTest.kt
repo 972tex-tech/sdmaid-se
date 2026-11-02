@@ -1,6 +1,5 @@
 package eu.darken.sdmse.stats.core
 
-import eu.darken.sdmse.analyzer.core.AnalyzerSettings
 import eu.darken.sdmse.common.datastore.DataStoreValue
 import eu.darken.sdmse.common.datastore.value
 import eu.darken.sdmse.common.upgrade.UpgradeRepo
@@ -106,7 +105,7 @@ class LowSpaceMonitorTest : BaseTest() {
         postResult: LowSpaceNotifications.PostResult = LowSpaceNotifications.PostResult.POSTED,
     ): Harness {
         val armedValue = statefulValue(armed)
-        val settings = mockk<AnalyzerSettings>().apply {
+        val settings = mockk<LowStorageSettings>().apply {
             every { lowSpaceNotificationEnabled } returns statefulValue(enabled)
             every { lowSpaceNotificationArmed } returns armedValue
             every { lowStorageThresholdBytes } returns statefulValue<Long?>(null)
@@ -139,7 +138,7 @@ class LowSpaceMonitorTest : BaseTest() {
             monitor = LowSpaceMonitor(
                 spaceTracker = spaceTracker,
                 spaceHistoryRepo = spaceHistoryRepo,
-                analyzerSettings = settings,
+                lowStorageSettings = settings,
                 upgradeRepo = upgradeRepo,
                 notifications = notifications,
             ),
@@ -358,7 +357,7 @@ class LowSpaceMonitorTest : BaseTest() {
 
     @Test
     fun `check swallows failures so the worker keeps going`() = runTest2 {
-        val settings = mockk<AnalyzerSettings>().apply {
+        val settings = mockk<LowStorageSettings>().apply {
             every { lowSpaceNotificationEnabled } returns statefulValue(true)
             every { lowSpaceNotificationArmed } returns statefulValue(true)
             every { lowStorageThresholdBytes } returns statefulValue<Long?>(null)
@@ -369,7 +368,7 @@ class LowSpaceMonitorTest : BaseTest() {
                 coEvery { readPrimaryStorage() } throws IllegalStateException("boom")
             },
             spaceHistoryRepo = mockk(relaxed = true),
-            analyzerSettings = settings,
+            lowStorageSettings = settings,
             upgradeRepo = mockk(relaxed = true),
             notifications = notifications,
         )

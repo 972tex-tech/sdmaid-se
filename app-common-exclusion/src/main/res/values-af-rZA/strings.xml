@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Uitsluiting bestuurder</string>
     <string name="exclusion_manager_desc">Bestuur lêer en toepassing uitsluitings.</string>
-    <string name="exclusion_explanation_body1">Sluit lêers en apps uit om hulle teen SD Maid se gereedskap te beskerm, of om irrelevante items oor te slaan en bewerkings te versnel.</string>
+    <string name="exclusion_explanation_body1">Sluit lêers en apps uit om hulle teen Tidy se gereedskap te beskerm, of om irrelevante items oor te slaan en bewerkings te versnel.</string>
     <string name="exclusion_add_new_hint">Nog geen uitsluitings nie. Gebruik die + knop om een te skep, of sluit items van enige gereedskap se resultate uit.</string>
     <string name="exclusion_create_action">Skep uitsluiting</string>
     <string name="exclusion_edit_action">Wysig uitsluiting</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Laat gedeeltelike ooreenkomste toe</string>
     <string name="exclusion_option_ignore_casing">Ignoreer hoofletter gebruik</string>
     <string name="exclusion_editor_affected_tools_label">Geaffekteerde gereedskap</string>
-    <string name="exclusion_editor_path_explanation">\'n Pad uitsluiting verhoed SD Maid om verder enige passende paaie te verwerk. Dit geld vir lêers, gidse en sub-gidse.</string>
-    <string name="exclusion_editor_pkg_explanation">\'n Toepassing uitsluiting verhoed SD Maid om enige passende pakkette te verwerk.</string>
+    <string name="exclusion_editor_path_explanation">\'n Pad uitsluiting verhoed Tidy om verder enige passende paaie te verwerk. Dit geld vir lêers, gidse en sub-gidse.</string>
+    <string name="exclusion_editor_pkg_explanation">\'n Toepassing uitsluiting verhoed Tidy om enige passende pakkette te verwerk.</string>
     <string name="exclusion_editor_segment_explanation">\'n Segment gebaseerde uitsluiting is soortgelyk aan \'n pad uitsluiting maar laat gedeeltelike ooreenkomste toe. Voorbeeld: \"DCIM/Camera\" sluit \"/sdcard/DCIM/Camera/photo.png\" uit.</string>
     <string name="exclusion_editor_remove_confirmation_message">Verwyder hierdie uitsluiting?</string>
     <string name="exclusion_reset_default_exclusions">Herstel verstek uitsluitings</string>

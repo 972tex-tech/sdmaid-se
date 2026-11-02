@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Hentikan aplikasi. Cegah ia daripada memulai sendiri sehingga anda membukanya atau peranti dimulakan semula.</string>
     <string name="appcontrol_app_uninstall_description">Nyahpasang aplikasi ini daripada peranti anda.</string>
     <string name="appcontrol_app_exclude_add_title">Singkir aplikasi</string>
-    <string name="appcontrol_app_exclude_add_description">Asingkan aplikasi ini daripada operasi lain dalam SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Asingkan aplikasi ini daripada operasi lain dalam Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Edit pengecualian</string>
     <string name="appcontrol_app_exclude_edit_description">Buat masa ini aplikasi ini dikecualikan daripada satu atau lebih alatan.</string>
     <string name="appcontrol_tag_user">Pengguna</string>
@@ -92,7 +92,7 @@
     <string name="appcontrol_progress_exporting_x">Mengeksport: %s</string>
     <string name="appcontrol_share_list_action">Kongsi senarai</string>
     <string name="appcontrol_share_list_title">Aplikasi Saya</string>
-    <string name="appcontrol_share_list_footer">Dikongsi melalui SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Dikongsi melalui Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Paksa berhenti</string>
     <string name="appcontrol_force_stop_action">Paksa berhenti</string>
     <string name="appcontrol_force_stop_confirm_title">Paksa berhenti</string>

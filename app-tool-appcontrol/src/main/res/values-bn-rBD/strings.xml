@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">অ্যাপটি বন্ধ করুন। এটি খোলা বা ডিভাইসটি রিবুট না হওয়া পর্যন্ত এটি নিজে থেকে শুরু হওয়া থেকে বিরত রাখুন।</string>
     <string name="appcontrol_app_uninstall_description">আপনার ডিভাইস থেকে এই অ্যাপ্লিকেশন আনইনস্টল করুন।</string>
     <string name="appcontrol_app_exclude_add_title">অ্যাপ বাদ দিন</string>
-    <string name="appcontrol_app_exclude_add_description">SD Maid-এর অন্যান্য ক্রিয়াকলাপ থেকে এই অ্যাপটিকে বাদ দিন।</string>
+    <string name="appcontrol_app_exclude_add_description">Tidy-এর অন্যান্য ক্রিয়াকলাপ থেকে এই অ্যাপটিকে বাদ দিন।</string>
     <string name="appcontrol_app_exclude_edit_title">বর্জন সম্পাদনা করুন</string>
     <string name="appcontrol_app_exclude_edit_description">এই অ্যাপটি বর্তমানে এক বা একাধিক টুল থেকে বাদ দেওয়া হয়েছে।</string>
     <string name="appcontrol_tag_user">ব্যবহারকারী</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">এক্সপোর্ট করা হচ্ছে %s</string>
     <string name="appcontrol_share_list_action">তালিকা শেয়ার করুন</string>
     <string name="appcontrol_share_list_title">আমার অ্যাপ</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE এর মাধ্যমে শেয়ার করা হয়েছে</string>
+    <string name="appcontrol_share_list_footer">Tidy এর মাধ্যমে শেয়ার করা হয়েছে</string>
     <string name="appcontrol_force_stop_selection_action">জোর করে অ্যাপ বন্ধ করুন</string>
     <string name="appcontrol_force_stop_action">জোর করে বন্ধ করুন</string>
     <string name="appcontrol_force_stop_confirm_title">জোর করে অ্যাপ বন্ধ করা নিশ্চিত করুন</string>

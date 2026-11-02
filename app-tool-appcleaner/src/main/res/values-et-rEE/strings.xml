@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Väikseim vanus</string>
     <string name="appcleaner_include_minimumage_summary">Eira faile, mis varasemad kui väikseim vanus.</string>
     <string name="appcleaner_automation_romtype_detection_label">Operatsioonisüsteemi tuvastamine</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Juurdepääsul põhinev automatiseerimine võib nurjuda, kui SD Maid ei tuvasta operatsioonisüsteemi korralikult. Selle seadega asendate tuvastatud operatsioonisüsteemi.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Juurdepääsul põhinev automatiseerimine võib nurjuda, kui Tidy ei tuvasta operatsioonisüsteemi korralikult. Selle seadega asendate tuvastatud operatsioonisüsteemi.</string>
     <string name="appcleaner_filter_codecache_label">Koodi vahemälu</string>
     <string name="appcleaner_filter_codecache_summary">JVM-i koodi vahemälu. Baidikoodi plokid kompileeritud lähtekoodi.</string>
     <string name="appcleaner_filter_advertisement_label">Reklaamiandmed</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Eiratud rakendus</string>
     <string name="appcleaner_exclusion_limited_body">Olete selle rakenduse rakendusepuhastajast välistanud. Kõikide rakenduste vahemälude korraga tühjendamine kasutab ADB-juurdepääsu kaudu saadaolevat süsteemset vahemälu puhastamist, mis ei saa üksikuid rakendusi välja jätta, seega tühjendatakse selle rakenduse vahemälus olevad andmed koos kõige muuga. Mõjutatud on ainult siin näidatud vahemälus olevad andmed, kõik muu, mida välistamine hõlmab, jääb peidetuks ja puutumatuks.</string>
     <string name="appcleaner_automation_unavailable_title">Juurdepääsetavusteenus kättesaamatu</string>
-    <string name="appcleaner_automation_unavailable_body">Nende vahemälude puhastamine nõuab SD Maidi juurdepääsuteenust, kuid see polnud saadaval.</string>
+    <string name="appcleaner_automation_unavailable_body">Nende vahemälude puhastamine nõuab Tidyi juurdepääsuteenust, kuid see polnud saadaval.</string>
     <string name="appcleaner_delete_confirmation_message_x">Kustutada %s ühekordsed failid?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Kustutada %d valitud rakenduse ühekordsed failid?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Süsteem ei lase vajutada selle rakenduse „Tühjenda vahemälu“ nuppu. Kiiremaks vahemälu tühjendamiseks jätke see vahele.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Süsteemi rakendus seadistatud valesti</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS\'s Security rakendusel (com.miui.securitycenter) puudub kasutamisstatistikale juurdepääs (GET_USAGE_STATS). See segab andmete tühjendamist rakenduse seadetest ja vahemälu tühjendamist juurdepääsu teenuse kaudu. Kõikide võimaluste kasutamiseks andke vastav luba.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">See võib juhtuda ka siis, kui süsteemirakendus „System UI“ on hiljuti sundpeatatud, näiteks mõne rakenduste puhastamise tööriista poolt. Android tõkestab seejärel SD Maidi isekäivituvad nupuvajutused kuni seadme taaskäivitamiseni.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">See võib juhtuda ka siis, kui süsteemirakendus „System UI“ on hiljuti sundpeatatud, näiteks mõne rakenduste puhastamise tööriista poolt. Android tõkestab seejärel Tidyi isekäivituvad nupuvajutused kuni seadme taaskäivitamiseni.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Sundpeata enne tühjendamist</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Sundpeatage rakendused enne nende vahemälu tühjendamist. Nii võib osade rakenduste vahemälu hõlpsamini tühjeneda, ent rakendused võivad toimida veidralt ja vajada taaskäivitamist.</string>
     <string name="appcleaner_progress_force_stopping">Rakenduste sundpeatamine…</string>

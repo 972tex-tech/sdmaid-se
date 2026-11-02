@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Tot u diens.</string>
     <string name="slogan_message_1">Skoon en netjies.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Laai</string>
     <string name="general_progress_loading_app_data">Laai app data</string>
     <string name="general_progress_loading_data_areas">Laai data areas</string>
-    <string name="general_data_areas_unavailable_message">Kon nie die datagebiede laai nie, die bergingslokasies waarmee SD Maid kan werk.</string>
+    <string name="general_data_areas_unavailable_message">Kon nie die datagebiede laai nie, die bergingslokasies waarmee Tidy kan werk.</string>
     <string name="general_progress_loading_egg_0">Steeds vinniger as \'n iPhone</string>
     <string name="general_progress_loading_egg_1">Laai meer RAM af</string>
     <string name="general_progress_loading_egg_2">Binnekort™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">Diens Verbinding Verloor</string>
     <string name="general_error_ipc_deadobject_description">Die verbinding met \'n kritiese diens (bv. Magisk, Porter, Shizuku, of ander stelselvlakdienste) is onverwags verlore gegaan. Herstart asseblief jou toestel. Indien die probleem aanhoud, kontroleer vir opdaterings of neem kontak met my op sodat ek dit kan regmaak.</string>
     <string name="general_error_upgrade_required_title">Opgradering vereis</string>
-    <string name="general_error_upgrade_required_description">Hierdie funksie vereis \'n opgradering. Gradeer asseblief SD Maid SE op om dit te gebruik.</string>
+    <string name="general_error_upgrade_required_description">Hierdie funksie vereis \'n opgradering. Gradeer asseblief Tidy op om dit te gebruik.</string>
     <string name="general_user_label_owner">Eienaar</string>
     <string name="general_user_label_system">Stelsel</string>
     <string name="setup_title">Opstelling</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">Wys instellings</string>
     <string name="ui_theme_color_sunset_label">Sonsondergang</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Hierdie funksie benodig root-toegang, maar SD Maid kon dit nie op hierdie toestel verkry nie.</string>
+    <string name="access_blocked_root_unavailable">Hierdie funksie benodig root-toegang, maar Tidy kon dit nie op hierdie toestel verkry nie.</string>
     <string name="access_blocked_root_declined">Hierdie funksie benodig root toegang. U kan dit deur die instellingskerm aktiveer.</string>
     <string name="access_blocked_root_or_shizuku">Hierdie funksie benodig root- of ADB-toegang, wat nie op hierdie toestel beskikbaar is nie.</string>
     <string name="backup_restore_error_invalid_title">Ongeldige rugsteunlêer</string>
-    <string name="backup_restore_error_invalid_body">Hierdie lêer is nie \'n geldige SD Maid-rugsteun nie of is korrup.</string>
-    <string name="backup_restore_error_version_body">Hierdie rugsteun is geskep met \'n nuwer weergawe van SD Maid. Bywerk die toepassing asseblief en probeer weer.</string>
+    <string name="backup_restore_error_invalid_body">Hierdie lêer is nie \'n geldige Tidy-rugsteun nie of is korrup.</string>
+    <string name="backup_restore_error_version_body">Hierdie rugsteun is geskep met \'n nuwer weergawe van Tidy. Bywerk die toepassing asseblief en probeer weer.</string>
     <string name="backup_restore_error_restore_failed_title">Herstel het misluk</string>
     <string name="backup_restore_error_restore_failed_body">Hierdie dele kon nie herstel word nie: %1$s. U vorige konfigurasie is gestoor en kan teruggekry word.</string>
     <string name="backup_restore_error_safety_title">Herstel nie begin nie</string>
-    <string name="backup_restore_error_safety_body">SD Maid kon nie \'n veiligheidsopname van u huidige konfigurasie stoor nie, dus is niks verander nie.</string>
+    <string name="backup_restore_error_safety_body">Tidy kon nie \'n veiligheidsopname van u huidige konfigurasie stoor nie, dus is niks verander nie.</string>
     <string name="backup_restore_error_busy_title">Wag asseblief</string>
     <string name="backup_restore_error_busy_body">Tans word \'n skoonmaaktaak of \'n ander rugsteunbewerking uitgevoer. Probeer weer wanneer dit klaar is.</string>
     <string name="backup_restore_error_schema_title">Onversoenbare rugsteun</string>
-    <string name="backup_restore_error_schema_body">Die rugsteun se databasisformaat stem nie ooreen met hierdie weergawe van SD Maid nie. Herstel van geskiedenisdata word slegs ondersteun tussen identiese app-weergawes.</string>
+    <string name="backup_restore_error_schema_body">Die rugsteun se databasisformaat stem nie ooreen met hierdie weergawe van Tidy nie. Herstel van geskiedenisdata word slegs ondersteun tussen identiese app-weergawes.</string>
 </resources>

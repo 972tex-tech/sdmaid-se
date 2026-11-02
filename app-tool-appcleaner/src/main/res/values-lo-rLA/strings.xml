@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">ອາຍຸຕ່ຳສຸດ</string>
     <string name="appcleaner_include_minimumage_summary">ຂ້າມໄຟລ໌ທີ່ອາຍຸໜ້ອຍກ່ວາອາຍຸຕ່ຳສຸດ.</string>
     <string name="appcleaner_automation_romtype_detection_label">ການກວດຫາລະບົມປະຕິບັດການ</string>
-    <string name="appcleaner_automation_romtype_detection_summary">ການອັດຕະໂນມັດທີ່ອີງໃສ່ການເຂ້າຫາອາດລ້ມເຫລວຖ້າ SD Maid ກວດຫາ OS ຂອງທ່ານບໍ່ຖືກຕ້ອງ. ໃຊ້ການຕັ້ງຄ່ານີ້ເພື່ອ override OS ທີ່ກວດຫາໄດ້.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">ການອັດຕະໂນມັດທີ່ອີງໃສ່ການເຂ້າຫາອາດລ້ມເຫລວຖ້າ Tidy ກວດຫາ OS ຂອງທ່ານບໍ່ຖືກຕ້ອງ. ໃຊ້ການຕັ້ງຄ່ານີ້ເພື່ອ override OS ທີ່ກວດຫາໄດ້.</string>
     <string name="appcleaner_filter_codecache_label">code cache</string>
     <string name="appcleaner_filter_codecache_summary">JVM code cache. ຕ່ອນ bytecode ທີ່ຖືກ compile ເປັນ native code.</string>
     <string name="appcleaner_filter_advertisement_label">ຂໍ້ມູລໂຄສະນາ</string>
@@ -82,7 +82,7 @@
     <string name="appcleaner_exclusion_limited_title">ແອັບພລິເຄຊັ່ນທີ່ຖືກຍົກເວັ້ນ</string>
     <string name="appcleaner_exclusion_limited_body">ທ່ານໄດ້ຍົກເວັ້ນແອັບນີ້ອອກຈາກ AppCleaner. ການລຶບ cache ສໍາລັບທຸກແອັບພ້ອມກັນໃຊ້ການຕັດຕໍ່ cache ທົ່ວລະບົບທີ່ມີຢູ່ໂດຍຜ່ານເຂົ້າເຖິງ ADB ເຊິ່ງບໍ່ສາມາດປ່ອຍໄວ້ແອັບສ່ວນບຸກຄົນອອກໄດ້ ສະນັ້ນຂໍ້ມູນ cache ຂອງແອັບນີ້ຈະຖືກລຶບພ້ອມກັບທຸກຢ່າງອື່ນ. ມີພຽງແຕ່ຂໍ້ມູນ cache ທີ່ສະແດງຢູ່ນີ້ເທົ່ານັ້ນທີ່ໄດ້ຮັບຜົນກະທົບ ທຸກຢ່າງອື່ນທີ່ກວມເອົາການຍົກເວັ້ນຍັງເຫຼືອທີ່ເຊື່ອງໄວ້ ແລະບໍ່ໄດ້ປ່ຽນແປງ</string>
     <string name="appcleaner_automation_unavailable_title">ບໍລິການການເຂ້າຫາບໍ່ສາມາຖໃຊ້ງານໄດ້</string>
-    <string name="appcleaner_automation_unavailable_body">ການລົບລ້າງ cache ເຫຼົ່ານີ້ຕ້ອງການບໍລິການຄວາມສາມາດໃນການເຂົ້າເຖິງຂອງ SD Maid, ແຕ່ມັນບໍ່ມີໃຫ້ໃຊ້.</string>
+    <string name="appcleaner_automation_unavailable_body">ການລົບລ້າງ cache ເຫຼົ່ານີ້ຕ້ອງການບໍລິການຄວາມສາມາດໃນການເຂົ້າເຖິງຂອງ Tidy, ແຕ່ມັນບໍ່ມີໃຫ້ໃຊ້.</string>
     <string name="appcleaner_delete_confirmation_message_x">ລຶ້ໄຟລ໌ທີ່ສາມາຖຖິ້ມໄດ້ສຳຫລັບ %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="other">ລຶ້ໄຟລ໌ທີ່ສາມາຖຖິ້ມໄດ້ສຳຫລັບ %d ແອັບທີ່ເລືອກ?</item>
@@ -93,7 +93,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">ລະບົມໄດ້ປິດໃຊ້ງານປຸ່ມ \"ລ້າງ cache\" ສຳຫລັບແອັບນີ້. ຍົກເວັ້ນມັນເພື່ອເລ່ງການລ້າງ cache.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">ແອັບລະບົມຕັ້ງຄ່າຜິດ</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">ແອັບ Security ຂອງ HyperOS (com.miui.securitycenter) ຂາດສິດ Usage Stats (GET_USAGE_STATS). ນີ້ທຳລາຍຟີຈາ ເຊ່ນ: \"ລ້າງຂໍ້ມູລ\" ໃນລາຍລະອຽດແອັບ ແລະການລ້າງ cache ຜ່ານການເຂ້າຫາ. ໃຫ້ສິດນີ້ເພື່ອຟື້ນຟູຟັງຊັນສົມບູນ.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">ສິ່ງນີ້ອາດເກີດຂຶ້ນໄດ້ຖ້າແອັບລະບົບ \"System UI\" ຖືກບັງຄັບປິດເມື່ອບໍ່ດົນມານີ້, ຕົວຢ່າງເຊັ່ນໂດຍເຄື່ອງມືທຳຄວາມສະອາດແອັບ. ຫຼັງຈາກນັ້ນ Android ຈະບລັອກການກົດປຸ່ມອັດຕະໂນມັດຂອງ SD Maid ຈົນກວ່າທ່ານຈະຣີສະຕາດອຸປະກອນ.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">ສິ່ງນີ້ອາດເກີດຂຶ້ນໄດ້ຖ້າແອັບລະບົບ \"System UI\" ຖືກບັງຄັບປິດເມື່ອບໍ່ດົນມານີ້, ຕົວຢ່າງເຊັ່ນໂດຍເຄື່ອງມືທຳຄວາມສະອາດແອັບ. ຫຼັງຈາກນັ້ນ Android ຈະບລັອກການກົດປຸ່ມອັດຕະໂນມັດຂອງ Tidy ຈົນກວ່າທ່ານຈະຣີສະຕາດອຸປະກອນ.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Force-stop ກ່ອນລ້າງ</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Force-stop ແອັບກ່ອນລ້າງ cache. ມັນສາມາຖຊ່ວຍລ້າງ cache ຂອງບາງແອັບ, ແຕ່ອາດເຮັດໃຫ້ແອັບເຮັດວຽກຜິດປົກກະຕິ ແລະຕ້ອງການ restart ດ້ວຍຕົນເອງ.</string>
     <string name="appcleaner_progress_force_stopping">ກຳລັງ Force-stop ແອັບ…</string>

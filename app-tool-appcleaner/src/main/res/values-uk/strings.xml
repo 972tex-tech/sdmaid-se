@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Мінімальний вік</string>
     <string name="appcleaner_include_minimumage_summary">Пропустити файли, менші за мінімальний вік.</string>
     <string name="appcleaner_automation_romtype_detection_label">Виявлення операційної системи</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Автоматизація на основі спеціальних можливостей може дати збій, якщо SD Maid неправильно визначить вашу OS. Використовуйте це налаштування, щоб замінити виявлену OS.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Автоматизація на основі спеціальних можливостей може дати збій, якщо Tidy неправильно визначить вашу OS. Використовуйте це налаштування, щоб замінити виявлену OS.</string>
     <string name="appcleaner_filter_codecache_label">Кеш коду</string>
     <string name="appcleaner_filter_codecache_summary">Кеш коду JVM. Блоки байт коду, скомпільовані в нативний код.</string>
     <string name="appcleaner_filter_advertisement_label">Рекламні дані</string>
@@ -97,7 +97,7 @@
     <string name="appcleaner_exclusion_limited_title">Виключений додаток</string>
     <string name="appcleaner_exclusion_limited_body">Програма виключена з AppCleaner. Очищення кешу усіх програм одночасно використовує системне очищення кешу, доступне через доступ ADB, яке не може пропустити окремі програми, тому кеш цієї програми очищується разом з усім іншим. Тільки кешовані дані, показані тут, видаляються, все інше, що охоплює виключення, залишається прихованим та недоторканим.</string>
     <string name="appcleaner_automation_unavailable_title">Сервіс спеціальних можливостей недоступний</string>
-    <string name="appcleaner_automation_unavailable_body">Для очищення цих кешів потрібна служба спеціальних можливостей SD Maid, але вона була недоступна.</string>
+    <string name="appcleaner_automation_unavailable_body">Для очищення цих кешів потрібна служба спеціальних можливостей Tidy, але вона була недоступна.</string>
     <string name="appcleaner_delete_confirmation_message_x">Видалити витратні файли для %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Видалити витратні файли для %d вибраного додатка?</item>
@@ -111,7 +111,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Система вимкнула кнопку «Очистити кеш» для цього додатка. Вимкніть її, щоб пришвидшити очищення кешу.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Системний додаток неправильно налаштовано</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">У додатку безпеки HyperOS (com.miui.securitycenter) відсутній дозвіл «Статистика використання» (GET_USAGE_STATS). Це порушує такі функції, як «Очистити дані» у деталях додатку та очищення кешу через доступ. Надайте дозвіл, щоб відновити повну функціональність.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Це також може статися, якщо системний застосунок \"System UI\" нещодавно було примусово зупинено, наприклад, за допомогою інструменту очищення застосунків. Після цього Android блокує автоматичні натискання кнопок SD Maid, доки ви не перезапустите пристрій.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Це також може статися, якщо системний застосунок \"System UI\" нещодавно було примусово зупинено, наприклад, за допомогою інструменту очищення застосунків. Після цього Android блокує автоматичні натискання кнопок Tidy, доки ви не перезапустите пристрій.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Примусове зупинення перед очищенням</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Примусово зупиніть додатки перед очищенням їх кешу. Це може допомогти очистити кеш деяких додатків, але може призвести до неправильної роботи додатків і вимагати ручного перезапуску.</string>
     <string name="appcleaner_progress_force_stopping">Примусове зупинення додатків…</string>

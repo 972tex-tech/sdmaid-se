@@ -49,7 +49,7 @@
     <string name="corpsefinder_owners_label">所有者</string>
     <string name="corpsefinder_owner_unknown">不明な所有者</string>
     <string name="corpsefinder_corpse_hint_keeper">このアイテムには、オーナーがアンインストールされていても保存したいデータが含まれている場合があります。例えば、写真やバックアップなどです。</string>
-    <string name="corpsefinder_corpse_hint_common">この項目は非常に一般的な名前を持っており、SD Maidが知らない、まだインストールされているアプリに属している可能性があります。</string>
+    <string name="corpsefinder_corpse_hint_common">この項目は非常に一般的な名前を持っており、Tidyが知らない、まだインストールされているアプリに属している可能性があります。</string>
     <string name="corpsefinder_risk_keeper_chip">望ましい</string>
     <string name="corpsefinder_risk_common_chip">一般的</string>
     <string name="corpsefinder_markers_dialog_title">これらのマーカーについて</string>
@@ -57,5 +57,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">標準的な残留ファイル。一般的に安全に削除できます。これらのファイルはインストールされなくなったアプリに属します。</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinderは、すでにアンインストールしたアプリが残したデータを検出します。もはやどのアプリにも属していないため、削除すればスペースを解放できます。ほとんどの場合は安全に削除できますが、判断に迷うときはマーカーを確認してください。</string>
-    <string name="tour_corpsefinder_row_body">各項目は残留データと、そのデータが由来するアプリです。マーカーはSD Maidが削除しても安全だと確信する程度を示しています。上部のⓘをタップしてマーカーの意味を確認してください。</string>
+    <string name="tour_corpsefinder_row_body">各項目は残留データと、そのデータが由来するアプリです。マーカーはTidyが削除しても安全だと確信する程度を示しています。上部のⓘをタップしてマーカーの意味を確認してください。</string>
 </resources>

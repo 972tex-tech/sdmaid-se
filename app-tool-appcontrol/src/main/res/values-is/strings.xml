@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Stöðva forritið. Koma í veg fyrir að það ræsi sig sjálft þar til þú opnar það eða tækið er endurræst.</string>
     <string name="appcontrol_app_uninstall_description">Fjarlægja þetta forrit af tækinu þínu.</string>
     <string name="appcontrol_app_exclude_add_title">Útiloka forrit</string>
-    <string name="appcontrol_app_exclude_add_description">Útiloka þetta forrit frá öðrum aðgerðum í SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Útiloka þetta forrit frá öðrum aðgerðum í Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Breyta útilokun</string>
     <string name="appcontrol_app_exclude_edit_description">Þetta forrit er nú útilokað frá einu eða fleiri verkfærum.</string>
     <string name="appcontrol_tag_user">Notandi</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Flyti %s út</string>
     <string name="appcontrol_share_list_action">Deila lista</string>
     <string name="appcontrol_share_list_title">Forritin mín</string>
-    <string name="appcontrol_share_list_footer">Deilt í gegnum SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Deilt í gegnum Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Þvinga stopp á forritum</string>
     <string name="appcontrol_force_stop_action">Þvinga stopp</string>
     <string name="appcontrol_force_stop_confirm_title">Staðfesta þvingað stopp</string>

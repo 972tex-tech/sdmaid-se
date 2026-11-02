@@ -1,7 +1,5 @@
 package eu.darken.sdmse.main.ui.dashboard
 
-import eu.darken.sdmse.analyzer.core.Analyzer
-import eu.darken.sdmse.analyzer.core.AnalyzerSettings
 import eu.darken.sdmse.appcleaner.core.AppCleaner
 import eu.darken.sdmse.appcontrol.core.AppControl
 import eu.darken.sdmse.common.WebpageTool
@@ -15,7 +13,6 @@ import eu.darken.sdmse.common.updater.UpdateService
 import eu.darken.sdmse.common.upgrade.UpgradeRepo
 import eu.darken.sdmse.corpsefinder.core.CorpseFinder
 import eu.darken.sdmse.corpsefinder.ui.CorpseFinderListRoute
-import eu.darken.sdmse.deduplicator.core.Deduplicator
 import eu.darken.sdmse.main.core.CurriculumVitae
 import eu.darken.sdmse.main.core.GeneralSettings
 import eu.darken.sdmse.main.core.SDMTool
@@ -23,9 +20,7 @@ import eu.darken.sdmse.main.core.motd.MotdRepo
 import eu.darken.sdmse.main.core.release.ReleaseManager
 import eu.darken.sdmse.main.core.taskmanager.TaskManager
 import eu.darken.sdmse.main.core.taskmanager.TaskSubmitter
-import eu.darken.sdmse.scheduler.core.SchedulerManager
 import eu.darken.sdmse.setup.SetupManager
-import eu.darken.sdmse.squeezer.core.Squeezer
 import eu.darken.sdmse.stats.core.Report
 import eu.darken.sdmse.stats.core.SpaceHistoryRepo
 import eu.darken.sdmse.stats.core.SpaceTracker
@@ -33,7 +28,6 @@ import eu.darken.sdmse.stats.core.StatsRepo
 import eu.darken.sdmse.stats.core.StatsSettings
 import eu.darken.sdmse.stats.ui.AffectedFilesRoute
 import eu.darken.sdmse.stats.ui.ReportsRoute
-import eu.darken.sdmse.swiper.core.Swiper
 import eu.darken.sdmse.systemcleaner.core.SystemCleaner
 import io.kotest.matchers.shouldBe
 import io.mockk.coEvery
@@ -45,7 +39,6 @@ import kotlinx.coroutines.CoroutineStart
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.emptyFlow
-import kotlinx.coroutines.flow.flowOf
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.advanceUntilIdle
@@ -69,30 +62,13 @@ internal class DashboardHeroToolRoutingTest : BaseTest() {
         val corpseFinder = mockk<CorpseFinder>(relaxed = true).apply { every { state } returns emptyFlow() }
         val systemCleaner = mockk<SystemCleaner>(relaxed = true).apply { every { state } returns emptyFlow() }
         val appCleaner = mockk<AppCleaner>(relaxed = true).apply { every { state } returns emptyFlow() }
-        val deduplicator = mockk<Deduplicator>(relaxed = true).apply { every { state } returns emptyFlow() }
-        val squeezer = mockk<Squeezer>(relaxed = true).apply { every { state } returns emptyFlow() }
         val appControl = mockk<AppControl>(relaxed = true).apply { every { state } returns emptyFlow() }
-        val analyzer = mockk<Analyzer>(relaxed = true).apply {
-            every { data } returns emptyFlow()
-            every { progress } returns emptyFlow()
-        }
-        // A relaxed mock's flow never emits, which would stall the Analyzer card's combine.
-        val analyzerSettings = mockk<AnalyzerSettings>(relaxed = true).apply {
-            every { lowStorageThresholdBytes } returns mockk(relaxed = true) {
-                every { flow } returns flowOf<Long?>(null)
-            }
-        }
-        val schedulerManager = mockk<SchedulerManager>(relaxed = true).apply { every { state } returns emptyFlow() }
         val setupManager = mockk<SetupManager>(relaxed = true).apply { every { state } returns emptyFlow() }
         val areaManager = mockk<DataAreaManager>(relaxed = true).apply { every { latestResult } returns emptyFlow() }
         val sessionManager = mockk<DebugLogSessionManager>(relaxed = true).apply { every { sessions } returns emptyFlow() }
         val motdRepo = mockk<MotdRepo>(relaxed = true).apply { every { motd } returns emptyFlow() }
         val reviewTool = mockk<ReviewTool>(relaxed = true).apply { every { state } returns emptyFlow() }
         val anniversaryProvider = mockk<AnniversaryProvider>(relaxed = true).apply { every { item } returns emptyFlow() }
-        val swiper = mockk<Swiper>(relaxed = true).apply {
-            every { getSessionsWithStats() } returns emptyFlow()
-            every { progress } returns emptyFlow()
-        }
         val upgradeRepo = mockk<UpgradeRepo>(relaxed = true).apply {
             every { upgradeInfo } returns emptyFlow()
         }
@@ -114,7 +90,6 @@ internal class DashboardHeroToolRoutingTest : BaseTest() {
             every { oneClickCorpseFinderEnabled } returns mockBool(true)
             every { oneClickSystemCleanerEnabled } returns mockBool(false)
             every { oneClickAppCleanerEnabled } returns mockBool(false)
-            every { oneClickDeduplicatorEnabled } returns mockBool(false)
         }
         val spaceHistoryRepo = mockk<SpaceHistoryRepo>(relaxed = true).apply {
             every { getAllHistory(any()) } returns emptyFlow()
@@ -133,16 +108,10 @@ internal class DashboardHeroToolRoutingTest : BaseTest() {
             systemCleaner = systemCleaner,
             appCleaner = appCleaner,
             appControl = appControl,
-            analyzer = analyzer,
-            analyzerSettings = analyzerSettings,
             debugCardProvider = debugCardProvider,
-            deduplicator = deduplicator,
-            squeezer = squeezer,
-            swiper = swiper,
             upgradeRepo = upgradeRepo,
             generalSettings = generalSettings,
             webpageTool = mockk<WebpageTool>(relaxed = true),
-            schedulerManager = schedulerManager,
             updateService = updateService,
             sessionManager = sessionManager,
             motdRepo = motdRepo,

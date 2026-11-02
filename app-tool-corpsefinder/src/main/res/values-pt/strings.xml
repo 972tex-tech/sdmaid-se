@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Proprietários</string>
     <string name="corpsefinder_owner_unknown">Proprietário desconhecido</string>
     <string name="corpsefinder_corpse_hint_keeper">Este item pode conter dados que pretenda manter, apesar de a aplicação de origem ter sido desinstalada, por exemplo, fotografias ou cópias de segurança.</string>
-    <string name="corpsefinder_corpse_hint_common">Este item tem um nome muito comum e pode pertencer a aplicações ainda instaladas que o SD Maid desconhece.</string>
+    <string name="corpsefinder_corpse_hint_common">Este item tem um nome muito comum e pode pertencer a aplicações ainda instaladas que o Tidy desconhece.</string>
     <string name="corpsefinder_risk_keeper_chip">A preservar</string>
     <string name="corpsefinder_risk_common_chip">Comum</string>
     <string name="corpsefinder_markers_dialog_title">Acerca destes marcadores</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Resíduo normal. É geralmente seguro removê-lo — estes ficheiros pertencem a aplicações que já não estão instaladas.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">O CorpseFinder encontra dados deixados por aplicações que já desinstalou. Como já não pertencem a nenhuma aplicação instalada, removê-los liberta espaço. A maioria pode ser removida em segurança, mas verifique o marcador em caso de dúvida.</string>
-    <string name="tour_corpsefinder_row_body">Cada item consiste em dados restantes e na aplicação de origem. O marcador mostra o nível de confiança do SD Maid na segurança da remoção — toque no ⓘ no topo para compreender o significado dos marcadores.</string>
+    <string name="tour_corpsefinder_row_body">Cada item consiste em dados restantes e na aplicação de origem. O marcador mostra o nível de confiança do Tidy na segurança da remoção — toque no ⓘ no topo para compreender o significado dos marcadores.</string>
 </resources>

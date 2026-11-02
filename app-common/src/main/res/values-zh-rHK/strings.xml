@@ -50,7 +50,7 @@
     <string name="general_progress_loading">正在載入</string>
     <string name="general_progress_loading_app_data">正在載入應用程式資料</string>
     <string name="general_progress_loading_data_areas">正在載入資料區域</string>
-    <string name="general_data_areas_unavailable_message">無法載入資料區域，即 SD Maid 可以運作的儲存位置。</string>
+    <string name="general_data_areas_unavailable_message">無法載入資料區域，即 Tidy 可以運作的儲存位置。</string>
     <string name="general_progress_loading_egg_0">超越 iPhone</string>
     <string name="general_progress_loading_egg_1">正在下載更多 RAM</string>
     <string name="general_progress_loading_egg_2">陣間™</string>
@@ -170,7 +170,7 @@
     <string name="general_error_ipc_deadobject_title">服務連線中斷</string>
     <string name="general_error_ipc_deadobject_description">與重要服務（例如 Magisk、Porter、Shizuku 或其他系統層級服務）的連線已意外中斷。請重新啟動您的裝置。如果問題仍未解決，請檢查更新或與我聯絡以便我修復它。</string>
     <string name="general_error_upgrade_required_title">需要升級</string>
-    <string name="general_error_upgrade_required_description">此功能需要升級。請升級 SD Maid SE 以使用此功能。</string>
+    <string name="general_error_upgrade_required_description">此功能需要升級。請升級 Tidy 以使用此功能。</string>
     <string name="general_user_label_owner">擁有者</string>
     <string name="general_user_label_system">系統</string>
     <string name="setup_title">安裝程式</string>
@@ -197,18 +197,18 @@
     <string name="appcontrol_systemsettings_open_title">顯示設定</string>
     <string name="ui_theme_color_sunset_label">日落</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">此功能需要 Root 存取權限，但 SD Maid 無法在此裝置上取得該權限。</string>
+    <string name="access_blocked_root_unavailable">此功能需要 Root 存取權限，但 Tidy 無法在此裝置上取得該權限。</string>
     <string name="access_blocked_root_declined">此功能需要 Root 存取。您可以透過設定畫面啟用它。</string>
     <string name="access_blocked_root_or_shizuku">此功能需要 root 或 ADB 存取，但在此裝置上不可用。</string>
     <string name="backup_restore_error_invalid_title">無效的備份檔案</string>
-    <string name="backup_restore_error_invalid_body">此檔案不是有效的 SD Maid 備份或已損毀。</string>
-    <string name="backup_restore_error_version_body">此備份是用 SD Maid 較新版本建立的。請更新應用程式並重試。</string>
+    <string name="backup_restore_error_invalid_body">此檔案不是有效的 Tidy 備份或已損毀。</string>
+    <string name="backup_restore_error_version_body">此備份是用 Tidy 較新版本建立的。請更新應用程式並重試。</string>
     <string name="backup_restore_error_restore_failed_title">還原失敗</string>
     <string name="backup_restore_error_restore_failed_body">無法還原這些部分：%1$s。您先前的設定已儲存，可以復原。</string>
     <string name="backup_restore_error_safety_title">還原未開始</string>
-    <string name="backup_restore_error_safety_body">SD Maid 無法儲存您目前設定的安全快照，因此未進行任何變更。</string>
+    <string name="backup_restore_error_safety_body">Tidy 無法儲存您目前設定的安全快照，因此未進行任何變更。</string>
     <string name="backup_restore_error_busy_title">請稍候</string>
     <string name="backup_restore_error_busy_body">正在進行清理工作或備份操作。請在完成後重試。</string>
     <string name="backup_restore_error_schema_title">備份不相容</string>
-    <string name="backup_restore_error_schema_body">備份的資料庫格式與此版本的 SD Maid 不相符。只支援在相同的應用程式版本之間還原歷史資料。</string>
+    <string name="backup_restore_error_schema_body">備份的資料庫格式與此版本的 Tidy 不相符。只支援在相同的應用程式版本之間還原歷史資料。</string>
 </resources>

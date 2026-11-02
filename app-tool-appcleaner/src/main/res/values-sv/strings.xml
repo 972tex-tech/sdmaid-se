@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minsta ålder</string>
     <string name="appcleaner_include_minimumage_summary">Hoppa över filer som är yngre än minimiåldern.</string>
     <string name="appcleaner_automation_romtype_detection_label">Operativsystemdetektion</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Tillgänglighetsbaserad automatisering kan misslyckas om SD Maid inte detekterar ditt OS korrekt. Använd denna inställning för att åsidosätta det detekterade OS.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Tillgänglighetsbaserad automatisering kan misslyckas om Tidy inte detekterar ditt OS korrekt. Använd denna inställning för att åsidosätta det detekterade OS.</string>
     <string name="appcleaner_filter_codecache_label">Kodcache</string>
     <string name="appcleaner_filter_codecache_summary">JVM kodcache. Block av bytekod kompilerad till nativkod.</string>
     <string name="appcleaner_filter_advertisement_label">Reklamdata</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Utesluten app</string>
     <string name="appcleaner_exclusion_limited_body">Du har undantagit den här appen från AppCleaner. När cache rensas för alla appar samtidigt används den systemomfattande cacherensningen via ADB-åtkomst, som inte kan utesluta enskilda appar, så den här appens cachade data rensas tillsammans med allt annat. Endast de cachade data som visas här påverkas, allt annat som undantaget täcker förblir dolt och orört.</string>
     <string name="appcleaner_automation_unavailable_title">Tillgänglighetstjänst otillgänglig</string>
-    <string name="appcleaner_automation_unavailable_body">Att rensa dessa cachar kräver SD Maids tillgänglighetstjänst, men den var inte tillgänglig.</string>
+    <string name="appcleaner_automation_unavailable_body">Att rensa dessa cachar kräver Tidys tillgänglighetstjänst, men den var inte tillgänglig.</string>
     <string name="appcleaner_delete_confirmation_message_x">Ta bort förbrukningsbara filer för %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Ta bort förbrukningsbara filer för %d vald app?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Systemet har inaktiverat knappen \"Rensa cache\" för denna app. Uteslut den för att påskynda cache-rensning.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Systemapp felkonfigurerad</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS:s säkerhetsapp (com.miui.securitycenter) saknar behörighet för användningsstatistik (GET_USAGE_STATS). Detta förstör funktioner som \"Rensa data\" i appdetaljer och cache-rensning via tillgänglighet. Bevilja behörigheten för att återställa full funktionalitet.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Detta kan också inträffa om systemappen \"System UI\" tvångsstoppades nyligen, till exempel av ett apprenseringsverktyg. Android blockerar sedan SD Maids automatiska knapptryckningar tills du startar om enheten.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Detta kan också inträffa om systemappen \"System UI\" tvångsstoppades nyligen, till exempel av ett apprenseringsverktyg. Android blockerar sedan Tidys automatiska knapptryckningar tills du startar om enheten.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Tvångsstoppa före rensning</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Tvångsstoppa appar innan du rensar deras cache. Det kan hjälpa till att rensa vissa appars cache, men kan göra att appar inte fungerar korrekt och kräver manuell omstart.</string>
     <string name="appcleaner_progress_force_stopping">Tvångsstoppar appar…</string>

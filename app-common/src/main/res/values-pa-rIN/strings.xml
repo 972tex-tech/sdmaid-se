@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">ਤੁਹਾਡੀ ਸੇਵਾ ਵਿੱਚ।</string>
     <string name="slogan_message_1">ਸਾਫ਼-ਸੁਥਰਾ।</string>
@@ -10,7 +10,7 @@
     <string name="slogan_message_5">ਬੇਦਾਗ।</string>
     <string name="slogan_message_6">ਖ਼ਾਲੀ ਥਾਵਾਂ ਕਰੋ!</string>
     <string name="slogan_message_7">ਖ਼ਾਲੀ ਥਾਂ, ਸੁੱਖ ਦਾ ਸਾਹ।</string>
-    <string name="slogan_message_8">ਨਹੀਂਓ ਹਾਰਦਾ ਹਜੇ ਤਾਂ SD Maid ਪੂਰਾ ਕੈਮ ਓਏ।</string>
+    <string name="slogan_message_8">ਨਹੀਂਓ ਹਾਰਦਾ ਹਜੇ ਤਾਂ Tidy ਪੂਰਾ ਕੈਮ ਓਏ।</string>
     <string name="general_thank_you_label">ਮਿਹਰਬਾਨੀ</string>
     <string name="general_error_type_mismatch_msg">ਕਿਸਮ ਬੇਮੇਲ: %1$s ਚਾਹੁੰਦਾ ਸੀ, ਪਰ %2$s ਪ੍ਰਾਪਤ ਹੋਇਆ।</string>
     <string name="general_error_cant_access_msg">%s ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ।</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ</string>
     <string name="general_progress_loading_app_data">ਐਪ ਡਾਟਾ ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ</string>
     <string name="general_progress_loading_data_areas">ਡਾਟਾ ਖੇਤਰ ਲੋਡ ਕਰ ਰਿਹਾ ਹੈ</string>
-    <string name="general_data_areas_unavailable_message">ਡਾਟਾ ਖੇਤਰ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੇ, ਜੋ ਉਹ ਸਟੋਰੇਜ ਟਿਕਾਣੇ ਹਨ ਜਿੱਥੇ SD Maid ਕੰਮ ਕਰ ਸਕਦਾ ਹੈ।</string>
+    <string name="general_data_areas_unavailable_message">ਡਾਟਾ ਖੇਤਰ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੇ, ਜੋ ਉਹ ਸਟੋਰੇਜ ਟਿਕਾਣੇ ਹਨ ਜਿੱਥੇ Tidy ਕੰਮ ਕਰ ਸਕਦਾ ਹੈ।</string>
     <string name="general_progress_loading_egg_0">ਅਜੇ ਵੀ iPhone ਨਾਲੋਂ ਤੇਜ਼</string>
     <string name="general_progress_loading_egg_1">ਹੋਰ RAM ਡਾਊਨਲੋਡ ਕਰ ਰਿਹਾ ਹੈ</string>
     <string name="general_progress_loading_egg_2">ਜਲਦੀ™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">ਸੇਵਾ ਸੰਪਰਕ ਗੁਆਚ ਗਿਆ</string>
     <string name="general_error_ipc_deadobject_description">ਇੱਕ ਅਹਿਮ ਸੇਵਾ (ਜਿਵੇਂ Magisk, Porter, Shizuku, ਜਾਂ ਹੋਰ ਸਿਸਟਮ-ਪੱਧਰ ਦੀਆਂ ਸੇਵਾਵਾਂ) ਨਾਲ ਕਨੈਕਸ਼ਨ ਅਚਾਨਕ ਟੁੱਟ ਗਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੇ ਡਿਵਾਈਸ ਨੂੰ ਰੀਬੂਟ ਕਰੋ। ਜੇ ਸਮੱਸਿਆ ਬਣੀ ਰਹੇ, ਤਾਂ ਅੱਪਡੇਟ ਦੇਖੋ ਜਾਂ ਮੇਰੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ ਤਾਂ ਜੋ ਮੈਂ ਇਸਨੂੰ ਠੀਕ ਕਰ ਸਕਾਂ।</string>
     <string name="general_error_upgrade_required_title">ਅਪਗ੍ਰੇਡ ਲਾਜ਼ਮੀ ਹੈ</string>
-    <string name="general_error_upgrade_required_description">ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਲਈ ਅਪਗ੍ਰੇਡ ਲਾਜ਼ਮੀ ਹੈ। ਕਿਰਪਾ ਕਰ ਕੇ ਇਸ ਨੂੰ ਵਰਤਣ ਲਈ SD Maid SE ਨੂੰ ਅਪਗ੍ਰੇਡ ਕਰੋ।</string>
+    <string name="general_error_upgrade_required_description">ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਲਈ ਅਪਗ੍ਰੇਡ ਲਾਜ਼ਮੀ ਹੈ। ਕਿਰਪਾ ਕਰ ਕੇ ਇਸ ਨੂੰ ਵਰਤਣ ਲਈ Tidy ਨੂੰ ਅਪਗ੍ਰੇਡ ਕਰੋ।</string>
     <string name="general_user_label_owner">ਮਾਲਕ</string>
     <string name="general_user_label_system">ਸਿਸਟਮ</string>
     <string name="setup_title">ਸੈਟਅੱਪ</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">ਸੈਟਿੰਗਾਂ ਦਿਖਾਓ</string>
     <string name="ui_theme_color_sunset_label">ਸੂਰਜ ਅਸਤ</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਰੂਟ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ, ਪਰ SD Maid ਇਸ ਡਿਵਾਇਸ ਤੇ ਇਸਨੂੰ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਿਆ।</string>
+    <string name="access_blocked_root_unavailable">ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਰੂਟ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ, ਪਰ Tidy ਇਸ ਡਿਵਾਇਸ ਤੇ ਇਸਨੂੰ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਿਆ।</string>
     <string name="access_blocked_root_declined">ਇਸ ਫ਼ੀਚਰ ਨੂੰ ਰੂਟ ਪਹੁੰਚ ਦੀ ਲੋੜ ਹੈ। ਤੁਸੀਂ ਇਸ ਨੂੰ ਸੈਟਅਪ ਸਕ੍ਰੀਨ ਰਾਹੀਂ ਸਮਰਥ ਕਰ ਸਕਦੇ ਹੋ।</string>
     <string name="access_blocked_root_or_shizuku">ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਲਈ ਰੂਟ ਜਾਂ ADB ਪਹੁੰਚ ਚਾਹੀਦੀ ਹੈ, ਜੋ ਇਸ ਡਿਵਾਈਸ \'ਤੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।</string>
     <string name="backup_restore_error_invalid_title">ਅਵੈਧ ਬੈਕਅੱਪ ਫਾਇਲ</string>
-    <string name="backup_restore_error_invalid_body">ਇਹ ਫਾਇਲ ਇੱਕ ਵੈਧ SD Maid ਬੈਕਅੱਪ ਨਹੀਂ ਹੈ ਜਾਂ ਖਰਾਬ ਹੈ।</string>
-    <string name="backup_restore_error_version_body">ਇਹ ਬੈਕਅੱਪ SD Maid ਦੇ ਇੱਕ ਨਵੇਂ ਸੰਸਕਰਣ ਨਾਲ ਬਣਾਇਆ ਗਿਆ ਸੀ। ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
+    <string name="backup_restore_error_invalid_body">ਇਹ ਫਾਇਲ ਇੱਕ ਵੈਧ Tidy ਬੈਕਅੱਪ ਨਹੀਂ ਹੈ ਜਾਂ ਖਰਾਬ ਹੈ।</string>
+    <string name="backup_restore_error_version_body">ਇਹ ਬੈਕਅੱਪ Tidy ਦੇ ਇੱਕ ਨਵੇਂ ਸੰਸਕਰਣ ਨਾਲ ਬਣਾਇਆ ਗਿਆ ਸੀ। ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="backup_restore_error_restore_failed_title">ਬਹਾਲੀ ਅਸਫਲ</string>
     <string name="backup_restore_error_restore_failed_body">ਇਹ ਹਿੱਸੇ ਬਹਾਲ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕੇ: %1$s। ਤੁਹਾਡੀ ਪਿਛਲੀ ਸੰਰਚਨਾ ਸੁਰੱਖਿਅਤ ਕੀਤੀ ਗਈ ਸੀ ਅਤੇ ਵਾਪਸ ਲਿਆਂਦੀ ਜਾ ਸਕਦੀ ਹੈ।</string>
     <string name="backup_restore_error_safety_title">ਬਹਾਲੀ ਸ਼ੁਰੂ ਨਹੀਂ ਹੋਈ</string>
-    <string name="backup_restore_error_safety_body">SD Maid ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਸੰਰਚਨਾ ਦਾ ਸੁਰੱਖਿਆ ਸਨੈਪਸ਼ਾਟ ਸੁਰੱਖਿਤ ਨਹੀਂ ਕਰ ਸਕਿਆ, ਇਸਲਈ ਕੋਈ ਵੀ ਤਬਦੀਲੀ ਨਹੀਂ ਕੀਤੀ ਗਈ।</string>
+    <string name="backup_restore_error_safety_body">Tidy ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਸੰਰਚਨਾ ਦਾ ਸੁਰੱਖਿਆ ਸਨੈਪਸ਼ਾਟ ਸੁਰੱਖਿਤ ਨਹੀਂ ਕਰ ਸਕਿਆ, ਇਸਲਈ ਕੋਈ ਵੀ ਤਬਦੀਲੀ ਨਹੀਂ ਕੀਤੀ ਗਈ।</string>
     <string name="backup_restore_error_busy_title">ਕਿਰਪਾ ਕਰਕੇ ਉਡੀਕ ਕਰੋ</string>
     <string name="backup_restore_error_busy_body">ਇੱਕ ਸਾਫ਼ ਕਰਨ ਦੀ ਕਾਰਵਾਈ ਜਾਂ ਕੋਈ ਹੋਰ ਬੈਕਅੱਪ ਕਾਰਵਾਈ ਵਰਤਮਾਨ ਵਿੱਚ ਚੱਲ ਰਹੀ ਹੈ। ਇਹ ਪੂਰੀ ਹੋਣ ਤੋਂ ਬਾਅਦ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="backup_restore_error_schema_title">ਅਸੰਗਤ ਬੈਕਅੱਪ</string>
-    <string name="backup_restore_error_schema_body">ਬੈਕਅੱਪ ਦਾ ਡੇਟਾਬੇਸ ਫਾਰਮੈਟ SD Maid ਦੇ ਇਸ ਸੰਸਕਰਣ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ। ਇਤਿਹਾਸ ਡੇਟਾ ਨੂੰ ਮੁੜ ਬਹਾਲ ਕਰਨਾ ਸਿਰਫ ਇੱਕੋ ਜਿਹੇ ਐਪ ਸੰਸਕਰਣਾਂ ਦੇ ਵਿਚਕਾਰ ਹੀ ਸਮਰਥਿਤ ਹੈ।</string>
+    <string name="backup_restore_error_schema_body">ਬੈਕਅੱਪ ਦਾ ਡੇਟਾਬੇਸ ਫਾਰਮੈਟ Tidy ਦੇ ਇਸ ਸੰਸਕਰਣ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ। ਇਤਿਹਾਸ ਡੇਟਾ ਨੂੰ ਮੁੜ ਬਹਾਲ ਕਰਨਾ ਸਿਰਫ ਇੱਕੋ ਜਿਹੇ ਐਪ ਸੰਸਕਰਣਾਂ ਦੇ ਵਿਚਕਾਰ ਹੀ ਸਮਰਥਿਤ ਹੈ।</string>
 </resources>

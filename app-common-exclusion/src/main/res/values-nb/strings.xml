@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Ekskluderingsbehandler</string>
     <string name="exclusion_manager_desc">Administrer ekskludering av filer og apper.</string>
-    <string name="exclusion_explanation_body1">Ekskluder filer og apper for å beskytte dem fra SD Maids verktøy, eller for å hoppe over irrelevante elementer og fremskynde operasjoner.</string>
+    <string name="exclusion_explanation_body1">Ekskluder filer og apper for å beskytte dem fra Tidys verktøy, eller for å hoppe over irrelevante elementer og fremskynde operasjoner.</string>
     <string name="exclusion_add_new_hint">Ingen eksklusjoner ennå. Bruk +-knappen for å opprette en, eller ekskluder elementer fra resultatene fra ethvert verktøy.</string>
     <string name="exclusion_create_action">Opprett ekskludering</string>
     <string name="exclusion_edit_action">Rediger ekskludering</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Tillat delvise treff</string>
     <string name="exclusion_option_ignore_casing">Ignorer store og små bokstaver</string>
     <string name="exclusion_editor_affected_tools_label">Berørte verktøy</string>
-    <string name="exclusion_editor_path_explanation">Ekskludering av en bane forhindrer SD Maid fra å viderebehandle eventuelle samsvarende baner. Dette gjelder filer, mapper og undermapper.</string>
-    <string name="exclusion_editor_pkg_explanation">Ekskludering av en app forhindrer SD Maid fra å behandle samsvarende pakker.</string>
+    <string name="exclusion_editor_path_explanation">Ekskludering av en bane forhindrer Tidy fra å viderebehandle eventuelle samsvarende baner. Dette gjelder filer, mapper og undermapper.</string>
+    <string name="exclusion_editor_pkg_explanation">Ekskludering av en app forhindrer Tidy fra å behandle samsvarende pakker.</string>
     <string name="exclusion_editor_segment_explanation">En segmentbasert ekskludering ligner på en baneekskludering, men tillater delvise treff. Eksempel: \"DCIM/Camera\" ekskluderer \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Vil du fjerne denne ekskluderingen?</string>
     <string name="exclusion_reset_default_exclusions">Gjenopprett standard ekskluderinger</string>

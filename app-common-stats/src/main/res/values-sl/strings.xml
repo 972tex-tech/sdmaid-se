@@ -7,10 +7,10 @@
         <item quantity="other">Sproščenih je bilo %s.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">Od kar ste SD Maid povabili v svojo napravo, je bil obdelan %s predmet.</item>
-        <item quantity="two">Od kar ste SD Maid povabili v svojo napravo, sta bila obdelana %s predmeta.</item>
-        <item quantity="few">Od kar ste SD Maid povabili v svojo napravo, so bili obdelani %s-je predmeti.</item>
-        <item quantity="other">Od kar ste SD Maid povabili v svojo napravo, je bilo obdelanih %s predmetov.</item>
+        <item quantity="one">Od kar ste Tidy povabili v svojo napravo, je bil obdelan %s predmet.</item>
+        <item quantity="two">Od kar ste Tidy povabili v svojo napravo, sta bila obdelana %s predmeta.</item>
+        <item quantity="few">Od kar ste Tidy povabili v svojo napravo, so bili obdelani %s-je predmeti.</item>
+        <item quantity="other">Od kar ste Tidy povabili v svojo napravo, je bilo obdelanih %s predmetov.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Tvoj gost že %d dan.</item>
@@ -38,12 +38,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Delno uspešno</string>
     <string name="stats_report_status_partial_failure">Spodletelo</string>
-    <string name="stats_settings_desc">Nastavite statistiko, poročila in shranjevanje podatkov za SD Maid.</string>
+    <string name="stats_settings_desc">Nastavite statistiko, poročila in shranjevanje podatkov za Tidy.</string>
     <string name="stats_settings_retention_category">Shranjevanje</string>
     <string name="stats_settings_retention_reports_label">Splošna poročila</string>
-    <string name="stats_settings_retention_reports_desc">Št. dni, za kolikor naj se obdržijo osnovna poročila o delovanju SD Maida.</string>
+    <string name="stats_settings_retention_reports_desc">Št. dni, za kolikor naj se obdržijo osnovna poročila o delovanju Tidya.</string>
     <string name="stats_settings_retention_paths_label">Podrobni podatki o poteh</string>
-    <string name="stats_settings_retention_paths_desc">Št. dni, za kolikor naj obdržijo podobnosti o poteh, na katere je vplival SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Št. dni, za kolikor naj obdržijo podobnosti o poteh, na katere je vplival Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Zgodovina shrambe</string>
     <string name="stats_settings_retention_snapshots_desc">Število dni hranjenja posnetkov porabe shrambe za grafikon trenda shrambe. Starejši posnetki se izbrišejo.</string>
     <string name="stats_settings_reset_all_label">Ponastavi vse</string>

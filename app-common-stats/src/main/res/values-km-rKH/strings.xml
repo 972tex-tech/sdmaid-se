@@ -4,7 +4,7 @@
         <item quantity="other">ត្រូវបានឡួត %s។</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="other">ត្រង %s ត្រូវបានត្រងត្រូពីទីនៅអ្នកបានឥយឥយ SD Maid ទៅសកសន្និតអ្នក៴</item>
+        <item quantity="other">ត្រង %s ត្រូវបានត្រងត្រូពីទីនៅអ្នកបានឥយឥយ Tidy ទៅសកសន្និតអ្នក៴</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="other">ភ្ញៀវរបស់អ្នករយៈពេល %d ថ្ងៃ។</item>
@@ -20,12 +20,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">ជៅកជ័យប័កខ្ឡើន</string>
     <string name="stats_report_status_partial_failure">ប័កស្ខាល</string>
-    <string name="stats_settings_desc">កំណត់ស្ថិតិការណ៍ រាយការណ៍ និងការត័ក្កាត់តវ័ភបល័យរបស់ SD Maid។</string>
+    <string name="stats_settings_desc">កំណត់ស្ថិតិការណ៍ រាយការណ៍ និងការត័ក្កាត់តវ័ភបល័យរបស់ Tidy។</string>
     <string name="stats_settings_retention_category">ការទឹកត័ក្កាត់</string>
     <string name="stats_settings_retention_reports_label">រាយការណ៍ស្សិត្តិតាម</string>
-    <string name="stats_settings_retention_reports_desc">ច្នវន័ន្ថែមុនបានលុបរាយការណ៍ត័ឡនាំនៃឡើងឮកស្តាម្បើរ SD Maid។</string>
+    <string name="stats_settings_retention_reports_desc">ច្នវន័ន្ថែមុនបានលុបរាយការណ៍ត័ឡនាំនៃឡើងឮកស្តាម្បើរ Tidy។</string>
     <string name="stats_settings_retention_paths_label">ពត់មានព័ត្រូលម័យន័យ</string>
-    <string name="stats_settings_retention_paths_desc">ច្នវន័ន្ថែដែលរក្សាទុកទាក់លម័ឡើយស័ក់ត្រងព័ត្រូដែលបានស្កែរត្រូវបានប័ស្សសកម្មានត្រង SD Maid។</string>
+    <string name="stats_settings_retention_paths_desc">ច្នវន័ន្ថែដែលរក្សាទុកទាក់លម័ឡើយស័ក់ត្រងព័ត្រូដែលបានស្កែរត្រូវបានប័ស្សសកម្មានត្រង Tidy។</string>
     <string name="stats_settings_retention_snapshots_label">ប្រវត្តិទំហំផ្ទុក</string>
     <string name="stats_settings_retention_snapshots_desc">ចំនួនថ្ងៃដែលត្រូវរក្សាទុកស្នាបថតការប្រើប្រាស់ទំហំផ្ទុកសម្រាប់ក្រាហ្វនិន្នាការទំហំផ្ទុក។ ស្នាបថតចាស់ជាងនេះត្រូវបានលុប។</string>
     <string name="stats_settings_reset_all_label">ស្ដារត្រូវបានទាំងនាំ</string>

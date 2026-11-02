@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Mosha minimale</string>
     <string name="appcleaner_include_minimumage_summary">Kapërceni skedarët që janë më të rinj se mosha minimale.</string>
     <string name="appcleaner_automation_romtype_detection_label">Zbulimi i sistemit operativ</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Automatizimi i bazuar në aksesueshmëri mund të dështojë nëse SD Maid nuk e zbulon saktë sistemin tuaj operativ. Përdoreni këtë cilësim për të anashkaluar sistemin operativ të zbuluar.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Automatizimi i bazuar në aksesueshmëri mund të dështojë nëse Tidy nuk e zbulon saktë sistemin tuaj operativ. Përdoreni këtë cilësim për të anashkaluar sistemin operativ të zbuluar.</string>
     <string name="appcleaner_filter_codecache_label">Memoria e fshehtë e kodit</string>
     <string name="appcleaner_filter_codecache_summary">Cache e kodit JVM. Blloqet e bajtkodit të përpiluar në kodin vendas.</string>
     <string name="appcleaner_filter_advertisement_label">Të dhënat e reklamës</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Aplikacion i përjashtuar</string>
     <string name="appcleaner_exclusion_limited_body">E përjashtuat këtë aplikacion nga AppCleaner. Pastrimi i cache-ve për të gjitha aplikacionet në të njëjtën kohë përdor pastrimin e cache-it në të gjithë sistemin, i disponueshëm përmes qasjes përmes ADB, i cili nuk mund të lërë jashtë aplikacionet individuale, kështu që të dhënat e cache-it të këtij aplikacioni pastrohen bashkë me gjithçka tjetër. Vetëm të dhënat e cache-it të paraqitura këtu preken, gjithçka tjetër që përjashtimi mbulon mbetet e fshehur dhe e paprekur.</string>
     <string name="appcleaner_automation_unavailable_title">Shërbimi i aksesueshmërisë është i çaktivizuar</string>
-    <string name="appcleaner_automation_unavailable_body">Pastrimi i këtyre cache-ve kërkon shërbimin e qasjes të SD Maid, por ai nuk ishte i disponueshëm.</string>
+    <string name="appcleaner_automation_unavailable_body">Pastrimi i këtyre cache-ve kërkon shërbimin e qasjes të Tidy, por ai nuk ishte i disponueshëm.</string>
     <string name="appcleaner_delete_confirmation_message_x">Të fshihen skedarët e shpenzuar për %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Të fshihen skedarët e shpenzueshëm për %d aplikacionin e zgjedhur?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Sistemi ka çaktivizuar butonin \"Pastro cache-in\" për këtë aplikacion. Përjashtojeni për të përshpejtuar pastrimin e cache-it.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Aplikacioni i sistemit është konfiguruar gabimisht</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Aplikacionit të Sigurisë së HyperOS (com.miui.securitycenter) i mungon leja e Statistikave të Përdorimit (GET_USAGE_STATS). Kjo dëmton funksione si \"Pastro të Dhënat\" në detajet e aplikacionit dhe pastrimin e cache-it përmes aksesueshmërisë. Jepni lejen për të rivendosur funksionalitetin e plotë.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Kjo mund të ndodhë edhe nëse aplikacioni sistem \"System UI\" u ndalsh kohët e fundit me forcë, p.sh. nga një mjet pastrimi aplikacionesh. Android atëherë bllokon shtypimet e butonave automatike të SD Maid derisa të risisni pajisjen.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Kjo mund të ndodhë edhe nëse aplikacioni sistem \"System UI\" u ndalsh kohët e fundit me forcë, p.sh. nga një mjet pastrimi aplikacionesh. Android atëherë bllokon shtypimet e butonave automatike të Tidy derisa të risisni pajisjen.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Ndalim me forcë para pastrimit</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Ndaloni me forcë aplikacionet para se të pastroni memorien e fshehur. Kjo mund të ndihmojë në pastrimin e memorive të fshehura të disa aplikacioneve, por mund të shkaktojë keqfunksionim të aplikacioneve dhe të kërkojë rinisje manuale.</string>
     <string name="appcleaner_progress_force_stopping">Po ndalohen me forcë aplikacionet…</string>

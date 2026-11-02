@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Stop de app. Zorg ervoor dat deze niet automatisch start totdat je de app opent of het apparaat opnieuw opstart.</string>
     <string name="appcontrol_app_uninstall_description">Verwijder deze app van uw apparaat.</string>
     <string name="appcontrol_app_exclude_add_title">App uitsluiten</string>
-    <string name="appcontrol_app_exclude_add_description">Sluit deze app uit van andere bewerkingen in SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Sluit deze app uit van andere bewerkingen in Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Uitsluiting bewerken</string>
     <string name="appcontrol_app_exclude_edit_description">Deze app is momenteel uitgesloten van één of meer hulpprogramma\'s.</string>
     <string name="appcontrol_tag_user">Gebruiker</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Bezig met exporteren van %s</string>
     <string name="appcontrol_share_list_action">Lijst delen</string>
     <string name="appcontrol_share_list_title">Mijn apps</string>
-    <string name="appcontrol_share_list_footer">Gedeeld via SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Gedeeld via Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Forceer stop-apps</string>
     <string name="appcontrol_force_stop_action">Forceer stop</string>
     <string name="appcontrol_force_stop_confirm_title">Bevestig geforceerde stop</string>

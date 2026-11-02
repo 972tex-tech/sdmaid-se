@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Dừng ứng dụng. Hãy ngăn không cho ứng dụng tự khởi động cho đến khi bạn mở ứng dụng hoặc khởi động lại thiết bị.</string>
     <string name="appcontrol_app_uninstall_description">Gỡ cài đặt ứng dụng này khỏi thiết bị của bạn.</string>
     <string name="appcontrol_app_exclude_add_title">Loại trừ ứng dụng</string>
-    <string name="appcontrol_app_exclude_add_description">Loại trừ ứng dụng này khỏi các hoạt động khác trong SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Loại trừ ứng dụng này khỏi các hoạt động khác trong Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Chỉnh sửa loại trừ</string>
     <string name="appcontrol_app_exclude_edit_description">Ứng dụng này hiện bị loại trừ khỏi một hoặc nhiều công cụ.</string>
     <string name="appcontrol_tag_user">Người dùng</string>
@@ -92,7 +92,7 @@
     <string name="appcontrol_progress_exporting_x">Đang xuất %s</string>
     <string name="appcontrol_share_list_action">Chia sẻ danh sách</string>
     <string name="appcontrol_share_list_title">Ứng dụng của tôi</string>
-    <string name="appcontrol_share_list_footer">Chia sẻ qua SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Chia sẻ qua Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Buộc dừng ứng dụng</string>
     <string name="appcontrol_force_stop_action">Buộc dừng</string>
     <string name="appcontrol_force_stop_confirm_title">Xác nhận buộc dừng</string>

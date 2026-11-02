@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">გამონაკლისების მენეჯერი</string>
     <string name="exclusion_manager_desc">ფაილების და აპების გამონაკლისების მართვა.</string>
-    <string name="exclusion_explanation_body1">გამორიცხეთ ფაილები და აპლიკაციები რათა დაიცვოთ ისინი SD Maid-ის ხელსაწყოებისგან, ან გამოტოვოთ არასაჭირო ელემენტები და დააჩქარეთ ოპერაციები.</string>
+    <string name="exclusion_explanation_body1">გამორიცხეთ ფაილები და აპლიკაციები რათა დაიცვოთ ისინი Tidy-ის ხელსაწყოებისგან, ან გამოტოვოთ არასაჭირო ელემენტები და დააჩქარეთ ოპერაციები.</string>
     <string name="exclusion_add_new_hint">ჯერ არ არის გამორიცხვები. გამოიყენეთ + ღილაკს ერთის შესაქმნელად, ან გამორიცხეთ ელემენტები ნებისმიერი ხელსაწყოს შედეგებიდან.</string>
     <string name="exclusion_create_action">გამონაკლისის შექმნა</string>
     <string name="exclusion_edit_action">გამონაკლისის რედაქტირება</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">ნაწილობრივი დამთხვევების დაშვება</string>
     <string name="exclusion_option_ignore_casing">რეგისტრის იგნორირება</string>
     <string name="exclusion_editor_affected_tools_label">დაზარალებული ხელსაწყოები</string>
-    <string name="exclusion_editor_path_explanation">გზის გამონაკლისი ხელს უშლის SD Maid-ს შემდგომი დამუშავების ნებისმიერ შესაბამის გზას. ეს გამოიყენება ფაილებზე, საქაღალდეებზე და ქვესაქაღალდეებზე.</string>
-    <string name="exclusion_editor_pkg_explanation">აპის გამონაკლისი ხელს უშლის SD Maid-ს ნებისმიერი შესაბამისი პაკეტების დამუშავებას.</string>
+    <string name="exclusion_editor_path_explanation">გზის გამონაკლისი ხელს უშლის Tidy-ს შემდგომი დამუშავების ნებისმიერ შესაბამის გზას. ეს გამოიყენება ფაილებზე, საქაღალდეებზე და ქვესაქაღალდეებზე.</string>
+    <string name="exclusion_editor_pkg_explanation">აპის გამონაკლისი ხელს უშლის Tidy-ს ნებისმიერი შესაბამისი პაკეტების დამუშავებას.</string>
     <string name="exclusion_editor_segment_explanation">სეგმენტზე დაფუძნებული გამონაკლისი მსგავსია გზის გამონაკლისისა, მაგრამ საშუალებას იძლევა ნაწილობრივი დამთხვევებისა. მაგალითი: \"DCIM/Camera\" გამორიცხავს \"/sdcard/DCIM/Camera/photo.png\"-ს.</string>
     <string name="exclusion_editor_remove_confirmation_message">ამოვშალოთ ეს გამონაკლისი?</string>
     <string name="exclusion_reset_default_exclusions">ნაგულისხმევი გამონაკლისების აღდგენა</string>

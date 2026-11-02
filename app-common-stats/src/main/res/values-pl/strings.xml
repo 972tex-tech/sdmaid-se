@@ -7,10 +7,10 @@
         <item quantity="other">Zwolniono %s.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">Przetworzono %s element od momentu zaproszenia SD Maid do twojego urządzenia.</item>
-        <item quantity="few">Przetworzono %s elementy od momentu zaproszenia SD Maid do twojego urządzenia.</item>
-        <item quantity="many">Przetworzono %s elementów od momentu zaproszenia SD Maid do twojego urządzenia.</item>
-        <item quantity="other">Przetworzono %s elementów od momentu zaproszenia SD Maid do twojego urządzenia.</item>
+        <item quantity="one">Przetworzono %s element od momentu zaproszenia Tidy do twojego urządzenia.</item>
+        <item quantity="few">Przetworzono %s elementy od momentu zaproszenia Tidy do twojego urządzenia.</item>
+        <item quantity="many">Przetworzono %s elementów od momentu zaproszenia Tidy do twojego urządzenia.</item>
+        <item quantity="other">Przetworzono %s elementów od momentu zaproszenia Tidy do twojego urządzenia.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Twój gość przez %d dzień.</item>
@@ -38,12 +38,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Częściowy sukces</string>
     <string name="stats_report_status_partial_failure">Niepowodzenie</string>
-    <string name="stats_settings_desc">Konfiguracja statystyk, raportów i przechowywania danych SD Maid.</string>
+    <string name="stats_settings_desc">Konfiguracja statystyk, raportów i przechowywania danych Tidy.</string>
     <string name="stats_settings_retention_category">Zatrzymanie</string>
     <string name="stats_settings_retention_reports_label">Raporty ogólne</string>
-    <string name="stats_settings_retention_reports_desc">Liczba dni przed usunięciem podstawowych raportów operacji SD Maid.</string>
+    <string name="stats_settings_retention_reports_desc">Liczba dni przed usunięciem podstawowych raportów operacji Tidy.</string>
     <string name="stats_settings_retention_paths_label">Szczegółowe informacje o ścieżce</string>
-    <string name="stats_settings_retention_paths_desc">Liczba dni przechowywania szczegółowych informacji o ścieżkach, na które ma wpływ SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Liczba dni przechowywania szczegółowych informacji o ścieżkach, na które ma wpływ Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Historia pamięci</string>
     <string name="stats_settings_retention_snapshots_desc">Liczba dni przechowywania migawek użycia pamięci dla wykresu zmian pamięci. Starsze migawki zostaną usunięte.</string>
     <string name="stats_settings_reset_all_label">Resetuj wszystko</string>

@@ -4,28 +4,28 @@
         <item quantity="other">%s 已被釋放。</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="other">自從您邀請 SD Maid 到您的裝置以來，已處理 %s 項目。</item>
+        <item quantity="other">自從您邀請 Tidy 到您的裝置以來，已處理 %s 項目。</item>
     </plurals>
     <plurals name="stats_dash_since_days">
-        <item quantity="other">SD Maid 已陪伴您 %d 天</item>
+        <item quantity="other">Tidy 已陪伴您 %d 天</item>
     </plurals>
     <plurals name="stats_dash_since_weeks">
-        <item quantity="other">SD Maid 已陪伴您 %d 週</item>
+        <item quantity="other">Tidy 已陪伴您 %d 週</item>
     </plurals>
     <plurals name="stats_dash_since_months">
-        <item quantity="other">SD Maid 已陪伴您 %d 個月</item>
+        <item quantity="other">Tidy 已陪伴您 %d 個月</item>
     </plurals>
     <plurals name="stats_dash_since_years">
-        <item quantity="other">SD Maid 已陪伴您 %d 年</item>
+        <item quantity="other">Tidy 已陪伴您 %d 年</item>
     </plurals>
     <string name="stats_report_status_partial_success">部分成功</string>
     <string name="stats_report_status_partial_failure">失敗</string>
-    <string name="stats_settings_desc">設定 SD Maid 的統計數據、報告和資料保留。</string>
+    <string name="stats_settings_desc">設定 Tidy 的統計數據、報告和資料保留。</string>
     <string name="stats_settings_retention_category">保留</string>
     <string name="stats_settings_retention_reports_label">一般回報</string>
-    <string name="stats_settings_retention_reports_desc">刪除基本 SD Maid 操作報告前的天數。</string>
+    <string name="stats_settings_retention_reports_desc">刪除基本 Tidy 操作報告前的天數。</string>
     <string name="stats_settings_retention_paths_label">路徑詳細資料</string>
-    <string name="stats_settings_retention_paths_desc">保留 SD Maid 影響路徑詳細資料的天數。</string>
+    <string name="stats_settings_retention_paths_desc">保留 Tidy 影響路徑詳細資料的天數。</string>
     <string name="stats_settings_retention_snapshots_label">儲存空間歷史記錄</string>
     <string name="stats_settings_retention_snapshots_desc">保留多少天的儲存空間使用量快照以供儲存空間趨勢圖表使用。較舊的快照會被刪除。</string>
     <string name="stats_settings_reset_all_label">全部重設</string>

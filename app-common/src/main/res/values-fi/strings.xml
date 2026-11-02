@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Palveluksessasi.</string>
     <string name="slogan_message_1">Puhdas ja järjestyksessä.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Ladataan</string>
     <string name="general_progress_loading_app_data">Ladataan sovellustietoja</string>
     <string name="general_progress_loading_data_areas">Ladataan tietoalueita</string>
-    <string name="general_data_areas_unavailable_message">Tietoalueiden lataaminen epäonnistui. Ne ovat tallennussijainteja, joiden kanssa SD Maid voi toimia.</string>
+    <string name="general_data_areas_unavailable_message">Tietoalueiden lataaminen epäonnistui. Ne ovat tallennussijainteja, joiden kanssa Tidy voi toimia.</string>
     <string name="general_progress_loading_egg_0">Vielä nopeampi kuin iPhone</string>
     <string name="general_progress_loading_egg_1">Ladataan lisää RAM-muistia</string>
     <string name="general_progress_loading_egg_2">Pian™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">Palveluyhteys katosi</string>
     <string name="general_error_ipc_deadobject_description">Yhteys kriittiseen palveluun (esim. Magisk, Porter, Shizuku tai muu järjestelmätason palvelu) katkesi odottamatta. Käynnistä laite uudelleen. Jos ongelma jatkuu, tarkista päivitykset tai ota yhteyttä minuun, niin voin korjata sen.</string>
     <string name="general_error_upgrade_required_title">Päivitys vaaditaan</string>
-    <string name="general_error_upgrade_required_description">Tämä ominaisuus vaatii päivityksen. Päivitä SD Maid SE käyttääksesi sitä.</string>
+    <string name="general_error_upgrade_required_description">Tämä ominaisuus vaatii päivityksen. Päivitä Tidy käyttääksesi sitä.</string>
     <string name="general_user_label_owner">Omistaja</string>
     <string name="general_user_label_system">Järjestelmä</string>
     <string name="setup_title">Asennus</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">Näytä asetukset</string>
     <string name="ui_theme_color_sunset_label">Auringonlasku</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Tämä ominaisuus vaatii root-käyttöoikeuksia, mutta SD Maid ei voinut saada niitä tällä laitteella.</string>
+    <string name="access_blocked_root_unavailable">Tämä ominaisuus vaatii root-käyttöoikeuksia, mutta Tidy ei voinut saada niitä tällä laitteella.</string>
     <string name="access_blocked_root_declined">Tämä ominaisuus vaatii root-käyttöoikeuden. Voit ottaa sen käyttöön asennusnäytöltä.</string>
     <string name="access_blocked_root_or_shizuku">Tämä ominaisuus vaatii root- tai ADB-käyttöä, mikä ei ole käytettävissä tällä laitteella.</string>
     <string name="backup_restore_error_invalid_title">Virheellinen varmuuskopiotiedosto</string>
-    <string name="backup_restore_error_invalid_body">Tämä tiedosto ei ole kelvollinen SD Maid -varmuuskopio tai se on vioittunut.</string>
-    <string name="backup_restore_error_version_body">Tämä varmuuskopio on luotu uudemmalla SD Maid -versiolla. Päivitä sovellus ja yritä uudelleen.</string>
+    <string name="backup_restore_error_invalid_body">Tämä tiedosto ei ole kelvollinen Tidy -varmuuskopio tai se on vioittunut.</string>
+    <string name="backup_restore_error_version_body">Tämä varmuuskopio on luotu uudemmalla Tidy -versiolla. Päivitä sovellus ja yritä uudelleen.</string>
     <string name="backup_restore_error_restore_failed_title">Palautus epäonnistui</string>
     <string name="backup_restore_error_restore_failed_body">Näitä osia ei voitu palauttaa: %1$s. Aiempi asetuksesi on tallennettu ja voidaan palauttaa.</string>
     <string name="backup_restore_error_safety_title">Palautusta ei aloitettu</string>
-    <string name="backup_restore_error_safety_body">SD Maid ei voinut tallentaa varmuuskopiota nykyisistä asetuksista, joten mitään ei muutettu.</string>
+    <string name="backup_restore_error_safety_body">Tidy ei voinut tallentaa varmuuskopiota nykyisistä asetuksista, joten mitään ei muutettu.</string>
     <string name="backup_restore_error_busy_title">Odota hetki</string>
     <string name="backup_restore_error_busy_body">Puhdistamistehtävä tai varmuuskopiointi on käynnissä. Yritä uudelleen, kun se on valmis.</string>
     <string name="backup_restore_error_schema_title">Yhteensopimaton varmuuskopio</string>
-    <string name="backup_restore_error_schema_body">Varmuuskopion tietokannan muoto ei vastaa tätä SD Maid -versiota. Historian palauttaminen tuetaan vain identtisten sovelluksen versioiden välillä.</string>
+    <string name="backup_restore_error_schema_body">Varmuuskopion tietokannan muoto ei vastaa tätä Tidy -versiota. Historian palauttaminen tuetaan vain identtisten sovelluksen versioiden välillä.</string>
 </resources>

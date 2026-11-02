@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Haltigas la aplikaĵon. Malhelpas ĝin komenciĝi ĝis vi malfermas ĝin aŭ la aparato estas reŝargita.</string>
     <string name="appcontrol_app_uninstall_description">Malinstali ĉi tiun aplikaĵon de via aparato.</string>
     <string name="appcontrol_app_exclude_add_title">Ekskluzivi aplikaĵon</string>
-    <string name="appcontrol_app_exclude_add_description">Ekskluzivi ĉi tiun aplikaĵon de aliaj operacioj en SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Ekskluzivi ĉi tiun aplikaĵon de aliaj operacioj en Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Redakti ekskluzivon</string>
     <string name="appcontrol_app_exclude_edit_description">Ĉi tiu aplikaĵo estas nune ekskluzivia de unu aŭ pli da iloj.</string>
     <string name="appcontrol_tag_user">Uzanto</string>

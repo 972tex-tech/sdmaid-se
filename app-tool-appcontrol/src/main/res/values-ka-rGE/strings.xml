@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">აპის გაჩერება. აპი ვერ შეძლებს თავისით გაშვებას, სანამ თქვენ არ გახსნით ან მოწყობილობა არ გადაიტვირთება.</string>
     <string name="appcontrol_app_uninstall_description">ამ აპის წაშლა თქვენი მოწყობილობიდან.</string>
     <string name="appcontrol_app_exclude_add_title">აპის გამორიცხვა</string>
-    <string name="appcontrol_app_exclude_add_description">გამორიცხეთ ეს აპი SD Maid-ის სხვა ოპერაციებიდან.</string>
+    <string name="appcontrol_app_exclude_add_description">გამორიცხეთ ეს აპი Tidy-ის სხვა ოპერაციებიდან.</string>
     <string name="appcontrol_app_exclude_edit_title">გამორიცხვის რედაქტირება</string>
     <string name="appcontrol_app_exclude_edit_description">ეს აპი ამჟამად გამორიცხულია ერთი ან მეტი ხელსაწყოდან.</string>
     <string name="appcontrol_tag_user">მომხმარებელი</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s-ის ექსპორტი</string>
     <string name="appcontrol_share_list_action">სიის გაზიარება</string>
     <string name="appcontrol_share_list_title">ჩემი აპები</string>
-    <string name="appcontrol_share_list_footer">გაზიარებულია SD Maid SE-ით</string>
+    <string name="appcontrol_share_list_footer">გაზიარებულია Tidy-ით</string>
     <string name="appcontrol_force_stop_selection_action">აპების იძულებითი გაჩერება</string>
     <string name="appcontrol_force_stop_action">იძულებითი გაჩერება</string>
     <string name="appcontrol_force_stop_confirm_title">იძულებითი გაჩერების დადასტურება</string>

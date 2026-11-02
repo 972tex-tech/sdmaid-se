@@ -5,8 +5,8 @@
         <item quantity="other">%s wurden freigegeben.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s Element verarbeitet, seit du SD Maid zu deinem Gerät eingeladen hast.</item>
-        <item quantity="other">%s Elemente verarbeitet, seit du SD Maid zu deinem Gerät eingeladen hast.</item>
+        <item quantity="one">%s Element verarbeitet, seit du Tidy zu deinem Gerät eingeladen hast.</item>
+        <item quantity="other">%s Elemente verarbeitet, seit du Tidy zu deinem Gerät eingeladen hast.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Dein Gast seit %d Tag.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Teilerfolg</string>
     <string name="stats_report_status_partial_failure">Fehlgeschlagen</string>
-    <string name="stats_settings_desc">Konfiguriere SD Maids Statistiken, Berichte und die Datenaufbewahrung.</string>
+    <string name="stats_settings_desc">Konfiguriere Tidys Statistiken, Berichte und die Datenaufbewahrung.</string>
     <string name="stats_settings_retention_category">Aufbewahrung</string>
     <string name="stats_settings_retention_reports_label">Allgemeine Berichte</string>
-    <string name="stats_settings_retention_reports_desc">Anzahl der Tage vor dem Löschen der grundlegenden SD Maid Operationsberichte.</string>
+    <string name="stats_settings_retention_reports_desc">Anzahl der Tage vor dem Löschen der grundlegenden Tidy Operationsberichte.</string>
     <string name="stats_settings_retention_paths_label">Detaillierte Pfadinformationen</string>
-    <string name="stats_settings_retention_paths_desc">Die Anzahl der Tage, um Details über Pfade zu erhalten, die von SD Maid betroffen sind.</string>
+    <string name="stats_settings_retention_paths_desc">Die Anzahl der Tage, um Details über Pfade zu erhalten, die von Tidy betroffen sind.</string>
     <string name="stats_settings_retention_snapshots_label">Speicherverlauf</string>
     <string name="stats_settings_retention_snapshots_desc">Anzahl der Tage, für die Speichernutzungs-Snapshots für das Diagramm „Speichertrend“ aufbewahrt werden. Ältere Snapshots werden gelöscht.</string>
     <string name="stats_settings_reset_all_label">Alles zurücksetzen</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">לשירותכם.</string>
     <string name="slogan_message_1">נקי ומסודר.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">טוען</string>
     <string name="general_progress_loading_app_data">טוען נתונים</string>
     <string name="general_progress_loading_data_areas">טעינת אזורי נתונים</string>
-    <string name="general_data_areas_unavailable_message">לא היה אפשר לטעון את אזורי הנתונים, מיקומי האחסון שבהם SD Maid יכול לעבוד.</string>
+    <string name="general_data_areas_unavailable_message">לא היה אפשר לטעון את אזורי הנתונים, מיקומי האחסון שבהם Tidy יכול לעבוד.</string>
     <string name="general_progress_loading_egg_0">עדין מהיר יותר מאייפון</string>
     <string name="general_progress_loading_egg_1">מוריד עוד זיכרון RAM</string>
     <string name="general_progress_loading_egg_2">בקרוב</string>
@@ -194,7 +194,7 @@
     <string name="general_error_ipc_deadobject_title">החיבור לשירות נותק</string>
     <string name="general_error_ipc_deadobject_description">החיבור לשירות קריטי (למשל Magisk, Porter, Shizuku, או שירותי מערכת אחרים) אבד באופן בלתי צפוי. אנא הפעל מחדש את ההתקן שלך. אם הבעיה נמשכת, בדוק אם יש עדכונים או צור איתי קשר כדי שאוכל לתקן זאת.</string>
     <string name="general_error_upgrade_required_title">שדרוג נדרש</string>
-    <string name="general_error_upgrade_required_description">התכונה הזו דורשת שדרוג. אנא שדרג את SD Maid SE כדי להשתמש בה.</string>
+    <string name="general_error_upgrade_required_description">התכונה הזו דורשת שדרוג. אנא שדרג את Tidy כדי להשתמש בה.</string>
     <string name="general_user_label_owner">בעלים</string>
     <string name="general_user_label_system">מערכת</string>
     <string name="setup_title">הגדרה</string>
@@ -223,18 +223,18 @@
     <string name="appcontrol_systemsettings_open_title">הגדרות האפליקציה</string>
     <string name="ui_theme_color_sunset_label">שקיעה</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">תכונה זו דורשת גישת root, אך SD Maid לא הצליחה להשיגה בהתקן זה.</string>
+    <string name="access_blocked_root_unavailable">תכונה זו דורשת גישת root, אך Tidy לא הצליחה להשיגה בהתקן זה.</string>
     <string name="access_blocked_root_declined">תכונה זו דורשת גישת root. ניתן להפעיל אותה דרך מסך ההגדרה.</string>
     <string name="access_blocked_root_or_shizuku">תכונה זו דורשת גישת root או ADB, שאינה זמינה בהתקן זה.</string>
     <string name="backup_restore_error_invalid_title">קובץ גיבוי שגוי</string>
-    <string name="backup_restore_error_invalid_body">קובץ זה אינו קובץ גיבוי חוקי של SD Maid או שהוא פגום.</string>
-    <string name="backup_restore_error_version_body">גיבוי זה נוצר בגרסה חדשה יותר של SD Maid. אנא עדכן את האפליקציה ונסה שוב.</string>
+    <string name="backup_restore_error_invalid_body">קובץ זה אינו קובץ גיבוי חוקי של Tidy או שהוא פגום.</string>
+    <string name="backup_restore_error_version_body">גיבוי זה נוצר בגרסה חדשה יותר של Tidy. אנא עדכן את האפליקציה ונסה שוב.</string>
     <string name="backup_restore_error_restore_failed_title">שחזור נכשל</string>
     <string name="backup_restore_error_restore_failed_body">חלקים אלה לא יכלו להיות מושחזרים: %1$s. התצורה הקודמת שלך נשמרה וניתן להחזירה.</string>
     <string name="backup_restore_error_safety_title">השחזור לא התחיל</string>
-    <string name="backup_restore_error_safety_body">SD Maid לא הצליחה לשמור תמונת בטיחות של התצורה הנוכחית שלך, לכן דבר לא שונה.</string>
+    <string name="backup_restore_error_safety_body">Tidy לא הצליחה לשמור תמונת בטיחות של התצורה הנוכחית שלך, לכן דבר לא שונה.</string>
     <string name="backup_restore_error_busy_title">אנא המתן</string>
     <string name="backup_restore_error_busy_body">משימת ניקיון או פעולת גיבוי אחרת פועלת כעת. נסה שוב כשהיא תסתיים.</string>
     <string name="backup_restore_error_schema_title">גיבוי לא תואם</string>
-    <string name="backup_restore_error_schema_body">פורמט מסד הנתונים של הגיבוי לא תואם לגרסה זו של SD Maid. שחזור נתוני ההיסטוריה נתמך רק בין גרסאות אפליקציה זהות.</string>
+    <string name="backup_restore_error_schema_body">פורמט מסד הנתונים של הגיבוי לא תואם לגרסה זו של Tidy. שחזור נתוני ההיסטוריה נתמך רק בין גרסאות אפליקציה זהות.</string>
 </resources>

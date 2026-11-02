@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Gestore delle esclusioni</string>
     <string name="exclusion_manager_desc">Gestisci file e app da escludere.</string>
-    <string name="exclusion_explanation_body1">Escludi file e app per proteggerli dagli strumenti di SD Maid, oppure salta elementi irrilevanti e velocizza le operazioni.</string>
+    <string name="exclusion_explanation_body1">Escludi file e app per proteggerli dagli strumenti di Tidy, oppure salta elementi irrilevanti e velocizza le operazioni.</string>
     <string name="exclusion_add_new_hint">Nessuna esclusione ancora. Usa il pulsante + per crearne una, oppure escludi elementi dai risultati di qualsiasi strumento.</string>
     <string name="exclusion_create_action">Crea esclusione</string>
     <string name="exclusion_edit_action">Modifica esclusione</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Consenti risultati parziali</string>
     <string name="exclusion_option_ignore_casing">Non distinguere maiuscole e minuscole</string>
     <string name="exclusion_editor_affected_tools_label">Strumenti interessati</string>
-    <string name="exclusion_editor_path_explanation">L\'esclusione di un percorso impedisce a SD Maid di elaborare qualsiasi percorso corrispondente. Si applica a file, cartelle e sottocartelle.</string>
-    <string name="exclusion_editor_pkg_explanation">L\'esclusione di un app impedisce a SD Maid di elaborare qualsiasi app corrispondente.</string>
+    <string name="exclusion_editor_path_explanation">L\'esclusione di un percorso impedisce a Tidy di elaborare qualsiasi percorso corrispondente. Si applica a file, cartelle e sottocartelle.</string>
+    <string name="exclusion_editor_pkg_explanation">L\'esclusione di un app impedisce a Tidy di elaborare qualsiasi app corrispondente.</string>
     <string name="exclusion_editor_segment_explanation">L\'esclusione di un segmento è simile all\'esclusione di percorso, ma consente di escludere percorsi simili parzialmente.
 Esempio: Il segmento \"DCIM/Camera\" escluderà anche \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Rimuovere questa esclusione?</string>

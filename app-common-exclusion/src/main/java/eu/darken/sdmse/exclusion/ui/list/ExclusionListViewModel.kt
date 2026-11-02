@@ -284,7 +284,7 @@ class ExclusionListViewModel @Inject constructor(
         val saveDir = DocumentFile.fromTreeUri(context, directoryUri)
             ?: throw IOException("Failed to access $directoryUri")
 
-        val filename = "SD Maid 2/SE Exclusions ${System.currentTimeMillis()}"
+        val filename = "Tidy Exclusions ${System.currentTimeMillis()}"
 
         val targetFile = saveDir.createFile(MimeTypes.Json.value, filename)
             ?: throw IOException("Failed to create $filename in $saveDir")

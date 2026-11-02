@@ -16,7 +16,7 @@
     <string name="appcontrol_app_forcestop_title">Éignigh stop</string>
     <string name="appcontrol_app_uninstall_description">Díshuiteáil an aip seo ó do ghléas.</string>
     <string name="appcontrol_app_exclude_add_title">Fág aip as</string>
-    <string name="appcontrol_app_exclude_add_description">Fág an aip seo as oibríochtaí eile in SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Fág an aip seo as oibríochtaí eile in Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Cuir eisiamh in eagar</string>
     <string name="appcontrol_app_exclude_edit_description">Tá an aip seo fágtha as uirlis amháin nó níos mó faoi láthair.</string>
     <string name="appcontrol_tag_user">Úsáideoir</string>
@@ -54,7 +54,7 @@
     <string name="appcontrol_progress_exporting_x">%s á easpórtáil</string>
     <string name="appcontrol_share_list_action">Roinn liosta</string>
     <string name="appcontrol_share_list_title">Mo Chuid Aipeanna</string>
-    <string name="appcontrol_share_list_footer">Roinnte trí SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Roinnte trí Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Éignigh stop aipeanna</string>
     <string name="appcontrol_force_stop_action">Éignigh stop</string>
     <string name="appcontrol_force_stop_confirm_title">Deimhnigh éigniú stop</string>

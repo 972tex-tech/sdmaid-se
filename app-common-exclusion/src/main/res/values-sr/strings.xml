@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Менаџер искључења</string>
     <string name="exclusion_manager_desc">Управљај искључењима датотека и апликација.</string>
-    <string name="exclusion_explanation_body1">Искључите датотеке и апликације да их заштитите од SD Maid алата, или да прескочите неважне ставке и убрзате операције.</string>
+    <string name="exclusion_explanation_body1">Искључите датотеке и апликације да их заштитите од Tidy алата, или да прескочите неважне ставке и убрзате операције.</string>
     <string name="exclusion_add_new_hint">Још увек нема искључења. Користите + дугме да направите једно, или искључите ставке из резултата било ког алата.</string>
     <string name="exclusion_create_action">Креирај искључење</string>
     <string name="exclusion_edit_action">Уреди искључење</string>

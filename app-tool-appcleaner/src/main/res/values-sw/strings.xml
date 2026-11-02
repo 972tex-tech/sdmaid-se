@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Umri wa chini</string>
     <string name="appcleaner_include_minimumage_summary">Ruka faili ambazo zina umri chini ya kiwango cha chini.</string>
     <string name="appcleaner_automation_romtype_detection_label">Ugunduzi wa mfumo wa uendeshaji</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Uotomatishaji unaotumachia huduma ya ufikiaji unaweza kushindwa ikiwa SD Maid haitagundua mfumo wako wa uendeshaji kwa usahihi. Tumia mpangilio huu kubadilisha mfumo uliogunduliwa.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Uotomatishaji unaotumachia huduma ya ufikiaji unaweza kushindwa ikiwa Tidy haitagundua mfumo wako wa uendeshaji kwa usahihi. Tumia mpangilio huu kubadilisha mfumo uliogunduliwa.</string>
     <string name="appcleaner_filter_codecache_label">Akiba ya msimbo</string>
     <string name="appcleaner_filter_codecache_summary">Akiba ya msimbo wa JVM. Vipande vya bytecode vilivyokusanywa kuwa msimbo wa asili.</string>
     <string name="appcleaner_filter_advertisement_label">Data ya matangazo</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Programu iliyotengwa</string>
     <string name="appcleaner_exclusion_limited_body">Umeitenga programu hii kutoka AppCleaner. Kufuta akiba ya programu zote kwa mara moja hutumia upunguzaji wa akiba wa mfumo mzima unaopatikana kupitia ufikiaji wa ADB, ambao hauwezi kuacha programu mojamoja, kwa hivyo akiba ya programu hii hufutwa pamoja na kila kitu kingine. Ni akiba inayoonyeshwa hapa pekee ndiyo inayoathiriwa, kila kitu kingine ambacho kutengwa kunahusisha kinabaki kimefichwa na hakiguswi.</string>
     <string name="appcleaner_automation_unavailable_title">Huduma ya ufikiaji haipatikani</string>
-    <string name="appcleaner_automation_unavailable_body">Kufuta akiba hizi kunahitaji huduma ya ufikivu ya SD Maid, lakini haikupatikana.</string>
+    <string name="appcleaner_automation_unavailable_body">Kufuta akiba hizi kunahitaji huduma ya ufikivu ya Tidy, lakini haikupatikana.</string>
     <string name="appcleaner_delete_confirmation_message_x">Futa faili zinazoweza kutumika za %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Futa faili zinazoweza kutumika za programu %d iliyochaguliwa?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Mfumo umezima kitufe cha \"Futa akiba\" kwa programu hii. Itenga ili kuharakisha ufutaji wa akiba.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Programu ya mfumo imesanidiwa vibaya</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Programu ya Usalama ya HyperOS (com.miui.securitycenter) inakosa ruhusa ya Takwimu za Matumizi (GET_USAGE_STATS). Hii inavunja vipengele kama \"Futa Data\" katika maelezo ya programu na ufutaji wa akiba kupitia ufikiaji. Toa ruhusa ili kurejesha utendaji kamili.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Hii pia inaweza kutokea ikiwa programu ya mfumo ya \"System UI\" ilisimamishwa kwa nguvu hivi karibuni, mfano na zana ya kusafisha programu. Android kisha huzuia mibofyo ya vitufe ya kiotomatiki ya SD Maid hadi utakapowasha upya kifaa.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Hii pia inaweza kutokea ikiwa programu ya mfumo ya \"System UI\" ilisimamishwa kwa nguvu hivi karibuni, mfano na zana ya kusafisha programu. Android kisha huzuia mibofyo ya vitufe ya kiotomatiki ya Tidy hadi utakapowasha upya kifaa.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Simamisha kwa nguvu kabla ya kusafisha</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Simamisha programu kwa nguvu kabla ya kusafisha hifadhi yao. Inaweza kusaidia kusafisha hifadhi ya programu fulani, lakini inaweza kusababisha programu kutofanya kazi vizuri na kuhitaji kuanzishwa upya kwa mikono.</string>
     <string name="appcleaner_progress_force_stopping">Kusimamisha programu kwa nguvu…</string>

@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">యాప్‌ను ఆపివేయండి. మీరు దాన్ని తెరిచే వరకు లేదా పరికరం రీబూట్ అయ్యే వరకు దాన్ని తనంతట తానుగా ప్రారంభించకుండా నిరోధించండి.</string>
     <string name="appcontrol_app_uninstall_description">మీ పరికరం నుంచి ఈ యాప్‌ను అనిన్‌స్టాల్ చేయండి.</string>
     <string name="appcontrol_app_exclude_add_title">యాప్‌ను బహిష్కరించండి</string>
-    <string name="appcontrol_app_exclude_add_description">SD Maid లో ఇతర ఆపరేషన్‌ల నుంచి ఈ యాప్‌ను బహిష్కరించండి.</string>
+    <string name="appcontrol_app_exclude_add_description">Tidy లో ఇతర ఆపరేషన్‌ల నుంచి ఈ యాప్‌ను బహిష్కరించండి.</string>
     <string name="appcontrol_app_exclude_edit_title">బహిష్కరణను ఎడిట్ చేయండి</string>
     <string name="appcontrol_app_exclude_edit_description">ఈ యాప్ ప్రస్తుతం ఒక లేదా ఎక్కువ టూల్‌ల నుంచి బహిష్కరించబడింది.</string>
     <string name="appcontrol_tag_user">వినియోగదారు</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s ను ఎక్స్‌పోర్ట్ చేస్తోంది</string>
     <string name="appcontrol_share_list_action">జాబితాను షేర్ చేయండి</string>
     <string name="appcontrol_share_list_title">నా యాప్‌లు</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE ద్వారా షేర్ చేయబడింది</string>
+    <string name="appcontrol_share_list_footer">Tidy ద్వారా షేర్ చేయబడింది</string>
     <string name="appcontrol_force_stop_selection_action">యాప్‌లను బలవంతంగా ఆపండి</string>
     <string name="appcontrol_force_stop_action">బలవంతంగా ఆపండి</string>
     <string name="appcontrol_force_stop_confirm_title">బలవంతంగా ఆపడానికి నిర్ధారించండి</string>

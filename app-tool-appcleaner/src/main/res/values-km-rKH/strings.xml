@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">អាយុ​តែច​ប្រៀម្បុន់</string>
     <string name="appcleaner_include_minimumage_summary">លឹចថ្នក​ត្រូវ​ណា​ការ​ត្រួវ​ផ។លក​ដែល​មាន​អាយុ​តែច​ប្រៀម្បុន់។</string>
     <string name="appcleaner_automation_romtype_detection_label">ការ​ស្វែង​សឹបត​ប័ត្រ​បញ្ចើាន​ការ</string>
-    <string name="appcleaner_automation_romtype_detection_summary">ការ​អុត្តោម៉ុន​ដែល​បង្ហាញ​​ប័ត្រ​អាច​ប័ឡ​ប័ត្រ​បញ្ជាក់​ SD Maid មិន​ស្វែង​ភ័នណ៍​ការ​ដែលឯប​របស់​អ្នក​ប្រក័ត់។ ប្រើ​ការ​កំណត់​នេះ​ដើម្បី​បើរ​​ដែលផ័ត្រ​បញ្ជាក់។</string>
+    <string name="appcleaner_automation_romtype_detection_summary">ការ​អុត្តោម៉ុន​ដែល​បង្ហាញ​​ប័ត្រ​អាច​ប័ឡ​ប័ត្រ​បញ្ជាក់​ Tidy មិន​ស្វែង​ភ័នណ៍​ការ​ដែលឯប​របស់​អ្នក​ប្រក័ត់។ ប្រើ​ការ​កំណត់​នេះ​ដើម្បី​បើរ​​ដែលផ័ត្រ​បញ្ជាក់។</string>
     <string name="appcleaner_filter_codecache_label">កែវិល្ត​កោដ</string>
     <string name="appcleaner_filter_codecache_summary">កែវិល្ត​កោដ​ JVM។ ក្លុម់​កោដ​ប័ត័​ដែល​បាន​បៃ​កោដ​ដែល​បាន​នឹង​កំពឹែស។</string>
     <string name="appcleaner_filter_advertisement_label">ដ័តា​ពាសនាកម្ម</string>
@@ -82,7 +82,7 @@
     <string name="appcleaner_exclusion_limited_title">កម្មវិធីដែលបានលើកលែង</string>
     <string name="appcleaner_exclusion_limited_body">អ្នកបានដកកម្មវិធីនេះចេញពី AppCleaner។ ការសម្អាតឃ្លាំងសម្ងាត់នៃកម្មវិធីទាំងអស់ក្នុងពេលតែមួយប្រើការកាត់បន្ថយឃ្លាំងសម្ងាត់ទូទាំងប្រព័ន្ធតាមរយៈការចូលប្រើប្រាស់ ADB ដែលមិនអាចលើកលែងកម្មវិធីណាមួយបានទេ ដូច្នេះទិន្នន័យឃ្លាំងសម្ងាត់របស់កម្មវិធីនេះត្រូវបានសម្អាតជាមួយអ្វីៗទាំងអស់។ មានតែទិន្នន័យឃ្លាំងសម្ងាត់ដែលបង្ហាញនៅទីនេះប៉ុណ្ណោះដែលរងផលប៉ះពាល់ អ្វីៗផ្សេងទៀតដែលការដកចេញនេះគ្របដណ្តប់នៅតែត្រូវបានលាក់ និងមិនត្រូវបានប៉ះពាល់។</string>
     <string name="appcleaner_automation_unavailable_title">សើវាកម្ម​ត្រូវហើត​មិន​អាច​ប្រើ​ប្រាស់​បានទេ</string>
-    <string name="appcleaner_automation_unavailable_body">ការជម្រះឃ្លាំងសម្ងាត់ទាំងនេះទាមទារសេវាកម្មភាពងាយស្រួលរបស់ SD Maid ប៉ុន្តែវាមិនអាចប្រើប្រាស់បានទេ។</string>
+    <string name="appcleaner_automation_unavailable_body">ការជម្រះឃ្លាំងសម្ងាត់ទាំងនេះទាមទារសេវាកម្មភាពងាយស្រួលរបស់ Tidy ប៉ុន្តែវាមិនអាចប្រើប្រាស់បានទេ។</string>
     <string name="appcleaner_delete_confirmation_message_x">លុប​កំពិល័​ដែល​លុប​បាន​សម្រួល​ %s៴</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="other">លុប​កំពិល័​ដែល​លុប​បាន​សម្រួល​កម្មវិធី​ដែល​បាន​ជ្រើស​ចំនួន​ %d ៴</item>
@@ -93,7 +93,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">ព័ត័​បាន​បិត​បុត្តាន់​ ∠លុបកែវិល្ត∡​សម្រួល​កម្មវិធី​នេះ។ ដកចេញ​ដែល​ដើម្បី​ឡើន​ការ​លុបកែវិល្ត​បន្លើន។</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">កម្មវិធី​ព័ត័​ត័ម់​វិញ្ញ​មិន​ត្រួវ។</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">កម្មវិធី​សន្តិសឹក្ឝន HyperOS (com.miui.securitycenter) ​កន្តល​អនុញ្ញាត​សថិតិទិក​ការ​ប្រើ​ប្រាស់​ (GET_USAGE_STATS)។ នេះ​ទឮក់​មុខងារ​ដែល​ ∠1785្រើត់ជម្រើស∡​នៅ​ការ​លេត័ប់​កម្មវិធី នឹង​ការ​លុបកែវិល្ត​តាមរយៈពេល​ហើភ​ហើជ​ត្រូវហើត។ អនុញ្ញាត​នៃ​ដែល​ស័ក់​ចូល​នៃ​មុខងារ​នើ។</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">នេះក៏អាចកើតឡើងផងដែរ ប្រសិនបើកម្មវិធីប្រព័ន្ធ \"System UI\" ត្រូវបានបង្ខំបញ្ឈប់ថ្មីៗនេះ ឧទាហរណ៍ដោយឧបករណ៍សម្អាតកម្មវិធីមួយ។ បន្ទាប់មក Android នឹងទប់ស្កាត់ការចុចប៊ូតុងស្វ័យប្រវត្តិរបស់ SD Maid រហូតដល់អ្នកចាប់ផ្តើមឧបករណ៍ឡើងវិញ។</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">នេះក៏អាចកើតឡើងផងដែរ ប្រសិនបើកម្មវិធីប្រព័ន្ធ \"System UI\" ត្រូវបានបង្ខំបញ្ឈប់ថ្មីៗនេះ ឧទាហរណ៍ដោយឧបករណ៍សម្អាតកម្មវិធីមួយ។ បន្ទាប់មក Android នឹងទប់ស្កាត់ការចុចប៊ូតុងស្វ័យប្រវត្តិរបស់ Tidy រហូតដល់អ្នកចាប់ផ្តើមឧបករណ៍ឡើងវិញ។</string>
     <string name="appcleaner_forcestop_before_clearing_label">បញ្ជប់​កម្មវិធី​មួន​លុប</string>
     <string name="appcleaner_forcestop_before_clearing_summary">បញ្ជប់​កម្មវិធី​មួន​លុបកែវិល្ត។ នេះ​អាច​ជួយ​លុបកែវិល្ត​កម្មវិធី​ខ័ំ​ឤឲត ប៉ុន្តែ​អាច​កើតការ​ដែលកម្មវិធី​ហើជ​នឹង​ត្រូវការ​បន្លើន​ដោយ​​ដែលឯប។</string>
     <string name="appcleaner_progress_force_stopping">កំពុង​បញ្ជប់​កម្មវិធី…</string>

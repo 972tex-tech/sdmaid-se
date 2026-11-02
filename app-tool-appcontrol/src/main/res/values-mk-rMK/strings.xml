@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Запрете ја апликацијата. Спречете ја од самостоечко стартување додека не ја отворите или не го рестартирате уредот.</string>
     <string name="appcontrol_app_uninstall_description">Деинсталирајте ја оваа апликација од вашиот уред.</string>
     <string name="appcontrol_app_exclude_add_title">Исклучи апликација</string>
-    <string name="appcontrol_app_exclude_add_description">Исклучете ја оваа апликација од другите операции во SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Исклучете ја оваа апликација од другите операции во Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Уреди исклучок</string>
     <string name="appcontrol_app_exclude_edit_description">Оваа апликација моментално е исклучена од една или повеќе алатки.</string>
     <string name="appcontrol_tag_user">Корисник</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Извезување %s</string>
     <string name="appcontrol_share_list_action">Сподели листа</string>
     <string name="appcontrol_share_list_title">Мои апликации</string>
-    <string name="appcontrol_share_list_footer">Споделено преку SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Споделено преку Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Принудно запри апликации</string>
     <string name="appcontrol_force_stop_action">Принудно запирање</string>
     <string name="appcontrol_force_stop_confirm_title">Потврди принудно запирање</string>

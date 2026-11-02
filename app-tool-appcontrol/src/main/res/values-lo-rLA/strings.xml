@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">ຫຍຸດແອບ. ປ້ອງກັນການເລີ່ມຕ້ນເອງຈນກວ່າທ່ານເປີດຫຣືອການຣີສົດອຸປະກອນ.</string>
     <string name="appcontrol_app_uninstall_description">ຖອນຕິດຕັ້ງແອບນີ້ອອກຈາກອຸປະກອນຂອງທ່ານ.</string>
     <string name="appcontrol_app_exclude_add_title">ກຳຈັດແອບ</string>
-    <string name="appcontrol_app_exclude_add_description">ການກຳຈັດແອບນີ້ອອກຈາກການທຳງານອື່ນໆໃນ SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">ການກຳຈັດແອບນີ້ອອກຈາກການທຳງານອື່ນໆໃນ Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">ແກ້ໄຂການກຳຈັດ</string>
     <string name="appcontrol_app_exclude_edit_description">ແອບນີ້ຖືກກຳຈັດອອກຈາກໂຄຣງການຫນຶ່ງຫຣືອຫລາຍໂຄຣງການ.</string>
     <string name="appcontrol_tag_user">ຜູ້ໃຊ້</string>
@@ -92,7 +92,7 @@
     <string name="appcontrol_progress_exporting_x">ກຳລັງສ່ອກອອກ %s</string>
     <string name="appcontrol_share_list_action">ແຊ່ລາຍການ</string>
     <string name="appcontrol_share_list_title">ແອບຂອງຂ້ອຍ</string>
-    <string name="appcontrol_share_list_footer">ແຊ່ຜ່ານ SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">ແຊ່ຜ່ານ Tidy</string>
     <string name="appcontrol_force_stop_selection_action">ບັງຄັບຫຍຸດແອບ</string>
     <string name="appcontrol_force_stop_action">ບັງຄັບຫຍຸດ</string>
     <string name="appcontrol_force_stop_confirm_title">ຍືນຍັນການບັງຄັບຫຍຸດ</string>

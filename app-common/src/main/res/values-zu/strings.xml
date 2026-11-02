@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Ekusizeni kwakho.</string>
     <string name="slogan_message_1">Kuhlanzekile futhi kuhlelekile.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Iyalayisha</string>
     <string name="general_progress_loading_app_data">Layisha idatha ye-app</string>
     <string name="general_progress_loading_data_areas">Layisha izindawo zedatha</string>
-    <string name="general_data_areas_unavailable_message">Ayikwazanga ukulayisha izindawo zedatha, izindawo zokugcina ezingasebenziswa nge-SD Maid.</string>
+    <string name="general_data_areas_unavailable_message">Ayikwazanga ukulayisha izindawo zedatha, izindawo zokugcina ezingasebenziswa nge-Tidy.</string>
     <string name="general_progress_loading_egg_0">Isishesha kune-iPhone</string>
     <string name="general_progress_loading_egg_1">Idownloda i-RAM eyengeziwe</string>
     <string name="general_progress_loading_egg_2">Maduze™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">Ukuxhuma Kwensizakalo Kulahlekile</string>
     <string name="general_error_ipc_deadobject_description">Uxhumano nesevisi ebalulekile (njenge-Magisk, i-Porter, i-Shizuku, noma ezinye izevisi zezinga lesistimu) luphule ngokungalindelekile. Sicela uqalise kabusha idivayisi yakho. Uma inkinga iqhubeka, hlola izibuyekezo noma uxhumane nami ukuze ngiyilungise.</string>
     <string name="general_error_upgrade_required_title">I-upgrade iyafunekile</string>
-    <string name="general_error_upgrade_required_description">Ingalo eningilo idinga i-upgrade. Ngiyacela u-upgrade SD Maid SE ukuze yisebenzise.</string>
+    <string name="general_error_upgrade_required_description">Ingalo eningilo idinga i-upgrade. Ngiyacela u-upgrade Tidy ukuze yisebenzise.</string>
     <string name="general_user_label_owner">Umnikazi</string>
     <string name="general_user_label_system">Isistimu</string>
     <string name="setup_title">Ukusetshenziswa</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">Bonisa izilungiselelo</string>
     <string name="ui_theme_color_sunset_label">Kutsha</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Lena inguqulo idinga i-root access, kodwa i-SD Maid ayikwazanga ukuyithola kule device.</string>
+    <string name="access_blocked_root_unavailable">Lena inguqulo idinga i-root access, kodwa i-Tidy ayikwazanga ukuyithola kule device.</string>
     <string name="access_blocked_root_declined">Lesi feature sidinga ikhona ye-root. Ungalinika nge-setup screen.</string>
     <string name="access_blocked_root_or_shizuku">Lezi zici zidinga i-root noma ukungenela i-ADB, okungekho kumusebenzusi wakho.</string>
     <string name="backup_restore_error_invalid_title">I-backup file engavumelekile</string>
-    <string name="backup_restore_error_invalid_body">Leli file asilona i-backup ye-SD Maid evumelekile noma lisiphukile.</string>
-    <string name="backup_restore_error_version_body">Le backup yenziwe nge-version entsha ye-SD Maid. Sicela ukhulise i-app bese uzama futhi.</string>
+    <string name="backup_restore_error_invalid_body">Leli file asilona i-backup ye-Tidy evumelekile noma lisiphukile.</string>
+    <string name="backup_restore_error_version_body">Le backup yenziwe nge-version entsha ye-Tidy. Sicela ukhulise i-app bese uzama futhi.</string>
     <string name="backup_restore_error_restore_failed_title">Ukubuyisela kuhlulekile</string>
     <string name="backup_restore_error_restore_failed_body">Lezi zinti azinakubuyiswa: %1$s. I-configuration yakho eyedlule isiyigcinile futhi ingabuyiswa.</string>
     <string name="backup_restore_error_safety_title">Ukubuyisela akuqalile</string>
-    <string name="backup_restore_error_safety_body">I-SD Maid ayikwazanga ukugcina isithombe se-safety se-configuration yakho yamanje, ngakho lutho alushintshwe.</string>
+    <string name="backup_restore_error_safety_body">I-Tidy ayikwazanga ukugcina isithombe se-safety se-configuration yakho yamanje, ngakho lutho alushintshwe.</string>
     <string name="backup_restore_error_busy_title">Sicela ulinde</string>
     <string name="backup_restore_error_busy_body">Umsebenzi wokusola noma omunye umsebenzi wokubuyela uyaqhubeka njengalokhu. Zama futhi uma kuqedile.</string>
     <string name="backup_restore_error_schema_title">Okubuyela okungahambisani</string>
-    <string name="backup_restore_error_schema_body">Ifomu ledatabase yokubuyela ayihambelani nale inguqulo ye-SD Maid. Ukubuyela idatha yomlando kusekelwa kuphela phakathi kwezinhlobo zoku-app ezifanayo.</string>
+    <string name="backup_restore_error_schema_body">Ifomu ledatabase yokubuyela ayihambelani nale inguqulo ye-Tidy. Ukubuyela idatha yomlando kusekelwa kuphela phakathi kwezinhlobo zoku-app ezifanayo.</string>
 </resources>

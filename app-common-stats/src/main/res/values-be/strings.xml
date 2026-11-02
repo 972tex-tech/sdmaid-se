@@ -7,10 +7,10 @@
         <item quantity="other">%s было вызвалена.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s элемент апрацаваны з таго часу, як вы запрасілі SD Maid на сваю прыладу.</item>
-        <item quantity="few">%s элементы апрацаваны з таго часу, як вы запрасілі SD Maid на сваю прыладу.</item>
-        <item quantity="many">%s элементаў апрацавана з таго часу, як вы запрасілі SD Maid на сваю прыладу.</item>
-        <item quantity="other">%s элементаў апрацавана з таго часу, як вы запрасілі SD Maid на сваю прыладу.</item>
+        <item quantity="one">%s элемент апрацаваны з таго часу, як вы запрасілі Tidy на сваю прыладу.</item>
+        <item quantity="few">%s элементы апрацаваны з таго часу, як вы запрасілі Tidy на сваю прыладу.</item>
+        <item quantity="many">%s элементаў апрацавана з таго часу, як вы запрасілі Tidy на сваю прыладу.</item>
+        <item quantity="other">%s элементаў апрацавана з таго часу, як вы запрасілі Tidy на сваю прыладу.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Ты гаста %d дзень.</item>
@@ -38,12 +38,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Частковы поспех</string>
     <string name="stats_report_status_partial_failure">Няўдала</string>
-    <string name="stats_settings_desc">Наладжванне статыстыкі, справаздач і захаванне даных SD Maid.</string>
+    <string name="stats_settings_desc">Наладжванне статыстыкі, справаздач і захаванне даных Tidy.</string>
     <string name="stats_settings_retention_category">Утрыманне</string>
     <string name="stats_settings_retention_reports_label">Агульныя справаздачы</string>
-    <string name="stats_settings_retention_reports_desc">Колькасць дзён да выдалення асноўных справаздач аб аперацыях SD Maid.</string>
+    <string name="stats_settings_retention_reports_desc">Колькасць дзён да выдалення асноўных справаздач аб аперацыях Tidy.</string>
     <string name="stats_settings_retention_paths_label">Падрабязная інфармацыя аб шляху</string>
-    <string name="stats_settings_retention_paths_desc">Колькасць дзён для захоўвання звестак аб шляхах, на якія ўплывае SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Колькасць дзён для захоўвання звестак аб шляхах, на якія ўплывае Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Гісторыя сховішча</string>
     <string name="stats_settings_retention_snapshots_desc">Колькасць дзён для захоўвання здымкаў выкарыстання сховішча для графіка тэндэнцый сховішча. Старыя здымкі выдаляюцца.</string>
     <string name="stats_settings_reset_all_label">Скінуць усё</string>

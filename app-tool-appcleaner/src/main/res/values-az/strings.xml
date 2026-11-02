@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimum yaş</string>
     <string name="appcleaner_include_minimumage_summary">Minimum yaşdan kiçik olan faylları keç.</string>
     <string name="appcleaner_automation_romtype_detection_label">Əməliyyat sistemi aşkarlanması</string>
-    <string name="appcleaner_automation_romtype_detection_summary">SD Maid OS-nizi düzgün aşkarlamırsa əlçatanlıq əsaslı avtomatlaşdırma uğursuz ola bilər. Aşkarlanan OS-u ləğv etmək üçün bu parametrdən istifadə edin.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Tidy OS-nizi düzgün aşkarlamırsa əlçatanlıq əsaslı avtomatlaşdırma uğursuz ola bilər. Aşkarlanan OS-u ləğv etmək üçün bu parametrdən istifadə edin.</string>
     <string name="appcleaner_filter_codecache_label">Kod keşi</string>
     <string name="appcleaner_filter_codecache_summary">JVM kod keşi. Yerli koda tərtıb edilən bayt kodu blokları.</string>
     <string name="appcleaner_filter_advertisement_label">Reklam</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">İstisna edilmiş tətbiq</string>
     <string name="appcleaner_exclusion_limited_body">Bu tətbiqi AppCleaner-dən istisna etmisiniz. Bütün tətbiqlərin keşlərini bir anda silmək ADB girişi vasitəsilə mövcud olan sistem miqyaslı keş təmizləməsini istifadə edir, fərdi tətbiqləri çıxara bilməz, buna görə bu tətbiqin keşləşdirilmiş məlumatları hər şey ilə birlikdə silinir. Yalnız burada göstərilən keşləşdirilmiş məlumatlar təsirlənir, istisnanın əhatə etdiyi hər şey gizli və dəyişdirilməmiş qalır.</string>
     <string name="appcleaner_automation_unavailable_title">Əlçatanlıq xidməti əlçatan deyil</string>
-    <string name="appcleaner_automation_unavailable_body">Bu keşləri təmizləmək üçün SD Maid-in Əlçatımlılıq xidməti tələb olunur, lakin o əlçatan deyildi.</string>
+    <string name="appcleaner_automation_unavailable_body">Bu keşləri təmizləmək üçün Tidy-in Əlçatımlılıq xidməti tələb olunur, lakin o əlçatan deyildi.</string>
     <string name="appcleaner_delete_confirmation_message_x">%s üçün xərclənə bilən fayllar silinsinmi?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">%d seçilmiş tətbiq üçün xərclənə bilən fayllar silinsinmi?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Sistem bu tətbiq üçün \"Keşi təmizlə\" düyməsini deaktiv edib. Keş təmizləmə sürətini artırmaq üçün onu istisna edin.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Sistem tətbiqi düzgün konfiqurasiya edilməyib</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS-un Təhlükəsizlik tətbiqi (com.miui.securitycenter) İstifadə Statistikası icazəsindən (GET_USAGE_STATS) məhrumdur. Bu, tətbiq təfərrüatlarında \"Məlumatları Təmizlə\" və əlçatanlılıq vasitəsilə keş təmizləmə kimi funksiyaları poza. Tam funksionallığı bərpa etmək üçün icazə verin.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Bu, həmçinin \"System UI\" sistem tətbiqi yaxınlarda məcburi dayandırılıbsa (məsələn, tətbiq təmizləmə vasitəsi ilə) baş verə bilər. Bu zaman Android, cihazı yenidən başladana qədər SD Maid-in avtomatlaşdırılmış düymə basmalarını bloklayır.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Bu, həmçinin \"System UI\" sistem tətbiqi yaxınlarda məcburi dayandırılıbsa (məsələn, tətbiq təmizləmə vasitəsi ilə) baş verə bilər. Bu zaman Android, cihazı yenidən başladana qədər Tidy-in avtomatlaşdırılmış düymə basmalarını bloklayır.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Təmizləmədən öncə məcburi dayandır</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Keşi təmizləmədən əvvəl tətbiqləri məcburi dayandırın. Bu bəzi tətbiqlərin keşini təmizləməyə kömək edə bilər, lakin tətbiqlərin düzgün işləməməsinə səbəb ola bilər və əl ilə yenidən başlatma tələb edə bilər.</string>
     <string name="appcleaner_progress_force_stopping">Tətbiqlər məcburi dayandırılır…</string>

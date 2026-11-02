@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimalna starost</string>
     <string name="appcleaner_include_minimumage_summary">Preskoči datoteke koje su mlađe od minimalne starosti.</string>
     <string name="appcleaner_automation_romtype_detection_label">Detekcija operativnog sustava</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Automatizacija temeljena na pristupačnosti možda neće uspjeti ako SD Maid ne otkrije vaš operativni sustav ispravno. Koristite ovu postavku za nadjačavanje otkrivenog operativnog sustava.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Automatizacija temeljena na pristupačnosti možda neće uspjeti ako Tidy ne otkrije vaš operativni sustav ispravno. Koristite ovu postavku za nadjačavanje otkrivenog operativnog sustava.</string>
     <string name="appcleaner_filter_codecache_label">Predmemorija koda</string>
     <string name="appcleaner_filter_codecache_summary">JVM predmemorija koda. Blokovi bajtkoda kompajlirani u izvorni kod.</string>
     <string name="appcleaner_filter_advertisement_label">Podaci o oglasima</string>
@@ -92,7 +92,7 @@
     <string name="appcleaner_exclusion_limited_title">Izuzeta aplikacija</string>
     <string name="appcleaner_exclusion_limited_body">Isključio si ovu aplikaciju iz AppCleanera. Brisanje predmemorije svih aplikacija odjednom koristi sistemsko čišćenje predmemorije dostupno putem ADB pristupa, koje ne može izostaviti pojedinačne aplikacije, pa se predmemorija ove aplikacije briše zajedno sa svim ostalim. Zahvaćena je samo ovdje prikazana predmemorija, sve ostalo što isključivanje pokriva ostaje skriveno i netaknuto.</string>
     <string name="appcleaner_automation_unavailable_title">Usluga pristupačnosti nije dostupna</string>
-    <string name="appcleaner_automation_unavailable_body">Brisanje ovih predmemorija zahtijeva SD Maidovu uslugu pristupačnosti, ali ona nije bila dostupna.</string>
+    <string name="appcleaner_automation_unavailable_body">Brisanje ovih predmemorija zahtijeva Tidyovu uslugu pristupačnosti, ali ona nije bila dostupna.</string>
     <string name="appcleaner_delete_confirmation_message_x">Izbrisati potrošne datoteke za %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Izbrisati potrošne datoteke za %d odabranu aplikaciju?</item>
@@ -105,7 +105,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Sistem je onemogućio gumb \"Očisti predmemoriju\" za ovu aplikaciju. Izuzmite ju za ubrzavanje čišćenja predmemorije.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Sistemska aplikacija pogrešno konfigurirana</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Aplikaciji Sigurnost HyperOS-a (com.miui.securitycenter) nedostaje dopuštenje za statistiku korištenja (GET_USAGE_STATS). To prekida rad značajki poput \"Izbriši podatke\" u detaljima aplikacije i brisanja predmemorije putem pristupačnosti. Dajte dopuštenje za vraćanje pune funkcionalnosti.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Ovo se može dogoditi i ako je aplikacija sustava \"System UI\" nedavno prisilno zaustavljena, npr. od strane alata za čišćenje aplikacija. Android tada blokira automatizirane pritiske gumba SD Maida dok ne restartate uređaj.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Ovo se može dogoditi i ako je aplikacija sustava \"System UI\" nedavno prisilno zaustavljena, npr. od strane alata za čišćenje aplikacija. Android tada blokira automatizirane pritiske gumba Tidya dok ne restartate uređaj.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Prisilno zaustavi prije čišćenja</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Prisilno zaustavi aplikacije prije čišćenja njihove predmemorije. Može pomoći očistiti predmemoriju nekih aplikacija, ali može uzrokovati neispravno ponašanje aplikacija i zahtijevati ručno ponovno pokretanje.</string>
     <string name="appcleaner_progress_force_stopping">Prisilno zaustavljanje aplikacija…</string>

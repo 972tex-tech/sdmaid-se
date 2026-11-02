@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Hân hạnh phục vụ bạn.</string>
     <string name="slogan_message_1">Sạch sẽ và gọn gàng.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Đang tải</string>
     <string name="general_progress_loading_app_data">Đang tải dữ liệu ứng dụng</string>
     <string name="general_progress_loading_data_areas">Đang tải khu vực dữ liệu</string>
-    <string name="general_data_areas_unavailable_message">Không thể tải các khu vực dữ liệu - các vị trí lưu trữ mà SD Maid có thể sử dụng.</string>
+    <string name="general_data_areas_unavailable_message">Không thể tải các khu vực dữ liệu - các vị trí lưu trữ mà Tidy có thể sử dụng.</string>
     <string name="general_progress_loading_egg_0">Vẫn nhanh hơn một chiếc iPhone</string>
     <string name="general_progress_loading_egg_1">Đang tải xuống thêm RAM</string>
     <string name="general_progress_loading_egg_2">Sớm thôi™</string>
@@ -170,7 +170,7 @@
     <string name="general_error_ipc_deadobject_title">Kết nối dịch vụ bị mất</string>
     <string name="general_error_ipc_deadobject_description">Kết nối với một dịch vụ quan trọng (ví dụ: Magisk, Porter, Shizuku hoặc các dịch vụ cấp hệ thống khác) đã bị mất một cách không mong muốn. Vui lòng khởi động lại thiết bị của bạn. Nếu vấn đề vẫn tiếp tục, hãy kiểm tra các bản cập nhật hoặc liên hệ với tôi để tôi có thể sửa lỗi.</string>
     <string name="general_error_upgrade_required_title">Yêu cầu nâng cấp</string>
-    <string name="general_error_upgrade_required_description">Tính năng này yêu cầu nâng cấp. Vui lòng nâng cấp SD Maid SE để sử dụng nó.</string>
+    <string name="general_error_upgrade_required_description">Tính năng này yêu cầu nâng cấp. Vui lòng nâng cấp Tidy để sử dụng nó.</string>
     <string name="general_user_label_owner">Người sở hữu</string>
     <string name="general_user_label_system">Hệ thống</string>
     <string name="setup_title">Thiết lập</string>
@@ -197,18 +197,18 @@
     <string name="appcontrol_systemsettings_open_title">Hiển thị cài đặt</string>
     <string name="ui_theme_color_sunset_label">Hoàng hôn</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Tính năng này cần quyền truy cập root, nhưng SD Maid không thể lấy được trên thiết bị này.</string>
+    <string name="access_blocked_root_unavailable">Tính năng này cần quyền truy cập root, nhưng Tidy không thể lấy được trên thiết bị này.</string>
     <string name="access_blocked_root_declined">Tính năng này cần quyền truy cập root. Bạn có thể bật nó qua màn hình thiết lập.</string>
     <string name="access_blocked_root_or_shizuku">Tính năng này cần quyền root hoặc truy cập ADB, không có sẵn trên thiết bị này.</string>
     <string name="backup_restore_error_invalid_title">Tệp sao lưu không hợp lệ</string>
-    <string name="backup_restore_error_invalid_body">Tệp này không phải là một bản sao lưu SD Maid hợp lệ hoặc bị hỏng.</string>
-    <string name="backup_restore_error_version_body">Bản sao lưu này được tạo với phiên bản SD Maid mới hơn. Vui lòng cập nhật ứng dụng và thử lại.</string>
+    <string name="backup_restore_error_invalid_body">Tệp này không phải là một bản sao lưu Tidy hợp lệ hoặc bị hỏng.</string>
+    <string name="backup_restore_error_version_body">Bản sao lưu này được tạo với phiên bản Tidy mới hơn. Vui lòng cập nhật ứng dụng và thử lại.</string>
     <string name="backup_restore_error_restore_failed_title">Khôi phục không thành công</string>
     <string name="backup_restore_error_restore_failed_body">Các phần này không thể được khôi phục: %1$s. Cấu hình trước đây của bạn đã được lưu và có thể được khôi phục.</string>
     <string name="backup_restore_error_safety_title">Khôi phục chưa bắt đầu</string>
-    <string name="backup_restore_error_safety_body">SD Maid không thể lưu ảnh chụp an toàn của cấu hình hiện tại của bạn, vì vậy không có gì thay đổi.</string>
+    <string name="backup_restore_error_safety_body">Tidy không thể lưu ảnh chụp an toàn của cấu hình hiện tại của bạn, vì vậy không có gì thay đổi.</string>
     <string name="backup_restore_error_busy_title">Vui lòng chờ</string>
     <string name="backup_restore_error_busy_body">Một tác vụ dọn dẹp hoặc hoạt động sao lưu khác đang chạy. Hãy thử lại khi nó hoàn thành.</string>
     <string name="backup_restore_error_schema_title">Sao lưu không tương thích</string>
-    <string name="backup_restore_error_schema_body">Định dạng cơ sở dữ liệu của sao lưu không khớp với phiên bản SD Maid này. Khôi phục dữ liệu lịch sử chỉ được hỗ trợ giữa các phiên bản ứng dụng giống hệt nhau.</string>
+    <string name="backup_restore_error_schema_body">Định dạng cơ sở dữ liệu của sao lưu không khớp với phiên bản Tidy này. Khôi phục dữ liệu lịch sử chỉ được hỗ trợ giữa các phiên bản ứng dụng giống hệt nhau.</string>
 </resources>

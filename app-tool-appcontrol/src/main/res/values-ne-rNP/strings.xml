@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">अनुप्रयोग रोक्नुहोस्। जबसम्म तपाईंले यसलाई खोल्नुभएन वा डिभाइस पुनः बुट नभएसम्म यसलाई आफैं सुरु हुनबाट रोक्नुहोस्।</string>
     <string name="appcontrol_app_uninstall_description">यस app लाई तपाईंको उपकरणबाट हटाउनुहोस्।</string>
     <string name="appcontrol_app_exclude_add_title">App बहिष्कार गर्नुहोस्</string>
-    <string name="appcontrol_app_exclude_add_description">SD Maid का अन्य कार्यहरूबाट यस app लाई बहिष्कार गर्नुहोस्।</string>
+    <string name="appcontrol_app_exclude_add_description">Tidy का अन्य कार्यहरूबाट यस app लाई बहिष्कार गर्नुहोस्।</string>
     <string name="appcontrol_app_exclude_edit_title">बहिष्करण सम्पादन गर्नुहोस्</string>
     <string name="appcontrol_app_exclude_edit_description">यो app हाल एक वा धेरै उपकरणहरूबाट बहिष्कृत छ।</string>
     <string name="appcontrol_tag_user">प्रयोगकर्ता</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s निर्यात गर्दै</string>
     <string name="appcontrol_share_list_action">सूची साझा गर्नुहोस्</string>
     <string name="appcontrol_share_list_title">मेरा अनुप्रयोगहरू</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE मार्फत साझा गरिएको</string>
+    <string name="appcontrol_share_list_footer">Tidy मार्फत साझा गरिएको</string>
     <string name="appcontrol_force_stop_selection_action">Apps जबरजस्ती रोक्नुहोस्</string>
     <string name="appcontrol_force_stop_action">जबरजस्ती रोक्नुहोस्</string>
     <string name="appcontrol_force_stop_confirm_title">जबरजस्ती रोक्ने पुष्टि गर्नुहोस्</string>

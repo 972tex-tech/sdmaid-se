@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">செயலியை நிறுத்து. நீங்கள் திறக்கும் வரை அல்லது சாதனம் மறுதொடக்கம் செய்யும் வரை தானாகவே தொடங்குவதைத் தடு.</string>
     <string name="appcontrol_app_uninstall_description">இந்த பயன்பாடை உங்கள் சாதனத்திலிருந்து அன்இன்ஸ்டால் செய்வது.</string>
     <string name="appcontrol_app_exclude_add_title">பயன்பாடை விலக்கு</string>
-    <string name="appcontrol_app_exclude_add_description">இந்த பயன்பாடை SD Maid இன் மற்ற செயல்பாடுகளிலிருந்து விலக்கு.</string>
+    <string name="appcontrol_app_exclude_add_description">இந்த பயன்பாடை Tidy இன் மற்ற செயல்பாடுகளிலிருந்து விலக்கு.</string>
     <string name="appcontrol_app_exclude_edit_title">விலக்கலைத் தருணி</string>
     <string name="appcontrol_app_exclude_edit_description">இந்த பயன்பாடு தற்போது ஒன்று அல்லது அதிகமான கருவிகளிலிருந்து விலக்கப்பட்டுள்ளது.</string>
     <string name="appcontrol_tag_user">பயனர்</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s ஏற்றுமதி செய்கிறது</string>
     <string name="appcontrol_share_list_action">பட்டியலைப் பகிர்</string>
     <string name="appcontrol_share_list_title">எனது செயலிகள்</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE வழியாகப் பகிரப்பட்டது</string>
+    <string name="appcontrol_share_list_footer">Tidy வழியாகப் பகிரப்பட்டது</string>
     <string name="appcontrol_force_stop_selection_action">பயன்பாடுகளை வலையுள்ள நிறுத்து</string>
     <string name="appcontrol_force_stop_action">வலையுள்ள நிறுத்தம்</string>
     <string name="appcontrol_force_stop_confirm_title">வலையுள்ள நிறுத்தத்தை உறுதிசெய்</string>

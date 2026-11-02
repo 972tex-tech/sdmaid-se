@@ -20,7 +20,7 @@
     <string name="appcleaner_include_minimumage_label">Íosaois</string>
     <string name="appcleaner_include_minimumage_summary">Gabh thar chomhaid atá níos óige ná an íosaois.</string>
     <string name="appcleaner_automation_romtype_detection_label">Braite córais oibriúcháin</string>
-    <string name="appcleaner_automation_romtype_detection_summary">D\'fhéadfadh uathoibriú bunaithe ar inrochtaineacht teip mura mbraitheann SD Maid do chóras oibriúcháin i gceart. Úsáid an socrú seo chun an córas oibriúcháin braite a shárú.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">D\'fhéadfadh uathoibriú bunaithe ar inrochtaineacht teip mura mbraitheann Tidy do chóras oibriúcháin i gceart. Úsáid an socrú seo chun an córas oibriúcháin braite a shárú.</string>
     <string name="appcleaner_filter_codecache_label">Taisce chóid</string>
     <string name="appcleaner_filter_codecache_summary">Taisce chóid JVM. Bloic de bytecode tiomsaithe i gcód dúchasach.</string>
     <string name="appcleaner_filter_bugreporting_summary">Sonraí a bhaineann le tuairisciú fabhtanna, m.sh. logaí earráide nó dumpanna tuairte.</string>
@@ -63,7 +63,7 @@
     <string name="appcleaner_item_caches_inaccessible_title">Taiscí réamhshocruithe</string>
     <string name="appcleaner_item_caches_inaccessible_body">Taiscí réamhshocruithe poiblí agus príobháideacha. Ní féidir rochtain a fháil orthu go díreach, ach is féidir iad a scriosadh go hindíreach (m.sh. trí sheirbhís inrochtaineachta).</string>
     <string name="appcleaner_automation_unavailable_title">Seirbhís inrochtaineachta níl ar fáil</string>
-    <string name="appcleaner_automation_unavailable_body">Teastaíonn seirbhís inrochtaineachta SD Maid chun taiscí nach bhfuil inrochtana a ghlanadh, ach ní raibh sí ar fáil. Mura dteastaíonn uait é a úsáid: Díchumasaigh an rogha "Cuir taiscí nach bhfuil inrochtana san áireamh".</string>
+    <string name="appcleaner_automation_unavailable_body">Teastaíonn seirbhís inrochtaineachta Tidy chun taiscí nach bhfuil inrochtana a ghlanadh, ach ní raibh sí ar fáil. Mura dteastaíonn uait é a úsáid: Díchumasaigh an rogha "Cuir taiscí nach bhfuil inrochtana san áireamh".</string>
     <string name="appcleaner_delete_confirmation_message_x">Scrios comhaid inchaite do %s?</string>
     <string name="appcleaner_progress_shizuku_deleting_caches">Ag scriosadh taiscí trí Shizuku a úsáid</string>
     <string name="appcleaner_automation_error_locked_appcache_title">Glan taisce níl ar fáil</string>

@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Xestor de exclusións</string>
     <string name="exclusion_manager_desc">Xestionar exclusións de ficheiros e aplicacións.</string>
-    <string name="exclusion_explanation_body1">Exclúe ficheiros e aplicacións para protexelos das ferramentas de SD Maid ou para saltar elementos irrelevantes e acelerar as operacións.</string>
+    <string name="exclusion_explanation_body1">Exclúe ficheiros e aplicacións para protexelos das ferramentas de Tidy ou para saltar elementos irrelevantes e acelerar as operacións.</string>
     <string name="exclusion_add_new_hint">Sen exclusións aínda. Usa o botón + para crear unha ou exclúe elementos dos resultados de calquera ferramenta.</string>
     <string name="exclusion_create_action">Crear exclusión</string>
     <string name="exclusion_edit_action">Editar exclusión</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Permitir coincidencias parciais</string>
     <string name="exclusion_option_ignore_casing">Ignorar maiúsculas e minúsculas</string>
     <string name="exclusion_editor_affected_tools_label">Ferramentas afectadas</string>
-    <string name="exclusion_editor_path_explanation">Unha exclusión de ruta impide que SD Maid procese calquera ruta coincidente. Isto aplícase a ficheiros, cartafoles e subcartafoles.</string>
-    <string name="exclusion_editor_pkg_explanation">Unha exclusión de aplicación impide que SD Maid procese calquera paquete coincidente.</string>
+    <string name="exclusion_editor_path_explanation">Unha exclusión de ruta impide que Tidy procese calquera ruta coincidente. Isto aplícase a ficheiros, cartafoles e subcartafoles.</string>
+    <string name="exclusion_editor_pkg_explanation">Unha exclusión de aplicación impide que Tidy procese calquera paquete coincidente.</string>
     <string name="exclusion_editor_segment_explanation">Unha exclusión baseada en segmentos é similar a unha exclusión de ruta pero permite coincidencias parciais. Exemplo: \"DCIM/Camera\" exclúe \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Eliminar esta exclusión?</string>
     <string name="exclusion_reset_default_exclusions">Restaurar exclusións predeterminadas</string>

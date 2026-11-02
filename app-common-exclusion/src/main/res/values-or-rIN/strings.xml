@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">ବହିଷ୍କାର ପରିଚାଳକ</string>
     <string name="exclusion_manager_desc">ଫାଇଲ୍ ଏବଂ ଆପ୍ ବାଦ୍ ପକାଇବା ପରିଚାଳନା କରିବା।</string>
-    <string name="exclusion_explanation_body1">ଫାଇଲ ଏବଂ ଆପ୍ଗୁଡ଼ିକୁ SD Maid ର ସାଧନରୁ ରକ୍ଷା କରିବା ପାଇଁ ବାଦ ଦିଅନ୍ତୁ, କିମ୍ବା ଅପ୍ରାସଙ୍ଗିକ ଆଇଟେମଗୁଡ଼ିକୁ ଛାଡ଼ି ଅପରେସନ୍ ଦ୍ରୁତ କରିବା ପାଇଁ।</string>
+    <string name="exclusion_explanation_body1">ଫାଇଲ ଏବଂ ଆପ୍ଗୁଡ଼ିକୁ Tidy ର ସାଧନରୁ ରକ୍ଷା କରିବା ପାଇଁ ବାଦ ଦିଅନ୍ତୁ, କିମ୍ବା ଅପ୍ରାସଙ୍ଗିକ ଆଇଟେମଗୁଡ଼ିକୁ ଛାଡ଼ି ଅପରେସନ୍ ଦ୍ରୁତ କରିବା ପାଇଁ।</string>
     <string name="exclusion_add_new_hint">ଏପର୍ୟନ୍ତ କୌଣସି ବହିଷ୍କୃତି ନାହିଁ। ଗୋଟିଏ ତୈରି କରିବା ପାଇଁ + ବଟନ୍ ବ୍ୟବହାର କରନ୍ତୁ, କିମ୍ବା ୟେକୌଣସି ସାଧନର ଫଳାଫଳରୁ ଆଇଟେମଗୁଡ଼ିକୁ ବାଦ ଦିଅନ୍ତୁ।</string>
     <string name="exclusion_create_action">ବହିଷ୍କାର ସୃଷ୍ଟି କରନ୍ତୁ</string>
     <string name="exclusion_edit_action">ବହିଷ୍କାର ସମ୍ପାଦନା କରନ୍ତୁ</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">ଆଂଶିକ ମେଳକୁ ଅନୁମତି ଦିଅନ୍ତୁ</string>
     <string name="exclusion_option_ignore_casing">କେସିଂକୁ ଅଣଦେଖା କରନ୍ତୁ</string>
     <string name="exclusion_editor_affected_tools_label">ପ୍ରଭାବିତ ଟୁଲ୍ଗୁଡ଼ିକ</string>
-    <string name="exclusion_editor_path_explanation">ଏକ ପାଥ୍ ବହିଷ୍କାର SD Maid କୁ କୌଣସି ମେଳ ଖାଉଥିବା ପାଥ୍ଗୁଡ଼ିକର ଅଧିକ ପ୍ରକ୍ରିୟାକରଣରୁ ବିରତ କରିଥାଏ। ଏହା ଫାଇଲ୍, ଫୋଲ୍ଡର ଏବଂ ସବ୍-ଫୋଲ୍ଡରଗୁଡ଼ିକ ପାଇଁ ପ୍ରଯୁଜ୍ୟ।</string>
-    <string name="exclusion_editor_pkg_explanation">ଏକ ଆପ୍ ବହିଷ୍କାର SD Maid କୁ କୌଣସି ମେଳ ଖାଉଥିବା ପ୍ୟାକେଜ୍ଗୁଡ଼ିକର ପ୍ରକ୍ରିୟାକରଣରୁ ବିରତ କରିଥାଏ।</string>
+    <string name="exclusion_editor_path_explanation">ଏକ ପାଥ୍ ବହିଷ୍କାର Tidy କୁ କୌଣସି ମେଳ ଖାଉଥିବା ପାଥ୍ଗୁଡ଼ିକର ଅଧିକ ପ୍ରକ୍ରିୟାକରଣରୁ ବିରତ କରିଥାଏ। ଏହା ଫାଇଲ୍, ଫୋଲ୍ଡର ଏବଂ ସବ୍-ଫୋଲ୍ଡରଗୁଡ଼ିକ ପାଇଁ ପ୍ରଯୁଜ୍ୟ।</string>
+    <string name="exclusion_editor_pkg_explanation">ଏକ ଆପ୍ ବହିଷ୍କାର Tidy କୁ କୌଣସି ମେଳ ଖାଉଥିବା ପ୍ୟାକେଜ୍ଗୁଡ଼ିକର ପ୍ରକ୍ରିୟାକରଣରୁ ବିରତ କରିଥାଏ।</string>
     <string name="exclusion_editor_segment_explanation">ଏକ ସେଗମେଣ୍ଟ ଆଧାରିତ ବହିଷ୍କାର ଏକ ପାଥ୍ ବହିଷ୍କାର ପରି କିନ୍ତୁ ଆଂଶିକ ମେଳ ପାଇଁ ଅନୁମତି ଦେଇଥାଏ। ଉଦାହରଣ: \"DCIM/Camera\" \"/sdcard/DCIM/Camera/photo.png\" କୁ ବହିଷ୍କାର କରେ।</string>
     <string name="exclusion_editor_remove_confirmation_message">ଏହି ବହିଷ୍କାର ହଟାଇବେ?</string>
     <string name="exclusion_reset_default_exclusions">ଡିଫଲ୍ଟ ବହିଷ୍କାର ପୁନଃସ୍ଥାପନା କରନ୍ତୁ</string>

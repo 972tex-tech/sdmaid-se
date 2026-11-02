@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Upravitelj izuzetaka</string>
     <string name="exclusion_manager_desc">Upravljajte izuzecima datoteka i aplikacija.</string>
-    <string name="exclusion_explanation_body1">Isključite datoteke i aplikacije kako biste ih zaštitili od SD Maid alata, ili kako biste preskočili nevažne stavke i ubrzali operacije.</string>
+    <string name="exclusion_explanation_body1">Isključite datoteke i aplikacije kako biste ih zaštitili od Tidy alata, ili kako biste preskočili nevažne stavke i ubrzali operacije.</string>
     <string name="exclusion_add_new_hint">Još nema isključenja. Koristite + gumb kako biste stvorili jedno, ili isključite stavke iz rezultata bilo kojeg alata.</string>
     <string name="exclusion_create_action">Stvori izuzetak</string>
     <string name="exclusion_edit_action">Uredi izuzetak</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Dopusti djelomična podudaranja</string>
     <string name="exclusion_option_ignore_casing">Zanemari velika/mala slova</string>
     <string name="exclusion_editor_affected_tools_label">Pogođeni alati</string>
-    <string name="exclusion_editor_path_explanation">Izuzimanje putanje sprječava SD Maid da dalje obrađuje sve odgovarajuće putanje. To se odnosi na datoteke, mape i podmape.</string>
-    <string name="exclusion_editor_pkg_explanation">Izuzimanje aplikacije sprječava SD Maid da obradi podudarajuće pakete.</string>
+    <string name="exclusion_editor_path_explanation">Izuzimanje putanje sprječava Tidy da dalje obrađuje sve odgovarajuće putanje. To se odnosi na datoteke, mape i podmape.</string>
+    <string name="exclusion_editor_pkg_explanation">Izuzimanje aplikacije sprječava Tidy da obradi podudarajuće pakete.</string>
     <string name="exclusion_editor_segment_explanation">Izuzimanje na temelju segmenta slično je izuzimanju putanje, ali dopušta djelomična podudaranja. Primjer: \"DCIM/Camera\" izuzima \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Ukloniti ovaj izuzetak?</string>
     <string name="exclusion_reset_default_exclusions">Vrati zadane izuzetke</string>

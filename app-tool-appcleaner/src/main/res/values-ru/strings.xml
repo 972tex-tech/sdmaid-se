@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Минимальный возраст</string>
     <string name="appcleaner_include_minimumage_summary">Пропускать файлы, которые не достигли минимального возраста.</string>
     <string name="appcleaner_automation_romtype_detection_label">Определение операционной системы</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Автоматизация на основе специальных возможностей может завершиться ошибкой, если SD Maid некорректно определит ОС. Используйте этот параметр, чтобы переопределить ОС.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Автоматизация на основе специальных возможностей может завершиться ошибкой, если Tidy некорректно определит ОС. Используйте этот параметр, чтобы переопределить ОС.</string>
     <string name="appcleaner_filter_codecache_label">Кэш кода</string>
     <string name="appcleaner_filter_codecache_summary">Кэш кода JVM. Блоки байткода, скомпилированные в нативный код.</string>
     <string name="appcleaner_filter_advertisement_label">Данные рекламы</string>
@@ -97,7 +97,7 @@
     <string name="appcleaner_exclusion_limited_title">Исключённые приложения</string>
     <string name="appcleaner_exclusion_limited_body">Вы исключили это приложение из AppCleaner. Одновременная очистка кеша всех приложений использует общесистемную очистку кеша через доступ ADB, которая не может пропускать отдельные приложения, поэтому кеш этого приложения будет очищен вместе с остальными. Затрагиваются только показанные здесь кешированные данные, всё остальное, на что распространяется исключение, остаётся скрытым и нетронутым.</string>
     <string name="appcleaner_automation_unavailable_title">Служба специальных возможностей недоступна</string>
-    <string name="appcleaner_automation_unavailable_body">Для очистки этого кэша требуется служба специальных возможностей SD Maid, но она недоступна.</string>
+    <string name="appcleaner_automation_unavailable_body">Для очистки этого кэша требуется служба специальных возможностей Tidy, но она недоступна.</string>
     <string name="appcleaner_delete_confirmation_message_x">Удалить ненужные данные для %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Удалить ненужные данные для %d выбранного приложения?</item>
@@ -111,7 +111,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Система отключила кнопку \"Очистить кэш\" для этого приложения. Добавьте в исключения, чтобы ускорить очистку кэша.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Системное приложение не настроено</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Приложение HyperOS Security (com.miui.securitycenter) не имеет разрешения статистики использования (GET_USAGE_STATS). Это препятствует работе таких функций, как «Очистить данные» в деталях приложения и не позволяет очистить кэш через службу специальных возможностей. Предоставьте разрешение для восстановление полной функциональности.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Это также может произойти, если системное приложение «System UI» было недавно принудительно остановлено, например, с помощью инструмента очистки приложений. После этого Android блокирует автоматические нажатия кнопок SD Maid до перезагрузки устройства.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Это также может произойти, если системное приложение «System UI» было недавно принудительно остановлено, например, с помощью инструмента очистки приложений. После этого Android блокирует автоматические нажатия кнопок Tidy до перезагрузки устройства.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Принудительная остановка перед очисткой</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Принудительная остановка приложений перед очисткой их кэша. Это поможет очистить кэш некоторых приложений, но может привести к неправильному их функционированию и потребовать ручного перезапуска.</string>
     <string name="appcleaner_progress_force_stopping">Остановка приложений…</string>

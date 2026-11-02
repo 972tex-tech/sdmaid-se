@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Спиране на приложението. Предотвратява самостоятелното му стартиране, докато не го отворите или устройството не се рестартира.</string>
     <string name="appcontrol_app_uninstall_description">Деинсталиране на това приложение от вашето устройство.</string>
     <string name="appcontrol_app_exclude_add_title">Изключване на приложение</string>
-    <string name="appcontrol_app_exclude_add_description">Изключете това приложение от други операции в SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Изключете това приложение от други операции в Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Редактиране на изключване</string>
     <string name="appcontrol_app_exclude_edit_description">Това приложение в момента е изключено от един или повече инструменти.</string>
     <string name="appcontrol_tag_user">Потребител</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Експортиране на %s</string>
     <string name="appcontrol_share_list_action">Споделяне на списък</string>
     <string name="appcontrol_share_list_title">Моите приложения</string>
-    <string name="appcontrol_share_list_footer">Споделено чрез SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Споделено чрез Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Принудително спиране на приложения</string>
     <string name="appcontrol_force_stop_action">Принудително спиране</string>
     <string name="appcontrol_force_stop_confirm_title">Потвърждаване на принудително спиране</string>

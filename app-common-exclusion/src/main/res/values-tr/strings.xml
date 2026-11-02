@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Hariç tutma yöneticisi</string>
     <string name="exclusion_manager_desc">Dosya ve uygulama hariç tutmalarını yönetin.</string>
-    <string name="exclusion_explanation_body1">Dosyaları ve uygulamaları SD Maid\'in araçlarından korumak veya ilgisiz ögeleri atlayıp işlemleri hızlandırmak için hariç tutun.</string>
+    <string name="exclusion_explanation_body1">Dosyaları ve uygulamaları Tidy\'in araçlarından korumak veya ilgisiz ögeleri atlayıp işlemleri hızlandırmak için hariç tutun.</string>
     <string name="exclusion_add_new_hint">Henüz hariç tutma yok. Bir tane oluşturmak için + düğmesini kullanın veya herhangi bir aracın sonuçlarından ögeleri hariç tutun.</string>
     <string name="exclusion_create_action">Hariç tutma oluşturun</string>
     <string name="exclusion_edit_action">Hariç tutmayı düzenle</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Kısmi eşleşmelere izin ver</string>
     <string name="exclusion_option_ignore_casing">Büyük küçük harfi yoksay</string>
     <string name="exclusion_editor_affected_tools_label">Etkilenen araçlar</string>
-    <string name="exclusion_editor_path_explanation">Yol dışlama, SD Maid\'in eşleşen yolları daha fazla işlemesini engeller. Bu, dosyalar, klasörler ve alt klasörler için geçerlidir.</string>
-    <string name="exclusion_editor_pkg_explanation">Bir uygulamayı hariç tutma, SD Maid\'in eşleşen paketlere erişimini önler.</string>
+    <string name="exclusion_editor_path_explanation">Yol dışlama, Tidy\'in eşleşen yolları daha fazla işlemesini engeller. Bu, dosyalar, klasörler ve alt klasörler için geçerlidir.</string>
+    <string name="exclusion_editor_pkg_explanation">Bir uygulamayı hariç tutma, Tidy\'in eşleşen paketlere erişimini önler.</string>
     <string name="exclusion_editor_segment_explanation">Bölüm tabanlı hariç tutma, bir yolu hariç tutmaya benzer ancak kısmi eşleşmeleri mümkün kılar.
 Örneğin: \"DCIM/Camera\", \"/sdcard/DCIM/Camera/photo.png\"i hariç tutar.</string>
     <string name="exclusion_editor_remove_confirmation_message">Bu hariç tutma silinsin mi?</string>

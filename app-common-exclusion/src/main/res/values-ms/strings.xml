@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Pengurus pengecualian</string>
     <string name="exclusion_manager_desc">Urus pengecualian fail dan aplikasi.</string>
-    <string name="exclusion_explanation_body1">Kecualikan fail dan apl untuk melindunginya daripada alat SD Maid, atau untuk melangkau item yang tidak berkaitan dan mempercepatkan operasi.</string>
+    <string name="exclusion_explanation_body1">Kecualikan fail dan apl untuk melindunginya daripada alat Tidy, atau untuk melangkau item yang tidak berkaitan dan mempercepatkan operasi.</string>
     <string name="exclusion_add_new_hint">Tiada pengecualian lagi. Gunakan butang + untuk membuat satu, atau kecualikan item daripada hasil mana-mana alat.</string>
     <string name="exclusion_create_action">Buat pengecualian</string>
     <string name="exclusion_edit_action">Edit pengecualian</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Benarkan padanan separa</string>
     <string name="exclusion_option_ignore_casing">Abaikan selongsong</string>
     <string name="exclusion_editor_affected_tools_label">Alatan yang terjejas</string>
-    <string name="exclusion_editor_path_explanation">Pengecualian laluan menghalang SD Maid daripada memproses lebih lanjut mana-mana laluan yang sepadan. Ini terpakai untuk fail, folder dan sub-folder.</string>
-    <string name="exclusion_editor_pkg_explanation">Pengecualian aplikasi menghalang SD Maid daripada memproses sebarang pakej yang sepadan.</string>
+    <string name="exclusion_editor_path_explanation">Pengecualian laluan menghalang Tidy daripada memproses lebih lanjut mana-mana laluan yang sepadan. Ini terpakai untuk fail, folder dan sub-folder.</string>
+    <string name="exclusion_editor_pkg_explanation">Pengecualian aplikasi menghalang Tidy daripada memproses sebarang pakej yang sepadan.</string>
     <string name="exclusion_editor_segment_explanation">Pengecualian berdasarkan segmen adalah serupa dengan pengecualian laluan tetapi membenarkan padanan separa. Contoh: \"DCIM/Camera\" tidak termasuk \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Alih keluar pengecualian ini?</string>
     <string name="exclusion_reset_default_exclusions">Pulihkan pengecualian lalai</string>

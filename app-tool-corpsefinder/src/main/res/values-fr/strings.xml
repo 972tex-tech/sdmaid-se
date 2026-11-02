@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Propriétaires</string>
     <string name="corpsefinder_owner_unknown">Propriétaire inconnu</string>
     <string name="corpsefinder_corpse_hint_keeper">Cet élément pourrait contenir des données que vous souhaitez conserver malgré la désinstallation de l’appli propriétaire, p. ex. des photos ou des sauvegardes.</string>
-    <string name="corpsefinder_corpse_hint_common">Le nom de cet élément est très courant et pourrait appartenir à des applis encore installées que SD Maid ne connaît pas.</string>
+    <string name="corpsefinder_corpse_hint_common">Le nom de cet élément est très courant et pourrait appartenir à des applis encore installées que Tidy ne connaît pas.</string>
     <string name="corpsefinder_risk_keeper_chip">Souhaitable</string>
     <string name="corpsefinder_risk_common_chip">Courant</string>
     <string name="corpsefinder_markers_dialog_title">À propos de ces marqueurs</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Résidu standard. Généralement sûr à supprimer — ces fichiers appartiennent à des applis qui ne sont plus installées.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder trouve les données laissées par les applis que vous avez déjà désinstallées. Cela n’appartient plus à rien d’installé, donc le supprimer libère de l’espace. La plupart peut être supprimée en toute sécurité, mais vérifiez l’indicateur si vous n’êtes pas sûr.</string>
-    <string name="tour_corpsefinder_row_body">Chaque élément est une donnée restante et l’appli dont elle provient. Le marqueur indique le degré de confiance de SD Maid que la suppression est sûre — appuyez sur le ⓘ en haut pour savoir ce que les marqueurs signifient.</string>
+    <string name="tour_corpsefinder_row_body">Chaque élément est une donnée restante et l’appli dont elle provient. Le marqueur indique le degré de confiance de Tidy que la suppression est sûre — appuyez sur le ⓘ en haut pour savoir ce que les marqueurs signifient.</string>
 </resources>

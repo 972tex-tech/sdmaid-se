@@ -2,8 +2,6 @@ package eu.darken.sdmse.main.ui.dashboard
 
 import eu.darken.sdmse.appcleaner.core.AppCleaner
 import eu.darken.sdmse.corpsefinder.core.CorpseFinder
-import eu.darken.sdmse.deduplicator.core.Deduplicator
-import eu.darken.sdmse.deduplicator.core.Duplicate
 import eu.darken.sdmse.main.core.taskmanager.TaskSubmitter
 import eu.darken.sdmse.systemcleaner.core.SystemCleaner
 import io.kotest.matchers.shouldBe
@@ -15,7 +13,7 @@ import testhelpers.BaseTest
 /**
  * Contract of [DashboardMainActionEngine.resolveMainAction]: which results arm the main button's DELETE
  * action (and thereby summon the hero card). A tool only counts when it is opted into one-click
- * (Deduplicator additionally requires Pro) — matching what the DELETE branch of mainAction will
+ * — matching what the DELETE branch of mainAction will
  * actually free, so the button never offers a deletion that provably does nothing.
  */
 class DashboardMainActionTest : BaseTest() {
@@ -34,20 +32,14 @@ class DashboardMainActionTest : BaseTest() {
         every { junks } returns setOf(mockk { every { isUnclearable } returns unclearable })
     }
 
-    private fun dedupe() = mockk<Deduplicator.Data> {
-        every { clusters } returns setOf(mockk<Duplicate.Cluster>())
-    }
-
     private fun oneClick(
         corpse: Boolean = true,
         system: Boolean = true,
         app: Boolean = true,
-        dedupe: Boolean = false,
     ) = OneClickOptionsState(
         corpseFinderEnabled = corpse,
         systemCleanerEnabled = system,
         appCleanerEnabled = app,
-        deduplicatorEnabled = dedupe,
     )
 
     private fun resolve(
@@ -56,7 +48,6 @@ class DashboardMainActionTest : BaseTest() {
         corpse: CorpseFinder.Data? = null,
         system: SystemCleaner.Data? = null,
         app: AppCleaner.Data? = null,
-        dedupe: Deduplicator.Data? = null,
         oneClick: OneClickOptionsState = oneClick(),
         isPro: Boolean = true,
         oneClickMode: Boolean = false,
@@ -66,7 +57,6 @@ class DashboardMainActionTest : BaseTest() {
         corpse = corpse,
         system = system,
         app = app,
-        dedupe = dedupe,
         oneClick = oneClick,
         isPro = isPro,
         oneClickMode = oneClickMode,
@@ -127,35 +117,6 @@ class DashboardMainActionTest : BaseTest() {
             app = app(unclearable = true),
             oneClickMode = true,
         ) shouldBe BottomBarState.Action.ONECLICK
-    }
-
-    @Test
-    fun `dedupe-only data arms DELETE when opted into one-click and Pro`() {
-        resolve(
-            dedupe = dedupe(),
-            oneClick = oneClick(dedupe = true),
-            isPro = true,
-        ) shouldBe BottomBarState.Action.DELETE
-    }
-
-    @Test
-    fun `dedupe-only data does not arm DELETE when its one-click toggle is off`() {
-        resolve(
-            dedupe = dedupe(),
-            oneClick = oneClick(dedupe = false),
-            isPro = true,
-        ) shouldBe BottomBarState.Action.SCAN
-    }
-
-    @Test
-    fun `dedupe-only data does not arm DELETE for non-Pro users`() {
-        // The DELETE branch of mainAction would skip Deduplicator without Pro, so offering the
-        // action (and the hero) would not be action-truthful.
-        resolve(
-            dedupe = dedupe(),
-            oneClick = oneClick(dedupe = true),
-            isPro = false,
-        ) shouldBe BottomBarState.Action.SCAN
     }
 
     @Test

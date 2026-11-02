@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Mga may-ari</string>
     <string name="corpsefinder_owner_unknown">Hindi kilalang may-ari</string>
     <string name="corpsefinder_corpse_hint_keeper">Maaaring may data ang item na ito na gusto ninyong itago kahit na-uninstall na ang may-ari nito, hal. mga larawan o backup.</string>
-    <string name="corpsefinder_corpse_hint_common">Ang item na ito ay may karaniwang pangalan at maaaring kabilang sa mga app na naka-install pa na hindi alam ng SD Maid.</string>
+    <string name="corpsefinder_corpse_hint_common">Ang item na ito ay may karaniwang pangalan at maaaring kabilang sa mga app na naka-install pa na hindi alam ng Tidy.</string>
     <string name="corpsefinder_risk_keeper_chip">Kanais-nais</string>
     <string name="corpsefinder_risk_common_chip">Pangkaraniwan</string>
     <string name="corpsefinder_markers_dialog_title">Tungkol sa mga marker na ito</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Karaniwang natitira. Karaniwang ligtas na alisin — ang mga file na ito ay mula sa mga app na hindi na naka-install.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">Ang CorpseFinder ay nakakahanap ng data na natitira mula sa mga app na na-uninstall mo na. Hindi na ito pag-aari ng anumang naka-install, kaya ang pagtanggal nito ay nagbibigay-daan sa espasyo. Karamihan nito ay ligtas na tanggalin, pero tingnan ang marker kung hindi ka sigurado.</string>
-    <string name="tour_corpsefinder_row_body">Bawat item ay natitirang data at ang app na nagmula dito. Ang marker ay nagpapakita kung gaano kumpiyansa ang SD Maid na ligtas itong alisin — i-tap ang ⓘ sa itaas upang alaman ang kahulugan ng mga marker.</string>
+    <string name="tour_corpsefinder_row_body">Bawat item ay natitirang data at ang app na nagmula dito. Ang marker ay nagpapakita kung gaano kumpiyansa ang Tidy na ligtas itong alisin — i-tap ang ⓘ sa itaas upang alaman ang kahulugan ng mga marker.</string>
 </resources>

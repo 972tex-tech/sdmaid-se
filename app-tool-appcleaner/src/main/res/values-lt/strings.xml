@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimalus amžius</string>
     <string name="appcleaner_include_minimumage_summary">Praleisti failus, kurie jaunesni nei minimalus amžius.</string>
     <string name="appcleaner_automation_romtype_detection_label">Operacinės sistemos aptikimas</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Automatizavimas, pagrįstas prieinamumu, gali nepavykti, jei SD Maid netinkamai aptiks jūsų OS. Naudokite šį nustatymą, kad perrašytumėte aptiktą OS.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Automatizavimas, pagrįstas prieinamumu, gali nepavykti, jei Tidy netinkamai aptiks jūsų OS. Naudokite šį nustatymą, kad perrašytumėte aptiktą OS.</string>
     <string name="appcleaner_filter_codecache_label">Kodo talpykla</string>
     <string name="appcleaner_filter_codecache_summary">JVM kodo talpykla. Baito kodo blokai, sukompiliuoti į gimtąjį kodą.</string>
     <string name="appcleaner_filter_advertisement_label">Reklamos duomenys</string>
@@ -97,7 +97,7 @@
     <string name="appcleaner_exclusion_limited_title">Atmesta programa</string>
     <string name="appcleaner_exclusion_limited_body">Šią programą išskyrėte iš AppCleaner. Valant visų programų talpyklas vienu metu naudojamas visos sistemos talpyklos apkarpymas per ADB prieigą, kuris negali praleisti atskirų programų, todėl šios programos talpyklos duomenys išvalomi kartu su visais kitais. Tai paveikia tik čia rodomus talpyklos duomenis, viskas, ką dengia išskyrimas, lieka paslėpta ir neliesta.</string>
     <string name="appcleaner_automation_unavailable_title">Prieinamumo paslauga nepasiekiama</string>
-    <string name="appcleaner_automation_unavailable_body">Šių talpyklų valymui reikalinga SD Maid prieinamumo paslauga, tačiau ji nebuvo prieinama.</string>
+    <string name="appcleaner_automation_unavailable_body">Šių talpyklų valymui reikalinga Tidy prieinamumo paslauga, tačiau ji nebuvo prieinama.</string>
     <string name="appcleaner_delete_confirmation_message_x">Ištrinti nereikalingus failus %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Ištrinti nereikalingus failus iš %d pasirinktos programos?</item>
@@ -111,7 +111,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Sistema išjungė mygtuką „Išvalyti talpyklą“ šiai programai. Pašalinkite ją iš sąrašo, kad paspartintumėte talpyklos valymą.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Sistemos programa netinkamai sukonfigūruota</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS saugos programai (com.miui.securitycenter) trūksta leidimo Naudojimo statistika (GET_USAGE_STATS). Dėl to neveikia funkcijos kaip „Išvalyti duomenis“ programos informacijoje ir talpyklos valymas per prieinamumo paslaugą. Suteikite leidimą, kad atkūrustumėte visas funkcijas.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Tai taip pat gali nutikti, jei sistemos programa „System UI“ neseniai buvo priverstinai sustabdyta, pvz., naudojant programų valymo įrankį. Tokiu atveju „Android“ blokuoja automatinius SD Maid mygtukų paspaudimus, kol iš naujo nepaleidi įrenginio.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Tai taip pat gali nutikti, jei sistemos programa „System UI“ neseniai buvo priverstinai sustabdyta, pvz., naudojant programų valymo įrankį. Tokiu atveju „Android“ blokuoja automatinius Tidy mygtukų paspaudimus, kol iš naujo nepaleidi įrenginio.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Priverstinai sustabdyti prieš valant</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Priverstinai sustabdykite programas prieš valydami jų talpyklą. Tai gali padėti išvalyti kai kurių programų talpyklas, tačiau gali sukelti programų sutrikimų ir reikalautį rankinio paleidimo iš naujo.</string>
     <string name="appcleaner_progress_force_stopping">Priverstinai sustabdomos programos…</string>

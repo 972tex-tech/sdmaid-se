@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Umur minimal</string>
     <string name="appcleaner_include_minimumage_summary">Lewati berkas yang lebih baru dari umur minimum.</string>
     <string name="appcleaner_automation_romtype_detection_label">Deteksi sistem operasi</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Automasi berbasis aksesibilitas dapat gagal jika SD Maid tidak mendeteksi OS Anda dengan benar. Gunakan pengaturan ini untuk mengganti OS yang sudah terdeteksi.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Automasi berbasis aksesibilitas dapat gagal jika Tidy tidak mendeteksi OS Anda dengan benar. Gunakan pengaturan ini untuk mengganti OS yang sudah terdeteksi.</string>
     <string name="appcleaner_filter_codecache_label">Cache code</string>
     <string name="appcleaner_filter_codecache_summary">Cache kode JVM. Blok dari bytecode yang dikompilasi menjadi kode asli.</string>
     <string name="appcleaner_filter_advertisement_label">Data iklan</string>
@@ -82,7 +82,7 @@
     <string name="appcleaner_exclusion_limited_title">Aplikasi yang dikecualikan</string>
     <string name="appcleaner_exclusion_limited_body">Anda mengecualikan aplikasi ini dari AppCleaner. Menghapus cache untuk semua aplikasi sekaligus menggunakan pembersihan cache sistem luas yang tersedia melalui akses ADB, yang tidak dapat mengecualikan aplikasi individual, jadi data cache aplikasi ini dihapus beserta semua aplikasi lain. Hanya data cache yang ditampilkan di sini yang terpengaruh, semua aspek lain dari pengecualian tetap tersembunyi dan tidak tersentuh.</string>
     <string name="appcleaner_automation_unavailable_title">Layanan aksesibilitas tidak tersedia</string>
-    <string name="appcleaner_automation_unavailable_body">Menghapus cache ini memerlukan layanan aksesibilitas SD Maid, tetapi layanan tersebut tidak tersedia.</string>
+    <string name="appcleaner_automation_unavailable_body">Menghapus cache ini memerlukan layanan aksesibilitas Tidy, tetapi layanan tersebut tidak tersedia.</string>
     <string name="appcleaner_delete_confirmation_message_x">Hapus file tidak penting di %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="other">Hapus file tidak penting untuk %d aplikasi yang terpilih?</item>
@@ -93,7 +93,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Sistem telah menonaktifkan tombol \"Hapus cache\" untuk aplikasi ini. Kecualikan untuk mempercepat penghapusan cache.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Aplikasi sistem salah dikonfigurasi</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Aplikasi Keamanan HyperOS (com.miui.securitycenter) kehilangan izin Statistik Penggunaan (GET_USAGE_STATS). Ini merusak fitur seperti \"Hapus Data\" di detail aplikasi dan penghapusan cache melalui aksesibilitas. Berikan izin untuk memulihkan fungsionalitas penuh.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Ini juga bisa terjadi jika aplikasi sistem \"System UI\" baru saja dihentikan paksa, misalnya oleh alat pembersih aplikasi. Android kemudian memblokir penekanan tombol otomatis SD Maid hingga kamu memulai ulang perangkat.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Ini juga bisa terjadi jika aplikasi sistem \"System UI\" baru saja dihentikan paksa, misalnya oleh alat pembersih aplikasi. Android kemudian memblokir penekanan tombol otomatis Tidy hingga kamu memulai ulang perangkat.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Paksa berhenti sebelum membersihkan</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Paksa berhenti aplikasi sebelum membersihkan cache-nya. Ini dapat membantu membersihkan cache beberapa aplikasi, tetapi dapat menyebabkan aplikasi bermasalah dan memerlukan mulai ulang secara manual.</string>
     <string name="appcleaner_progress_force_stopping">Memaksa berhenti aplikasi…</string>

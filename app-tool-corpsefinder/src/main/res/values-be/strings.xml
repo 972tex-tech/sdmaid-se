@@ -61,12 +61,12 @@
     <string name="corpsefinder_owners_label">Уладальнікі</string>
     <string name="corpsefinder_owner_unknown">Невядомы ўладальнік</string>
     <string name="corpsefinder_corpse_hint_keeper">Гэты элемент можа змяшчаць даныя, якія вы захочаце захаваць, нягледзячы на ​​​​выдаленне яго ўладальніка, напрыклад, фатаграфіі або рэзервовыя копіі.</string>
-    <string name="corpsefinder_corpse_hint_common">Гэты элемент мае вельмі распаўсюджаную назву і можа належаць усталяваным праграмам, пра якія SD Maid не ведае.</string>
+    <string name="corpsefinder_corpse_hint_common">Гэты элемент мае вельмі распаўсюджаную назву і можа належаць усталяваным праграмам, пра якія Tidy не ведае.</string>
     <string name="corpsefinder_risk_keeper_chip">Пажадана</string>
     <string name="corpsefinder_risk_common_chip">Звычайны</string>
     <string name="corpsefinder_markers_dialog_title">Аб гэтых маркерах</string>
     <string name="corpsefinder_markers_dialog_normal_label">Без маркера</string>
     <string name="corpsefinder_markers_dialog_normal_description">Стандартны рэшткавы файл. Выдаленне звычайна адбываецца бяспечна — гэтыя файлы належаць праграмам, якія ўжо не ўсталяваныя.</string>
     <string name="tour_corpsefinder_intro_body">CorpseFinder знаходзіць даныя, пакінутыя праграмамі, якія вы ўжо выдалілі. Яны больш не належаць ніводнай усталяванай праграме, таму іх выдаленне вызваляе месца. Большасць з іх бяспечна выдаліць, але праверце маркер, калі не ўпэўнены.</string>
-    <string name="tour_corpsefinder_row_body">Кожны элемент — гэта рэшткавыя даныя і праграма, з якой яны паходзяць. Маркер паказвае, наколькі SD Maid упэўнена, што іх бяспечна выдаліць — націсніце ⓘ уверсе, каб даведацца, што азначаюць маркеры.</string>
+    <string name="tour_corpsefinder_row_body">Кожны элемент — гэта рэшткавыя даныя і праграма, з якой яны паходзяць. Маркер паказвае, наколькі Tidy упэўнена, што іх бяспечна выдаліць — націсніце ⓘ уверсе, каб даведацца, што азначаюць маркеры.</string>
 </resources>

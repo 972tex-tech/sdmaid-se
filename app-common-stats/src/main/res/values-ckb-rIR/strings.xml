@@ -5,8 +5,8 @@
         <item quantity="other">%s ئازادکراوە.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s مادە پرۆسەسکراوە لەو کاتەی SD Maid بانی کردیت بۆ ئامێرەکەت.</item>
-        <item quantity="other">%s مادە پرۆسەسکراوە لەو کاتەی SD Maid بانی کردیت بۆ ئامێرەکەت.</item>
+        <item quantity="one">%s مادە پرۆسەسکراوە لەو کاتەی Tidy بانی کردیت بۆ ئامێرەکەت.</item>
+        <item quantity="other">%s مادە پرۆسەسکراوە لەو کاتەی Tidy بانی کردیت بۆ ئامێرەکەت.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">بۆ %d ڕۆژە میوانیت.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">بەشیکیی کەمتری</string>
     <string name="stats_report_status_partial_failure">شکست</string>
-    <string name="stats_settings_desc">ئامارەکان، ڕاپۆرتەکان و پاراستنی داتای SD Maid ڕێکبخە.</string>
+    <string name="stats_settings_desc">ئامارەکان، ڕاپۆرتەکان و پاراستنی داتای Tidy ڕێکبخە.</string>
     <string name="stats_settings_retention_category">پاراستن</string>
     <string name="stats_settings_retention_reports_label">ڕۆکاری «ڕۆکاری»</string>
-    <string name="stats_settings_retention_reports_desc">ژمارەی ڕۆژەی بەشیو سیلەدانیی SD Maid کەوت بێتبێتهێنرەوە.</string>
+    <string name="stats_settings_retention_reports_desc">ژمارەی ڕۆژەی بەشیو سیلەدانیی Tidy کەوت بێتبێتهێنرەوە.</string>
     <string name="stats_settings_retention_paths_label">زانیاری وردی ڕێگا</string>
-    <string name="stats_settings_retention_paths_desc">ژمارەی ڕۆژەکان بۆ پاراستنی وردەکاری دەربارەی ڕێگاکانی کاریگەری SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">ژمارەی ڕۆژەکان بۆ پاراستنی وردەکاری دەربارەی ڕێگاکانی کاریگەری Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">مێژووی بیرگە</string>
     <string name="stats_settings_retention_snapshots_desc">ژمارەی ڕۆژەکان بۆ هێشتنەوەی وێنەکانی بەکارهێنانی بیرگە بۆ نەخشەی ڕەوتی بیرگە. وێنە کۆنەکان دەسڕدرێنەوە.</string>
     <string name="stats_settings_reset_all_label">هەموی رێکخستنەوە</string>

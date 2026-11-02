@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Atura l\'aplicació. Evita que s\'iniciï fins que l\'obriu o es reiniciï el dispositiu.</string>
     <string name="appcontrol_app_uninstall_description">Desinstal·la aquesta aplicació del dispositiu.</string>
     <string name="appcontrol_app_exclude_add_title">Exclusió d\'aplicacions</string>
-    <string name="appcontrol_app_exclude_add_description">Exclou aquesta aplicació d\'altres operacions a l\'SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Exclou aquesta aplicació d\'altres operacions a l\'Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Edita l\'exclusió</string>
     <string name="appcontrol_app_exclude_edit_description">Actualment aquesta aplicació està exclosa d\'una o més eines.</string>
     <string name="appcontrol_tag_user">Usuari</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">S\'està exportant %s</string>
     <string name="appcontrol_share_list_action">Comparteix la llista</string>
     <string name="appcontrol_share_list_title">Les meves aplicacions</string>
-    <string name="appcontrol_share_list_footer">Compartit a través de l\'SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Compartit a través de l\'Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Força l\'aturada d\'aplicacions</string>
     <string name="appcontrol_force_stop_action">Força l\'aturada</string>
     <string name="appcontrol_force_stop_confirm_title">Confirmeu l\'aturada forçada</string>

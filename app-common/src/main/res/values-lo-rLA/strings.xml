@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">ໃຫ້ບໍລິການທ່ານ.</string>
     <string name="slogan_message_1">ສະອາດ ແລະ ເປັນລະບຽບ.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">ກຳລັງໂຫຼດ</string>
     <string name="general_progress_loading_app_data">ກຳລັງໂຫຼດຂໍ້ມູນແອັບ</string>
     <string name="general_progress_loading_data_areas">ກຳລັງໂຫຼດພື້ນທີ່ຂໍ້ມູນ</string>
-    <string name="general_data_areas_unavailable_message">ບໍ່ສາມາດໂຫຼດພື້ນທີ່ຂໍ້ມູນໄດ້, ສະຖານທີ່ເກັບຂໍ້ມູນທີ່ SD Maid ສາມາດໃຊ້ໄດ້</string>
+    <string name="general_data_areas_unavailable_message">ບໍ່ສາມາດໂຫຼດພື້ນທີ່ຂໍ້ມູນໄດ້, ສະຖານທີ່ເກັບຂໍ້ມູນທີ່ Tidy ສາມາດໃຊ້ໄດ້</string>
     <string name="general_progress_loading_egg_0">ຍັງໄວກວ່າ iPhone</string>
     <string name="general_progress_loading_egg_1">ກຳລັງດາວໂຫຼດ RAM ເພີ່ມ</string>
     <string name="general_progress_loading_egg_2">ໄວໆນີ້™</string>
@@ -170,7 +170,7 @@
     <string name="general_error_ipc_deadobject_title">ການເຊື່ອມຕໍ່ບໍລິການສູນເສຍ</string>
     <string name="general_error_ipc_deadobject_description">ການເຊື່ອມຕໍ່ກັບບໍລິການທີ່ສຳຄັນ (ເຊັ່ນ Magisk, Porter, Shizuku ຫຼືບໍລິການລະບົບອື່ນໆ) ໄດ້ສູນເສຍໄປໂດຍບໍ່ຄາດຄິດ. ກະລຸນາເປີດເບື້ອງລະບົບຂອງທ່ານໃຫມ່. ຖ້າບັນຫາຍັງຄົງເກີດຂຶ້ນ ກະລຸນາກວດສອບອັບເດດ ຫຼືຕິດຕໍ່ຂ້ອຍເພື່ອຂ້ອຍສາມາດແກ້ໄຂໄດ້</string>
     <string name="general_error_upgrade_required_title">ຕ້ອງການອັບເກຣດ</string>
-    <string name="general_error_upgrade_required_description">ລັກສະນະນີ້ຕ້ອງການອັບເກຣດ. ກະລຸນາອັບເກຣດ SD Maid SE ເພື່ອໃຊ້ມັນ.</string>
+    <string name="general_error_upgrade_required_description">ລັກສະນະນີ້ຕ້ອງການອັບເກຣດ. ກະລຸນາອັບເກຣດ Tidy ເພື່ອໃຊ້ມັນ.</string>
     <string name="general_user_label_owner">ເຈົ້າຂອງ</string>
     <string name="general_user_label_system">ລະບົບ</string>
     <string name="setup_title">ຕິດຕັ້ງ</string>
@@ -197,18 +197,18 @@
     <string name="appcontrol_systemsettings_open_title">ສະແດງການຕັ້ງຄ່າ</string>
     <string name="ui_theme_color_sunset_label">ຕາເວນ</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">ລັກສະນະນີ້ຕ້ອງການສິດເຂົ້າເຖິງ root, ແຕ່ SD Maid ບໍ່ສາມາດໄດ້ຮັບມັນໃນອຸປະກອນນີ້.</string>
+    <string name="access_blocked_root_unavailable">ລັກສະນະນີ້ຕ້ອງການສິດເຂົ້າເຖິງ root, ແຕ່ Tidy ບໍ່ສາມາດໄດ້ຮັບມັນໃນອຸປະກອນນີ້.</string>
     <string name="access_blocked_root_declined">ລັກສະນະນີ້ຕ້ອງການສິດເຂົ້າເຖິງ root. ທ່ານສາມາດເປີດໃຊ້ໃຫ້ໂດຍຜ່ານໜ້າຈໍການຕັ້ງຄ່າ.</string>
     <string name="access_blocked_root_or_shizuku">ຄຸນສົມບັດນີ້ຕ້ອງການເຂົ້າເຖິງລາກ ຫຼື ADB ເຊິ່ງບໍ່ມີໃນອຸປະກອນນີ້</string>
     <string name="backup_restore_error_invalid_title">ໄຟລ໌ສຳຫລອງບໍ່ຖືກຕ້ອງ</string>
-    <string name="backup_restore_error_invalid_body">ໄຟລ໌ນີ້ບໍ່ແມ່ນສຳຫລອງ SD Maid ທີ່ຖືກຕ້ອງ ຫຼື ເສື່ອມ.</string>
-    <string name="backup_restore_error_version_body">ສະຫລັບນີ້ໄດ້ຖືກສ້າງຂື້ນໂດຍສະບັບ SD Maid ທີ່ໃໝ່ກວ່າ. ກະລຸນາອັບເດັດແອັບພລິເຄຊັນແລະລອງໃໝ່.</string>
+    <string name="backup_restore_error_invalid_body">ໄຟລ໌ນີ້ບໍ່ແມ່ນສຳຫລອງ Tidy ທີ່ຖືກຕ້ອງ ຫຼື ເສື່ອມ.</string>
+    <string name="backup_restore_error_version_body">ສະຫລັບນີ້ໄດ້ຖືກສ້າງຂື້ນໂດຍສະບັບ Tidy ທີ່ໃໝ່ກວ່າ. ກະລຸນາອັບເດັດແອັບພລິເຄຊັນແລະລອງໃໝ່.</string>
     <string name="backup_restore_error_restore_failed_title">ການກູ້ຄືນລົ້ມເຫລວ</string>
     <string name="backup_restore_error_restore_failed_body">ບາງສ່ວນເຫຼົ່ານີ້ບໍ່ສາມາດກູ້ຄືນໄດ້: %1$s. ການຕັ້ງຄ່າກ່ອນໜ້າຂອງທ່ານໄດ້ຖືກບັນທຶກໄວ້ແລະສາມາດນໍາມາໄດ້.</string>
     <string name="backup_restore_error_safety_title">ຍັງບໍ່ໄດ້ເລີ່ມກູ້ຄືນ</string>
-    <string name="backup_restore_error_safety_body">SD Maid ບໍ່ສາມາດບັນທຶກຮູບພາບສະໝັດປະຕິລັກษ໌ຄວາມປອດໄພຂອງການຕັ້ງຄ່າປະຈຸບັນຂອງທ່ານ, ດັ່ງນັ້ນບໍ່ມີບັນຫາໃດໆຖືກປ່ຽນແປງ.</string>
+    <string name="backup_restore_error_safety_body">Tidy ບໍ່ສາມາດບັນທຶກຮູບພາບສະໝັດປະຕິລັກษ໌ຄວາມປອດໄພຂອງການຕັ້ງຄ່າປະຈຸບັນຂອງທ່ານ, ດັ່ງນັ້ນບໍ່ມີບັນຫາໃດໆຖືກປ່ຽນແປງ.</string>
     <string name="backup_restore_error_busy_title">ກະລຸນາລໍ່ຖ້າ</string>
     <string name="backup_restore_error_busy_body">ວຽກທີ່ສະອາດສະຟອກ ຫຼືການດໍາເນີນການສະຫລັບອື່ນກໍາລັງດໍາເນີນຢູ່. ລອງອີກຄັ້ງເມື່ອມັນສົມບູນແລ້ວ.</string>
     <string name="backup_restore_error_schema_title">ສະຫລັບທີ່ບໍ່ສອດຄ່ອງກັນ</string>
-    <string name="backup_restore_error_schema_body">ຮູບແບບຖານຂໍ້ມູນສະຫລັບບໍ່ກົງກັບສະບັບ SD Maid ນີ້. ຂໍ້ມູນປະຫວັດສາມາດກູ້ຄືນໄດ້ພຽງແຕ່ລະຫວ່າງສະບັບແອັບທີ່ຄືກັນເທົ່ານັ້ນ.</string>
+    <string name="backup_restore_error_schema_body">ຮູບແບບຖານຂໍ້ມູນສະຫລັບບໍ່ກົງກັບສະບັບ Tidy ນີ້. ຂໍ້ມູນປະຫວັດສາມາດກູ້ຄືນໄດ້ພຽງແຕ່ລະຫວ່າງສະບັບແອັບທີ່ຄືກັນເທົ່ານັ້ນ.</string>
 </resources>

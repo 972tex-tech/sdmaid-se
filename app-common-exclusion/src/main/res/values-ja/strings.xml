@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">除外管理</string>
     <string name="exclusion_manager_desc">ファイルとアプリの除外を管理します。</string>
-    <string name="exclusion_explanation_body1">SD Maidのツールから保護するか、無関係なアイテムをスキップして操作を高速化するために、ファイルとアプリを除外します。</string>
+    <string name="exclusion_explanation_body1">Tidyのツールから保護するか、無関係なアイテムをスキップして操作を高速化するために、ファイルとアプリを除外します。</string>
     <string name="exclusion_add_new_hint">まだ除外がありません。+ボタンを使用して作成するか、任意のツールの結果からアイテムを除外してください。</string>
     <string name="exclusion_create_action">除外を作成</string>
     <string name="exclusion_edit_action">除外を編集</string>
@@ -15,7 +15,7 @@
     <string name="exclusion_option_allow_partial">部分一致を許可</string>
     <string name="exclusion_option_ignore_casing">大文字小文字を無視</string>
     <string name="exclusion_editor_affected_tools_label">影響を受けるツール</string>
-    <string name="exclusion_editor_path_explanation">パス除外はSD Maid が一致するパスをさらに処理することを防ぎます。これはファイル、フォルダ、サブフォルダに適用されます。</string>
+    <string name="exclusion_editor_path_explanation">パス除外はTidy が一致するパスをさらに処理することを防ぎます。これはファイル、フォルダ、サブフォルダに適用されます。</string>
     <string name="exclusion_editor_pkg_explanation">アプリを除外すると、SDメイドは一致するパッケージを処理できなくなります。</string>
     <string name="exclusion_editor_segment_explanation">セグメントベースの除外はパス除外に似ていますが、部分一致を許可します。例: \"DCIM/Camera\" は \"/sdcard/DCIM/Camera/photo.png\" を除外します。</string>
     <string name="exclusion_editor_remove_confirmation_message">この除外を削除しますか？</string>

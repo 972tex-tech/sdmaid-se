@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Gelditu aplikazioa. Eragotzi bere burua abiarazten ireki edo gailua berrabiarazi arte.</string>
     <string name="appcontrol_app_uninstall_description">Desinstalatu aplikazio hau zure gailutik.</string>
     <string name="appcontrol_app_exclude_add_title">Baztertu aplikazioa</string>
-    <string name="appcontrol_app_exclude_add_description">Baztertu aplikazio hau SD Maid-eko beste eragiketatik.</string>
+    <string name="appcontrol_app_exclude_add_description">Baztertu aplikazio hau Tidy-eko beste eragiketatik.</string>
     <string name="appcontrol_app_exclude_edit_title">Editatu salbuespena</string>
     <string name="appcontrol_app_exclude_edit_description">Aplikazio hau une honetan tresna bat edo gehiagotatik baztertuta dago.</string>
     <string name="appcontrol_tag_user">Erabiltzailea</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s esportatzen</string>
     <string name="appcontrol_share_list_action">Partekatu zerrenda</string>
     <string name="appcontrol_share_list_title">Nire aplikazioak</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE bidez partekatuta</string>
+    <string name="appcontrol_share_list_footer">Tidy bidez partekatuta</string>
     <string name="appcontrol_force_stop_selection_action">Behartuta gelditu aplikazioak</string>
     <string name="appcontrol_force_stop_action">Behartuta gelditu</string>
     <string name="appcontrol_force_stop_confirm_title">Baieztatu behartuta geldiaraztea</string>

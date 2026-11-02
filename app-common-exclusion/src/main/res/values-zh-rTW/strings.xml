@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">排除管理員</string>
     <string name="exclusion_manager_desc">管理檔案和應用程式排除。</string>
-    <string name="exclusion_explanation_body1">排除檔案和應用程式以保護它們免受 SD Maid 的工具影響，或跳過不相關的項目並加快操作速度。</string>
+    <string name="exclusion_explanation_body1">排除檔案和應用程式以保護它們免受 Tidy 的工具影響，或跳過不相關的項目並加快操作速度。</string>
     <string name="exclusion_add_new_hint">暫無排除項目。使用 + 按鈕建立排除項目，或從任何工具的結果中排除項目。</string>
     <string name="exclusion_create_action">建立排除</string>
     <string name="exclusion_edit_action">編輯排除</string>
@@ -15,7 +15,7 @@
     <string name="exclusion_option_allow_partial">允許部分相符</string>
     <string name="exclusion_option_ignore_casing">忽略大小寫</string>
     <string name="exclusion_editor_affected_tools_label">受影響的工具</string>
-    <string name="exclusion_editor_path_explanation">路徑排除可以防止 SD Maid 進一步處理任何符合的路徑。這適用於檔案、資料夾及子資料夾。</string>
+    <string name="exclusion_editor_path_explanation">路徑排除可以防止 Tidy 進一步處理任何符合的路徑。這適用於檔案、資料夾及子資料夾。</string>
     <string name="exclusion_editor_pkg_explanation">應用程式排除可以防止 SD 女僕進一步處理任何相符的套件。</string>
     <string name="exclusion_editor_segment_explanation">基於區段的排除類似於路徑排除，但允許部分相符，例如：「DCIM/Camera」排除「/sdcard/DCIM/Camera/photo.png」。</string>
     <string name="exclusion_editor_remove_confirmation_message">移除這個排除？</string>

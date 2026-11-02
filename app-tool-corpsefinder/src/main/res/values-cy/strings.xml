@@ -35,7 +35,7 @@
     <string name="corpsefinder_owners_label">Perchnogion</string>
     <string name="corpsefinder_owner_unknown">Perchennog anhysbys</string>
     <string name="corpsefinder_corpse_hint_keeper">Gallai\'r eitem hon gynnwys data rydych am ei gadw er bod ei berchennog wedi\'i ddadosod, e.e. lluniau neu gopïau wrth gefn.</string>
-    <string name="corpsefinder_corpse_hint_common">Mae gan yr eitem hon enw cyffredin iawn a gallai berthyn i apiau sydd dal wedi\'u gosod nad yw SD Maid yn eu hadnabod.</string>
+    <string name="corpsefinder_corpse_hint_common">Mae gan yr eitem hon enw cyffredin iawn a gallai berthyn i apiau sydd dal wedi\'u gosod nad yw Tidy yn eu hadnabod.</string>
     <plurals name="corpsefinder_watcher_notification_scan_result">
         <item quantity="zero">%1$d gweddillion wedi\'u darganfod ar ôl dadosod %2$s.</item>
         <item quantity="one">%1$d gweddillion wedi\'i ddarganfod ar ôl dadosod %2$s.</item>

@@ -19,7 +19,6 @@ import eu.darken.sdmse.main.ui.areas.DataAreasScreenHost
 import eu.darken.sdmse.main.ui.backup.BackupRestoreScreenHost
 import eu.darken.sdmse.main.ui.onboarding.privacy.OnboardingPrivacyScreenHost
 import eu.darken.sdmse.main.ui.onboarding.setup.OnboardingSetupScreenHost
-import eu.darken.sdmse.main.ui.onboarding.versus.VersusSetupScreenHost
 import eu.darken.sdmse.main.ui.onboarding.welcome.OnboardingWelcomeScreenHost
 import eu.darken.sdmse.main.ui.settings.SettingsScreenHost
 import eu.darken.sdmse.main.ui.settings.acks.AcknowledgementsScreenHost
@@ -38,7 +37,6 @@ class AppNavigation @Inject constructor() : NavigationEntry {
         entry<DashboardRoute> { DashboardScreenHost() }
 
         entry<OnboardingWelcomeRoute> { OnboardingWelcomeScreenHost() }
-        entry<VersusSetupRoute> { VersusSetupScreenHost() }
         entry<OnboardingPrivacyRoute> { OnboardingPrivacyScreenHost() }
         entry<OnboardingSetupRoute> { OnboardingSetupScreenHost() }
 

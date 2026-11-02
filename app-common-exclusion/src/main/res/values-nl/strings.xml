@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Uitsluitingsbeheerder</string>
     <string name="exclusion_manager_desc">Bestands- en app-uitsluitingen beheren.</string>
-    <string name="exclusion_explanation_body1">Sluit bestanden en apps uit om ze te beschermen tegen de hulpmiddelen van SD Maid, of om irrelevante items over te slaan en bewerkingen sneller te maken.</string>
+    <string name="exclusion_explanation_body1">Sluit bestanden en apps uit om ze te beschermen tegen de hulpmiddelen van Tidy, of om irrelevante items over te slaan en bewerkingen sneller te maken.</string>
     <string name="exclusion_add_new_hint">Nog geen uitsluitingen. Gebruik de +-knop om er een aan te maken, of sluit items uit de resultaten van elk gereedschap uit.</string>
     <string name="exclusion_create_action">Uitsluiting creëren</string>
     <string name="exclusion_edit_action">Uitsluiting bewerken</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Gedeeltelijke overeenkomsten toestaan</string>
     <string name="exclusion_option_ignore_casing">Hoofd-/kleine letters negeren</string>
     <string name="exclusion_editor_affected_tools_label">Betrokken gereedschap</string>
-    <string name="exclusion_editor_path_explanation">Een paduitsluiting verhindert dat SD Maid eventuele overeenkomende paden verder verwerkt. Dit geldt voor bestanden, map en submappen.</string>
-    <string name="exclusion_editor_pkg_explanation">Door een app-uitsluiting kan SD Maid geen overeenkomende pakketten verwerken.</string>
+    <string name="exclusion_editor_path_explanation">Een paduitsluiting verhindert dat Tidy eventuele overeenkomende paden verder verwerkt. Dit geldt voor bestanden, map en submappen.</string>
+    <string name="exclusion_editor_pkg_explanation">Door een app-uitsluiting kan Tidy geen overeenkomende pakketten verwerken.</string>
     <string name="exclusion_editor_segment_explanation">Een segmentgebaseerde uitsluiting is vergelijkbaar met een paduitsluiting, maar staat gedeeltelijke overeenkomsten toe. Bijv.: \"DCIM/Camera\" sluit \"/sdcard/DCIM/Camera/photo.png\" uit.</string>
     <string name="exclusion_editor_remove_confirmation_message">Deze uitsluiting verwijderen?</string>
     <string name="exclusion_reset_default_exclusions">Standaarduitsluitingen herstellen</string>

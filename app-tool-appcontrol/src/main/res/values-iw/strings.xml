@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">עצור את האפליקציה. מנע ממנה להפעיל את עצמה עד שתפתח אותה או שהמכשיר יאותחל.</string>
     <string name="appcontrol_app_uninstall_description">הסר התקנת אפליקציה זו.</string>
     <string name="appcontrol_app_exclude_add_title">החרג יישום</string>
-    <string name="appcontrol_app_exclude_add_description">החרג את האפליקציה הזו מפעולות אחרות ב-SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">החרג את האפליקציה הזו מפעולות אחרות ב-Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">ערוך החרגות</string>
     <string name="appcontrol_app_exclude_edit_description">אפליקציה זו מוחרגת כעת בכלי אחד או יותר.</string>
     <string name="appcontrol_tag_user">משתמש</string>
@@ -110,7 +110,7 @@
     <string name="appcontrol_progress_exporting_x">מייצא %s</string>
     <string name="appcontrol_share_list_action">שתף רשימה</string>
     <string name="appcontrol_share_list_title">האפליקציות שלי</string>
-    <string name="appcontrol_share_list_footer">שותף דרך SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">שותף דרך Tidy</string>
     <string name="appcontrol_force_stop_selection_action">כפה עצירת אפליקציות</string>
     <string name="appcontrol_force_stop_action">כפה עצירה</string>
     <string name="appcontrol_force_stop_confirm_title">אמת אילוץ עצירה</string>

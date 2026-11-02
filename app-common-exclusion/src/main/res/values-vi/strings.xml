@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Quản lý loại trừ</string>
     <string name="exclusion_manager_desc">Quản lý loại trừ tệp và ứng dụng.</string>
-    <string name="exclusion_explanation_body1">Loại trừ các tệp và ứng dụng để bảo vệ chúng khỏi các công cụ của SD Maid, hoặc để bỏ qua các mục không liên quan và tăng tốc độ hoạt động.</string>
+    <string name="exclusion_explanation_body1">Loại trừ các tệp và ứng dụng để bảo vệ chúng khỏi các công cụ của Tidy, hoặc để bỏ qua các mục không liên quan và tăng tốc độ hoạt động.</string>
     <string name="exclusion_add_new_hint">Chưa có loại trừ nào. Sử dụng nút + để tạo một loại trừ, hoặc loại trừ các mục từ kết quả của bất kỳ công cụ nào.</string>
     <string name="exclusion_create_action">Tạo loại trừ</string>
     <string name="exclusion_edit_action">Chỉnh sửa loại trừ</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Cho phép khớp một phần</string>
     <string name="exclusion_option_ignore_casing">Trường hợp bỏ qua</string>
     <string name="exclusion_editor_affected_tools_label">Công cụ bị ảnh hưởng</string>
-    <string name="exclusion_editor_path_explanation">Loại trừ đường dẫn ngăn SD Maid xử lý thêm bất kỳ đường dẫn phù hợp nào. Điều này áp dụng cho các tệp, thư mục và thư mục con.</string>
-    <string name="exclusion_editor_pkg_explanation">Loại trừ ứng dụng ngăn SD Maid xử lý bất kỳ gói phù hợp nào.</string>
+    <string name="exclusion_editor_path_explanation">Loại trừ đường dẫn ngăn Tidy xử lý thêm bất kỳ đường dẫn phù hợp nào. Điều này áp dụng cho các tệp, thư mục và thư mục con.</string>
+    <string name="exclusion_editor_pkg_explanation">Loại trừ ứng dụng ngăn Tidy xử lý bất kỳ gói phù hợp nào.</string>
     <string name="exclusion_editor_segment_explanation">Loại trừ dựa trên phân đoạn tương tự như loại trừ đường dẫn nhưng cho phép đối sánh một phần. Ví dụ: \"DCIM/Máy ảnh\" không bao gồm \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Xóa loại trừ này?</string>
     <string name="exclusion_reset_default_exclusions">Khôi phục các loại trừ mặc định</string>

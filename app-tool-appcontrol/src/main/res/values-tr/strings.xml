@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Uygulamayı durdurun. Siz açana kadar veya cihaz yeniden başlatılana kadar kendi kendine başlamasını engelleyin.</string>
     <string name="appcontrol_app_uninstall_description">Bu uygulamayı cihazınızdan kaldırın.</string>
     <string name="appcontrol_app_exclude_add_title">Uygulamayı hariç tut</string>
-    <string name="appcontrol_app_exclude_add_description">Bu uygulamayı SD Maid\'deki diğer işlemlerden hariç tutun.</string>
+    <string name="appcontrol_app_exclude_add_description">Bu uygulamayı Tidy\'deki diğer işlemlerden hariç tutun.</string>
     <string name="appcontrol_app_exclude_edit_title">Hariç tutmayı düzenle</string>
     <string name="appcontrol_app_exclude_edit_description">Bu uygulama şu anda bir veya daha fazla araçtan hariç tutulmaktadır.</string>
     <string name="appcontrol_tag_user">Kullanıcı</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Dışa aktarılıyor %s</string>
     <string name="appcontrol_share_list_action">Listeyi paylaş</string>
     <string name="appcontrol_share_list_title">Uygulamalarım</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE ile paylaşıldı</string>
+    <string name="appcontrol_share_list_footer">Tidy ile paylaşıldı</string>
     <string name="appcontrol_force_stop_selection_action">Uygulamaları durdurmaya zorla</string>
     <string name="appcontrol_force_stop_action">Durdurmaya zorla</string>
     <string name="appcontrol_force_stop_confirm_title">Zorla durdurmayı onaylayın</string>

@@ -6,9 +6,9 @@
         <item quantity="other">%s je oslobođeno.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s stavka obrađena otkako ste pozvali SD Maid na svoj uređaj.</item>
-        <item quantity="few">%s stavke obrađene otkako ste pozvali SD Maid na svoj uređaj.</item>
-        <item quantity="other">%s stavki obrađeno otkako ste pozvali SD Maid na svoj uređaj.</item>
+        <item quantity="one">%s stavka obrađena otkako ste pozvali Tidy na svoj uređaj.</item>
+        <item quantity="few">%s stavke obrađene otkako ste pozvali Tidy na svoj uređaj.</item>
+        <item quantity="other">%s stavki obrađeno otkako ste pozvali Tidy na svoj uređaj.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Tvoj gost %d dan.</item>
@@ -32,12 +32,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Djelomični uspjeh</string>
     <string name="stats_report_status_partial_failure">Neuspjeh</string>
-    <string name="stats_settings_desc">Konfigurirajte SD Maidove statistike, izvještaje i zadržavanje podataka.</string>
+    <string name="stats_settings_desc">Konfigurirajte Tidyove statistike, izvještaje i zadržavanje podataka.</string>
     <string name="stats_settings_retention_category">Zadržavanje</string>
     <string name="stats_settings_retention_reports_label">Opći izvještaji</string>
-    <string name="stats_settings_retention_reports_desc">Broj dana prije brisanja osnovnih izvještaja o radu SD Maida.</string>
+    <string name="stats_settings_retention_reports_desc">Broj dana prije brisanja osnovnih izvještaja o radu Tidya.</string>
     <string name="stats_settings_retention_paths_label">Detaljne informacije o putanjama</string>
-    <string name="stats_settings_retention_paths_desc">Broj dana za zadržavanje detalja o putanjama na koje je utjecao SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Broj dana za zadržavanje detalja o putanjama na koje je utjecao Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Povijest pohrane</string>
     <string name="stats_settings_retention_snapshots_desc">Broj dana čuvanja snimaka potrošnje pohrane za grafikon Trend pohrane. Stariji snimci se brišu.</string>
     <string name="stats_settings_reset_all_label">Ponovno postavi sve</string>

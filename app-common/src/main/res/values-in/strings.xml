@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Siap melayani anda.</string>
     <string name="slogan_message_1">Bersih dan rapi.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Memuat</string>
     <string name="general_progress_loading_app_data">Memuat data aplikasi</string>
     <string name="general_progress_loading_data_areas">Memuat area data</string>
-    <string name="general_data_areas_unavailable_message">Tidak dapat memuat area data, lokasi penyimpanan tempat SD Maid dapat bekerja.</string>
+    <string name="general_data_areas_unavailable_message">Tidak dapat memuat area data, lokasi penyimpanan tempat Tidy dapat bekerja.</string>
     <string name="general_progress_loading_egg_0">Masih lebih cepat dari iPhone</string>
     <string name="general_progress_loading_egg_1">Mengunduh RAM tambahan</string>
     <string name="general_progress_loading_egg_2">Segera™</string>
@@ -170,7 +170,7 @@
     <string name="general_error_ipc_deadobject_title">Koneksi Layanan Terputus</string>
     <string name="general_error_ipc_deadobject_description">Koneksi ke layanan penting (misalnya Magisk, Porter, Shizuku, atau layanan tingkat sistem lainnya) tiba-tiba terputus. Silakan nyalakan ulang perangkat Anda. Jika masalah terus berlanjut, periksa pembaruan atau hubungi saya agar saya dapat memperbaikinya.</string>
     <string name="general_error_upgrade_required_title">Peningkatan diperlukan</string>
-    <string name="general_error_upgrade_required_description">Fitur ini memerlukan peningkatan. Silakan tingkatkan SD Maid SE untuk menggunakannya.</string>
+    <string name="general_error_upgrade_required_description">Fitur ini memerlukan peningkatan. Silakan tingkatkan Tidy untuk menggunakannya.</string>
     <string name="general_user_label_owner">Pemilik</string>
     <string name="general_user_label_system">Sistem</string>
     <string name="setup_title">Pengaturan</string>
@@ -197,18 +197,18 @@
     <string name="appcontrol_systemsettings_open_title">Tampilkan pengaturan</string>
     <string name="ui_theme_color_sunset_label">Matahari Terbenam</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Fitur ini memerlukan akses root, tetapi SD Maid tidak dapat memperolehnya di perangkat ini.</string>
+    <string name="access_blocked_root_unavailable">Fitur ini memerlukan akses root, tetapi Tidy tidak dapat memperolehnya di perangkat ini.</string>
     <string name="access_blocked_root_declined">Fitur ini memerlukan akses root. Anda dapat mengaktifkannya melalui layar pengaturan.</string>
     <string name="access_blocked_root_or_shizuku">Fitur ini memerlukan akses root atau ADB, yang tidak tersedia di perangkat ini.</string>
     <string name="backup_restore_error_invalid_title">File cadangan tidak valid</string>
-    <string name="backup_restore_error_invalid_body">File ini bukan cadangan SD Maid yang valid atau rusak.</string>
-    <string name="backup_restore_error_version_body">Cadangan ini dibuat dengan versi SD Maid yang lebih baru. Silakan perbarui aplikasi dan coba lagi.</string>
+    <string name="backup_restore_error_invalid_body">File ini bukan cadangan Tidy yang valid atau rusak.</string>
+    <string name="backup_restore_error_version_body">Cadangan ini dibuat dengan versi Tidy yang lebih baru. Silakan perbarui aplikasi dan coba lagi.</string>
     <string name="backup_restore_error_restore_failed_title">Pemulihan gagal</string>
     <string name="backup_restore_error_restore_failed_body">Bagian-bagian ini tidak dapat dipulihkan: %1$s. Konfigurasi sebelumnya Anda telah disimpan dan dapat dikembalikan.</string>
     <string name="backup_restore_error_safety_title">Pemulihan tidak dimulai</string>
-    <string name="backup_restore_error_safety_body">SD Maid tidak dapat menyimpan snapshot keamanan dari konfigurasi Anda saat ini, jadi tidak ada yang diubah.</string>
+    <string name="backup_restore_error_safety_body">Tidy tidak dapat menyimpan snapshot keamanan dari konfigurasi Anda saat ini, jadi tidak ada yang diubah.</string>
     <string name="backup_restore_error_busy_title">Silakan tunggu</string>
     <string name="backup_restore_error_busy_body">Tugas pembersihan atau operasi cadangan lainnya sedang berjalan. Coba lagi ketika selesai.</string>
     <string name="backup_restore_error_schema_title">Cadangan tidak kompatibel</string>
-    <string name="backup_restore_error_schema_body">Format database cadangan tidak sesuai dengan versi SD Maid ini. Pemulihan data riwayat hanya didukung antar versi aplikasi yang identik.</string>
+    <string name="backup_restore_error_schema_body">Format database cadangan tidak sesuai dengan versi Tidy ini. Pemulihan data riwayat hanya didukung antar versi aplikasi yang identik.</string>
 </resources>

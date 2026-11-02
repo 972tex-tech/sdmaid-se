@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">ඔබගේ සේවයේ.</string>
     <string name="slogan_message_1">පිරිසිදු සහ තබා.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">පූරණය කරමින්</string>
     <string name="general_progress_loading_app_data">යෙදුම් දත්ත පූරණය කරමින්</string>
     <string name="general_progress_loading_data_areas">දත්ත ප්‍රදේශ පූරණය කරමින්</string>
-    <string name="general_data_areas_unavailable_message">දත්ත ප්‍රදේශ, එනම් SD Maid හට වැඩ කළ හැකි ගබඩා ස්ථාන, පූරණය කළ නොහැකි විය.</string>
+    <string name="general_data_areas_unavailable_message">දත්ත ප්‍රදේශ, එනම් Tidy හට වැඩ කළ හැකි ගබඩා ස්ථාන, පූරණය කළ නොහැකි විය.</string>
     <string name="general_progress_loading_egg_0">iPhone එකකට වඩා වේගවත්</string>
     <string name="general_progress_loading_egg_1">අමතර RAM බාගැනීම</string>
     <string name="general_progress_loading_egg_2">ඉක්මනින්™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">සේවා සම්බන්ධතාවය නැති විය</string>
     <string name="general_error_ipc_deadobject_description">වැදගත් සේවාවකට (උදා. Magisk, Porter, Shizuku, හෝ වෙනත් පද්ධති මට්ටමේ සේවා) සම්බන්ධතාවය අනපේක්ෂිත ලෙස බිඳ වැටුණි. කරුණාකර ඔබේ උපාංගය නැවත ආරම්භ කරන්න. ගැටලුව පවතී නම්, යාවත්කාලීන සඳහා පරීක්ෂා කරන්න, නැතහොත් මට එය නිවැරදි කළ හැකි වන පරිදි මා අමතන්න.</string>
     <string name="general_error_upgrade_required_title">යාවත්කරණ අවශ්‍ය</string>
-    <string name="general_error_upgrade_required_description">මෙම විශේෂතාවය යාවත්කරණ අවශ්‍ය. එය භාවිතා කිරීමට කරුණාකර SD Maid SE යාවත්කරණය කරන්න.</string>
+    <string name="general_error_upgrade_required_description">මෙම විශේෂතාවය යාවත්කරණ අවශ්‍ය. එය භාවිතා කිරීමට කරුණාකර Tidy යාවත්කරණය කරන්න.</string>
     <string name="general_user_label_owner">හිමිකරු</string>
     <string name="general_user_label_system">පද්ධතිය</string>
     <string name="setup_title">පිහිටුවීම</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">සැකසීම් පෙනන්න</string>
     <string name="ui_theme_color_sunset_label">සූර්යාස්තමනය</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">මෙම විශේෂතාවට Root ප්‍රවේශය අවශ්‍යයි, නමුත් SD Maid හට එය මෙම උපාංගයේ ලබා ගත නොහැකි විය.</string>
+    <string name="access_blocked_root_unavailable">මෙම විශේෂතාවට Root ප්‍රවේශය අවශ්‍යයි, නමුත් Tidy හට එය මෙම උපාංගයේ ලබා ගත නොහැකි විය.</string>
     <string name="access_blocked_root_declined">මෙම විශේෂතාවට Root ප්‍රවේශ අවශ්‍ය වේ. ඔබට සැකසුම් තිරය හරහා එය සක්‍රීය කළ හැක.</string>
     <string name="access_blocked_root_or_shizuku">මෙම විශේෂාංගයට රූට් හෝ ADB ප්‍රවේශය අවශ්‍ය වන අතර, එය මෙම උපාංගයේ නොමැත.</string>
     <string name="backup_restore_error_invalid_title">අවලංගු උපස්ථ ගොනුව</string>
-    <string name="backup_restore_error_invalid_body">මෙම ගොනුව වලංගු SD Maid උපස්ථයක් නොවේ, නැතහොත් විනාශ වී ඇත.</string>
-    <string name="backup_restore_error_version_body">මෙම උපස්ථය SD Maid හි නවතර අනුවාදයක් සමඟ නිර්මාණය කරන ලදී. කරුණාකර යෙදුම යාවත්කාලීන කර නැවත උත්සාහ කරන්න.</string>
+    <string name="backup_restore_error_invalid_body">මෙම ගොනුව වලංගු Tidy උපස්ථයක් නොවේ, නැතහොත් විනාශ වී ඇත.</string>
+    <string name="backup_restore_error_version_body">මෙම උපස්ථය Tidy හි නවතර අනුවාදයක් සමඟ නිර්මාණය කරන ලදී. කරුණාකර යෙදුම යාවත්කාලීන කර නැවත උත්සාහ කරන්න.</string>
     <string name="backup_restore_error_restore_failed_title">නැවත ස්ථාපනය අසාර්ථක විය</string>
     <string name="backup_restore_error_restore_failed_body">මෙම කොටස් නැවත ස්ථාපනය කළ නොහැක: %1$s. ඔබේ පෙර වින්‍යාසය සුරකින ලද අතර නැවත ගෙන ඒමට හැකිය.</string>
     <string name="backup_restore_error_safety_title">නැවත ස්ථාපනය ආරම්භ කළේ නැත</string>
-    <string name="backup_restore_error_safety_body">SD Maid ඔබේ වර්තමාන වින්‍යාසයේ ආරක්ෂිත සුරුක්කුවක් සංරක්ෂණය කිරීමට හැකි වූයේ නැත, එබැවින් කිසිවක් වෙනස් කෙරුණු නැත.</string>
+    <string name="backup_restore_error_safety_body">Tidy ඔබේ වර්තමාන වින්‍යාසයේ ආරක්ෂිත සුරුක්කුවක් සංරක්ෂණය කිරීමට හැකි වූයේ නැත, එබැවින් කිසිවක් වෙනස් කෙරුණු නැත.</string>
     <string name="backup_restore_error_busy_title">කරුණාකර රැඳී සිටින්න</string>
     <string name="backup_restore_error_busy_body">පිරිසිදු කිරීමේ කාර්යක්‍රමයක් හෝ වෙනත් උපස්ථ ක්‍රියාවලිය දැනට ක්‍රියාත්මක වෙමින් පවතී. එය අවසන් වූ පසු නැවත උත්සාහ කරන්න.</string>
     <string name="backup_restore_error_schema_title">නොගැළපෙන උපස්ථ</string>
-    <string name="backup_restore_error_schema_body">උපස්ථයේ දත්ත සමුදාය ස්වරූපය SD Maid හි මෙම අනුවාදයට ගැළපෙන්නේ නැත. ඉතිහාස දත්ත ප්‍රතිස්ථාපනය කිරීම එකම යෙදුම් අනුවාද අතර පමණක් සහාය කරනු ලැබේ.</string>
+    <string name="backup_restore_error_schema_body">උපස්ථයේ දත්ත සමුදාය ස්වරූපය Tidy හි මෙම අනුවාදයට ගැළපෙන්නේ නැත. ඉතිහාස දත්ත ප්‍රතිස්ථාපනය කිරීම එකම යෙදුම් අනුවාද අතර පමණක් සහාය කරනු ලැබේ.</string>
 </resources>

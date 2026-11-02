@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Sahipler</string>
     <string name="corpsefinder_owner_unknown">Bilinmeyen sahip</string>
     <string name="corpsefinder_corpse_hint_keeper">Bu öge sahibi kaldırılmış olsa da, silmek istemeyebileceğin veriler içeriyor olabilir; fotoğraflar ya da yedekler gibi.</string>
-    <string name="corpsefinder_corpse_hint_common">Bu öge çok yaygın bir isme sahip, bu yüzden SD Maid\'in haberinin olmadığı, hâlâ yüklü bir uygulamaya ait olabilir.</string>
+    <string name="corpsefinder_corpse_hint_common">Bu öge çok yaygın bir isme sahip, bu yüzden Tidy\'in haberinin olmadığı, hâlâ yüklü bir uygulamaya ait olabilir.</string>
     <string name="corpsefinder_risk_keeper_chip">İstenebilir</string>
     <string name="corpsefinder_risk_common_chip">Yaygın</string>
     <string name="corpsefinder_markers_dialog_title">Bu işaretler hakkında</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Standart kalıntı. Kaldırılması genellikle güvenlidir — bu dosyalar artık kurulu olmayan uygulamalara aittir.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder, zaten kaldırdığınız uygulamalar tarafından kalan verileri bulur. Artık yüklü hiçbir uygulamaya ait değildir, bu nedenle kaldırılması depolama alanı boşaltır. Çoğunun kaldırılması güvenlidir, ancak emin olmadığınızda işareti kontrol edin.</string>
-    <string name="tour_corpsefinder_row_body">Her öğe, kalan veri ve onun kaynağı olan uygulamadır. İşaretçi, SD Maid\'in bunu kaldırmanın ne kadar güvenli olduğuna dair güvenini gösterir — işaretlerin ne anlama geldiğini öğrenmek için üstteki ⓘ işaretine dokunun.</string>
+    <string name="tour_corpsefinder_row_body">Her öğe, kalan veri ve onun kaynağı olan uygulamadır. İşaretçi, Tidy\'in bunu kaldırmanın ne kadar güvenli olduğuna dair güvenini gösterir — işaretlerin ne anlama geldiğini öğrenmek için üstteki ⓘ işaretine dokunun.</string>
 </resources>

@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Stopper appen. Forhindrer den i at starte af sig selv, indtil du åbner den eller enheden genstartes.</string>
     <string name="appcontrol_app_uninstall_description">Afinstaller denne app fra din enhed.</string>
     <string name="appcontrol_app_exclude_add_title">Ekskluder app</string>
-    <string name="appcontrol_app_exclude_add_description">Ekskluder denne app fra andre operationer i SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Ekskluder denne app fra andre operationer i Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Rediger eksklusion</string>
     <string name="appcontrol_app_exclude_edit_description">Denne app er i øjeblikket ekskluderet fra ét eller flere værktøjer.</string>
     <string name="appcontrol_tag_user">Bruger</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Eksporterer %s</string>
     <string name="appcontrol_share_list_action">Del liste</string>
     <string name="appcontrol_share_list_title">Mine apps</string>
-    <string name="appcontrol_share_list_footer">Delt via SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Delt via Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Tving apps til at stoppe</string>
     <string name="appcontrol_force_stop_action">Gennemtving stop</string>
     <string name="appcontrol_force_stop_confirm_title">Bekræft gennemtving stop</string>

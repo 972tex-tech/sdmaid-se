@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Omanikud</string>
     <string name="corpsefinder_owner_unknown">Teadmata omanik</string>
     <string name="corpsefinder_corpse_hint_keeper">See võib sisaldada hoiustamist väärt andmeid, olgugi et selle omanik eemaldatakse, nt pilte või varundusi.</string>
-    <string name="corpsefinder_corpse_hint_common">Sellel on levinud nimi ja see võib kuuluda praegu paigaldatud rakendustele, mida SD Maid ei tea.</string>
+    <string name="corpsefinder_corpse_hint_common">Sellel on levinud nimi ja see võib kuuluda praegu paigaldatud rakendustele, mida Tidy ei tea.</string>
     <string name="corpsefinder_risk_keeper_chip">Soovituslik</string>
     <string name="corpsefinder_risk_common_chip">Tavaline</string>
     <string name="corpsefinder_markers_dialog_title">Markerite kohta</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Tavaline jääk. Tavaliselt ohutu eemaldada – need failid kuuluvad rakendustele, mida pole enam paigaldatud.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">Jäägileidja avastab eemaldatud rakenduste andmed. Need ei kuulu enam ühelegi paigaldatud rakendusele, seega nende eemaldamine vabastab ruumi. Enamik neist on ohutu eemaldada, kuid kui te pole kindel, kontrollige markerit.</string>
-    <string name="tour_corpsefinder_row_body">Iga kirje esindab jääkandmeid ja rakendust, millest need pärinevad. Marker näitab, kui kindel SD Maid on, et seda on ohutu eemaldada — puudutage ⓘ ülaosas, et saada teada, mida markerid tähendavad.</string>
+    <string name="tour_corpsefinder_row_body">Iga kirje esindab jääkandmeid ja rakendust, millest need pärinevad. Marker näitab, kui kindel Tidy on, et seda on ohutu eemaldada — puudutage ⓘ ülaosas, et saada teada, mida markerid tähendavad.</string>
 </resources>

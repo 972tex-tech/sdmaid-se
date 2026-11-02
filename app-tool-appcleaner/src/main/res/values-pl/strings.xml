@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimalny wiek</string>
     <string name="appcleaner_include_minimumage_summary">Pomiń pliki, które są młodsze niż minimalny wiek.</string>
     <string name="appcleaner_automation_romtype_detection_label">Wykrywanie systemu operacyjnego</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Automatyzacja oparta na usłudze ułatwień dostępu może się nie powieść, jeśli SD Maid nie wykryje poprawnie systemu operacyjnego. Użyj tego ustawienia, aby zastąpić wykryty system operacyjny.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Automatyzacja oparta na usłudze ułatwień dostępu może się nie powieść, jeśli Tidy nie wykryje poprawnie systemu operacyjnego. Użyj tego ustawienia, aby zastąpić wykryty system operacyjny.</string>
     <string name="appcleaner_filter_codecache_label">Pamięć podręczna kodu</string>
     <string name="appcleaner_filter_codecache_summary">Pamięć podręczna kodu JVM. Bloki kodu bajtowego kompilowane w kod natywny.</string>
     <string name="appcleaner_filter_advertisement_label">Dane reklam</string>
@@ -97,7 +97,7 @@
     <string name="appcleaner_exclusion_limited_title">Wykluczona aplikacja</string>
     <string name="appcleaner_exclusion_limited_body">Wykluczono tę aplikację z czyszczenia aplikacji. Jednoczesne czyszczenie pamięci podręcznej wszystkich aplikacji korzysta z ogólno systemowego czyszczenia dostępnego przez dostęp za pomocą ADB, które nie pozwala pominąć pojedynczych aplikacji, więc dane w pamięci podręcznej tej aplikacji zostaną wyczyszczone razem z resztą. Dotyczy to tylko widocznych tu danych z pamięci podręcznej, wszystko inne objęte wykluczeniem pozostaje ukryte i nietknięte.</string>
     <string name="appcleaner_automation_unavailable_title">Usługa ułatwień dostępu niedostępna</string>
-    <string name="appcleaner_automation_unavailable_body">Wyczyszczenie tych pamięci podręcznych wymaga usługi ułatwień dostępu SD Maid, ale nie była ona dostępna.</string>
+    <string name="appcleaner_automation_unavailable_body">Wyczyszczenie tych pamięci podręcznych wymaga usługi ułatwień dostępu Tidy, ale nie była ona dostępna.</string>
     <string name="appcleaner_delete_confirmation_message_x">Usunąć zbędne pliki dla %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Usunąć zbędne pliki dla %d wybranej aplikacji?</item>
@@ -111,7 +111,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">System wyłączył przycisk \"Wyczyść pamięć podręczną\" dla tej aplikacji. Wyklucz ją, aby przyspieszyć czyszczenie pamięci podręcznej.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Aplikacja systemowa nieprawidłowo skonfigurowana</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Panel sterowania systemu HyperOS (com.miui.securitycenter) nie posiada uprawnień do statystyki użytkowania (GET_USAGE_STATS). Funkcja \"Wyczyść dane\" w szczegółach aplikacji oraz czyszczenie pamięci podręcznej za pomocą usługi ułatwień dostępu jest niedostępna Udziel uprawnień do przywrócenia pełnej funkcjonalności.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Może się to również zdarzyć, jeśli aplikacja systemowa System UI została niedawno wymuszona, np. przez narzędzie do czyszczenia aplikacji. Android blokuje wówczas automatyczne naciśnięcia przycisków przez SD Maid do czasu restartu urządzenia.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Może się to również zdarzyć, jeśli aplikacja systemowa System UI została niedawno wymuszona, np. przez narzędzie do czyszczenia aplikacji. Android blokuje wówczas automatyczne naciśnięcia przycisków przez Tidy do czasu restartu urządzenia.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Wymuś zatrzymanie przed wyczyszczeniem</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Wymuś zatrzymanie aplikacji przed wyczyszczeniem ich pamięci podręcznej. Może to pomóc w wyczyszczeniu pamięci podręcznej niektórych aplikacji, ale może powodować błędne zachowanie aplikacji i wymagać ręcznego restartu.</string>
     <string name="appcleaner_progress_force_stopping">Wymuszanie zatrzymania…</string>

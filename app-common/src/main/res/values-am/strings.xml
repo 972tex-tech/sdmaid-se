@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">ለአገልግሎትዎ ዝግጁ።</string>
     <string name="slogan_message_1">ንፁህ እና ተደራጅቶ።</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">መጫን</string>
     <string name="general_progress_loading_app_data">የመተግበሪያ ውሂብ መጫን</string>
     <string name="general_progress_loading_data_areas">የውሂብ አካባቢዎች መጫን</string>
-    <string name="general_data_areas_unavailable_message">ገብታ ቦታዎችን (SD Maid ሊሰራ ሚችሉ ማከማቻ ዓይነቶች) ሊጫኑ አልቻሉም።</string>
+    <string name="general_data_areas_unavailable_message">ገብታ ቦታዎችን (Tidy ሊሰራ ሚችሉ ማከማቻ ዓይነቶች) ሊጫኑ አልቻሉም።</string>
     <string name="general_progress_loading_egg_0">ከ iPhone አሁንም ፈጣን</string>
     <string name="general_progress_loading_egg_1">ተጨማሪ RAM እያወረደ</string>
     <string name="general_progress_loading_egg_2">በቅርቡ™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">የአገልግሎት ግንኙነት ጠፋ</string>
     <string name="general_error_ipc_deadobject_description">ወደ አስፈላጊ ሙያ (ለምሳሌ Magisk, Porter, Shizuku, ወይም ሌሎች ስርዓት-ደረጃ ሙያዎች) ያለ ተስፋ ተጠንቅቋል። እባክዎ መሳሪያዎን ዳግም ያስጀምሩ። ችግሩ ከቀጠለ፣ ለዝመቶች ይፈትሹ ወይም ሊያስተካክልበት ለእኔ ይገናኙ።</string>
     <string name="general_error_upgrade_required_title">ማሻሻል ያስፈልጋል</string>
-    <string name="general_error_upgrade_required_description">ይህ ባህሪ ማሻሻል ያስፈልጋል። ይህን ለመጠቀም SD Maid SE ን እባክዎ ያሻሽሉ።</string>
+    <string name="general_error_upgrade_required_description">ይህ ባህሪ ማሻሻል ያስፈልጋል። ይህን ለመጠቀም Tidy ን እባክዎ ያሻሽሉ።</string>
     <string name="general_user_label_owner">ባለቤት</string>
     <string name="general_user_label_system">ስርዓት</string>
     <string name="setup_title">ማዋቀሪያ</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">ቅንብሮችን አሳይ</string>
     <string name="ui_theme_color_sunset_label">ምሽት</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">ይህ ባህሪይ ሩት መዳረሻ ይጠይቅካል፣ ግን SD Maid ከዚህ መሳሪያ ላይ ማግኛት አልቻሉም።</string>
+    <string name="access_blocked_root_unavailable">ይህ ባህሪይ ሩት መዳረሻ ይጠይቅካል፣ ግን Tidy ከዚህ መሳሪያ ላይ ማግኛት አልቻሉም።</string>
     <string name="access_blocked_root_declined">ይህ ተግባር root ዳቅሊ ይፈልጋል። የሴቲንግ ማያ በኩል ማበጅ ይችላሉ።</string>
     <string name="access_blocked_root_or_shizuku">ይህ ባህሪ root ወይም ADB መዳረሻ ያስፈልጋል፣ ይህም በዚህ ስልክ ላይ የለም።</string>
     <string name="backup_restore_error_invalid_title">ልክ ያልሆነ ምትክ ፋይል</string>
-    <string name="backup_restore_error_invalid_body">ይህ ፋይል ልክ ያለ SD Maid ምትክ አይደለም ወይም ተበላሸ ነው።</string>
-    <string name="backup_restore_error_version_body">ይህ ምትክ ከአዲስ SD Maid ስሪት ጋር ተሰራ ነበር። እባክህ መተግበሪያውን ያሳናሩ እና እንደገና ሞክር።</string>
+    <string name="backup_restore_error_invalid_body">ይህ ፋይል ልክ ያለ Tidy ምትክ አይደለም ወይም ተበላሸ ነው።</string>
+    <string name="backup_restore_error_version_body">ይህ ምትክ ከአዲስ Tidy ስሪት ጋር ተሰራ ነበር። እባክህ መተግበሪያውን ያሳናሩ እና እንደገና ሞክር።</string>
     <string name="backup_restore_error_restore_failed_title">ወደ ነበረበት ዝውውር አልተሳካም</string>
     <string name="backup_restore_error_restore_failed_body">እነዚህ ክፍሎች ወደ ነበረበት ዝውውር አልቻሉም: %1$s። የእርስዎ ቀድሞ ቅንብብ ተቀምጦ ወደ ነበረበት ሊገባ ይችላል።</string>
     <string name="backup_restore_error_safety_title">ወደ ነበረበት ዝውውር አልጀመረም</string>
-    <string name="backup_restore_error_safety_body">SD Maid የእርስዎ የአሁን ቅንብብ ደህንነታዊ ቅጅ ሊያቆይ አልቻለም፣ ስለዚህ ምንም ነገር አልተቀየረም።</string>
+    <string name="backup_restore_error_safety_body">Tidy የእርስዎ የአሁን ቅንብብ ደህንነታዊ ቅጅ ሊያቆይ አልቻለም፣ ስለዚህ ምንም ነገር አልተቀየረም።</string>
     <string name="backup_restore_error_busy_title">እባክህ ጠብቅ</string>
     <string name="backup_restore_error_busy_body">የ cleanup ተግባር ወይም ሌላ መጠባበቂያ ክወና በአሁኑ ወቅት እየሰራ ነው። ሲጠናቀቅ እንደገና ይሞክሩ።</string>
     <string name="backup_restore_error_schema_title">ተስማሚ ያልሆነ መጠባበቂያ</string>
-    <string name="backup_restore_error_schema_body">የመጠባበቂያው ዳታቤዝ ቅርጸት ከዚህ SD Maid ስሪት ጋር አይዛመድም። ታሪክ መረጃ ወደ ነበበው ለመመለስ በተመሳሳይ የመተግበሪያ ስሪቶች መካከል ብቻ ይደገፋል።</string>
+    <string name="backup_restore_error_schema_body">የመጠባበቂያው ዳታቤዝ ቅርጸት ከዚህ Tidy ስሪት ጋር አይዛመድም። ታሪክ መረጃ ወደ ነበበው ለመመለስ በተመሳሳይ የመተግበሪያ ስሪቶች መካከል ብቻ ይደገፋል።</string>
 </resources>

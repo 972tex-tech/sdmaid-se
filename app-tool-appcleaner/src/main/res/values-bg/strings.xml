@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Минимална възраст</string>
     <string name="appcleaner_include_minimumage_summary">Пропускане на файлове, които са по-нови от минималната възраст.</string>
     <string name="appcleaner_automation_romtype_detection_label">Откриване на операционна система</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Автоматизацията, базирана на достъпност, може да се провали, ако SD Maid не открие правилно вашата ОС. Използвайте тази настройка за заменяне на откритата ОС.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Автоматизацията, базирана на достъпност, може да се провали, ако Tidy не открие правилно вашата ОС. Използвайте тази настройка за заменяне на откритата ОС.</string>
     <string name="appcleaner_filter_codecache_label">Кеш на код</string>
     <string name="appcleaner_filter_codecache_summary">JVM кеш на код. Блокове от байт код, компилирани в нативен код.</string>
     <string name="appcleaner_filter_advertisement_label">Рекламни данни</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Изключено приложение</string>
     <string name="appcleaner_exclusion_limited_body">Изключил си това приложение от AppCleaner. Изчистването на кеша на всички приложения наведнъж използва системното изчистване на кеша, достъпно чрез ADB достъп, което не може да пропусне отделни приложения, така че кешираните данни на това приложение се изчистват заедно с всичко останало. Засегнати са само показаните тук кеширани данни, всичко останало, което изключването покрива, остава скрито и недокоснато.</string>
     <string name="appcleaner_automation_unavailable_title">Услугата за достъпност не е налична</string>
-    <string name="appcleaner_automation_unavailable_body">Изчистването на тези кешове изисква услугата за достъпност на SD Maid, но тя не беше налична.</string>
+    <string name="appcleaner_automation_unavailable_body">Изчистването на тези кешове изисква услугата за достъпност на Tidy, но тя не беше налична.</string>
     <string name="appcleaner_delete_confirmation_message_x">Изтриване на разходни файлове за %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Изтриване на разходни файлове за %d избрано приложение?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Системата е деактивирала бутона \"Изчистване на кеш\" за това приложение. Изключете го, за да ускорите изчистването на кеш.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Системното приложение е неправилно конфигурирано</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Приложението Security на HyperOS (com.miui.securitycenter) липсва разрешението за статистики за използване (GET_USAGE_STATS). Това нарушава функции като \"Изчистване на данни\" в подробности за приложения и изчистване на кеш чрез достъпност. Предоставете разрешението за възстановяване на пълната функционалност.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Това може да се случи и ако системното приложение «System UI» е било принудително спряно наскоро, напр. от инструмент за почистване на приложения. Android след това блокира автоматичното натискане на бутони на SD Maid, докато не рестартираш устройството.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Това може да се случи и ако системното приложение «System UI» е било принудително спряно наскоро, напр. от инструмент за почистване на приложения. Android след това блокира автоматичното натискане на бутони на Tidy, докато не рестартираш устройството.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Принудително спиране преди изчистване</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Принудително спиране на приложенията преди изчистване на кеша им. Може да помогне за изчистване на кеша на някои приложения, но може да причини неправилно поведение и да изисква ръчно рестартиране.</string>
     <string name="appcleaner_progress_force_stopping">Принудително спиране на приложения…</string>

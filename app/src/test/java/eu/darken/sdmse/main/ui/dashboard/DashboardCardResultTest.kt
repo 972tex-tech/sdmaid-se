@@ -6,9 +6,6 @@ import eu.darken.sdmse.appcleaner.core.tasks.AppCleanerScanTask
 import eu.darken.sdmse.corpsefinder.core.Corpse
 import eu.darken.sdmse.corpsefinder.core.CorpseFinder
 import eu.darken.sdmse.corpsefinder.core.tasks.CorpseFinderScanTask
-import eu.darken.sdmse.deduplicator.core.Deduplicator
-import eu.darken.sdmse.deduplicator.core.Duplicate
-import eu.darken.sdmse.deduplicator.core.tasks.DeduplicatorScanTask
 import eu.darken.sdmse.main.core.SDMTool
 import eu.darken.sdmse.systemcleaner.core.FilterContent
 import eu.darken.sdmse.systemcleaner.core.SystemCleaner
@@ -59,18 +56,6 @@ class DashboardCardResultTest : BaseTest() {
             ),
         )
         data.toScanSuccess() shouldBe SystemCleanerScanTask.Success(itemCount = 5, recoverableSpace = 500L)
-    }
-
-    @Test
-    fun `deduplicator data maps item count to cluster count not redundant count`() {
-        // Trap guard: itemCount must be the cluster count (2), NOT the summed redundantCount (11).
-        val data = Deduplicator.Data(
-            clusters = setOf(
-                mockk<Duplicate.Cluster> { every { redundantSize } returns 400L; every { redundantCount } returns 7 },
-                mockk<Duplicate.Cluster> { every { redundantSize } returns 100L; every { redundantCount } returns 4 },
-            ),
-        )
-        data.toScanSuccess() shouldBe DeduplicatorScanTask.Success(itemCount = 2, recoverableSpace = 500L)
     }
 
     // --- resolveScanCardResult branches -----------------------------------------------------------

@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Pysäytä sovellus. Estä se käynnistymästä kunnes avaat sen, tai kunnes laitteesi käynnistetään uudelleen.</string>
     <string name="appcontrol_app_uninstall_description">Poista tämän sovelluksen asennus laitteeltasi.</string>
     <string name="appcontrol_app_exclude_add_title">Sulje sovellus pois</string>
-    <string name="appcontrol_app_exclude_add_description">Sulje tämä sovellus pois muista SD Maidin toiminnoista.</string>
+    <string name="appcontrol_app_exclude_add_description">Sulje tämä sovellus pois muista Tidyin toiminnoista.</string>
     <string name="appcontrol_app_exclude_edit_title">Muokkaa poissulkemista</string>
     <string name="appcontrol_app_exclude_edit_description">Tämä sovellus on tällä hetkellä suljettu pois yhdestä tai useammasta työkalusta.</string>
     <string name="appcontrol_tag_user">Käyttäjä</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Viedään %s</string>
     <string name="appcontrol_share_list_action">Jaa lista</string>
     <string name="appcontrol_share_list_title">Sovellukseni</string>
-    <string name="appcontrol_share_list_footer">Jaettu SD Maid SE:n kautta</string>
+    <string name="appcontrol_share_list_footer">Jaettu Tidy:n kautta</string>
     <string name="appcontrol_force_stop_selection_action">Pakota sovellusten pysäytys</string>
     <string name="appcontrol_force_stop_action">Pakota pysäytys</string>
     <string name="appcontrol_force_stop_confirm_title">Vahvista pakko pysäytys</string>

@@ -2,8 +2,6 @@ package eu.darken.sdmse.main.ui.dashboard
 
 import eu.darken.sdmse.appcleaner.core.AppCleaner
 import eu.darken.sdmse.corpsefinder.core.CorpseFinder
-import eu.darken.sdmse.deduplicator.core.Deduplicator
-import eu.darken.sdmse.deduplicator.core.Duplicate
 import eu.darken.sdmse.main.core.SDMTool
 import eu.darken.sdmse.systemcleaner.core.SystemCleaner
 import io.kotest.matchers.collections.shouldBeEmpty
@@ -45,23 +43,14 @@ class DashboardHeroSummaryTest : BaseTest() {
         every { junks } returns setOf(mockk { every { isUnclearable } returns true })
     }
 
-    private fun dedupe(redundant: Long, removableCount: Int) = mockk<Deduplicator.Data> {
-        // Non-empty clusters -> hasData == true; size/count are stubbed directly.
-        every { clusters } returns setOf(mockk<Duplicate.Cluster>())
-        every { redundantSize } returns redundant
-        every { redundantCount } returns removableCount
-    }
-
     private fun oneClick(
         corpse: Boolean = true,
         system: Boolean = true,
         app: Boolean = true,
-        dedupe: Boolean = false,
     ) = OneClickOptionsState(
         corpseFinderEnabled = corpse,
         systemCleanerEnabled = system,
         appCleanerEnabled = app,
-        deduplicatorEnabled = dedupe,
     )
 
     @Test
@@ -70,7 +59,6 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = corpse(100, 3),
             system = system(200, 5),
             app = app(300, 7),
-            dedupe = null,
             oneClick = oneClick(),
             isPro = true,
         )!!
@@ -90,7 +78,6 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = corpse(100, 3),
             system = null,
             app = app(300, 7),
-            dedupe = null,
             oneClick = oneClick(),
             isPro = false,
         )!!
@@ -106,64 +93,10 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = corpse(100, 3),
             system = system(200, 5),
             app = null,
-            dedupe = null,
             oneClick = oneClick(system = false),
             isPro = true,
         )!!
 
-        result.tools.map { it.type } shouldBe listOf(SDMTool.Type.CORPSEFINDER)
-    }
-
-    @Test
-    fun `Deduplicator's removable-file count is included in the item count`() {
-        val result = DashboardMainActionEngine.buildHeroSummary(
-            corpse = corpse(100, 3),
-            system = null,
-            app = null,
-            dedupe = dedupe(redundant = 500, removableCount = 8),
-            oneClick = oneClick(dedupe = true),
-            isPro = true,
-        )!!
-
-        // Size includes dedupe's redundant size; item count sums every tool's removable-file
-        // count: 3 corpses + 8 redundant files.
-        result.totalSize shouldBe 600L
-        result.itemCount shouldBe 11
-        result.tools.single { it.type == SDMTool.Type.DEDUPLICATOR }.count shouldBe 8
-    }
-
-    @Test
-    fun `Deduplicator-only summary reports its removable-file count, not zero`() {
-        // Regression for the reported bug: with the deduplicator the only tool with data, the hero
-        // showed "0 items can be removed" because the dedup count was excluded from itemCount.
-        val result = DashboardMainActionEngine.buildHeroSummary(
-            corpse = null,
-            system = null,
-            app = null,
-            dedupe = dedupe(redundant = 500, removableCount = 8),
-            oneClick = oneClick(dedupe = true),
-            isPro = true,
-        )!!
-
-        result.totalSize shouldBe 500L
-        result.itemCount shouldBe 8
-        result.tools.map { it.type } shouldBe listOf(SDMTool.Type.DEDUPLICATOR)
-    }
-
-    @Test
-    fun `Deduplicator is excluded when not Pro`() {
-        // The DELETE branch of mainAction only deletes dedupe data for Pro users, so a non-Pro
-        // hero must not count it towards "will be freed".
-        val result = DashboardMainActionEngine.buildHeroSummary(
-            corpse = corpse(100, 3),
-            system = null,
-            app = null,
-            dedupe = dedupe(redundant = 500, removableCount = 4),
-            oneClick = oneClick(dedupe = true),
-            isPro = false,
-        )!!
-
-        result.totalSize shouldBe 100L
         result.tools.map { it.type } shouldBe listOf(SDMTool.Type.CORPSEFINDER)
     }
 
@@ -176,7 +109,6 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = null,
             system = null,
             app = unclearableApp(),
-            dedupe = null,
             oneClick = oneClick(),
             isPro = true,
         ).shouldBeNull()
@@ -185,7 +117,6 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = null,
             system = null,
             app = unclearableApp(),
-            dedupe = null,
             oneClick = oneClick(),
             isPro = false,
         ).shouldBeNull()
@@ -197,7 +128,6 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = null,
             system = null,
             app = null,
-            dedupe = null,
             oneClick = oneClick(),
             isPro = false,
         ).shouldBeNull()
@@ -211,7 +141,6 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = null,
             system = null,
             app = app(300, 7),
-            dedupe = null,
             oneClick = oneClick(),
             isPro = false,
         )!!
@@ -227,29 +156,12 @@ class DashboardHeroSummaryTest : BaseTest() {
     }
 
     @Test
-    fun `a locked Deduplicator contributes its redundant size and file count`() {
-        val result = DashboardMainActionEngine.buildHeroSummary(
-            corpse = null,
-            system = null,
-            app = null,
-            dedupe = dedupe(redundant = 500, removableCount = 8),
-            oneClick = oneClick(dedupe = true),
-            isPro = false,
-        )!!
-
-        result.mode shouldBe HeroSummary.Mode.LOCKED_ONLY
-        result.lockedTools.single { it.type == SDMTool.Type.DEDUPLICATOR }.size shouldBe 500L
-        result.lockedTools.single { it.type == SDMTool.Type.DEDUPLICATOR }.count shouldBe 8
-    }
-
-    @Test
     fun `freeable and locked findings coexist in one summary`() {
         val result = DashboardMainActionEngine.buildHeroSummary(
             corpse = corpse(100, 3),
             system = null,
             app = app(300, 7),
-            dedupe = dedupe(redundant = 500, removableCount = 8),
-            oneClick = oneClick(dedupe = true),
+            oneClick = oneClick(),
             isPro = false,
         )!!
 
@@ -258,11 +170,8 @@ class DashboardHeroSummaryTest : BaseTest() {
         result.totalSize shouldBe 100L
         result.itemCount shouldBe 3
         result.tools.map { it.type } shouldBe listOf(SDMTool.Type.CORPSEFINDER)
-        result.lockedTools.map { it.type } shouldBe listOf(
-            SDMTool.Type.APPCLEANER,
-            SDMTool.Type.DEDUPLICATOR,
-        )
-        result.lockedSize shouldBe 800L
+        result.lockedTools.map { it.type } shouldBe listOf(SDMTool.Type.APPCLEANER)
+        result.lockedSize shouldBe 300L
     }
 
     @Test
@@ -271,8 +180,7 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = null,
             system = null,
             app = app(300, 7),
-            dedupe = dedupe(redundant = 500, removableCount = 8),
-            oneClick = oneClick(dedupe = true),
+            oneClick = oneClick(),
             isPro = true,
         )!!
 
@@ -287,8 +195,7 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = null,
             system = null,
             app = app(300, 7),
-            dedupe = dedupe(redundant = 500, removableCount = 8),
-            oneClick = oneClick(app = false, dedupe = false),
+            oneClick = oneClick(app = false),
             isPro = false,
         ).shouldBeNull()
     }
@@ -301,16 +208,16 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = null,
             system = null,
             app = app(300, 7),
-            dedupe = dedupe(redundant = 500, removableCount = 8),
-            oneClick = oneClick(dedupe = true),
+            oneClick = oneClick(),
             isPro = false,
             scanTimes = mapOf(
                 SDMTool.Type.APPCLEANER to older,
-                SDMTool.Type.DEDUPLICATOR to newer,
+                // Not locked, so its scan must not count.
+                SDMTool.Type.CORPSEFINDER to newer,
             ),
         )!!
 
-        result.timestamp shouldBe newer
+        result.timestamp shouldBe older
     }
 
     @Test
@@ -321,7 +228,6 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = corpse(100, 3),
             system = system(200, 5),
             app = null,
-            dedupe = null,
             oneClick = oneClick(),
             isPro = true,
             scanTimes = mapOf(
@@ -342,7 +248,6 @@ class DashboardHeroSummaryTest : BaseTest() {
             system = null,
             // Not Pro: AppCleaner is excluded from the summary despite having data and a newer scan.
             app = app(300, 7),
-            dedupe = null,
             oneClick = oneClick(),
             isPro = false,
             scanTimes = mapOf(
@@ -361,7 +266,6 @@ class DashboardHeroSummaryTest : BaseTest() {
             corpse = corpse(100, 3),
             system = null,
             app = null,
-            dedupe = null,
             oneClick = oneClick(),
             isPro = true,
         )!!

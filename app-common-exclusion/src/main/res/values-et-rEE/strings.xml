@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Erandite haldur</string>
     <string name="exclusion_manager_desc">Failide ja rakenduste erandite haldamine.</string>
-    <string name="exclusion_explanation_body1">Välistage failid ja rakendused, et kaitsta neid SD Maidi vahendite eest, või jätke vahele ebaolulised üksused ja kiirendage tehteid.</string>
+    <string name="exclusion_explanation_body1">Välistage failid ja rakendused, et kaitsta neid Tidyi vahendite eest, või jätke vahele ebaolulised üksused ja kiirendage tehteid.</string>
     <string name="exclusion_add_new_hint">Erandeid pole veel. Kasutage + nuppu ühe loomiseks või välistage üksused mõne tööriista tulemuste hulgast.</string>
     <string name="exclusion_create_action">Loo erand</string>
     <string name="exclusion_edit_action">Muuda erandit</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Kõik osalised leiud</string>
     <string name="exclusion_option_ignore_casing">Eira tähesuurust</string>
     <string name="exclusion_editor_affected_tools_label">Mõjutatud tööriistad</string>
-    <string name="exclusion_editor_path_explanation">Asukoha erand takistab SD Maidil töötlemast mistahes kattuvat asukohta. See hõlmab faile, kaustu ja alamkaustu.</string>
-    <string name="exclusion_editor_pkg_explanation">Rakenduse erand takistab SD Maidil töötlemast mistahes kattuvat paketti.</string>
+    <string name="exclusion_editor_path_explanation">Asukoha erand takistab Tidyil töötlemast mistahes kattuvat asukohta. See hõlmab faile, kaustu ja alamkaustu.</string>
+    <string name="exclusion_editor_pkg_explanation">Rakenduse erand takistab Tidyil töötlemast mistahes kattuvat paketti.</string>
     <string name="exclusion_editor_segment_explanation">Segmendil põhinev erand sarnaneb asukoha erandile, ent erinevus seisneb osalise leiu poolest. Näiteks \"DCIM/Camera\" kataloog eirab \"/sdcard/DCIM/Camera/photo.png\" faili.</string>
     <string name="exclusion_editor_remove_confirmation_message">Eemaldada see erand?</string>
     <string name="exclusion_reset_default_exclusions">Taasta tavaerandid</string>

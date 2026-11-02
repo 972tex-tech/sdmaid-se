@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">तपाईंको सेवामा।</string>
     <string name="slogan_message_1">सफा र व्यवस्थित।</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">लोड गर्दै</string>
     <string name="general_progress_loading_app_data">एप डाटा लोड गर्दै</string>
     <string name="general_progress_loading_data_areas">डाटा क्षेत्रहरू लोड गर्दै</string>
-    <string name="general_data_areas_unavailable_message">डेटा क्षेत्रहरु लोड गर्न सकिएन, भण्डारण स्थानहरु जहाँ SD Maid काम गर्न सक्छ।</string>
+    <string name="general_data_areas_unavailable_message">डेटा क्षेत्रहरु लोड गर्न सकिएन, भण्डारण स्थानहरु जहाँ Tidy काम गर्न सक्छ।</string>
     <string name="general_progress_loading_egg_0">iPhone भन्दा छिटो</string>
     <string name="general_progress_loading_egg_1">थप RAM डाउनलोड गर्दै</string>
     <string name="general_progress_loading_egg_2">चाँडै™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">सेवा जडान हराएको</string>
     <string name="general_error_ipc_deadobject_description">एक महत्त्वपूर्ण सेवासँग जडान (जस्तै Magisk, Porter, Shizuku, वा अन्य प्रणाली-स्तरीय सेवाहरु) अप्रत्याशित रूपमा हराइयो। कृपया तिम्रो यन्त्र पुनः बुट गर्नुहोस्। यदि समस्या बनिरहेको छ, अद्यावधिकहरु को लागि जाँच गर्नुहोस् वा मसँग सम्पर्क गर्नुहोस् ताकि मैले यसलाई ठीक गर्न सकूँ।</string>
     <string name="general_error_upgrade_required_title">अपग्रेड आवश्यक</string>
-    <string name="general_error_upgrade_required_description">यो सुविधाका लागि अपग्रेड आवश्यक छ। यसलाई प्रयोग गर्न कृपया SD Maid SE अपग्रेड गर्नुहोस्।</string>
+    <string name="general_error_upgrade_required_description">यो सुविधाका लागि अपग्रेड आवश्यक छ। यसलाई प्रयोग गर्न कृपया Tidy अपग्रेड गर्नुहोस्।</string>
     <string name="general_user_label_owner">मालिक</string>
     <string name="general_user_label_system">प्रणाली</string>
     <string name="setup_title">सेटअप</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">सेटिङहरू देखाउनुहोस्</string>
     <string name="ui_theme_color_sunset_label">सूर्यास्त</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">यो सुविधालाई root पहुँच चाहिन्छ, तर SD Maid यस उपकरणमा यो प्राप्त गर्न सकेन।</string>
+    <string name="access_blocked_root_unavailable">यो सुविधालाई root पहुँच चाहिन्छ, तर Tidy यस उपकरणमा यो प्राप्त गर्न सकेन।</string>
     <string name="access_blocked_root_declined">यो सुविधालाई root पहुँच चाहिन्छ। तपाईं यसलाई सेटअप स्क्रिनमार्फत सक्षम गर्न सक्नुहुन्छ।</string>
     <string name="access_blocked_root_or_shizuku">यो सुविधालाई root वा ADB पहुँच चाहिन्छ, जो यस यन्त्रमा उपलब्ध छैन।</string>
     <string name="backup_restore_error_invalid_title">अमान्य ब्याकअप फाइल</string>
-    <string name="backup_restore_error_invalid_body">यो फाइल मान्य SD Maid ब्याकअप होइन वा दूषित छ।</string>
-    <string name="backup_restore_error_version_body">यो ब्याकअप SD Maid को नयाँ संस्करणको साथ बनाइएको थियो। कृपया अनुप्रयोग अद्यावधिक गर्नुहोस् र फेरि प्रयास गर्नुहोस्।</string>
+    <string name="backup_restore_error_invalid_body">यो फाइल मान्य Tidy ब्याकअप होइन वा दूषित छ।</string>
+    <string name="backup_restore_error_version_body">यो ब्याकअप Tidy को नयाँ संस्करणको साथ बनाइएको थियो। कृपया अनुप्रयोग अद्यावधिक गर्नुहोस् र फेरि प्रयास गर्नुहोस्।</string>
     <string name="backup_restore_error_restore_failed_title">पुनर्स्थापन विफल भयो</string>
     <string name="backup_restore_error_restore_failed_body">यी भागहरू पुनर्स्थापित गर्न सकिएन: %1$s। तपाईंको अघिल्लो कन्फिगरेसन सुरक्षित गरिएको थियो र यसलाई फिर्ता ल्याउन सकिन्छ।</string>
     <string name="backup_restore_error_safety_title">पुनर्स्थापन शुरु भएन</string>
-    <string name="backup_restore_error_safety_body">SD Maid तपाईंको वर्तमान कन्फिगरेसनको सुरक्षा स्न्यापसट सुरक्षित गर्न सकेन, त्यसैले कुनै पनि परिवर्तन गरिएन।</string>
+    <string name="backup_restore_error_safety_body">Tidy तपाईंको वर्तमान कन्फिगरेसनको सुरक्षा स्न्यापसट सुरक्षित गर्न सकेन, त्यसैले कुनै पनि परिवर्तन गरिएन।</string>
     <string name="backup_restore_error_busy_title">कृपया प्रतीक्षा गर्नुहोस्</string>
     <string name="backup_restore_error_busy_body">एक सफाई कार्य वा अन्य ब्याकअप अपरेशन हाल चलिरहेको छ। यो समाप्त भएपछी पुनः प्रयास गर्नुहोस्।</string>
     <string name="backup_restore_error_schema_title">असामंजस्यपूर्ण ब्याकअप</string>
-    <string name="backup_restore_error_schema_body">ब्याकअपको डेटाबेस ढाँचा SD Maid को यो संस्करणसँग मेल खाइरहेको छैन। इतिहास डेटा पुनर्स्थापन केवल समान अनुप्रयोग संस्करणहरू बीचमा समर्थित छ।</string>
+    <string name="backup_restore_error_schema_body">ब्याकअपको डेटाबेस ढाँचा Tidy को यो संस्करणसँग मेल खाइरहेको छैन। इतिहास डेटा पुनर्स्थापन केवल समान अनुप्रयोग संस्करणहरू बीचमा समर्थित छ।</string>
 </resources>

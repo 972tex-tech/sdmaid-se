@@ -66,17 +66,13 @@ class DashboardCardConfigViewModelTest : BaseTest() {
         )
 
         val vm = buildVM()
+        // The screen only lists the tools this build still has; the trimmed ones are not part of the order.
         vm.applyReorder(
             listOf(
                 DashboardCardType.APPCLEANER,
                 DashboardCardType.CORPSEFINDER,
                 DashboardCardType.SYSTEMCLEANER,
-                DashboardCardType.DEDUPLICATOR,
                 DashboardCardType.APPCONTROL,
-                DashboardCardType.ANALYZER,
-                DashboardCardType.SWIPER,
-                DashboardCardType.SQUEEZER,
-                DashboardCardType.SCHEDULER,
                 DashboardCardType.STATS,
             ),
         )
@@ -85,6 +81,15 @@ class DashboardCardConfigViewModelTest : BaseTest() {
         result.cards.first { it.type == DashboardCardType.APPCLEANER }.isVisible shouldBe false
         result.cards.first { it.type == DashboardCardType.CORPSEFINDER }.isVisible shouldBe true
         result.cards.map { it.type }.first() shouldBe DashboardCardType.APPCLEANER
+        // Entries for trimmed tools stay in the stored config, after the reordered ones.
+        result.cards.size shouldBe 10
+        result.cards.takeLast(5).map { it.type }.toSet() shouldBe setOf(
+            DashboardCardType.DEDUPLICATOR,
+            DashboardCardType.ANALYZER,
+            DashboardCardType.SWIPER,
+            DashboardCardType.SQUEEZER,
+            DashboardCardType.SCHEDULER,
+        )
     }
 
     @Test
@@ -104,7 +109,15 @@ class DashboardCardConfigViewModelTest : BaseTest() {
         backingFlow.value = original
 
         val vm = buildVM()
-        vm.applyReorder(original.cards.map { it.type })
+        vm.applyReorder(
+            listOf(
+                DashboardCardType.CORPSEFINDER,
+                DashboardCardType.SYSTEMCLEANER,
+                DashboardCardType.APPCLEANER,
+                DashboardCardType.APPCONTROL,
+                DashboardCardType.STATS,
+            ),
+        )
 
         backingFlow.first() shouldBe original
     }

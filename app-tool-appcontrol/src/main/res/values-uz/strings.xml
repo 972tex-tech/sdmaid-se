@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Ilovani to\'xtatish. Siz ochguningizcha yoki qurilma qayta ishga tushguncha o\'zini ishga tushirishining oldini olish.</string>
     <string name="appcontrol_app_uninstall_description">Ushbu ilovani qurilmangizdan o\'chirish.</string>
     <string name="appcontrol_app_exclude_add_title">Ilovani chiqarib tashlash</string>
-    <string name="appcontrol_app_exclude_add_description">Ushbu ilovani SD Maid dagi boshqa operatsiyalardan chiqarib tashlash.</string>
+    <string name="appcontrol_app_exclude_add_description">Ushbu ilovani Tidy dagi boshqa operatsiyalardan chiqarib tashlash.</string>
     <string name="appcontrol_app_exclude_edit_title">Chiqarish tahriri</string>
     <string name="appcontrol_app_exclude_edit_description">Ushbu ilova hozirda bir yoki bir nechta vositalardan chiqarib tashlangan.</string>
     <string name="appcontrol_tag_user">Foydalanuvchi</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s eksport qilinmoqda</string>
     <string name="appcontrol_share_list_action">Ro\'yxatni ulashish</string>
     <string name="appcontrol_share_list_title">Mening ilovalarim</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE orqali ulashildi</string>
+    <string name="appcontrol_share_list_footer">Tidy orqali ulashildi</string>
     <string name="appcontrol_force_stop_selection_action">Ilovalarni majburiy to\'xtatish</string>
     <string name="appcontrol_force_stop_action">Majburiy to\'xtatish</string>
     <string name="appcontrol_force_stop_confirm_title">Majburiy to\'xtatishni tasdiqlash</string>

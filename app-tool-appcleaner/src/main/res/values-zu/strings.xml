@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Iminyaka emincane</string>
     <string name="appcleaner_include_minimumage_summary">Yeqa amafayela ancane kunale minyaka emincane.</string>
     <string name="appcleaner_automation_romtype_detection_label">Ukubona isistimu yokusebenza</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Ukuzenzelela okusekelwe ekufinyeleleni kungahluleka uma i-SD Maid ingaboni kahle isistimu yakho yokusebenza. Sebenzisa lesi silungiselelo ukuze uehlise isistimu ebonakele.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Ukuzenzelela okusekelwe ekufinyeleleni kungahluleka uma i-Tidy ingaboni kahle isistimu yakho yokusebenza. Sebenzisa lesi silungiselelo ukuze uehlise isistimu ebonakele.</string>
     <string name="appcleaner_filter_codecache_label">I-cache yekhodi</string>
     <string name="appcleaner_filter_codecache_summary">I-cache yekhodi ye-JVM. Amablokhi we-bytecode ahlanganiswe ngaphakathi kwekholdi yemvelo.</string>
     <string name="appcleaner_filter_advertisement_label">Idatha yezikhangiso</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Uhlelo olukhiphiwe</string>
     <string name="appcleaner_exclusion_limited_body">Uwuvimbele lolu hlelo ku-AppCleaner. Ukusula amakhashe wazo zonke izinhlelo ngesikhathi esisodwa kusebenzisa ukuncishiswa kwekhashe kwesistimu yonke okutholakala nge-ADB, okungeke kuvumele ukuthi izinhlelo ezithile zishiywe, ngakho idatha yekhashe yalolu hlelo izosulwa kanye nakho konke okunye. Idatha yekhashe ebonakala lapha kuphela ithintekile, konke okunye okuvinjelwe ukuvinjelwa kuzohlala kufihliwe futhi kungathintwa.</string>
     <string name="appcleaner_automation_unavailable_title">Insiza yokufinyelela ayitholakali</string>
-    <string name="appcleaner_automation_unavailable_body">Ukulinganisa amacache edinga isebenza sentsha sika-SD Maid, kodwa ayikuvo.</string>
+    <string name="appcleaner_automation_unavailable_body">Ukulinganisa amacache edinga isebenza sentsha sika-Tidy, kodwa ayikuvo.</string>
     <string name="appcleaner_delete_confirmation_message_x">Susa amafayela angasetshenziswa ka-%s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Susa amafayela angasetshenziswa wohlelo olukhethiwe olu-%d?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Isistimu sikhubazile inkinobho ethi \"Sula i-cache\" yale nhlelo. Yikhiphe ukuze usheshise ukusula i-cache.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Uhlelo lwesistimu alulungisiwe kahle</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Uhlelo lwezokuphepha lwe-HyperOS (com.miui.securitycenter) luswele imvume Yezibalo Zokusetshenziswa (GET_USAGE_STATS). Lokhu kwehlisa izici ezifana no-\"Sula Idatha\" emininingwaneni yohlelo nokususa i-cache ngokufinyelela. Nikeza imvume ukubuyisela ukusebenza okuphelele.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Lokhu kungenzeka futhi uma i-app yesistimu ethi \"System UI\" isanda kuqiniswa ukuma (force-stop), isibonelo yithuluzi lokuhlanza ama-app. I-Android ibe seyivimba ukucindezela kwezinkinobho okuzenzakalelayo kwe-SD Maid kuze kube uqala kabusha idivayisi.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Lokhu kungenzeka futhi uma i-app yesistimu ethi \"System UI\" isanda kuqiniswa ukuma (force-stop), isibonelo yithuluzi lokuhlanza ama-app. I-Android ibe seyivimba ukucindezela kwezinkinobho okuzenzakalelayo kwe-Tidy kuze kube uqala kabusha idivayisi.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Misa ngamandla ngaphambi kokusula</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Misa ngamandla izinhlelo zokusebenza ngaphambi kokusula i-cache yazo. Kungasiza ukusula i-cache yezinye izinhlelo, kodwa kungabangela ukuthi izinhlelo zingasebenzi kahle futhi zidinge ukuqalwa kabusha ngezandla.</string>
     <string name="appcleaner_progress_force_stopping">Kumisa ngamandla izinhlelo zokusebenza…</string>

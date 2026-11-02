@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Jabeak</string>
     <string name="corpsefinder_owner_unknown">Jabe ezezaguna</string>
     <string name="corpsefinder_corpse_hint_keeper">Elementu honek jabea desinstalatu den arren gorde nahi dituzun datuak izan ditzake, adibidez, argazkiak edo babeskopiak.</string>
-    <string name="corpsefinder_corpse_hint_common">Elementu honek izen oso arrunta du eta SD Maid-ek ezagutzen ez dituen oraindik instalatutako aplikazioei egon daiteke.</string>
+    <string name="corpsefinder_corpse_hint_common">Elementu honek izen oso arrunta du eta Tidy-ek ezagutzen ez dituen oraindik instalatutako aplikazioei egon daiteke.</string>
     <string name="corpsefinder_risk_keeper_chip">Desiragarria</string>
     <string name="corpsefinder_risk_common_chip">Arrunta</string>
     <string name="corpsefinder_markers_dialog_title">Marka hauei buruz</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Ohiko hondakina. Nahiko segurua da ezabatzea — fitxategi hauek desinstalatu diren aplikazioei dagozkien.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder-k desinstalatu dituzun aplikazioek utzitako datuen bila aritzen da. Instalatutakoari ez dagokio gehiago, beraz kenduz tokia askatzen du. Gehiena segurua da kentzea, baina markatzailea begiratu dudarik baduzu.</string>
-    <string name="tour_corpsefinder_row_body">Bakoitza hondakina datua da eta bertatik datorren aplikazioa. Markak SD Maid-ek nola dago seguru dena ezabatzea den erakusten du — sakatu goiko ⓘ markek zer esan nahi duten ikasteko.</string>
+    <string name="tour_corpsefinder_row_body">Bakoitza hondakina datua da eta bertatik datorren aplikazioa. Markak Tidy-ek nola dago seguru dena ezabatzea den erakusten du — sakatu goiko ⓘ markek zer esan nahi duten ikasteko.</string>
 </resources>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Да Вашых паслуг.</string>
     <string name="slogan_message_1">Чысціня і парадак.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Загрузка</string>
     <string name="general_progress_loading_app_data">Загрузка даных праграмы</string>
     <string name="general_progress_loading_data_areas">Загрузка абласцей даных</string>
-    <string name="general_data_areas_unavailable_message">Не ўдалося загрузіць вобласці даных, месцы захоўвання, з якімі можа працаваць SD Maid.</string>
+    <string name="general_data_areas_unavailable_message">Не ўдалося загрузіць вобласці даных, месцы захоўвання, з якімі можа працаваць Tidy.</string>
     <string name="general_progress_loading_egg_0">Усё яшчэ хутчэй, чым iPhone</string>
     <string name="general_progress_loading_egg_1">Загрузка дадатковай аператыўнай памяці</string>
     <string name="general_progress_loading_egg_2">Хутка™</string>
@@ -206,7 +206,7 @@
     <string name="general_error_ipc_deadobject_title">Страчана падключэнне да службы</string>
     <string name="general_error_ipc_deadobject_description">Злучэнне з крытычна важным сервісам (напрыклад, Magisk, Porter, Shizuku або іншымі сістэмнымі сервісамі) нечакана перарвалася. Перазагрузіце прыладу. Калі праблема застанецца, праверце наяўнасць абнаўленняў або звяжыцеся са мной, каб я мог яе выправіць.</string>
     <string name="general_error_upgrade_required_title">Патрэбна абнаўленне</string>
-    <string name="general_error_upgrade_required_description">Гэта функцыя патрабуе абнаўлення. Калі ласка, абнавіце SD Maid SE, каб яе выкарыстоўваць.</string>
+    <string name="general_error_upgrade_required_description">Гэта функцыя патрабуе абнаўлення. Калі ласка, абнавіце Tidy, каб яе выкарыстоўваць.</string>
     <string name="general_user_label_owner">Уладальнік</string>
     <string name="general_user_label_system">Сістэма</string>
     <string name="setup_title">Наладжванне</string>
@@ -236,18 +236,18 @@
     <string name="appcontrol_systemsettings_open_title">Паказаць налады</string>
     <string name="ui_theme_color_sunset_label">Захад</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Гэтай функцыі патрэбны каранёвы доступ, але SD Maid не змог яго атрымаць на гэтай прыладзе.</string>
+    <string name="access_blocked_root_unavailable">Гэтай функцыі патрэбны каранёвы доступ, але Tidy не змог яго атрымаць на гэтай прыладзе.</string>
     <string name="access_blocked_root_declined">Гэта функцыя патрабуе каранёвага доступу. Вы можаце ўключыць яго праз экран налады.</string>
     <string name="access_blocked_root_or_shizuku">Гэтай функцыі патрэбны root-доступ або доступ праз ADB, які недаступны на гэтай прыладзе.</string>
     <string name="backup_restore_error_invalid_title">Няправільны файл рэзервовай копіі</string>
-    <string name="backup_restore_error_invalid_body">Гэты файл не з\'яўляецца сапраўднай рэзервовай копіяй SD Maid або пашкоджаны.</string>
-    <string name="backup_restore_error_version_body">Гэта рэзервовая копія была створана больш новай версіяй SD Maid. Калі ласка, абнавіце праграму і паспрабуйце яшчэ раз.</string>
+    <string name="backup_restore_error_invalid_body">Гэты файл не з\'яўляецца сапраўднай рэзервовай копіяй Tidy або пашкоджаны.</string>
+    <string name="backup_restore_error_version_body">Гэта рэзервовая копія была створана больш новай версіяй Tidy. Калі ласка, абнавіце праграму і паспрабуйце яшчэ раз.</string>
     <string name="backup_restore_error_restore_failed_title">Аднаўленне не ўдалося</string>
     <string name="backup_restore_error_restore_failed_body">Гэтыя часткі немагчыма была аднаўіць: %1$s. Ваша папярэдняя канфігурацыя была захавана і можа быць вернута.</string>
     <string name="backup_restore_error_safety_title">Аднаўленне не пачалося</string>
-    <string name="backup_restore_error_safety_body">SD Maid не змог захаваць бяспечны здымак вашай бягучай канфігурацыі, таму нічога не было зменена.</string>
+    <string name="backup_restore_error_safety_body">Tidy не змог захаваць бяспечны здымак вашай бягучай канфігурацыі, таму нічога не было зменена.</string>
     <string name="backup_restore_error_busy_title">Калі ласка, пачакайце</string>
     <string name="backup_restore_error_busy_body">Зараз выканваецца задача ачысткі або іншая аперацыя рэзервовага капіявання. Паспрабуйце яшчэ раз, калі яна завершыцца.</string>
     <string name="backup_restore_error_schema_title">Несумяшчальная рэзервовая копія</string>
-    <string name="backup_restore_error_schema_body">Фармат базы дадзеных рэзервовай копіі не адпавядае гэтай версіі SD Maid. Аднаўленне гістарычных дадзеных падтрымліваецца толькі паміж аднолькавымі версіямі праграмы.</string>
+    <string name="backup_restore_error_schema_body">Фармат базы дадзеных рэзервовай копіі не адпавядае гэтай версіі Tidy. Аднаўленне гістарычных дадзеных падтрымліваецца толькі паміж аднолькавымі версіямі праграмы.</string>
 </resources>

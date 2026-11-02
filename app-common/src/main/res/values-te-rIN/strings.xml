@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">మీ సేవలో.</string>
     <string name="slogan_message_1">శుభ్రంగా మరియు క్రమబద్ధంగా.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">లోడ్ చేస్తుంది</string>
     <string name="general_progress_loading_app_data">యాప్ డేటాను లోడ్ చేస్తుంది</string>
     <string name="general_progress_loading_data_areas">డేటా ప్రాంతాలను లోడ్ చేస్తుంది</string>
-    <string name="general_data_areas_unavailable_message">డేటా ప్రాంతాలను లోడ్ చేయలేకపోయాము, అవి SD Maid పని చేయగల నిల్వ స్థానాలు.</string>
+    <string name="general_data_areas_unavailable_message">డేటా ప్రాంతాలను లోడ్ చేయలేకపోయాము, అవి Tidy పని చేయగల నిల్వ స్థానాలు.</string>
     <string name="general_progress_loading_egg_0">iPhone కంటే వేగంగా</string>
     <string name="general_progress_loading_egg_1">అదనపు RAM డౌన్‌లోడ్ చేస్తుంది</string>
     <string name="general_progress_loading_egg_2">త్వరలో™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">సేవా కనెక్షన్ కోల్పోయింది</string>
     <string name="general_error_ipc_deadobject_description">ఒక ముఖ్యమైన సేవకు (ఉదా. Magisk, Porter, Shizuku, లేదా ఇతర సిస్టమ్-స్థాయి సేవలు) కనెక్షన్ అనుకోకుండా పోయింది. దయచేసి మీ పరికరాన్ని రీబూట్ చేయండి. సమస్య కొనసాగితే, అప్‌డేట్‌ల కోసం తనిఖీ చేయండి లేదా నన్ను సంప్రదించండి, నేను దాన్ని సరిచేస్తాను.</string>
     <string name="general_error_upgrade_required_title">అప్‌గ్రేడ్ అవసరం</string>
-    <string name="general_error_upgrade_required_description">ఈ ఫీచర్ కు అప్‌గ్రేడ్ అవసరం. దీన్ని ఉపయోగించడానికి దయచేసి SD Maid SE ను అప్‌గ్రేడ్ చేయండి.</string>
+    <string name="general_error_upgrade_required_description">ఈ ఫీచర్ కు అప్‌గ్రేడ్ అవసరం. దీన్ని ఉపయోగించడానికి దయచేసి Tidy ను అప్‌గ్రేడ్ చేయండి.</string>
     <string name="general_user_label_owner">యజమాని</string>
     <string name="general_user_label_system">సిస్టమ్</string>
     <string name="setup_title">సెటప్</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">సెట్టింగ్స్ చూపించండి</string>
     <string name="ui_theme_color_sunset_label">సూర్యాస్తమయం</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">ఈ ఫీచర్‌కు రూట్ యాక్సెస్ అవసరం, కానీ SD Maid ఈ పరికరంపై దానిని పొందలేకపోయింది.</string>
+    <string name="access_blocked_root_unavailable">ఈ ఫీచర్‌కు రూట్ యాక్సెస్ అవసరం, కానీ Tidy ఈ పరికరంపై దానిని పొందలేకపోయింది.</string>
     <string name="access_blocked_root_declined">ఈ ఫీచర్‌కు రూట్ యాక్సెస్ అవసరం. మీరు సెటఅప్ స్క్రీన్ ద్వారా దీన్ని ఎనేబుల్ చేయవచ్చు.</string>
     <string name="access_blocked_root_or_shizuku">ఈ ఫీచర్‌కు రూట్ లేదా ADB యాక్సెస్ అవసరం, ఇది ఈ పరికరంలో అందుబాటులో లేదు.</string>
     <string name="backup_restore_error_invalid_title">చెల్లని బ్యాకప్ ఫైల్</string>
-    <string name="backup_restore_error_invalid_body">ఈ ఫైల్ చెల్లని SD Maid బ్యాకప్ కాదు లేదా విపత్తుకు గురయ్యుంది.</string>
-    <string name="backup_restore_error_version_body">ఈ బ్యాకప్ SD Maid యొక్క కొత్త సంస్కరణతో సృష్టించబడింది. దయచేసి యాప్‌ను అప్‌డేట్ చేసి మళ్ళీ ప్రయత్నించండి.</string>
+    <string name="backup_restore_error_invalid_body">ఈ ఫైల్ చెల్లని Tidy బ్యాకప్ కాదు లేదా విపత్తుకు గురయ్యుంది.</string>
+    <string name="backup_restore_error_version_body">ఈ బ్యాకప్ Tidy యొక్క కొత్త సంస్కరణతో సృష్టించబడింది. దయచేసి యాప్‌ను అప్‌డేట్ చేసి మళ్ళీ ప్రయత్నించండి.</string>
     <string name="backup_restore_error_restore_failed_title">పునరుద్ధరణ విఫలమైంది</string>
     <string name="backup_restore_error_restore_failed_body">ఈ భాగాలను పునరుద్ధరించలేము: %1$s. మీ మునుపటి కాన్ఫిగరేషన్ సేవ్ చేయబడింది మరియు తిరిగి తీసుకురావచ్చు.</string>
     <string name="backup_restore_error_safety_title">పునరుద్ధరణ ప్రారంభం కాలేదు</string>
-    <string name="backup_restore_error_safety_body">SD Maid మీ ప్రస్తుత కాన్ఫిగరేషన్ యొక్క భద్రతా స్నాప్‌షాట్‌ను సేవ్ చేయలేకపోయింది, కాబట్టి ఏమీ మార్చబడలేదు.</string>
+    <string name="backup_restore_error_safety_body">Tidy మీ ప్రస్తుత కాన్ఫిగరేషన్ యొక్క భద్రతా స్నాప్‌షాట్‌ను సేవ్ చేయలేకపోయింది, కాబట్టి ఏమీ మార్చబడలేదు.</string>
     <string name="backup_restore_error_busy_title">దయచేసి ఎదురుచూడండి</string>
     <string name="backup_restore_error_busy_body">ఒక శుభ్రత చేసే పని లేదా మరో బ్యాకప్ ఆపరేషన్ ప్రస్తుతం నడుస్తోంది. అది పూర్తయ్యాక మళ్ళీ ప్రయత్నించండి.</string>
     <string name="backup_restore_error_schema_title">సరిపోని బ్యాకప్</string>
-    <string name="backup_restore_error_schema_body">బ్యాకప్ డేటాబేస్ ఫార్మాట్ SD Maid యొక్క ఈ సంస్కరణకు సరిపోలలేదు. చరిత్ర డేటాను పునరుద్ధరించడం సమానమైన యాప్ సంస్కరణల మధ్య మాత్రమే సమర్థితం.</string>
+    <string name="backup_restore_error_schema_body">బ్యాకప్ డేటాబేస్ ఫార్మాట్ Tidy యొక్క ఈ సంస్కరణకు సరిపోలలేదు. చరిత్ర డేటాను పునరుద్ధరించడం సమానమైన యాప్ సంస్కరణల మధ్య మాత్రమే సమర్థితం.</string>
 </resources>

@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">کم سے کم عمر</string>
     <string name="appcleaner_include_minimumage_summary">ایسی فائلیں چھوڑیں جو کم سے کم عمر سے چھوٹی ہیں۔</string>
     <string name="appcleaner_automation_romtype_detection_label">آپریٹنگ سسٹم کی شناخت</string>
-    <string name="appcleaner_automation_romtype_detection_summary">اگر SD Maid آپ کے OS کو صحیح طریقے سے شناخت نہیں کرتا تو رسائی پر مبنی آٹومیشن ناکام ہو سکتی ہے۔ شناخت شدہ OS کو اوور رائڈ کرنے کے لیے اس سیٹنگ کا استعمال کریں۔</string>
+    <string name="appcleaner_automation_romtype_detection_summary">اگر Tidy آپ کے OS کو صحیح طریقے سے شناخت نہیں کرتا تو رسائی پر مبنی آٹومیشن ناکام ہو سکتی ہے۔ شناخت شدہ OS کو اوور رائڈ کرنے کے لیے اس سیٹنگ کا استعمال کریں۔</string>
     <string name="appcleaner_filter_codecache_label">کوڈ کیش</string>
     <string name="appcleaner_filter_codecache_summary">JVM کوڈ کیش۔ بائی کوڈ کے بلاکس جو نیٹو کوڈ میں کمپائل ہوتے ہیں۔</string>
     <string name="appcleaner_filter_advertisement_label">اشتہاری ڈیٹا</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">خارج کردہ ایپ</string>
     <string name="appcleaner_exclusion_limited_body">آپ نے اس ایپ کو AppCleaner سے خارج کیا ہے۔ تمام ایپس کے کیشے ایک ساتھ صاف کرنے میں ADB رسائی کے ذریعے دستیاب سسٹم بھر کی کیشے ٹرم استعمال ہوتی ہے، جو انفرادی ایپس کو چھوڑ نہیں سکتی، اس لیے اس ایپ کا کیشے ڈیٹا بھی باقی سب کے ساتھ صاف ہو جاتا ہے۔ صرف یہاں دکھایا گیا کیشے ڈیٹا متاثر ہوتا ہے، اخراج میں شامل باقی سب کچھ پوشیدہ اور محفوظ رہتا ہے۔</string>
     <string name="appcleaner_automation_unavailable_title">رسائی سروس دستیاب نہیں</string>
-    <string name="appcleaner_automation_unavailable_body">ان کیشز کو صاف کرنے کے لیے SD Maid کی رسائی کی سروس درکار ہے، لیکن یہ دستیاب نہیں تھی۔</string>
+    <string name="appcleaner_automation_unavailable_body">ان کیشز کو صاف کرنے کے لیے Tidy کی رسائی کی سروس درکار ہے، لیکن یہ دستیاب نہیں تھی۔</string>
     <string name="appcleaner_delete_confirmation_message_x">%s کے لیے قابل حذف فائلیں ڈیلیٹ کریں؟</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">%d منتخب ایپ کے لیے قابل حذف فائلیں ڈیلیٹ کریں؟</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">سسٹم نے اس ایپ کے لیے \"Clear cache\" بٹن کو غیر فعال کر دیا ہے۔ کیش صاف کرنے کی رفتار بڑھانے کے لیے اسے خارج کریں۔</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">سسٹم ایپ غلط کنفیگر ہے</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS کی Security ایپ (com.miui.securitycenter) میں Usage Stats permission (GET_USAGE_STATS) غائب ہے۔ یہ ایپ کی تفصیلات میں \"Clear Data\" اور رسائی کے ذریعے کیش صفائی جیسے فیچرز کو خراب کرتا ہے۔ مکمل فعالیت بحال کرنے کے لیے اجازت دیں۔</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">یہ بھی ہو سکتا ہے اگر \"System UI\" سسٹم ایپ حال ہی میں جبری طور پر بند کیے گئے تھے، مثلاً ایک ایپ صفائی کے ذریعے۔ اس کے بعد Android SD Maid کے خودکار بٹن دبانے کو مسدود کر دیتا ہے جب تک آپ ڈیوائس کو دوبارہ شروع نہ کریں۔</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">یہ بھی ہو سکتا ہے اگر \"System UI\" سسٹم ایپ حال ہی میں جبری طور پر بند کیے گئے تھے، مثلاً ایک ایپ صفائی کے ذریعے۔ اس کے بعد Android Tidy کے خودکار بٹن دبانے کو مسدود کر دیتا ہے جب تک آپ ڈیوائس کو دوبارہ شروع نہ کریں۔</string>
     <string name="appcleaner_forcestop_before_clearing_label">صاف کرنے سے پہلے زبردستی بند کریں</string>
     <string name="appcleaner_forcestop_before_clearing_summary">کیش صاف کرنے سے پہلے ایپس کو زبردستی بند کریں۔ یہ بعض ایپس کا کیش صاف کرنے میں مدد کر سکتا ہے، لیکن ایپس غلط برتاؤ کر سکتی ہیں اور دستی ری سٹارٹ کی ضرورت ہو سکتی ہے۔</string>
     <string name="appcleaner_progress_force_stopping">ایپس زبردستی بند ہو رہی ہیں…</string>

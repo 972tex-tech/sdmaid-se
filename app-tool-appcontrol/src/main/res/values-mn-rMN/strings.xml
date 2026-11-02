@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Аппыг зогсоох. Та өөрь нээж байх эсвэл төхөөрөмж дахин эхлүүлэх хүртэл өөрөо манаагүй болгохыг сэргийлнэ.</string>
     <string name="appcontrol_app_uninstall_description">Энэ аппыг төхөөрөмжээсээ устгах.</string>
     <string name="appcontrol_app_exclude_add_title">Аппыг үл хамаарах</string>
-    <string name="appcontrol_app_exclude_add_description">SD Maid дахь бусад үйлдлээс энэ аппыг үл хамаарах.</string>
+    <string name="appcontrol_app_exclude_add_description">Tidy дахь бусад үйлдлээс энэ аппыг үл хамаарах.</string>
     <string name="appcontrol_app_exclude_edit_title">Үл хамааралтыг засах</string>
     <string name="appcontrol_app_exclude_edit_description">Энэ апп одоо нэг ах багажаас үл хамаарагдсан байна.</string>
     <string name="appcontrol_tag_user">Хэрэглэгч</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s экспортлож байна</string>
     <string name="appcontrol_share_list_action">Жагсаалт хуваалцах</string>
     <string name="appcontrol_share_list_title">Миний аппууд</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE-ээр дамжуулан хуваалцсан</string>
+    <string name="appcontrol_share_list_footer">Tidy-ээр дамжуулан хуваалцсан</string>
     <string name="appcontrol_force_stop_selection_action">Аппуудыг хүчээр зогсоох</string>
     <string name="appcontrol_force_stop_action">Албадан зогсоох</string>
     <string name="appcontrol_force_stop_confirm_title">Хүчээр зогсоохыг баталгаажуулах</string>

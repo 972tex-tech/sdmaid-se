@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Rakenduse seiskamine. Ennetage selle ise käivitumist kuni avad selle või seade taaskäivitub.</string>
     <string name="appcontrol_app_uninstall_description">Eemaldab selle rakenduse seadmest.</string>
     <string name="appcontrol_app_exclude_add_title">Eira rakendust</string>
-    <string name="appcontrol_app_exclude_add_description">Ära kaasa seda rakendust teistesse SD Maidi toimetustesse.</string>
+    <string name="appcontrol_app_exclude_add_description">Ära kaasa seda rakendust teistesse Tidyi toimetustesse.</string>
     <string name="appcontrol_app_exclude_edit_title">Muuda erandit</string>
     <string name="appcontrol_app_exclude_edit_description">Selle rakendusega ei toimeta vähemalt üks tööriist.</string>
     <string name="appcontrol_tag_user">Kasutaja</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s eksportimine</string>
     <string name="appcontrol_share_list_action">Jaga loendit</string>
     <string name="appcontrol_share_list_title">Minu rakendused</string>
-    <string name="appcontrol_share_list_footer">Jagatud SD Maid SE kaudu</string>
+    <string name="appcontrol_share_list_footer">Jagatud Tidy kaudu</string>
     <string name="appcontrol_force_stop_selection_action">Sundpeata rakendusi</string>
     <string name="appcontrol_force_stop_action">Sundpeata</string>
     <string name="appcontrol_force_stop_confirm_title">Kinnita sundpeatamine</string>

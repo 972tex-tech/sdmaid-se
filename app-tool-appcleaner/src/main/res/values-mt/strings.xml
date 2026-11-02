@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Età minima</string>
     <string name="appcleaner_include_minimumage_summary">Aqbeż fajls li huma iżgħar mill-età minima.</string>
     <string name="appcleaner_automation_romtype_detection_label">Detezzjoni tas-sistema operattiva</string>
-    <string name="appcleaner_automation_romtype_detection_summary">L-awtomatizzazzjoni bbażata fuq l-aċċessibilità tista\' tfalli jekk SD Maid ma jiddetektax is-SO tiegħek b\'mod korrett. Uża din is-setting biex taqbeż is-SO misjub.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">L-awtomatizzazzjoni bbażata fuq l-aċċessibilità tista\' tfalli jekk Tidy ma jiddetektax is-SO tiegħek b\'mod korrett. Uża din is-setting biex taqbeż is-SO misjub.</string>
     <string name="appcleaner_filter_codecache_label">Cache tal-kodiċi</string>
     <string name="appcleaner_filter_codecache_summary">JVM cache tal-kodiċi. Blokki ta\' bytecode kompilati f\'kodiċi nattiv.</string>
     <string name="appcleaner_filter_advertisement_label">Data ta\' reklami</string>

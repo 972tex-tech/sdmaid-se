@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Izņēmumu pārvaldnieks</string>
     <string name="exclusion_manager_desc">Pārvaldīt failu un lietotņu izņēmumus.</string>
-    <string name="exclusion_explanation_body1">Izslēdziet failus un lietotnes, lai tās aizsargātu no SD Maid rīkiem, vai izlaidiet neatbilstošus vienumus un paātrinātu darbības.</string>
+    <string name="exclusion_explanation_body1">Izslēdziet failus un lietotnes, lai tās aizsargātu no Tidy rīkiem, vai izlaidiet neatbilstošus vienumus un paātrinātu darbības.</string>
     <string name="exclusion_add_new_hint">Vēl nav izslēgumu. Izmantojiet + pogu, lai izveidotu vienu, vai izslēdziet vienumus no jebkura rīka rezultātiem.</string>
     <string name="exclusion_create_action">Izveidot izslēgumu</string>
     <string name="exclusion_edit_action">Rediģēt izslēgumu</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Atļauties daļējās atbilsmes</string>
     <string name="exclusion_option_ignore_casing">Ignorēt lielo/mazo burtu</string>
     <string name="exclusion_editor_affected_tools_label">Ietekmētie rīki</string>
-    <string name="exclusion_editor_path_explanation">Ceļa izslēgums nelauj SD Maid tālāk apstrādāt nevienu atbilstošu ceļu. Tas attiecas uz failiem, mapēm un apmapes.</string>
-    <string name="exclusion_editor_pkg_explanation">Lietotnes izslēgums nelauj SD Maid apstrādāt nevienu atbilstošu pakotni.</string>
+    <string name="exclusion_editor_path_explanation">Ceļa izslēgums nelauj Tidy tālāk apstrādāt nevienu atbilstošu ceļu. Tas attiecas uz failiem, mapēm un apmapes.</string>
+    <string name="exclusion_editor_pkg_explanation">Lietotnes izslēgums nelauj Tidy apstrādāt nevienu atbilstošu pakotni.</string>
     <string name="exclusion_editor_segment_explanation">Segmenta izslēgums ir līdzīgs ceļa izslēgumam, bet atļauj daļējās atbilsmes. Piemērs: \"DCIM/Camera\" izslēdz \"/sdcard/DCIM/Camera/foto.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Noņemt šo izslēgumu?</string>
     <string name="exclusion_reset_default_exclusions">Atjaunot noklusejuma izslēgumus</string>

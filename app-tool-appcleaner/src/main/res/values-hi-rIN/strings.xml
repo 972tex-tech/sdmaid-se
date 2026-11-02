@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">बहिष्कृत ऐप्स</string>
     <string name="appcleaner_exclusion_limited_body">आपने इस ऐप को AppCleaner से बाहर रखा है। सभी ऐप्स के लिए कैश को एक बार में साफ़ करना सिस्टम-व्यापी कैश ट्रिम का उपयोग करता है जो ADB एक्सेस के माध्यम से उपलब्ध है, जो व्यक्तिगत ऐप्स को बाहर नहीं रख सकता। इसलिए इस ऐप का कैश डेटा बाकी सब कुछ के साथ साफ़ हो जाता है। केवल यहाँ दिखाया गया कैश डेटा प्रभावित होता है, बाकी सब कुछ जो बहिष्करण को कवर करता है वह छिपा रहता है और अछूता रहता है।</string>
     <string name="appcleaner_automation_unavailable_title">एक्सेसबिलिटी सेवा अनुपलब्ध है</string>
-    <string name="appcleaner_automation_unavailable_body">इन कैशों को साफ करने के लिए SD Maid की सुलभता सेवा की आवश्यकता है, लेकिन यह उपलब्ध नहीं थी।</string>
+    <string name="appcleaner_automation_unavailable_body">इन कैशों को साफ करने के लिए Tidy की सुलभता सेवा की आवश्यकता है, लेकिन यह उपलब्ध नहीं थी।</string>
     <string name="appcleaner_delete_confirmation_message_x">%s के लिए खर्च होने वाली फ़ाइलों को मिटाएं?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">%d चयनित ऐप के लिए खर्च होने वाली फ़ाइलों को मिटाएं?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">सिस्टम ने इस ऐप के लिए \"कैश साफ़ करें\" बटन को अक्षम कर दिया है। कैश साफ़ करने की गति बढ़ाने के लिए इसे बाहर करें।</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">सिस्टम ऐप गलत कॉन्फ़िगर किया गया</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS की सुरक्षा ऐप (com.miui.securitycenter) में उपयोग आंकड़े अनुमति (GET_USAGE_STATS) गुम है। यह ऐप विवरण में \"डेटा साफ़ करें\" और पहुंच के माध्यम से कैश साफ़ करने जैसी सुविधाओं को तोड़ता है। पूर्ण कार्यक्षमता बहाल करने के लिए अनुमति दें।</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">यह तब भी हो सकता है जब हाल ही में \"System UI\" सिस्टम एप को फौर्स-स्टॉप किया गया हो, जैसे किसी एप क्लीनिंग टूल द्वारा। इसके बाद Android, डिवाइस को रीस्टार्ट करने तक SD Maid के स्वचालित बटन दबाव को रोक देता है।</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">यह तब भी हो सकता है जब हाल ही में \"System UI\" सिस्टम एप को फौर्स-स्टॉप किया गया हो, जैसे किसी एप क्लीनिंग टूल द्वारा। इसके बाद Android, डिवाइस को रीस्टार्ट करने तक Tidy के स्वचालित बटन दबाव को रोक देता है।</string>
     <string name="appcleaner_forcestop_before_clearing_label">साफ़ करने से पहले बलपूर्वक रोकें</string>
     <string name="appcleaner_forcestop_before_clearing_summary">कैश साफ़ करने से पहले ऐप्स को बलपूर्वक रोकें। यह कुछ ऐप्स का कैश साफ़ करने में मदद कर सकता है, लेकिन ऐप्स में समस्या हो सकती है और मैन्युअल पुनः आरंभ की आवश्यकता हो सकती है।</string>
     <string name="appcleaner_progress_force_stopping">ऐप्स बलपूर्वक रोके जा रहे हैं…</string>

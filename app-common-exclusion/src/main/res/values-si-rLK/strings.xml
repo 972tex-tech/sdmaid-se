@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">බැහැර කිරීම් මෙහෙයුම්</string>
     <string name="exclusion_manager_desc">ගොනු සහ යෙදුම් බැහැර කිරීම් අනුශාසනය කරන්න.</string>
-    <string name="exclusion_explanation_body1">SD Maid හි මෙවලම්වලින් කොටස් බේරා ගැනීමට, හෝ අසම්බන්ධිත අයිතම් ඉවත් කර මෙහෙයුම් වේගවත් කිරීමට ගොනු සහ යෙදුම් බැහැර කරන්න.</string>
+    <string name="exclusion_explanation_body1">Tidy හි මෙවලම්වලින් කොටස් බේරා ගැනීමට, හෝ අසම්බන්ධිත අයිතම් ඉවත් කර මෙහෙයුම් වේගවත් කිරීමට ගොනු සහ යෙදුම් බැහැර කරන්න.</string>
     <string name="exclusion_add_new_hint">තවම බැහැරකිරීම් නැත. එකක් සැදීමට + බොත්තම භාවිතා කරන්න, හෝ ඕනෑම මෙවලමේ ප්‍රතිළලවලින් අයිතම් බැහැර කරන්න.</string>
     <string name="exclusion_create_action">බැහැර කිරීම සාදන්න</string>
     <string name="exclusion_edit_action">බැහැර කිරීම සංපාදනය කරන්න</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">ඇංශික සමානතාවට ඉඩම දෙන්න</string>
     <string name="exclusion_option_ignore_casing">සඩු බැහැර කරන්න</string>
     <string name="exclusion_editor_affected_tools_label">පරිණාමය වෙන මෙවලම්</string>
-    <string name="exclusion_editor_path_explanation">මාර්ග බැහැර කිරීම SD Maid ගේ සමාන මාර්ග අමතර ප්‍රක්‍රියාකරණයෙන් මනා කරයි. මෙය ගොනු, ෆෝල්ඩර සහ මොෟ-ෆෝල්ඩර සඳහා පුළුවන් වේ.</string>
-    <string name="exclusion_editor_pkg_explanation">යෙදුම් බැහැර කිරීම SD Maid ගේ සමාන පකේජ ප්‍රක්‍රියාකරණයෙන් මනා කරයි.</string>
+    <string name="exclusion_editor_path_explanation">මාර්ග බැහැර කිරීම Tidy ගේ සමාන මාර්ග අමතර ප්‍රක්‍රියාකරණයෙන් මනා කරයි. මෙය ගොනු, ෆෝල්ඩර සහ මොෟ-ෆෝල්ඩර සඳහා පුළුවන් වේ.</string>
+    <string name="exclusion_editor_pkg_explanation">යෙදුම් බැහැර කිරීම Tidy ගේ සමාන පකේජ ප්‍රක්‍රියාකරණයෙන් මනා කරයි.</string>
     <string name="exclusion_editor_segment_explanation">පිපෙට් අනුව බැහැර කිරීම මාර්ග බැහැර කිරීමට සමාන නමුත් ඇංශික සමානතාවට ඉඩම දේ. උදාහරණ: \"DCIM/Camera\" \"/sdcard/DCIM/Camera/photo.png\" බැහැර කරයි.</string>
     <string name="exclusion_editor_remove_confirmation_message">මෙම බැහැර කිරීම ඉවත් කරන්නද?</string>
     <string name="exclusion_reset_default_exclusions">පෙරනිමි බැහැර කිරීම් ප්‍රතිසාධනය කරන්න</string>

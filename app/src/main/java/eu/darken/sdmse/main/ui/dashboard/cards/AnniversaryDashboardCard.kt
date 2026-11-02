@@ -22,7 +22,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import eu.darken.sdmse.R
 import eu.darken.sdmse.common.compose.SdmMascot
-import eu.darken.sdmse.common.compose.SdmMascotMode
 import eu.darken.sdmse.common.R as CommonR
 import eu.darken.sdmse.common.compose.preview.Preview2
 import eu.darken.sdmse.common.compose.preview.PreviewWrapper
@@ -57,7 +56,6 @@ internal fun AnniversaryDashboardCard(item: AnniversaryDashboardCardItem) {
                 modifier = Modifier
                     .height(96.dp)
                     .padding(start = 4.dp),
-                mode = SdmMascotMode.Party,
             )
             Spacer(modifier = Modifier.width(8.dp))
             Column {

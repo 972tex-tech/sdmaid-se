@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Arresta l\'app. Impedisce il suo riavvio fino a quando non la apri o il dispositivo viene riavviato.</string>
     <string name="appcontrol_app_uninstall_description">Disinstalla quest\'app dal tuo dispositivo.</string>
     <string name="appcontrol_app_exclude_add_title">Escludi app</string>
-    <string name="appcontrol_app_exclude_add_description">Escludi quest\'app dalle operazioni in SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Escludi quest\'app dalle operazioni in Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Modifica app escluse</string>
     <string name="appcontrol_app_exclude_edit_description">Questa app è attualmente esclusa da uno o più strumenti.</string>
     <string name="appcontrol_tag_user">Utente</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Esportazione %s</string>
     <string name="appcontrol_share_list_action">Condividi elenco</string>
     <string name="appcontrol_share_list_title">Le mie app</string>
-    <string name="appcontrol_share_list_footer">Condiviso tramite SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Condiviso tramite Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Arresto forzato app</string>
     <string name="appcontrol_force_stop_action">Arresto forzato</string>
     <string name="appcontrol_force_stop_confirm_title">Conferma arresto forzato</string>

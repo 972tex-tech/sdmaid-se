@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Správca vylúčení</string>
     <string name="exclusion_manager_desc">Spravujte vylúčenia súborov a aplikácií.</string>
-    <string name="exclusion_explanation_body1">Vylúčte súbory a aplikácie, aby ste ich ochránili pred nástrojmi SD Maid, alebo aby ste preskočili irelevantné položky a urýchlili operácie.</string>
+    <string name="exclusion_explanation_body1">Vylúčte súbory a aplikácie, aby ste ich ochránili pred nástrojmi Tidy, alebo aby ste preskočili irelevantné položky a urýchlili operácie.</string>
     <string name="exclusion_add_new_hint">Zatiaľ žiadne vylúčenia. Pomocou tlačidla + vytvorte jedno alebo vylúčte položky z výsledkov ľubovoľného nástroja.</string>
     <string name="exclusion_create_action">Vytvorte vylúčenie</string>
     <string name="exclusion_edit_action">Upraviť vylúčenie</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Povoliť čiastočné zhody</string>
     <string name="exclusion_option_ignore_casing">Ignorovať veľkosť písmen</string>
     <string name="exclusion_editor_affected_tools_label">Ovplyvnené nástroje</string>
-    <string name="exclusion_editor_path_explanation">Vylúčenie cesty bráni SD Maid v ďalšom spracovaní akýchkoľvek zodpovedajúcich ciest. Týka sa to súborov, priečinkov a podpriečinkov.</string>
-    <string name="exclusion_editor_pkg_explanation">Vylúčenie aplikácie bráni SD Maid v spracovaní akýchkoľvek zodpovedajúcich balíkov.</string>
+    <string name="exclusion_editor_path_explanation">Vylúčenie cesty bráni Tidy v ďalšom spracovaní akýchkoľvek zodpovedajúcich ciest. Týka sa to súborov, priečinkov a podpriečinkov.</string>
+    <string name="exclusion_editor_pkg_explanation">Vylúčenie aplikácie bráni Tidy v spracovaní akýchkoľvek zodpovedajúcich balíkov.</string>
     <string name="exclusion_editor_segment_explanation">Vylúčenie na základe segmentu je podobné vylúčeniu cesty, ale umožňuje čiastočné zhody. Príklad: „DCIM/Camera“ nezahŕňa „/sdcard/DCIM/Camera/photo.png“.</string>
     <string name="exclusion_editor_remove_confirmation_message">Odstrániť túto výnimku?</string>
     <string name="exclusion_reset_default_exclusions">Obnoviť predvolené vylúčenia</string>

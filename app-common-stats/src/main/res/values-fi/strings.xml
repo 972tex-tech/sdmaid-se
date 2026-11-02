@@ -5,8 +5,8 @@
         <item quantity="other">%s on vapautettu.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s kohde käsitelty siitä lähtien, kun kutsuit SD Maidin laitteeseesi.</item>
-        <item quantity="other">%s kohdetta käsitelty siitä lähtien, kun kutsuit SD Maidin laitteeseesi.</item>
+        <item quantity="one">%s kohde käsitelty siitä lähtien, kun kutsuit Tidyin laitteeseesi.</item>
+        <item quantity="other">%s kohdetta käsitelty siitä lähtien, kun kutsuit Tidyin laitteeseesi.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Vieraanasi %d päivä.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Osittainen onnistuminen</string>
     <string name="stats_report_status_partial_failure">Epäonnistuminen</string>
-    <string name="stats_settings_desc">Määritä SD Maidin tilastot, raportit ja tietojen säilyttäminen.</string>
+    <string name="stats_settings_desc">Määritä Tidyin tilastot, raportit ja tietojen säilyttäminen.</string>
     <string name="stats_settings_retention_category">Säilyttäminen</string>
     <string name="stats_settings_retention_reports_label">Yleiset raportit</string>
-    <string name="stats_settings_retention_reports_desc">Päivien määrä ennen perus SD Maid -toimintoraporttien poistamista.</string>
+    <string name="stats_settings_retention_reports_desc">Päivien määrä ennen perus Tidy -toimintoraporttien poistamista.</string>
     <string name="stats_settings_retention_paths_label">Yksityiskohtaiset polkutiedot</string>
-    <string name="stats_settings_retention_paths_desc">Päivien määrä, jolloin pidetään yksityiskohdat SD Maidin vaikuttamista poluista.</string>
+    <string name="stats_settings_retention_paths_desc">Päivien määrä, jolloin pidetään yksityiskohdat Tidyin vaikuttamista poluista.</string>
     <string name="stats_settings_retention_snapshots_label">Tallennustilan historia</string>
     <string name="stats_settings_retention_snapshots_desc">Kuinka monta päivää tallennustilan käytön tilannekuvia säilytetään Tallennustilan trendi -kaaviota varten. Vanhemmat tilannekuvat poistetaan.</string>
     <string name="stats_settings_reset_all_label">Nollaa kaikki</string>

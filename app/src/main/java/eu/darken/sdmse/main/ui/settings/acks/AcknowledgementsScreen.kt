@@ -103,9 +103,9 @@ internal fun AcknowledgementsScreen(
             )
 
             SettingsPreferenceItem(
-                title = "Max Patchs",
-                subtitle = "Thanks for the great icons & graphics",
-                onClick = { onOpenUrl("https://twitter.com/maxpatchs") },
+                title = "SD Maid SE",
+                subtitle = "Tidy is a modified version of SD Maid SE by Matthias Urhahn (GPL-3.0). Thanks for the open-source code.",
+                onClick = { onOpenUrl("https://github.com/d4rken-org/sdmaid-se") },
             )
             SettingsPreferenceItem(
                 title = "crowdin.com",

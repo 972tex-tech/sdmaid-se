@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Opriți aplicația. Împiedicați-o să pornească singură până când o deschideți sau până când dispozitivul este repornit.</string>
     <string name="appcontrol_app_uninstall_description">Dezinstalați această aplicație de pe dispozitivul dvs.</string>
     <string name="appcontrol_app_exclude_add_title">Exclude aplicația</string>
-    <string name="appcontrol_app_exclude_add_description">Exclude această aplicație din alte operații în SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Exclude această aplicație din alte operații în Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Editează excluderea</string>
     <string name="appcontrol_app_exclude_edit_description">Această aplicație este în prezent exclusă de la una sau mai multe instrumente.</string>
     <string name="appcontrol_tag_user">Utilizator</string>
@@ -110,7 +110,7 @@
     <string name="appcontrol_progress_exporting_x">Exportat %s</string>
     <string name="appcontrol_share_list_action">Distribuiți listă</string>
     <string name="appcontrol_share_list_title">Aplicațiile mele</string>
-    <string name="appcontrol_share_list_footer">Partajat prin SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Partajat prin Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Oprire forțată a aplicațiilor</string>
     <string name="appcontrol_force_stop_action">Opriți forțat</string>
     <string name="appcontrol_force_stop_confirm_title">Confirmați oprirea forțată</string>

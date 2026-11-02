@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">İstisna meneceri</string>
     <string name="exclusion_manager_desc">Fayl və tətbiq istisnaları idarə edin.</string>
-    <string name="exclusion_explanation_body1">Faylları və tətbiqləri SD Maid alətlərindən qorumaq üçün istisna edin, ya da əlaqəsiz elementləri atlayıb əməliyyatları sürətləndirin.</string>
+    <string name="exclusion_explanation_body1">Faylları və tətbiqləri Tidy alətlərindən qorumaq üçün istisna edin, ya da əlaqəsiz elementləri atlayıb əməliyyatları sürətləndirin.</string>
     <string name="exclusion_add_new_hint">Hələ istisna yoxdur. Bir istisna yaratmaq üçün + düyməsindən istifadə edin, ya da hər hansı alətin nəticələrindən elementləri istisna edin.</string>
     <string name="exclusion_create_action">İstisna yarat</string>
     <string name="exclusion_edit_action">İstisnanı redaktə et</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Qismən uyğunluqlara icazə ver</string>
     <string name="exclusion_option_ignore_casing">Böyük/kiçik hərfləri göz ardı et</string>
     <string name="exclusion_editor_affected_tools_label">Təsirlənən alətlər</string>
-    <string name="exclusion_editor_path_explanation">Yol istisnası SD Maid-in uyğun yolları əlavə emal etməsinin qarşısını alır. Bu fayllar, qovluqlar və alt qovluqlar üçün keçərlidir.</string>
-    <string name="exclusion_editor_pkg_explanation">Tətbiq istisnası SD Maid-in uyğun paketləri emal etməsinin qarşısını alır.</string>
+    <string name="exclusion_editor_path_explanation">Yol istisnası Tidy-in uyğun yolları əlavə emal etməsinin qarşısını alır. Bu fayllar, qovluqlar və alt qovluqlar üçün keçərlidir.</string>
+    <string name="exclusion_editor_pkg_explanation">Tətbiq istisnası Tidy-in uyğun paketləri emal etməsinin qarşısını alır.</string>
     <string name="exclusion_editor_segment_explanation">Seqment əsaslı istisna yol istisnasına bənzəyir, lakin qismən uyğunluqlara imkan verir. Nümunə: \"DCIM/Camera\" \"/sdcard/DCIM/Camera/photo.png\"-ni istisna edir.</string>
     <string name="exclusion_editor_remove_confirmation_message">Bu istisna silinsinmi?</string>
     <string name="exclusion_reset_default_exclusions">Standart istisnaları bərpa et</string>

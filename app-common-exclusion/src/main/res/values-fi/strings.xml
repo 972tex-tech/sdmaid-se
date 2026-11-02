@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Poikkeusten hallinta</string>
     <string name="exclusion_manager_desc">Hallitse tiedosto- ja sovelluspoikkeuksia.</string>
-    <string name="exclusion_explanation_body1">Poissulje tiedostoja ja sovelluksia suojataksesi ne SD Maidin työkaluilta, tai ohita asiaankuulumattomia kohteita nopeuttaaksesi toimintoja.</string>
+    <string name="exclusion_explanation_body1">Poissulje tiedostoja ja sovelluksia suojataksesi ne Tidyin työkaluilta, tai ohita asiaankuulumattomia kohteita nopeuttaaksesi toimintoja.</string>
     <string name="exclusion_add_new_hint">Ei poissulkemisia vielä. Käytä +-painiketta luodaksesi yhden, tai poissulje kohteita minkä tahansa työkalun tuloksista.</string>
     <string name="exclusion_create_action">Luo poikkeus</string>
     <string name="exclusion_edit_action">Muokkaa poikkeusta</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Salli osittaiset osumat</string>
     <string name="exclusion_option_ignore_casing">Älä huomioi kirjainkokoa</string>
     <string name="exclusion_editor_affected_tools_label">Vaikutetut työkalut</string>
-    <string name="exclusion_editor_path_explanation">Polkupoikkeus estää SD Maidia jatkamasta vastaavien polkujen käsittelyä. Tämä koskee tiedostoja, kansioita ja alikansioita.</string>
-    <string name="exclusion_editor_pkg_explanation">Sovelluspoikkeus estää SD Maidia käsittelemästä vastaavia paketteja.</string>
+    <string name="exclusion_editor_path_explanation">Polkupoikkeus estää Tidyia jatkamasta vastaavien polkujen käsittelyä. Tämä koskee tiedostoja, kansioita ja alikansioita.</string>
+    <string name="exclusion_editor_pkg_explanation">Sovelluspoikkeus estää Tidyia käsittelemästä vastaavia paketteja.</string>
     <string name="exclusion_editor_segment_explanation">Segmenttipohjainen poikkeus on samanlainen kuin polkupoikkeus, mutta sallii osittaiset osumat. Esimerkki: \"DCIM/Camera\" sulkee pois \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Poista tämä poikkeus?</string>
     <string name="exclusion_reset_default_exclusions">Palauta oletuspoikkeukset</string>

@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimum leeftijd</string>
     <string name="appcleaner_include_minimumage_summary">Bestanden overslaan die jonger zijn dan de minimum leeftijd.</string>
     <string name="appcleaner_automation_romtype_detection_label">Detectie van besturingssysteem</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Op toegankelijkheid gebaseerde automatisering kan mislukken als SD Maid uw besturingssysteem niet correct detecteert. Gebruik deze instelling om het gedetecteerde besturingssysteem te overschrijven.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Op toegankelijkheid gebaseerde automatisering kan mislukken als Tidy uw besturingssysteem niet correct detecteert. Gebruik deze instelling om het gedetecteerde besturingssysteem te overschrijven.</string>
     <string name="appcleaner_filter_codecache_label">Code cache</string>
     <string name="appcleaner_filter_codecache_summary">JVM-codecache. Blokken bytecode gecompileerd in native code.</string>
     <string name="appcleaner_filter_advertisement_label">Advertentie gegevens</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Uitgesloten app</string>
     <string name="appcleaner_exclusion_limited_body">Je hebt deze app uitgesloten van AppCleaner. Het in één keer wissen van de caches van alle apps gebruikt de systeembrede cachetrim via ADB-toegang, die geen afzonderlijke apps kan overslaan. De gecachte gegevens van deze app worden dus samen met de rest gewist. Alleen de hier getoonde gecachte gegevens worden beïnvloed, al het andere wat de uitsluiting dekt blijft verborgen en onaangeroerd.</string>
     <string name="appcleaner_automation_unavailable_title">Toegankelijkheidsservice niet beschikbaar</string>
-    <string name="appcleaner_automation_unavailable_body">Het wissen van deze caches vereist SD Maids toegankelijkheidsservice, maar die was niet beschikbaar.</string>
+    <string name="appcleaner_automation_unavailable_body">Het wissen van deze caches vereist Tidys toegankelijkheidsservice, maar die was niet beschikbaar.</string>
     <string name="appcleaner_delete_confirmation_message_x">Overbodige bestanden verwijderen voor %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Overbodige bestanden verwijderen voor %d geselecteerde app?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Het systeem heeft de knop \'Cache wissen\' voor deze app uitgeschakeld. Schakel de app uit om het wissen van de cache te versnellen.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Systeem-app verkeerd geconfigureerd</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">De beveiligingsapp van HyperOS (com.miui.securitycenter) mist de toestemming Gebruiksstatistieken (GET_USAGE_STATS). Dit werkt niet meer zoals \'Gegevens wissen\' in appdetails en het wissen van de cache via toegankelijkheid. Verleen de toestemming om de volledige functionaliteit te herstellen.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Dit kan ook gebeuren als de systeemapp \"System UI\" onlangs geforceerd is afgesloten, bijvoorbeeld door een app-opschoonprogramma. Android blokkeert dan de automatische knopdrukken van SD Maid totdat je het apparaat opnieuw opstart.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Dit kan ook gebeuren als de systeemapp \"System UI\" onlangs geforceerd is afgesloten, bijvoorbeeld door een app-opschoonprogramma. Android blokkeert dan de automatische knopdrukken van Tidy totdat je het apparaat opnieuw opstart.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Geforceerd stoppen voor wissen</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Sluit apps geforceerd af voordat je hun cache wist. Dit kan helpen om de cache van sommige apps te wissen, maar het kan er ook toe leiden dat apps niet goed meer werken en handmatig opnieuw moeten worden opgestart.</string>
     <string name="appcleaner_progress_force_stopping">Apps geforceerd stoppen…</string>

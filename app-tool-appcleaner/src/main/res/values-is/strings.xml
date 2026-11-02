@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Lágmarksaldur</string>
     <string name="appcleaner_include_minimumage_summary">Sleppa skrám sem eru yngri en lágmarksaldur.</string>
     <string name="appcleaner_automation_romtype_detection_label">Stýrikerfisgreining</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Sjálfvirkni byggð á aðgengisþjónustu gæti mistekist ef SD Maid greinir stýrikerfið þitt ekki rétt. Notaðu þessa stillingu til að hnekkja greiningunni.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Sjálfvirkni byggð á aðgengisþjónustu gæti mistekist ef Tidy greinir stýrikerfið þitt ekki rétt. Notaðu þessa stillingu til að hnekkja greiningunni.</string>
     <string name="appcleaner_filter_codecache_label">Kóðaskyndiminni</string>
     <string name="appcleaner_filter_codecache_summary">JVM kóðaskyndiminni. Blokkir af bæjakóða þýddur í innfæddan kóða.</string>
     <string name="appcleaner_filter_advertisement_label">Auglýsingagögn</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Undanskilið forrit</string>
     <string name="appcleaner_exclusion_limited_body">Þú undanskildir þetta forrit frá AppCleaner. Þegar skyndiminni allra forrita er hreinsað í einu er notuð kerfisbundin skyndiminnishreinsun sem er tiltæk í gegnum ADB aðgang, og hún getur ekki sleppt einstökum forritum, svo skyndiminnisgögn þessa forrits eru hreinsuð ásamt öllu öðru. Aðeins skyndiminnisgögnin sem sýnd eru hér verða fyrir áhrifum, allt annað sem undanskilningin nær yfir helst falið og ósnert.</string>
     <string name="appcleaner_automation_unavailable_title">Aðgengisþjónusta ekki tiltæk</string>
-    <string name="appcleaner_automation_unavailable_body">Að hreinsa þessi skyndiminni krefst aðgengisþjónustu SD Maid, en hún var ekki tiltæk.</string>
+    <string name="appcleaner_automation_unavailable_body">Að hreinsa þessi skyndiminni krefst aðgengisþjónustu Tidy, en hún var ekki tiltæk.</string>
     <string name="appcleaner_delete_confirmation_message_x">Eyða óþarfa skrám fyrir %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Eyða óþarfa skrám fyrir %d valið forrit?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Kerfið hefur gert \"Hreinsa skyndiminni\" hnappinn óvirkan fyrir þetta forrit. Útilokaðu það til að flýta hreinsun skyndiminnis.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Kerfisforrit rangt stillt</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Öryggisforrit HyperOS (com.miui.securitycenter) vantar leyfi fyrir notkunartölfræði (GET_USAGE_STATS). Þetta brýtur eiginleika eins og \"Hreinsa gögn\" og hreinsun skyndiminnis í gegnum aðgengisþjónustu. Veittu leyfið til að endurheimta fulla virkni.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Þetta getur líka gerst ef kerfisforritið „System UI“ var nýlega þvingað til að stöðva, t.d. af forriti sem hreinsar önnur forrit. Þá lokar Android á sjálfvirkar hnappaýtingar SD Maid þar til þú endurræsir tækið.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Þetta getur líka gerst ef kerfisforritið „System UI“ var nýlega þvingað til að stöðva, t.d. af forriti sem hreinsar önnur forrit. Þá lokar Android á sjálfvirkar hnappaýtingar Tidy þar til þú endurræsir tækið.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Þvinga stopp fyrir hreinsun</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Þvinga stopp á forritum áður en skyndiminni þeirra er hreinsað. Það gæti hjálpað við hreinsun sumra forrita, en gæti valdið truflunum og krafist handvirkrar endurræsingar.</string>
     <string name="appcleaner_progress_force_stopping">Þvinga stopp á forritum…</string>

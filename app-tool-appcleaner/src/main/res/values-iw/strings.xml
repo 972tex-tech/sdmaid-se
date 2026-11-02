@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">גיל מינימלי</string>
     <string name="appcleaner_include_minimumage_summary">דלג על קבצים צעירים מהגיל המינימלי.</string>
     <string name="appcleaner_automation_romtype_detection_label">זיהוי מערכת הפעלה</string>
-    <string name="appcleaner_automation_romtype_detection_summary">אוטומציה מבוססת נגישות עלולה להיכשל אם SD Maid לא תזהה את מערכת ההפעלה שלך כראוי. השתמש בהגדרה זו כדי לעקוף את מערכת ההפעלה שזוהתה.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">אוטומציה מבוססת נגישות עלולה להיכשל אם Tidy לא תזהה את מערכת ההפעלה שלך כראוי. השתמש בהגדרה זו כדי לעקוף את מערכת ההפעלה שזוהתה.</string>
     <string name="appcleaner_filter_codecache_label">מטמון קוד</string>
     <string name="appcleaner_filter_codecache_summary">מטמון קוד JVM. בלוקים של קוד בתים הידור לקוד מקורי.</string>
     <string name="appcleaner_filter_advertisement_label">נתוני פרסומות</string>
@@ -92,7 +92,7 @@
     <string name="appcleaner_exclusion_limited_title">יישום מוחרג</string>
     <string name="appcleaner_exclusion_limited_body">החרגת אפליקציה זו מ-AppCleaner. ניקוי מטמונים של כל האפליקציות בבת אחת משתמש בקיצוץ מטמון ברמת המערכת הזמין דרך גישת ADB, שאינו יכול להשאיר אפליקציות בודדות בחוץ, ולכן נתוני המטמון של אפליקציה זו נמחקים יחד עם כל השאר. רק נתוני המטמון המוצגים כאן מושפעים, כל השאר שההחרגה מכסה נשאר מוסתר ולא נפגע.</string>
     <string name="appcleaner_automation_unavailable_title">שירות הנגישות לא זמין</string>
-    <string name="appcleaner_automation_unavailable_body">ניקוי המטמונים האלה דורש את שירות הנגישות של SD Maid, אך הוא לא היה זמין.</string>
+    <string name="appcleaner_automation_unavailable_body">ניקוי המטמונים האלה דורש את שירות הנגישות של Tidy, אך הוא לא היה זמין.</string>
     <string name="appcleaner_delete_confirmation_message_x">למחוק קבצים זמניים עבור %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">האם למחוק קבצים שניתנים להרחבה עבור %d האפליקציה שנבחרה?</item>
@@ -105,7 +105,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">המערכת השביתה את כפתור \"ניקוי מטמון\" עבור אפליקציה זו. מומלץ לא לכלול אותו כדי להאיץ את ניקוי המטמון.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">אפליקציית המערכת מוגדרת בצורה שגויה</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">באפליקציית האבטחה (com.miui.securitycenter) של HyperOS חסרה הרשאת נתוני השימוש (GET_USAGE_STATS). זה משבית תכונות כמו \"נקה נתונים\" בפרטי אפליקציה וניקוי מטמון באמצעות נגישות. הענק את ההרשאה כדי לאפשר פונקציונליות מלאה.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">זה יכול לקרות גם אם אפליקציית המערכת \"System UI\" נעצרה בכפייה לאחרונה, למשל על ידי כלי לניקוי אפליקציות. במקרה כזה Android חוסם את לחיצות הכפתורים האוטומטיות של SD Maid עד שתפעיל מחדש את המכשיר.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">זה יכול לקרות גם אם אפליקציית המערכת \"System UI\" נעצרה בכפייה לאחרונה, למשל על ידי כלי לניקוי אפליקציות. במקרה כזה Android חוסם את לחיצות הכפתורים האוטומטיות של Tidy עד שתפעיל מחדש את המכשיר.</string>
     <string name="appcleaner_forcestop_before_clearing_label">עצירה מאולצת לפני ניקוי</string>
     <string name="appcleaner_forcestop_before_clearing_summary">עצור אפליקציות בכוח לפני ניקוי המטמון. יכול לעזור לנקות את המטמון של חלק מהאפליקציות, אך עלול לגרום לתקלות ולדרוש הפעלה מחדש ידנית.</string>
     <string name="appcleaner_progress_force_stopping">עוצר אפליקציות בכוח…</string>

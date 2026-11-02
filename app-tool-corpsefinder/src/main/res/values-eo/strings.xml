@@ -35,7 +35,7 @@
     <string name="corpsefinder_owners_label">Posedantoj</string>
     <string name="corpsefinder_owner_unknown">Nekonata posedanto</string>
     <string name="corpsefinder_corpse_hint_keeper">Ĉi tiu ero povas enhavi datumojn kiujn vi volas konservi malgraŭ ke ĝia posedanto estas malinstalita, ekz. fotoj aŭ sekurkopioj.</string>
-    <string name="corpsefinder_corpse_hint_common">Ĉi tiu ero havas tre komunan nomon kaj povus aparteni al ankoraŭ instalitaj aplikaĵoj kiujn SD Maid ne konas.</string>
+    <string name="corpsefinder_corpse_hint_common">Ĉi tiu ero havas tre komunan nomon kaj povus aparteni al ankoraŭ instalitaj aplikaĵoj kiujn Tidy ne konas.</string>
     <plurals name="corpsefinder_watcher_notification_scan_result">
         <item quantity="one">%1$d restaĵo trovita post malinstali %2$s.</item>
         <item quantity="other">%1$d restaĵoj trovitaj post malinstali %2$s.</item>

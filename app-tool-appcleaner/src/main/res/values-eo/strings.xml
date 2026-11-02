@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimuma aĝo</string>
     <string name="appcleaner_include_minimumage_summary">Preterpasi dosierojn kiuj estas pli junaj ol la minimuma aĝo.</string>
     <string name="appcleaner_automation_romtype_detection_label">Operaciuma detekto</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Alireblec-bazita aŭtomatigo povas malsukcesi se SD Maid ne detektas vian OS ĝuste. Uzu ĉi tiun agordon por anstataŭigi la detektitan OS.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Alireblec-bazita aŭtomatigo povas malsukcesi se Tidy ne detektas vian OS ĝuste. Uzu ĉi tiun agordon por anstataŭigi la detektitan OS.</string>
     <string name="appcleaner_filter_codecache_label">Koda kaŝmemoro</string>
     <string name="appcleaner_filter_codecache_summary">JVM-koda kaŝmemoro. Blokoj de bajtokodo kompilitaj en denaskan kodon.</string>
     <string name="appcleaner_filter_advertisement_label">Reklamaj datumoj</string>
@@ -62,7 +62,7 @@
     <string name="appcleaner_item_caches_inaccessible_title">Defaŭltaj kaŝmemoroj</string>
     <string name="appcleaner_item_caches_inaccessible_body">Publikaj kaj privataj defaŭltaj kaŝmemoroj. Ne rekte alireblaj, sed povas esti forigitaj nerekte (ekz. per alirebleca servo).</string>
     <string name="appcleaner_automation_unavailable_title">Alirebleca servo nedisponebla</string>
-    <string name="appcleaner_automation_unavailable_body">Viŝi nealireblajn kaŝmemorojn postulas la alireblecan servon de SD Maid, sed ĝi estis nedisponebla. Se vi ne volas uzi ĝin: Malŝaltu la opcion "Inkluzivi nealireblajn kaŝmemorojn".</string>
+    <string name="appcleaner_automation_unavailable_body">Viŝi nealireblajn kaŝmemorojn postulas la alireblecan servon de Tidy, sed ĝi estis nedisponebla. Se vi ne volas uzi ĝin: Malŝaltu la opcion "Inkluzivi nealireblajn kaŝmemorojn".</string>
     <string name="appcleaner_delete_confirmation_message_x">Ĉu forigi elspezeblajn dosierojn por %s?</string>
     <string name="appcleaner_progress_shizuku_deleting_caches">Forigante kaŝmemorojn uzante Shizuku</string>
     <string name="appcleaner_progress_determining_inaccessible_caches">Determinante nealireblajn kaŝmemorojn</string>

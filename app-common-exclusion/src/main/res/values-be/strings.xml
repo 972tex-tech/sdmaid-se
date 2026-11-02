@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Менеджар выключэнняў</string>
     <string name="exclusion_manager_desc">Кіраванне выключэннямі для файлаў і праграм.</string>
-    <string name="exclusion_explanation_body1">Выключайце файлы і прыложенні каб абаронць іх ад інструментаў SD Maid, ці каб прапусцяць ненужныя элементы і паскорыць аперацыі.</string>
+    <string name="exclusion_explanation_body1">Выключайце файлы і прыложенні каб абаронць іх ад інструментаў Tidy, ці каб прапусцяць ненужныя элементы і паскорыць аперацыі.</string>
     <string name="exclusion_add_new_hint">Пакуль няма выключэнняў. Выкарыстоўвайце кнопку + каб стварыць адно, ці выключыце элементы з вынікаў любога інструмента.</string>
     <string name="exclusion_create_action">Стварыць выключэнне</string>
     <string name="exclusion_edit_action">Рэдагаваць выключэнне</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Дазволіць частковыя супадзенні</string>
     <string name="exclusion_option_ignore_casing">Без уліку рэгістра</string>
     <string name="exclusion_editor_affected_tools_label">Звязаныя інструменты</string>
-    <string name="exclusion_editor_path_explanation">Выключэнне шляху не дазваляе SD Maid далей апрацоўваць любыя адпаведныя шляхі. Гэта датычыцца файлаў, папак і падпапак.</string>
-    <string name="exclusion_editor_pkg_explanation">Выключэнне праграмы не дазваляе SD Maid апрацоўваць адпаведныя пакеты.</string>
+    <string name="exclusion_editor_path_explanation">Выключэнне шляху не дазваляе Tidy далей апрацоўваць любыя адпаведныя шляхі. Гэта датычыцца файлаў, папак і падпапак.</string>
+    <string name="exclusion_editor_pkg_explanation">Выключэнне праграмы не дазваляе Tidy апрацоўваць адпаведныя пакеты.</string>
     <string name="exclusion_editor_segment_explanation">Выключэнне на аснове сегмента падобна на выключэнне шляху, але дазваляе частковае супадзенне. Прыклад: \"DCIM/Camera\" выключае \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Выдаліць гэта выключэнне?</string>
     <string name="exclusion_reset_default_exclusions">Аднавіць выключэнні па змаўчанні</string>

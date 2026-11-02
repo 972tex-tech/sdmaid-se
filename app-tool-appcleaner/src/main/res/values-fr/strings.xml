@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Âge minimum</string>
     <string name="appcleaner_include_minimumage_summary">Ignorer les fichiers dont l’âge est inférieur à l’âge minimum.</string>
     <string name="appcleaner_automation_romtype_detection_label">Détection du système d’exploitation</string>
-    <string name="appcleaner_automation_romtype_detection_summary">L’automatisation fondée sur l’accessibilité peut échouer si SD Maid ne détecte pas correctement votre système d’exploitation (SE). Utiliser ce paramètre pour remplacer le SE détecté.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">L’automatisation fondée sur l’accessibilité peut échouer si Tidy ne détecte pas correctement votre système d’exploitation (SE). Utiliser ce paramètre pour remplacer le SE détecté.</string>
     <string name="appcleaner_filter_codecache_label">Cache du code</string>
     <string name="appcleaner_filter_codecache_summary">Cache du code de la MVJ. Blocs de pseudo-code compilé en code natif.</string>
     <string name="appcleaner_filter_advertisement_label">Données de publicités</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Appli exclue</string>
     <string name="appcleaner_exclusion_limited_body">Tu as exclu cette appli d\'AppCleaner. Effacer les caches pour toutes les applis à la fois utilise le nettoyage du cache au niveau du système disponible via l\'accès ADB, qui ne peut pas laisser des applis individuelles de côté. Les données en cache de cette appli sont donc effacées en même temps que tout le reste. Seules les données en cache affichées ici sont affectées ; tout le reste couvert par l\'exclusion reste caché et inchangé.</string>
     <string name="appcleaner_automation_unavailable_title">Le service d’accessibilité est inaccessible</string>
-    <string name="appcleaner_automation_unavailable_body">Le vidage de ces caches nécessite le service d\'accessibilité de SD Maid, mais il n\'était pas disponible.</string>
+    <string name="appcleaner_automation_unavailable_body">Le vidage de ces caches nécessite le service d\'accessibilité de Tidy, mais il n\'était pas disponible.</string>
     <string name="appcleaner_delete_confirmation_message_x">Supprimer les fichiers superflus pour %s ?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Supprimer les fichiers superflus pour %d appli choisie ?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Le système a désactivé le bouton « Vider le cache » pour cette appli. L’exclure accélère le vidage du cache.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Une appli système est mal configurée</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">L’autorisation d’accès aux statistiques d’utilisation (GET_USAGE_STATS) manque pour l’appli de sécurité d’HyperOS (com.miui.securitycenter). Par conséquent, « Effacer les données » des détails des applis et vider le cache grâce au service d’accessibilité ne fonctionneront pas. Pour rétablir la fonctionnalité, accordez l’autorisation.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Cela peut aussi se produire si l\'appli système « System UI » a été récemment forcée à s\'arrêter, par exemple par un outil de nettoyage d\'applis. Android bloque alors les appuis automatiques de SD Maid sur les boutons jusqu\'à ce que tu redémarres l\'appareil.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Cela peut aussi se produire si l\'appli système « System UI » a été récemment forcée à s\'arrêter, par exemple par un outil de nettoyage d\'applis. Android bloque alors les appuis automatiques de Tidy sur les boutons jusqu\'à ce que tu redémarres l\'appareil.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Forcer l’arrêt avant de vider</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Forcer l’arrêt des applis avant de vider leur cache. Cela peut aider à vider le cache de certaines applis, mais peut entraîner leur dysfonctionnement et demander un redémarrage manuel.</string>
     <string name="appcleaner_progress_force_stopping">Arrêt forcer des applis…</string>

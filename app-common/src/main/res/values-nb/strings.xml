@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Til tjeneste.</string>
     <string name="slogan_message_1">Ren og ryddig.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Laster</string>
     <string name="general_progress_loading_app_data">Laster appdata</string>
     <string name="general_progress_loading_data_areas">Laster dataområder</string>
-    <string name="general_data_areas_unavailable_message">Kunne ikke laste inn dataarealene, lagringsplasseringene SD Maid kan arbeide med.</string>
+    <string name="general_data_areas_unavailable_message">Kunne ikke laste inn dataarealene, lagringsplasseringene Tidy kan arbeide med.</string>
     <string name="general_progress_loading_egg_0">Fortsatt raskere enn en iPhone</string>
     <string name="general_progress_loading_egg_1">Laster ned mer RAM</string>
     <string name="general_progress_loading_egg_2">Snart™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">Tjenestetilkobling brutt</string>
     <string name="general_error_ipc_deadobject_description">Forbindelsen til en kritisk tjeneste (f.eks. Magisk, Porter, Shizuku, eller andre systemtjenester) gikk uventet tapt. Omstart enheten din. Hvis problemet vedvarer, kontroller oppdateringer eller ta kontakt med meg slik at jeg kan fikse det.</string>
     <string name="general_error_upgrade_required_title">Oppgradering påkrevd</string>
-    <string name="general_error_upgrade_required_description">Denne funksjonen krever en oppgradering. Vennligst oppgrader SD Maid SE for å bruke den.</string>
+    <string name="general_error_upgrade_required_description">Denne funksjonen krever en oppgradering. Vennligst oppgrader Tidy for å bruke den.</string>
     <string name="general_user_label_owner">Eier</string>
     <string name="general_user_label_system">System</string>
     <string name="setup_title">Oppsett</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">Vis innstillinger</string>
     <string name="ui_theme_color_sunset_label">Solnedgang</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Denne funksjonen krever rottilgang, men SD Maid kunne ikke få det på denne enheten.</string>
+    <string name="access_blocked_root_unavailable">Denne funksjonen krever rottilgang, men Tidy kunne ikke få det på denne enheten.</string>
     <string name="access_blocked_root_declined">Denne funksjonen krever rottilgang. Du kan aktivere den via oppsettsskjermen.</string>
     <string name="access_blocked_root_or_shizuku">Denne funksjonen krever root- eller ADB-tilgang, som ikke er tilgjengelig på denne enheten.</string>
     <string name="backup_restore_error_invalid_title">Ugyldig sikkerhetskopifil</string>
-    <string name="backup_restore_error_invalid_body">Denne filen er ikke en gyldig SD Maid-sikkerhetskopi eller er ødelagt.</string>
-    <string name="backup_restore_error_version_body">Denne sikkerhetskopien ble opprettet med en nyere versjon av SD Maid. Vennligst oppdater appen og prøv igjen.</string>
+    <string name="backup_restore_error_invalid_body">Denne filen er ikke en gyldig Tidy-sikkerhetskopi eller er ødelagt.</string>
+    <string name="backup_restore_error_version_body">Denne sikkerhetskopien ble opprettet med en nyere versjon av Tidy. Vennligst oppdater appen og prøv igjen.</string>
     <string name="backup_restore_error_restore_failed_title">Gjenoppretting mislyktes</string>
     <string name="backup_restore_error_restore_failed_body">Disse delene kunne ikke gjenopprettes: %1$s. Din tidligere konfigurasjon ble lagret og kan gjenopprettes.</string>
     <string name="backup_restore_error_safety_title">Gjenoppretting ikke startet</string>
-    <string name="backup_restore_error_safety_body">SD Maid kunne ikke lagre et sikkerhetssnapshot av din nåværende konfigurasjon, så ingenting ble endret.</string>
+    <string name="backup_restore_error_safety_body">Tidy kunne ikke lagre et sikkerhetssnapshot av din nåværende konfigurasjon, så ingenting ble endret.</string>
     <string name="backup_restore_error_busy_title">Vennligst vent</string>
     <string name="backup_restore_error_busy_body">En rengjøringsoppgave eller en annen sikkerhetskopi-operasjon kjører nå. Prøv igjen når den er ferdig.</string>
     <string name="backup_restore_error_schema_title">Inkompatibel sikkerhetskopi</string>
-    <string name="backup_restore_error_schema_body">Sikkerhetskopiens databaseformat stemmer ikke overens med denne versjonen av SD Maid. Gjenoppretting av historikkdata støttes bare mellom identiske appversjoner.</string>
+    <string name="backup_restore_error_schema_body">Sikkerhetskopiens databaseformat stemmer ikke overens med denne versjonen av Tidy. Gjenoppretting av historikkdata støttes bare mellom identiske appversjoner.</string>
 </resources>

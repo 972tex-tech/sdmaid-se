@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">أوقف التطبيق. امنعه من البدء حتى تقوم بفتحه أو إعادة تشغيل الجهاز.</string>
     <string name="appcontrol_app_uninstall_description">إلغاء تثبيت هذا التطبيق من جهازك.</string>
     <string name="appcontrol_app_exclude_add_title">استبعاد التطبيق</string>
-    <string name="appcontrol_app_exclude_add_description">استبعاد هذا التطبيق من العمليات الأخرى في SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">استبعاد هذا التطبيق من العمليات الأخرى في Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">تعديل الاستبعاد</string>
     <string name="appcontrol_app_exclude_edit_description">هذا التطبيق مستبعد حالياً من أداة واحدة أو أكثر.</string>
     <string name="appcontrol_tag_user">المستخدم</string>
@@ -137,7 +137,7 @@
     <string name="appcontrol_progress_exporting_x">تصدير %s</string>
     <string name="appcontrol_share_list_action">مشاركة القائمة</string>
     <string name="appcontrol_share_list_title">تطبيقاتي</string>
-    <string name="appcontrol_share_list_footer">تمت المشاركة عبر SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">تمت المشاركة عبر Tidy</string>
     <string name="appcontrol_force_stop_selection_action">إيقاف التطبيقات إجبارياً</string>
     <string name="appcontrol_force_stop_action">ايقاف اجباري</string>
     <string name="appcontrol_force_stop_confirm_title">تأكيد إيقاف بالقوة</string>

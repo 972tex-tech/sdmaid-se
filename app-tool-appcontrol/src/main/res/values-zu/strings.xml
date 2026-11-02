@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Misa uhlelo lokusebenza. Livimbele ukuziqalela lona uze ulivule noma idivayisi iqalwe kabusha.</string>
     <string name="appcontrol_app_uninstall_description">Khipha lolu hlelo kudivayisi yakho.</string>
     <string name="appcontrol_app_exclude_add_title">Khipha uhlelo</string>
-    <string name="appcontrol_app_exclude_add_description">Khipha lolu hlelo kwezinye izinqubo ze-SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Khipha lolu hlelo kwezinye izinqubo ze-Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Hlela ukukhishwa</string>
     <string name="appcontrol_app_exclude_edit_description">Lolu hlelo manje lukhishwe kwethuluzi elilodwa noma ngaphezulu.</string>
     <string name="appcontrol_tag_user">Umsebenzisi</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Kukhipha %s</string>
     <string name="appcontrol_share_list_action">Yabelana ngohlu</string>
     <string name="appcontrol_share_list_title">Izinhlelo Zokusebenza Zami</string>
-    <string name="appcontrol_share_list_footer">Kwabelanwe nge-SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Kwabelanwe nge-Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Misa ngamandla izinhlelo zokusebenza</string>
     <string name="appcontrol_force_stop_action">Misa ngamandla</string>
     <string name="appcontrol_force_stop_confirm_title">Qinisekisa ukumisa ngamandla</string>

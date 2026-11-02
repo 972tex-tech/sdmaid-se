@@ -92,7 +92,7 @@
     <string name="appcleaner_exclusion_limited_title">Искључена апликација</string>
     <string name="appcleaner_exclusion_limited_body">Искључили сте ову апликацију из AppCleaner-а. Брисање кеша свих апликација одједном користи системско скраћивање кеша доступно преко ADB приступа, које не може изоставити појединачне апликације, па се кеширани подаци ове апликације бришу заједно са свим осталим. Утиче се само на овде приказане кеширане податке, а све остало што искључење обухвата остаје скривено и нетакнуто.</string>
     <string name="appcleaner_automation_unavailable_title">Сервис приступачности није доступан</string>
-    <string name="appcleaner_automation_unavailable_body">Брисање ових кешова захтева SD Maid-ову услугу приступачности, али она није била доступна.</string>
+    <string name="appcleaner_automation_unavailable_body">Брисање ових кешова захтева Tidy-ову услугу приступачности, али она није била доступна.</string>
     <string name="appcleaner_delete_confirmation_message_x">Обрисати потрошне датотеке за %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Обрисати потрошне датотеке за %d изабрану апликацију?</item>
@@ -105,7 +105,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Систем је онемогућио дугме \"Обриши кеш\" за ову апликацију. Искључите је да убрзате брисање кеша.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Системска апликација неправилно подешена</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS Security апликацији (com.miui.securitycenter) недостаје дозвола за статистике коришћења (GET_USAGE_STATS). Ово ломи функције попут \"Обриши податке\" у детаљима апликације и брисање кеша преко приступачности. Дајте дозволу да вратите пуну функционалност.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Ово се такође може десити ако је системска апликација „System UI” недавно принудно заустављена, нпр. алатом за чишћење апликација. Android тада блокира SD Maid-ове аутоматске притиске на дугмад док не рестартујеш уређај.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Ово се такође може десити ако је системска апликација „System UI” недавно принудно заустављена, нпр. алатом за чишћење апликација. Android тада блокира Tidy-ове аутоматске притиске на дугмад док не рестартујеш уређај.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Принудно заустави пре чишћења</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Принудно заустави апликације пре чишћења њиховог кеша. Може помоћи у чишћењу кеша неких апликација, али може проузроковати неисправно понашање апликација које захтевају ручно покретање.</string>
     <string name="appcleaner_progress_force_stopping">Принудно заустављање апликација…</string>

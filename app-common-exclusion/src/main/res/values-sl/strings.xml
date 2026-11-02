@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">Upravitelj izjem</string>
     <string name="exclusion_manager_desc">Upravljaj z izjemami datotek in programov.</string>
-    <string name="exclusion_explanation_body1">Izvzemite datoteke in aplikacije, da jih zaščitite pred orodji SD Maid, ali preskočite nepomembne predmete in pospešite delovanje.</string>
+    <string name="exclusion_explanation_body1">Izvzemite datoteke in aplikacije, da jih zaščitite pred orodji Tidy, ali preskočite nepomembne predmete in pospešite delovanje.</string>
     <string name="exclusion_add_new_hint">Trenutno ni izjem. Uporabite gumb + za ustvarjanje izjeme ali izvzemite predmete iz rezultatov katerega koli orodja.</string>
     <string name="exclusion_create_action">Ustvari izjemo</string>
     <string name="exclusion_edit_action">Uredi izjemo</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">Dovoli delna ujemanja</string>
     <string name="exclusion_option_ignore_casing">Prezri velikost črk</string>
     <string name="exclusion_editor_affected_tools_label">Orodja, na katera to vpliva</string>
-    <string name="exclusion_editor_path_explanation">Izključena pot SD Maidu preprečuje obdelavo ujemajočih se poti.  To velja za datoteke, mape in podmape.</string>
-    <string name="exclusion_editor_pkg_explanation">Izključen program SD Maidu preprečuje obdelavo ujemajočih se paketov.</string>
+    <string name="exclusion_editor_path_explanation">Izključena pot Tidyu preprečuje obdelavo ujemajočih se poti.  To velja za datoteke, mape in podmape.</string>
+    <string name="exclusion_editor_pkg_explanation">Izključen program Tidyu preprečuje obdelavo ujemajočih se paketov.</string>
     <string name="exclusion_editor_segment_explanation">Izključitev dela poti je podobna izključitvi poti, vendar omogoča delna ujemanja.  Primer: \"DCIM/Camera\" izključi \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">Odstrani to izjemo?</string>
     <string name="exclusion_reset_default_exclusions">Obnovi privzete izključitve</string>

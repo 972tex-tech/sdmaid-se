@@ -53,7 +53,7 @@
     <string name="corpsefinder_owners_label">Eiere</string>
     <string name="corpsefinder_owner_unknown">Ukjent eier</string>
     <string name="corpsefinder_corpse_hint_keeper">Dette elementet kan inneholde data du vil beholde til tross for at eieren blir avinstallert, f.eks. bilder eller sikkerhetskopier.</string>
-    <string name="corpsefinder_corpse_hint_common">Dette elementet har et veldig vanlig navn og kan tilhøre fortsatt installerte apper som SD Maid ikke kjenner.</string>
+    <string name="corpsefinder_corpse_hint_common">Dette elementet har et veldig vanlig navn og kan tilhøre fortsatt installerte apper som Tidy ikke kjenner.</string>
     <string name="corpsefinder_risk_keeper_chip">Ønskelig</string>
     <string name="corpsefinder_risk_common_chip">Vanlig</string>
     <string name="corpsefinder_markers_dialog_title">Om disse markørene</string>
@@ -61,5 +61,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Standard gjenværende filer. Generelt trygt å fjerne — disse filene tilhører apper som ikke lenger er installert.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">CorpseFinder finner data som er etterlatt av apper du allerede har avinstallert. Det tilhører ikke lenger noe som er installert, så å fjerne det frigjør plass. Det meste av det er trygt å fjerne, men sjekk markøren når du er usikker.</string>
-    <string name="tour_corpsefinder_row_body">Hvert element er gjenværende data og appen det kom fra. Markøren viser hvor sikker SD Maid er på at det er trygt å fjerne — trykk på ⓘ øverst for å lære hva markørene betyr.</string>
+    <string name="tour_corpsefinder_row_body">Hvert element er gjenværende data og appen det kom fra. Markøren viser hvor sikker Tidy er på at det er trygt å fjerne — trykk på ⓘ øverst for å lære hva markørene betyr.</string>
 </resources>

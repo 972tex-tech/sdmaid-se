@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Деэд нас</string>
     <string name="appcleaner_include_minimumage_summary">Деэд наснаас залуу файлуудыг алгасах.</string>
     <string name="appcleaner_automation_romtype_detection_label">Үйлдлийн системийг таних</string>
-    <string name="appcleaner_automation_romtype_detection_summary">SD Maid таны үйлдлийн системийг зөв танихгүй бол хандалтын дэвсэн автоматжуулалт бүтэлж чадаж болно. Танисан үйлдлийн системийг дараалахад энэ тохиргоог ашигла.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Tidy таны үйлдлийн системийг зөв танихгүй бол хандалтын дэвсэн автоматжуулалт бүтэлж чадаж болно. Танисан үйлдлийн системийг дараалахад энэ тохиргоог ашигла.</string>
     <string name="appcleaner_filter_codecache_label">Кодын кэш</string>
     <string name="appcleaner_filter_codecache_summary">JVM кодын кэш. Байткодыг натив код руу хөрвүүлсэн блокууд.</string>
     <string name="appcleaner_filter_advertisement_label">Зарын өгөгдөл</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">Хассан апп</string>
     <string name="appcleaner_exclusion_limited_body">Та энэ апп-ыг AppCleaner-аас хассан. Бүх апп-ын кэшийг нэг дор цэвэрлэх нь ADB хандалтаар боломжтой системийн хэмжээний кэш багасгалтыг ашигладаг бөгөөд энэ нь тусдаа апп-уудыг үлдээж чадахгүй тул энэ апп-ын кэш өгөгдөл бусадтай хамт цэвэрлэгдэнэ. Энд харагдаж буй кэш өгөгдөл л нөлөөлөгдөх бөгөөд хасалтад хамаарах бусад бүх зүйл нуугдмал, хөндөгдөхгүй хэвээр үлдэнэ.</string>
     <string name="appcleaner_automation_unavailable_title">Хандалтын үйлчилгээ боломжгүй</string>
-    <string name="appcleaner_automation_unavailable_body">Эдгээр кэш-уудыг цэвэрлэхийн тул SD Maid-ийн Нэвтрэх эрхийн үйлчилгээ шаардлагатай боловч энэ нь боломжгүй байсан.</string>
+    <string name="appcleaner_automation_unavailable_body">Эдгээр кэш-уудыг цэвэрлэхийн тул Tidy-ийн Нэвтрэх эрхийн үйлчилгээ шаардлагатай боловч энэ нь боломжгүй байсан.</string>
     <string name="appcleaner_delete_confirmation_message_x">%s-ийн зарцлаж болох файлуудыг устгах уу?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Сонгосон %d аппын зарцлаж болох файлуудыг устгах уу?</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Систем энэ аппын \"Kэш цэвхлэх\" товчийг идэвхгүй болгосон. Кэш цэвхлэхийг түргэшнүүлэхийн тулд үүндэс хас.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Системийн апп буруу тохируулагдсан</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">HyperOS-ийн Аюлгуулалт апп (com.miui.securitycenter) дэ Хэрэглэгчийн статистикийн зөвшөөрөл (GET_USAGE_STATS) алгасн. Энэ нь аппын дэлгэцтэйг \"Datа цэвхлэх\" болон хандалтын үйлчилгээгээр кэш цэвхлэх зэрэг ажиллахгүй болгодог. Бүрэн функционалийг сэргээхийн тулд зөвшөөрлийг олго.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Энэ нь \"System UI\" системийн програм саяхан албадан зогсоосон үед (жишээ нь програм цэвэрлэх хэрэгслээр) болж болно. Android дараа нь төхөөрөмжийг сэргээх хүртэл SD Maid-ийн автоматизацийн товчны дарцдуудыг хаадаг.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Энэ нь \"System UI\" системийн програм саяхан албадан зогсоосон үед (жишээ нь програм цэвэрлэх хэрэгслээр) болж болно. Android дараа нь төхөөрөмжийг сэргээх хүртэл Tidy-ийн автоматизацийн товчны дарцдуудыг хаадаг.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Цэвхлэхийн өмнө хүчээр зогсоох</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Кэш цэвхлэхийн өмнө аппуудыг хүчээр зогсоох. Деэр зарим аппуудын кэшийг цэвхлэхд туслах боловч аппууд буруу ажиллах болон гар дахин эхлүүлэх шаардлагатай.</string>
     <string name="appcleaner_progress_force_stopping">Аппуудыг хүчээр зогсоож байна…</string>

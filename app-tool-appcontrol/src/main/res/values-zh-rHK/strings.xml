@@ -92,7 +92,7 @@
     <string name="appcontrol_progress_exporting_x">正在導出 %s</string>
     <string name="appcontrol_share_list_action">分享清單</string>
     <string name="appcontrol_share_list_title">我的應用程式</string>
-    <string name="appcontrol_share_list_footer">透過 SD Maid SE 分享</string>
+    <string name="appcontrol_share_list_footer">透過 Tidy 分享</string>
     <string name="appcontrol_force_stop_selection_action">強制停止</string>
     <string name="appcontrol_force_stop_action">強制停止</string>
     <string name="appcontrol_force_stop_confirm_title">強制停止</string>

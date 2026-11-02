@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">„SD Maid SE“</string>
+    <string name="app_name">„Tidy“</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Jūsų paslaugoms.</string>
     <string name="slogan_message_1">Švariai ir tvarkingai.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Įkeliama</string>
     <string name="general_progress_loading_app_data">Įkeliami programos duomenys</string>
     <string name="general_progress_loading_data_areas">Įkeliamos duomenų sritys</string>
-    <string name="general_data_areas_unavailable_message">Nepavyko įkelti duomenų sričių, saugojimo vietų, su kuriomis gali dirbti SD Maid.</string>
+    <string name="general_data_areas_unavailable_message">Nepavyko įkelti duomenų sričių, saugojimo vietų, su kuriomis gali dirbti Tidy.</string>
     <string name="general_progress_loading_egg_0">Vis tiek greičiau nei iPhone</string>
     <string name="general_progress_loading_egg_1">Atsisiunčiama daugiau RAM</string>
     <string name="general_progress_loading_egg_2">Greitai™</string>
@@ -206,7 +206,7 @@
     <string name="general_error_ipc_deadobject_title">Prarastas ryšys su paslauga</string>
     <string name="general_error_ipc_deadobject_description">Ryšys su svarbia tarnyba (pvz., Magisk, Porter, Shizuku ar kitomis sisteminėmis tarnybomis) netikėtai nutrūko. Perkraukite įrenginį. Jei problema išlieka, patikrinkite, ar nėra atnaujinimų, arba susisiekite su manimi, kad galėčiau tai ištaisyti.</string>
     <string name="general_error_upgrade_required_title">Reikalingas atnaujinimas</string>
-    <string name="general_error_upgrade_required_description">Ši funkcija reikalinga atnaujinimo. Atnaujinkite SD Maid SE, kad ją naudotumėte.</string>
+    <string name="general_error_upgrade_required_description">Ši funkcija reikalinga atnaujinimo. Atnaujinkite Tidy, kad ją naudotumėte.</string>
     <string name="general_user_label_owner">Savininkas</string>
     <string name="general_user_label_system">Sistema</string>
     <string name="setup_title">Nustatymai</string>
@@ -236,18 +236,18 @@
     <string name="appcontrol_systemsettings_open_title">Rodyti nustatymus</string>
     <string name="ui_theme_color_sunset_label">Saulėlydis</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Ši funkcija reikalauja root prieigos, tačiau SD Maid negalėjo gauti jos šiame įrenginyje.</string>
+    <string name="access_blocked_root_unavailable">Ši funkcija reikalauja root prieigos, tačiau Tidy negalėjo gauti jos šiame įrenginyje.</string>
     <string name="access_blocked_root_declined">Šiai funkcijai reikalinga root prieiga. Galite ją įjungti nustatymo ekrane.</string>
     <string name="access_blocked_root_or_shizuku">Ši funkcija reikalauja root arba ADB prieigos, kuri šiame įrenginyje nepasiekiama.</string>
     <string name="backup_restore_error_invalid_title">Negaliojanti atsarginė kopija</string>
-    <string name="backup_restore_error_invalid_body">Šis failas nėra galiojanti SD Maid atsarginė kopija arba yra pažeistas.</string>
-    <string name="backup_restore_error_version_body">Ši atsarginė kopija buvo sukurta naujesne SD Maid versija. Atnaujinkite programą ir bandykite iš naujo.</string>
+    <string name="backup_restore_error_invalid_body">Šis failas nėra galiojanti Tidy atsarginė kopija arba yra pažeistas.</string>
+    <string name="backup_restore_error_version_body">Ši atsarginė kopija buvo sukurta naujesne Tidy versija. Atnaujinkite programą ir bandykite iš naujo.</string>
     <string name="backup_restore_error_restore_failed_title">Atkūrimas nepavyko</string>
     <string name="backup_restore_error_restore_failed_body">Šios dalys negali būti atkurtos: %1$s. Jūsų ankstesnė konfigūracija buvo išsaugota ir gali būti grąžinta.</string>
     <string name="backup_restore_error_safety_title">Atkūrimas nepradėtas</string>
-    <string name="backup_restore_error_safety_body">SD Maid negalėjo išsaugoti jūsų dabartinės konfigūracijos saugumo nuotraukos, todėl niekas nebuvo pakeista.</string>
+    <string name="backup_restore_error_safety_body">Tidy negalėjo išsaugoti jūsų dabartinės konfigūracijos saugumo nuotraukos, todėl niekas nebuvo pakeista.</string>
     <string name="backup_restore_error_busy_title">Prašome palaukti</string>
     <string name="backup_restore_error_busy_body">Šiuo metu vykdoma valymo užduotis arba kita atsarginės kopijos operacija. Bandykite dar kartą, kai ji bus baigta.</string>
     <string name="backup_restore_error_schema_title">Nesuderinama atsarginė kopija</string>
-    <string name="backup_restore_error_schema_body">Atsarginės kopijos duomenų bazės formatas neatitinka šios SD Maid versijos. Istorijos duomenų atkūrimas palaikomas tik tarp identiškų programos versijų.</string>
+    <string name="backup_restore_error_schema_body">Atsarginės kopijos duomenų bazės formatas neatitinka šios Tidy versijos. Istorijos duomenų atkūrimas palaikomas tik tarp identiškų programos versijų.</string>
 </resources>

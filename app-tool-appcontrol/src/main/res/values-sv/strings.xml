@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Stoppa appen. Förhindra den från att starta sig själv tills du öppnar den eller enheten startas om.</string>
     <string name="appcontrol_app_uninstall_description">Avinstallera denna app från din enhet.</string>
     <string name="appcontrol_app_exclude_add_title">Uteslut app</string>
-    <string name="appcontrol_app_exclude_add_description">Uteslut denna app från andra operationer i SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Uteslut denna app från andra operationer i Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Redigera uteslutning</string>
     <string name="appcontrol_app_exclude_edit_description">Denna app är för närvarande utesluten från ett eller flera verktyg.</string>
     <string name="appcontrol_tag_user">Användare</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Exporterar %s</string>
     <string name="appcontrol_share_list_action">Dela lista</string>
     <string name="appcontrol_share_list_title">Mina appar</string>
-    <string name="appcontrol_share_list_footer">Delad via SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Delad via Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Tvinga stoppa appar</string>
     <string name="appcontrol_force_stop_action">Tvinga stopp</string>
     <string name="appcontrol_force_stop_confirm_title">Bekräfta tvinga stopp</string>

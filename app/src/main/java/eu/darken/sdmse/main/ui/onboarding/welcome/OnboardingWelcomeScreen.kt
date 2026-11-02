@@ -25,7 +25,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
@@ -38,8 +37,6 @@ import eu.darken.sdmse.common.compose.preview.Preview2
 import eu.darken.sdmse.common.compose.preview.PreviewWrapper
 import eu.darken.sdmse.common.error.ErrorEventHandler
 import eu.darken.sdmse.common.navigation.NavigationEventHandler
-import eu.darken.sdmse.common.pkgs.getPackageInfo2
-import eu.darken.sdmse.common.pkgs.toPkgId
 
 @Composable
 fun OnboardingWelcomeScreenHost(
@@ -48,14 +45,9 @@ fun OnboardingWelcomeScreenHost(
     ErrorEventHandler(vm)
     NavigationEventHandler(vm)
 
-    val context = LocalContext.current
-
     OnboardingWelcomeScreen(
         isBeta = BuildConfigWrap.BUILD_TYPE != BuildConfigWrap.BuildType.RELEASE,
-        onContinue = {
-            val legacySdm = context.packageManager.getPackageInfo2("eu.thedarken.sdm".toPkgId(), 0)
-            vm.onContinue(isLegacySdmInstalled = legacySdm != null)
-        },
+        onContinue = vm::onContinue,
     )
 }
 

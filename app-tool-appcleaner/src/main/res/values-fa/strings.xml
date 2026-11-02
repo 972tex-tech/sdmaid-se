@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">حداقل سن</string>
     <string name="appcleaner_include_minimumage_summary">پرونده‌هایی که کمتر از حداقل سن هستند را نادیده بگیرید.</string>
     <string name="appcleaner_automation_romtype_detection_label">تشخیص سیستم عامل</string>
-    <string name="appcleaner_automation_romtype_detection_summary">خودکار‌سازی مبتنی بر دسترسی ممکن است در صورتی که SD Maid سیستم عامل شما را به درستی تشخیص ندهد، شکست بخورد. از این تنظیم برای جایگزینی سیستم عامل تشخیص داده شده استفاده کنید.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">خودکار‌سازی مبتنی بر دسترسی ممکن است در صورتی که Tidy سیستم عامل شما را به درستی تشخیص ندهد، شکست بخورد. از این تنظیم برای جایگزینی سیستم عامل تشخیص داده شده استفاده کنید.</string>
     <string name="appcleaner_filter_codecache_label">حافظه پنهان کد</string>
     <string name="appcleaner_filter_codecache_summary">حافظه پنهان کد JVM. بلوک های بایت کد به کد بومی کامپایل شده است.</string>
     <string name="appcleaner_filter_advertisement_label">داده‌های تبلیغاتی</string>
@@ -87,7 +87,7 @@
     <string name="appcleaner_exclusion_limited_title">برنامهٔ استثناء شده</string>
     <string name="appcleaner_exclusion_limited_body">شما این برنامه را از AppCleaner مستثنی کرده‌اید. پاک‌سازی حافظه پنهان همه برنامه‌ها به‌صورت یکجا از قطع‌کردن حافظه پنهان در سطح سیستم استفاده می‌کند که از طریق دسترسی ADB در دسترس است و نمی‌تواند برنامه‌های خاصی را کنار بگذارد، بنابراین داده‌های حافظه پنهان این برنامه هم همراه با بقیه پاک می‌شود. فقط داده‌های حافظه پنهانی که در اینجا نمایش داده می‌شوند تحت تأثیر قرار می‌گیرند و هر چیز دیگری که استثنا پوشش می‌دهد پنهان و دست‌نخورده باقی می‌ماند.</string>
     <string name="appcleaner_automation_unavailable_title">سرویس دسترسی در دسترس نیست</string>
-    <string name="appcleaner_automation_unavailable_body">پاکسازی این حافظه‌های پنهان نیاز به سرویس دسترسی SD Maid دارد، اما آن در دسترس نبود.</string>
+    <string name="appcleaner_automation_unavailable_body">پاکسازی این حافظه‌های پنهان نیاز به سرویس دسترسی Tidy دارد، اما آن در دسترس نبود.</string>
     <string name="appcleaner_delete_confirmation_message_x">آیا فایل‌های قابل حذف برای %s حذف شوند؟</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">آیا فایل‌های قابل حذف برای %d برنامه انتخاب شده حذف شوند؟</item>
@@ -99,7 +99,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">سیستم دکمه \"پاک کردن کش\" را برای این برنامه غیرفعال کرده است. آن را حذف کنید تا پاک کردن کش سریع‌تر شود.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">برنامه سیستمی اشتباه پیکربندی شده</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">برنامه امنیتی HyperOS (com.miui.securitycenter) فاقد مجوز آمار استفاده (GET_USAGE_STATS) است. این امر ویژگی‌هایی مانند \"پاک کردن داده\" در جزئیات برنامه و پاک کردن کش از طریق دسترسی را می‌شکند. مجوز را اعطا کنید تا عملکرد کامل بازیابی شود.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">این وضعیت همچنین ممکن است زمانی رخ دهد که برنامهٔ سیستمی « System UI» اخیراً به‌اجبار متوقف شده باشد، مثلاً توسط یک ابزار پاک‌سازی برنامه. در این حالت اندروید فشار دادن خودکار دکمه‌ها توسط SD Maid را تا زمان راه‌اندازی مجدد دستگاه مسدود می‌کند.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">این وضعیت همچنین ممکن است زمانی رخ دهد که برنامهٔ سیستمی « System UI» اخیراً به‌اجبار متوقف شده باشد، مثلاً توسط یک ابزار پاک‌سازی برنامه. در این حالت اندروید فشار دادن خودکار دکمه‌ها توسط Tidy را تا زمان راه‌اندازی مجدد دستگاه مسدود می‌کند.</string>
     <string name="appcleaner_forcestop_before_clearing_label">توقف اجباری قبل از پاکسازی</string>
     <string name="appcleaner_forcestop_before_clearing_summary">قبل از پاکسازی حافظه نهان، برنامه‌ها را به اجبار متوقف کنید. این می‌تواند به پاکسازی حافظه نهان برخی برنامه‌ها کمک کند، اما ممکن است باعث اختلال در برنامه‌ها شود و نیاز به راه‌اندازی مجدد دستی داشته باشد.</string>
     <string name="appcleaner_progress_force_stopping">در حال توقف اجباری برنامه‌ها…</string>

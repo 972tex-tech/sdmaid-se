@@ -2,7 +2,7 @@
 <resources>
     <string name="exclusion_manager_title">مدير الاستبعاد</string>
     <string name="exclusion_manager_desc">إدارة استثناءات الملفات والتطبيقات.</string>
-    <string name="exclusion_explanation_body1">استبعد الملفات والتطبيقات لحمايتها من أدوات SD Maid، أو لتخطي العناصر غير ذات الصلة وتسريع العمليات.</string>
+    <string name="exclusion_explanation_body1">استبعد الملفات والتطبيقات لحمايتها من أدوات Tidy، أو لتخطي العناصر غير ذات الصلة وتسريع العمليات.</string>
     <string name="exclusion_add_new_hint">لا توجد استثناءات حتى الآن. استخدم زر + لإنشاء واحد، أو استبعد العناصر من نتائج أي أداة.</string>
     <string name="exclusion_create_action">إنشاء استبعاد</string>
     <string name="exclusion_edit_action">تعديل الاستبعاد</string>
@@ -15,8 +15,8 @@
     <string name="exclusion_option_allow_partial">السماح بالتطابق الجزئي</string>
     <string name="exclusion_option_ignore_casing">تجاهل الغلاف</string>
     <string name="exclusion_editor_affected_tools_label">الأدوات المتأثرة</string>
-    <string name="exclusion_editor_path_explanation">يمنع استبعاد المسار SD Maid من مواصلة معالجة أي مسارات مطابقة. ينطبق هذا على الملفات والمجلدات والمجلدات الفرعية.</string>
-    <string name="exclusion_editor_pkg_explanation">يمنع استثناء التطبيق SD Maid من معالجة أي حزم مطابقة.</string>
+    <string name="exclusion_editor_path_explanation">يمنع استبعاد المسار Tidy من مواصلة معالجة أي مسارات مطابقة. ينطبق هذا على الملفات والمجلدات والمجلدات الفرعية.</string>
+    <string name="exclusion_editor_pkg_explanation">يمنع استثناء التطبيق Tidy من معالجة أي حزم مطابقة.</string>
     <string name="exclusion_editor_segment_explanation">والاستبعاد القائم على الشريحة مماثل لاستبعاد المسار ولكنه يسمح بمطابقة جزئية. مثال: \"DCIM/Camera\" لا يشمل \"/sdcard/DCIM/Camera/photo.png\".</string>
     <string name="exclusion_editor_remove_confirmation_message">إزالة هذا الاستبعاد؟</string>
     <string name="exclusion_reset_default_exclusions">استعادة الاستثناءات الإفتراضية</string>

@@ -61,7 +61,7 @@
     <string name="corpsefinder_owners_label">Właściciele</string>
     <string name="corpsefinder_owner_unknown">Nieznany właściciel</string>
     <string name="corpsefinder_corpse_hint_keeper">Ten element może zawierać dane, które chcesz zachować, mimo że jego właściciel został odinstalowany, np. zdjęcia lub kopie.</string>
-    <string name="corpsefinder_corpse_hint_common">Ten element ma bardzo powszechną nazwę i może należeć do zainstalowanych aplikacji, których SD Maid nie zna.</string>
+    <string name="corpsefinder_corpse_hint_common">Ten element ma bardzo powszechną nazwę i może należeć do zainstalowanych aplikacji, których Tidy nie zna.</string>
     <string name="corpsefinder_risk_keeper_chip">Preferowane</string>
     <string name="corpsefinder_risk_common_chip">Wspólne</string>
     <string name="corpsefinder_markers_dialog_title">O tych oznaczeniach</string>
@@ -69,5 +69,5 @@
     <string name="corpsefinder_markers_dialog_normal_description">Pozostałość standardowa. Ogólnie bezpieczna do usunięcia — te pliki należą do aplikacji, które nie są już zainstalowane.</string>
     <!-- Guided tour -->
     <string name="tour_corpsefinder_intro_body">Wyszukiwanie pozostałości znajduje dane pozostawione przez aplikacje, które już odinstalowałeś. Nie należą one już do żadnej zainstalowanej aplikacji, więc ich usunięcie zwalnia miejsce. Większość danych można bezpiecznie usunąć, ale w razie wątpliwości sprawdź znacznik.</string>
-    <string name="tour_corpsefinder_row_body">Każdy element to pozostałe dane i aplikacja, z której pochodzą. Oznaczenie pokazuje, na ile SD Maid jest pewien, że bezpieczne jest usunięcie — naciśnij ⓘ na górze, aby dowiedzieć się, co oznaczają oznaczenia.</string>
+    <string name="tour_corpsefinder_row_body">Każdy element to pozostałe dane i aplikacja, z której pochodzą. Oznaczenie pokazuje, na ile Tidy jest pewien, że bezpieczne jest usunięcie — naciśnij ⓘ na górze, aby dowiedzieć się, co oznaczają oznaczenia.</string>
 </resources>

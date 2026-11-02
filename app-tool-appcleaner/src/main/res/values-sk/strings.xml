@@ -16,7 +16,7 @@
     <string name="appcleaner_include_minimumage_label">Minimálny vek</string>
     <string name="appcleaner_include_minimumage_summary">Preskočiť súbory, ktoré sú mladšie ako minimálny vek.</string>
     <string name="appcleaner_automation_romtype_detection_label">Detekcia operačného systému</string>
-    <string name="appcleaner_automation_romtype_detection_summary">Automatizácia založená na dostupnosti môže zlyhať, ak SD Maid správne nerozpozná váš operačný systém. Toto nastavenie použite na prepísanie zisteného OS.</string>
+    <string name="appcleaner_automation_romtype_detection_summary">Automatizácia založená na dostupnosti môže zlyhať, ak Tidy správne nerozpozná váš operačný systém. Toto nastavenie použite na prepísanie zisteného OS.</string>
     <string name="appcleaner_filter_codecache_label">Vyrovnávacia pamäť kódu</string>
     <string name="appcleaner_filter_codecache_summary">Vyrovnávacia pamäť kódu JVM. Bloky bajtového kódu skompilované do natívneho kódu.</string>
     <string name="appcleaner_filter_advertisement_label">Údaje o reklame</string>
@@ -97,7 +97,7 @@
     <string name="appcleaner_exclusion_limited_title">Vylúčená aplikácia</string>
     <string name="appcleaner_exclusion_limited_body">Vyňali ste túto aplikáciu z AppCleanera. Vymazanie cache všetkých aplikácií naraz používa systémové vyčistenie cache dostupné prostredníctvom prístupu cez ADB, ktoré nemôže vynechať jednotlivé aplikácie. Preto sa cache tejto aplikácie vymažú spolu s ostatným. Sú postihnuté iba údaje cache zobrazené tu; všetko ostatné, čo vylúčenie pokrýva, ostáva skryté a nedotknuté.</string>
     <string name="appcleaner_automation_unavailable_title">Služba dostupnosti nie je k dispozícii</string>
-    <string name="appcleaner_automation_unavailable_body">Vymazanie týchto vyrovnávacích pamätí vyžaduje službu SD Maid na zjednodušenie ovládania, tá však nebola dostupná.</string>
+    <string name="appcleaner_automation_unavailable_body">Vymazanie týchto vyrovnávacích pamätí vyžaduje službu Tidy na zjednodušenie ovládania, tá však nebola dostupná.</string>
     <string name="appcleaner_delete_confirmation_message_x">Odstrániť nepotrebné položky pre %s?</string>
     <plurals name="appcleaner_delete_confirmation_message_selected_x_items">
         <item quantity="one">Odstrániť nepotrebné položky pre %d zvolenú aplikáciu?</item>
@@ -111,7 +111,7 @@
     <string name="appcleaner_automation_error_locked_appcache_body">Systém zakázal tlačidlo „Vymazať vyrovnávaciu pamäť\" pre túto aplikáciu. Vylúčte ju na zrýchlenie vymazávania vyrovnávacej pamäte.</string>
     <string name="appcleaner_automation_error_securitycenter_permission_title">Systémová aplikácia je nesprávne nakonfigurovaná</string>
     <string name="appcleaner_automation_error_securitycenter_permission_body">Bezpečnostnej aplikácii HyperOS (com.miui.securitycenter) chýba povolenie Štatistiky používania (GET_USAGE_STATS). Toto narúša funkcie ako „Vymazať údaje\" v podrobnostiach aplikácie a vymazávanie vyrovnávacej pamäte cez prístupnosť. Udeľte povolenie na obnovenie plnej funkčnosti.</string>
-    <string name="appcleaner_automation_compat_forcestop_hint">Toto sa môže stať aj vtedy, ak bola nedávno vynútene zastavená systémová aplikácia „System UI“, napríklad nástrojom na čistenie aplikácií. Android potom blokuje automatické stláčanie tlačidiel SD Maid, kým zariadenie nereštartuješ.</string>
+    <string name="appcleaner_automation_compat_forcestop_hint">Toto sa môže stať aj vtedy, ak bola nedávno vynútene zastavená systémová aplikácia „System UI“, napríklad nástrojom na čistenie aplikácií. Android potom blokuje automatické stláčanie tlačidiel Tidy, kým zariadenie nereštartuješ.</string>
     <string name="appcleaner_forcestop_before_clearing_label">Vynútiť zastavenie pred vyčistením</string>
     <string name="appcleaner_forcestop_before_clearing_summary">Vynútiť zastavenie aplikácií pred vyčistením ich vyrovnávacej pamäte. Môže to pomôcť vyčistiť vyrovnávaciu pamäť niektorých aplikácií, ale môže spôsobiť ich nesprávne správanie a vyžadovať manuálny reštart.</string>
     <string name="appcleaner_progress_force_stopping">Vynútené zastavovanie aplikácií…</string>

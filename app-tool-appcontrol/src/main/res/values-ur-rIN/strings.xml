@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">ایپ بند کریں۔ اسے خود شروع ہونے سے روکیں جب تک آپ اسے کھولیں یا ڈیوائس ریبوٹ نہ ہو۔</string>
     <string name="appcontrol_app_uninstall_description">اس ایپ کو آپ کے ڈیوائس سے ان انسٹال کریں۔</string>
     <string name="appcontrol_app_exclude_add_title">ایپ کو خارج کریں</string>
-    <string name="appcontrol_app_exclude_add_description">اس ایپ کو SD Maid کی دیگر کارروائیوں سے خارج کریں۔</string>
+    <string name="appcontrol_app_exclude_add_description">اس ایپ کو Tidy کی دیگر کارروائیوں سے خارج کریں۔</string>
     <string name="appcontrol_app_exclude_edit_title">استثنا کو تبدیل کریں</string>
     <string name="appcontrol_app_exclude_edit_description">یہ ایپ فی الوقت ایک یا زیادہ ٹولز سے خارج ہے۔</string>
     <string name="appcontrol_tag_user">صارف</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">%s ایکسپورٹ کر رہے ہیں</string>
     <string name="appcontrol_share_list_action">فہرست شیئر کریں</string>
     <string name="appcontrol_share_list_title">میری ایپس</string>
-    <string name="appcontrol_share_list_footer">SD Maid SE کے ذریعے شیئر کیا گیا</string>
+    <string name="appcontrol_share_list_footer">Tidy کے ذریعے شیئر کیا گیا</string>
     <string name="appcontrol_force_stop_selection_action">ایپس کو زبردستی بند کریں</string>
     <string name="appcontrol_force_stop_action">زبردستی بند کریں</string>
     <string name="appcontrol_force_stop_confirm_title">زبردستی بند کرنے کی تصدیق</string>

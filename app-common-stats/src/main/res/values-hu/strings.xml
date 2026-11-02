@@ -5,8 +5,8 @@
         <item quantity="other">%s felszabadult.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s elem feldolgozva, mióta meghívtad az SD Maidet a készülékedre.</item>
-        <item quantity="other">%s elem feldolgozva, mióta meghívtad az SD Maidet a készülékedre.</item>
+        <item quantity="one">%s elem feldolgozva, mióta meghívtad az Tidyet a készülékedre.</item>
+        <item quantity="other">%s elem feldolgozva, mióta meghívtad az Tidyet a készülékedre.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Vendéged %d napja.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Részleges siker</string>
     <string name="stats_report_status_partial_failure">Hiba</string>
-    <string name="stats_settings_desc">Az SD Maid statisztikáinak, jelentéseinek és adatmegőrzésének konfigurálása.</string>
+    <string name="stats_settings_desc">Az Tidy statisztikáinak, jelentéseinek és adatmegőrzésének konfigurálása.</string>
     <string name="stats_settings_retention_category">Megtartás</string>
     <string name="stats_settings_retention_reports_label">Általános jelentések</string>
-    <string name="stats_settings_retention_reports_desc">Az alapvető SD Maid műveleti jelentések törlése előtti napok száma.</string>
+    <string name="stats_settings_retention_reports_desc">Az alapvető Tidy műveleti jelentések törlése előtti napok száma.</string>
     <string name="stats_settings_retention_paths_label">Részletes útvonal-információk</string>
-    <string name="stats_settings_retention_paths_desc">Az SD Maid által érintett útvonalakra vonatkozó adatok tárolásának napszáma.</string>
+    <string name="stats_settings_retention_paths_desc">Az Tidy által érintett útvonalakra vonatkozó adatok tárolásának napszáma.</string>
     <string name="stats_settings_retention_snapshots_label">Tárhelyelőzmények</string>
     <string name="stats_settings_retention_snapshots_desc">Hány napig őrizze meg a rendszer a tárhelyhasználati pillanatképeket a Tárhelytrend diagramhoz. A régebbi pillanatképek törlődnek.</string>
     <string name="stats_settings_reset_all_label">Összes visszaállítása</string>

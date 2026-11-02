@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">در خدمت شما.</string>
     <string name="slogan_message_1">تمیز و مرتب.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">بارگذاری</string>
     <string name="general_progress_loading_app_data">بارگیری داده های برنامه</string>
     <string name="general_progress_loading_data_areas">بارگیری مناطق داده ها</string>
-    <string name="general_data_areas_unavailable_message">بارگذاری مناطق داده، یعنی مکان‌های ذخیره‌سازی که SD Maid می‌تواند با آن‌ها کار کند، ممکن نشد.</string>
+    <string name="general_data_areas_unavailable_message">بارگذاری مناطق داده، یعنی مکان‌های ذخیره‌سازی که Tidy می‌تواند با آن‌ها کار کند، ممکن نشد.</string>
     <string name="general_progress_loading_egg_0">هنوز هم سریعتر از آیفون</string>
     <string name="general_progress_loading_egg_1">در حال دانلود رم بیشتر</string>
     <string name="general_progress_loading_egg_2">به زودی™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">اتصال سرویس قطع شد</string>
     <string name="general_error_ipc_deadobject_description">اتصال به یک سرویس حیاتی (مثلاً Magisk، Porter، Shizuku یا سایر سرویس‌های سطح سیستم) به‌طور غیرمنتظره قطع شد. لطفاً دستگاه خود را راه‌اندازی مجدد کنید. اگر مشکل ادامه داشت، به‌روزرسانی‌ها را بررسی کنید یا با من تماس بگیرید تا آن را رفع کنم.</string>
     <string name="general_error_upgrade_required_title">ارتقا مورد نیاز است</string>
-    <string name="general_error_upgrade_required_description">این ویژگی نیازمند ارتقا است. لطفاً SD Maid SE را ارتقا دهید تا بتوانید از آن استفاده کنید.</string>
+    <string name="general_error_upgrade_required_description">این ویژگی نیازمند ارتقا است. لطفاً Tidy را ارتقا دهید تا بتوانید از آن استفاده کنید.</string>
     <string name="general_user_label_owner">مالک</string>
     <string name="general_user_label_system">سیستم</string>
     <string name="setup_title">راه‌اندازی</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">نمایش تنظیمات</string>
     <string name="ui_theme_color_sunset_label">غروب</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">این ویژگی نیازمند دسترسی روت است، اما SD Maid نتوانست آن را در این دستگاه دریافت کند.</string>
+    <string name="access_blocked_root_unavailable">این ویژگی نیازمند دسترسی روت است، اما Tidy نتوانست آن را در این دستگاه دریافت کند.</string>
     <string name="access_blocked_root_declined">این ویژگی نیاز به دسترسی روت دارد. می‌توانید آن را از طریق صفحه تنظیمات فعال کنید.</string>
     <string name="access_blocked_root_or_shizuku">این قابلیت به دسترسی روت یا ADB نیاز دارد که در این دستگاه در دسترس نیست.</string>
     <string name="backup_restore_error_invalid_title">فایل پشتیبان نامعتبر</string>
-    <string name="backup_restore_error_invalid_body">این فایل یک پشتیبان معتبر SD Maid نیست یا خراب است.</string>
-    <string name="backup_restore_error_version_body">این پشتیبان با نسخه‌ای جدیدتر از SD Maid ایجاد شده است. لطفاً برنامه را به‌روزرسانی کنید و دوباره امتحان کنید.</string>
+    <string name="backup_restore_error_invalid_body">این فایل یک پشتیبان معتبر Tidy نیست یا خراب است.</string>
+    <string name="backup_restore_error_version_body">این پشتیبان با نسخه‌ای جدیدتر از Tidy ایجاد شده است. لطفاً برنامه را به‌روزرسانی کنید و دوباره امتحان کنید.</string>
     <string name="backup_restore_error_restore_failed_title">بازگردانی ناموفق</string>
     <string name="backup_restore_error_restore_failed_body">این قسمت‌ها نتوانستند بازگردانی شوند: %1$s. پیکربندی قبلی شما ذخیره شده است و می‌تواند بازیابی شود.</string>
     <string name="backup_restore_error_safety_title">بازگردانی شروع نشده است</string>
-    <string name="backup_restore_error_safety_body">SD Maid نتوانست یک تصویر ایمن از پیکربندی فعلی شما ذخیره کند، بنابراین هیچ تغییری اعمال نشد.</string>
+    <string name="backup_restore_error_safety_body">Tidy نتوانست یک تصویر ایمن از پیکربندی فعلی شما ذخیره کند، بنابراین هیچ تغییری اعمال نشد.</string>
     <string name="backup_restore_error_busy_title">لطفاً صبر کنید</string>
     <string name="backup_restore_error_busy_body">یک وظیفه پاکسازی یا عملیات پشتیبان‌گیری دیگری در حال اجرا است. پس از پایان یافتن آن دوباره تلاش کنید.</string>
     <string name="backup_restore_error_schema_title">پشتیبان‌گیری ناسازگار</string>
-    <string name="backup_restore_error_schema_body">قالب پایگاه داده پشتیبان‌گیری با این نسخه از SD Maid مطابقت ندارد. بازگردانی داده‌های تاریخچه فقط بین نسخه‌های یکسان برنامه پشتیبانی می‌شود.</string>
+    <string name="backup_restore_error_schema_body">قالب پایگاه داده پشتیبان‌گیری با این نسخه از Tidy مطابقت ندارد. بازگردانی داده‌های تاریخچه فقط بین نسخه‌های یکسان برنامه پشتیبانی می‌شود.</string>
 </resources>

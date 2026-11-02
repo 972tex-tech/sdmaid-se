@@ -5,8 +5,8 @@
         <item quantity="other">%s janë liruar.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">%s artikull u përpunua që kur ftuat SD Maid në pajisjen tuaj.</item>
-        <item quantity="other">%s artikuj u përpunuan që kur ftuat SD Maid në pajisjen tuaj.</item>
+        <item quantity="one">%s artikull u përpunua që kur ftuat Tidy në pajisjen tuaj.</item>
+        <item quantity="other">%s artikuj u përpunuan që kur ftuat Tidy në pajisjen tuaj.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">Mysafir yt për %d ditë.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Sukses i pjesshëm</string>
     <string name="stats_report_status_partial_failure">Dështim i pjesshëm</string>
-    <string name="stats_settings_desc">Konfiguro statistikat, raportet dhe ruajtjen e të dhënave të SD Maid.</string>
+    <string name="stats_settings_desc">Konfiguro statistikat, raportet dhe ruajtjen e të dhënave të Tidy.</string>
     <string name="stats_settings_retention_category">Ruajtja</string>
     <string name="stats_settings_retention_reports_label">Raportet e detyrave</string>
     <string name="stats_settings_retention_reports_desc">Numri i ditëve për të mbajtur raportet e detyrave individuale.</string>
     <string name="stats_settings_retention_paths_label">Informacioni i detajuar i shtegut</string>
-    <string name="stats_settings_retention_paths_desc">Numri i ditëve për të mbajtur detajet për shtegjet e prekura nga SD Maid.</string>
+    <string name="stats_settings_retention_paths_desc">Numri i ditëve për të mbajtur detajet për shtegjet e prekura nga Tidy.</string>
     <string name="stats_settings_retention_snapshots_label">Historiku i hapësirës ruajtëse</string>
     <string name="stats_settings_retention_snapshots_desc">Numri i ditëve për ruajtjen e pamjeve të përdorimit të hapësirës ruajtëse për grafikun e trendit të hapësirës. Pamjet më të vjetra fshihen.</string>
     <string name="stats_settings_reset_all_label">Rivendos të gjitha</string>

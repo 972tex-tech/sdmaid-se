@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Zure zerbitzutan.</string>
     <string name="slogan_message_1">Garbi eta txukun.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Kargatzen</string>
     <string name="general_progress_loading_app_data">Aplikazioaren datuak kargatzen</string>
     <string name="general_progress_loading_data_areas">Datu-eremuak kargatzen</string>
-    <string name="general_data_areas_unavailable_message">Ezin izan dira datu-eremuak kargatu, hau da, SD Maid-ek erabil ditzakeen biltegiratze-kokalekuak.</string>
+    <string name="general_data_areas_unavailable_message">Ezin izan dira datu-eremuak kargatu, hau da, Tidy-ek erabil ditzakeen biltegiratze-kokalekuak.</string>
     <string name="general_progress_loading_egg_0">iPhone baino azkarragoa oraindik</string>
     <string name="general_progress_loading_egg_1">RAM gehiago deskargatzen</string>
     <string name="general_progress_loading_egg_2">Laster™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">Zerbitzuaren konexioa galdu da</string>
     <string name="general_error_ipc_deadobject_description">Zerbitzu kritiko baterako konexioa (adibidez Magisk, Porter, Shizuku edo sistema-mailako beste zerbitzu batzuk) ustekabean galdu da. Berrabiarazi gailua. Arazoak jarraitzen badu, bilatu eguneraketak edo jarri nirekin harremanetan konpon dezadan.</string>
     <string name="general_error_upgrade_required_title">Eguneraketa beharrezkoa</string>
-    <string name="general_error_upgrade_required_description">Funtzionalitate honek eguneraketa behar du. Mesedez, eguneratu SD Maid SE hau erabiltzeko.</string>
+    <string name="general_error_upgrade_required_description">Funtzionalitate honek eguneraketa behar du. Mesedez, eguneratu Tidy hau erabiltzeko.</string>
     <string name="general_user_label_owner">Jabea</string>
     <string name="general_user_label_system">Sistema</string>
     <string name="setup_title">Konfigurazioa</string>
@@ -210,16 +210,16 @@
     <string name="appcontrol_systemsettings_open_title">Erakutsi ezarpenak</string>
     <string name="ui_theme_color_sunset_label">Ilunabarra</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">Ezaugarri honek root sarbidea behar du, baina SD Maidek ezin izan du lortu gailu honetan.</string>
+    <string name="access_blocked_root_unavailable">Ezaugarri honek root sarbidea behar du, baina Tidyek ezin izan du lortu gailu honetan.</string>
     <string name="access_blocked_root_declined">Ezaugarri hau root sarbidea behar du. Konfigurazio pantailan gaitu dezakezu.</string>
     <string name="access_blocked_root_or_shizuku">Eginbide honek root edo ADB sarbidea behar du, eta ez dago erabilgarri gailu honetan.</string>
     <string name="backup_restore_error_invalid_title">Babeskopia fitxategi baliogabea</string>
-    <string name="backup_restore_error_invalid_body">Fitxategi hau ez da SD Maid-en babeskopia baliozkoa, edo hondatuta dago.</string>
-    <string name="backup_restore_error_version_body">Babeskopia hau SD Maiden bertsio berriagoa sortua da. Eguneratu aplikazioa eta saiatu berriro.</string>
+    <string name="backup_restore_error_invalid_body">Fitxategi hau ez da Tidy-en babeskopia baliozkoa, edo hondatuta dago.</string>
+    <string name="backup_restore_error_version_body">Babeskopia hau Tidyen bertsio berriagoa sortua da. Eguneratu aplikazioa eta saiatu berriro.</string>
     <string name="backup_restore_error_restore_failed_title">Leheneratzeak huts egin du</string>
     <string name="backup_restore_error_restore_failed_body">Zati hauek ezin izan ziren leheneratu: %1$s. Aurretiko konfigurazioa gorde zen eta itzul daiteke.</string>
     <string name="backup_restore_error_safety_title">Leheneratzea ez da hasi</string>
-    <string name="backup_restore_error_safety_body">SD Maidek ezin izan zuen zure uneko konfigurazio baten babeskopia sortu, beraz ez zen ezer aldatu.</string>
+    <string name="backup_restore_error_safety_body">Tidyek ezin izan zuen zure uneko konfigurazio baten babeskopia sortu, beraz ez zen ezer aldatu.</string>
     <string name="backup_restore_error_busy_title">Itxaron, mesedez</string>
     <string name="backup_restore_error_busy_body">Garbitze-zeregin bat edo beste babeskopia-eragiketa bat exekutatzen ari da. Saiatu berriro bukatzen denean.</string>
     <string name="backup_restore_error_schema_title">Bateragarria ez den babeskopia</string>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">Al tuo servizio.</string>
     <string name="slogan_message_1">Pulito e ordinato.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">Caricamento</string>
     <string name="general_progress_loading_app_data">Caricamento dei dati dell\'app</string>
     <string name="general_progress_loading_data_areas">Caricamento aree dati</string>
-    <string name="general_data_areas_unavailable_message">Impossibile caricare le aree dati, le posizioni di archiviazione con cui SD Maid può lavorare.</string>
+    <string name="general_data_areas_unavailable_message">Impossibile caricare le aree dati, le posizioni di archiviazione con cui Tidy può lavorare.</string>
     <string name="general_progress_loading_egg_0">Ancora più veloce di un iPhone</string>
     <string name="general_progress_loading_egg_1">Download di più RAM in corso</string>
     <string name="general_progress_loading_egg_2">Presto™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">Connessione al servizio persa</string>
     <string name="general_error_ipc_deadobject_description">La connessione a un servizio critico (ad es. Magisk, Porter, Shizuku o altri servizi di sistema) si è interrotta inaspettatamente. Riavvia il dispositivo. Se il problema persiste, cerca aggiornamenti o contattami per risolverlo.</string>
     <string name="general_error_upgrade_required_title">Aggiornamento richiesto</string>
-    <string name="general_error_upgrade_required_description">Questa funzionalità richiede un aggiornamento. Aggiorna SD Maid SE per utilizzarla.</string>
+    <string name="general_error_upgrade_required_description">Questa funzionalità richiede un aggiornamento. Aggiorna Tidy per utilizzarla.</string>
     <string name="general_user_label_owner">Proprietario</string>
     <string name="general_user_label_system">Sistema</string>
     <string name="setup_title">Configurazione</string>
@@ -214,14 +214,14 @@
     <string name="access_blocked_root_declined">Questa funzione richiede accesso root. Puoi abilitarla dalla schermata di configurazione.</string>
     <string name="access_blocked_root_or_shizuku">Questa funzione richiede l\'accesso root o ADB, che non è disponibile su questo dispositivo.</string>
     <string name="backup_restore_error_invalid_title">File di backup non valido</string>
-    <string name="backup_restore_error_invalid_body">Questo file non è un backup SD Maid valido o è corrotto.</string>
-    <string name="backup_restore_error_version_body">Questo backup è stato creato con una versione più recente di SD Maid. Aggiorna l’app e riprova.</string>
+    <string name="backup_restore_error_invalid_body">Questo file non è un backup Tidy valido o è corrotto.</string>
+    <string name="backup_restore_error_version_body">Questo backup è stato creato con una versione più recente di Tidy. Aggiorna l’app e riprova.</string>
     <string name="backup_restore_error_restore_failed_title">Ripristino non riuscito</string>
     <string name="backup_restore_error_restore_failed_body">Non è stato possibile ripristinare queste parti: %1$s. La tua configurazione precedente è stata salvata e può essere ripristinata.</string>
     <string name="backup_restore_error_safety_title">Ripristino non avviato</string>
-    <string name="backup_restore_error_safety_body">SD Maid non è riuscito a salvare un’istantanea di sicurezza della tua configurazione attuale, quindi nulla è stato modificato.</string>
+    <string name="backup_restore_error_safety_body">Tidy non è riuscito a salvare un’istantanea di sicurezza della tua configurazione attuale, quindi nulla è stato modificato.</string>
     <string name="backup_restore_error_busy_title">Attendi</string>
     <string name="backup_restore_error_busy_body">Un’attività di pulizia o un’altra operazione di backup è in corso. Riprova quando sarà terminata.</string>
     <string name="backup_restore_error_schema_title">Backup incompatibile</string>
-    <string name="backup_restore_error_schema_body">Il formato del database del backup non corrisponde a questa versione di SD Maid. Il ripristino dei dati della cronologia è supportato solo tra versioni identiche dell’app.</string>
+    <string name="backup_restore_error_schema_body">Il formato del database del backup non corrisponde a questa versione di Tidy. Il ripristino dei dati della cronologia è supportato solo tra versioni identiche dell’app.</string>
 </resources>

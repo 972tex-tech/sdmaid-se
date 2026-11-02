@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">성심껏 돕겠습니다.</string>
     <string name="slogan_message_1">정리 완료</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">불러오는 중</string>
     <string name="general_progress_loading_app_data">앱 데이터를 불러오는 중</string>
     <string name="general_progress_loading_data_areas">데이터 구역 불러오는 중</string>
-    <string name="general_data_areas_unavailable_message">SD Maid가 작업할 수 있는 저장 위치인 데이터 영역을 불러오지 못했습니다.</string>
+    <string name="general_data_areas_unavailable_message">Tidy가 작업할 수 있는 저장 위치인 데이터 영역을 불러오지 못했습니다.</string>
     <string name="general_progress_loading_egg_0">그래도 아이폰보단 빠릅니다</string>
     <string name="general_progress_loading_egg_1">램을 더 다운로드 받는 중</string>
     <string name="general_progress_loading_egg_2">곧...™</string>
@@ -170,7 +170,7 @@
     <string name="general_error_ipc_deadobject_title">서비스 연결 끊김</string>
     <string name="general_error_ipc_deadobject_description">중요한 서비스(예: Magisk, Porter, Shizuku 또는 기타 시스템 수준 서비스)와의 연결이 예기치 않게 끊어졌습니다. 기기를 재부팅하세요. 문제가 계속되면 업데이트를 확인하거나 저에게 문의해 주세요. 수정하겠습니다.</string>
     <string name="general_error_upgrade_required_title">업그레이드 필요</string>
-    <string name="general_error_upgrade_required_description">이 기능은 업그레이드가 필요합니다. SD Maid SE를 업그레이드하여 사용해주세요.</string>
+    <string name="general_error_upgrade_required_description">이 기능은 업그레이드가 필요합니다. Tidy를 업그레이드하여 사용해주세요.</string>
     <string name="general_user_label_owner">소유자</string>
     <string name="general_user_label_system">시스템</string>
     <string name="setup_title">설정하기</string>
@@ -197,18 +197,18 @@
     <string name="appcontrol_systemsettings_open_title">설정 보이기</string>
     <string name="ui_theme_color_sunset_label">일몰</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">이 기능은 루트 접근이 필요하지만 이 기기에서 SD Maid가 루트를 획득할 수 없습니다.</string>
+    <string name="access_blocked_root_unavailable">이 기능은 루트 접근이 필요하지만 이 기기에서 Tidy가 루트를 획득할 수 없습니다.</string>
     <string name="access_blocked_root_declined">이 기능은 루트 접근이 필요합니다. 설정 화면에서 활성화할 수 있습니다.</string>
     <string name="access_blocked_root_or_shizuku">이 기능에는 root 또는 ADB 접근이 필요하지만 이 기기에서는 사용할 수 없습니다.</string>
     <string name="backup_restore_error_invalid_title">유효하지 않은 백업 파일</string>
-    <string name="backup_restore_error_invalid_body">이 파일은 유효한 SD Maid 백업이 아니거나 손상되었습니다.</string>
-    <string name="backup_restore_error_version_body">이 백업은 최신 버전의 SD Maid로 생성되었습니다. 앱을 업데이트하고 다시 시도하세요.</string>
+    <string name="backup_restore_error_invalid_body">이 파일은 유효한 Tidy 백업이 아니거나 손상되었습니다.</string>
+    <string name="backup_restore_error_version_body">이 백업은 최신 버전의 Tidy로 생성되었습니다. 앱을 업데이트하고 다시 시도하세요.</string>
     <string name="backup_restore_error_restore_failed_title">복원 실패</string>
     <string name="backup_restore_error_restore_failed_body">이러한 부분은 복원할 수 없습니다: %1$s. 이전 구성이 저장되었으며 다시 가져올 수 있습니다.</string>
     <string name="backup_restore_error_safety_title">복원이 시작되지 않음</string>
-    <string name="backup_restore_error_safety_body">SD Maid가 현재 구성의 안전 스냅샷을 저장할 수 없어서 아무것도 변경되지 않았습니다.</string>
+    <string name="backup_restore_error_safety_body">Tidy가 현재 구성의 안전 스냅샷을 저장할 수 없어서 아무것도 변경되지 않았습니다.</string>
     <string name="backup_restore_error_busy_title">잠깐만 기다려주세요</string>
     <string name="backup_restore_error_busy_body">청소 작업 또는 다른 백업 작업이 현재 실행 중입니다. 완료되면 다시 시도하세요.</string>
     <string name="backup_restore_error_schema_title">호환되지 않는 백업</string>
-    <string name="backup_restore_error_schema_body">백업의 데이터베이스 형식이 이 버전의 SD Maid와 일치하지 않습니다. 기록 데이터 복원은 동일한 앱 버전 간에만 지원됩니다.</string>
+    <string name="backup_restore_error_schema_body">백업의 데이터베이스 형식이 이 버전의 Tidy와 일치하지 않습니다. 기록 데이터 복원은 동일한 앱 버전 간에만 지원됩니다.</string>
 </resources>

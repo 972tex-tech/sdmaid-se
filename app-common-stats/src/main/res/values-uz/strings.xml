@@ -5,8 +5,8 @@
         <item quantity="other">%s bo\'shatildi.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">SD Maid ni qurilmangizga taklif qilganingizdan beri %s element qayta ishlandi.</item>
-        <item quantity="other">SD Maid ni qurilmangizga taklif qilganingizdan beri %s element qayta ishlandi.</item>
+        <item quantity="one">Tidy ni qurilmangizga taklif qilganingizdan beri %s element qayta ishlandi.</item>
+        <item quantity="other">Tidy ni qurilmangizga taklif qilganingizdan beri %s element qayta ishlandi.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">%d kun.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">Qisman muvaffaqiyat</string>
     <string name="stats_report_status_partial_failure">Muvaffaqiyatsizlik</string>
-    <string name="stats_settings_desc">SD Maid ning statistikalar, hisobotlar va ma\'lumotlarni saqlashni sozlash.</string>
+    <string name="stats_settings_desc">Tidy ning statistikalar, hisobotlar va ma\'lumotlarni saqlashni sozlash.</string>
     <string name="stats_settings_retention_category">Saqlash</string>
     <string name="stats_settings_retention_reports_label">Umumiy hisobotlar</string>
-    <string name="stats_settings_retention_reports_desc">Asosiy SD Maid operatsiya hisobotlarini o\'chirishdan oldin kunlar soni.</string>
+    <string name="stats_settings_retention_reports_desc">Asosiy Tidy operatsiya hisobotlarini o\'chirishdan oldin kunlar soni.</string>
     <string name="stats_settings_retention_paths_label">Batafsil yo\'l ma\'lumotlari</string>
-    <string name="stats_settings_retention_paths_desc">SD Maid tomonidan ta\'sirlangan yo\'llar haqida tafsilotlarni saqlash uchun kunlar soni.</string>
+    <string name="stats_settings_retention_paths_desc">Tidy tomonidan ta\'sirlangan yo\'llar haqida tafsilotlarni saqlash uchun kunlar soni.</string>
     <string name="stats_settings_retention_snapshots_label">Saqlash tarixi</string>
     <string name="stats_settings_retention_snapshots_desc">Saqlash tendentsiyasi diagrammasi uchun hajm snapshotlarini saqlash kunlari soni. Eski snapshotlar o\'chiriladi.</string>
     <string name="stats_settings_reset_all_label">Hammasini qayta o\'rnatish</string>

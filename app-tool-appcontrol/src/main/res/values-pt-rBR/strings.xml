@@ -15,7 +15,7 @@
     <string name="appcontrol_app_forcestop_description">Interrompe o aplicativo. Previna-o de se iniciar até que você o abra ou que o dispositivo seja reiniciado.</string>
     <string name="appcontrol_app_uninstall_description">Desinstale este aplicativo de seu dispositivo.</string>
     <string name="appcontrol_app_exclude_add_title">Excluir aplicativo</string>
-    <string name="appcontrol_app_exclude_add_description">Excluir este aplicativo de outras operações no SD Maid.</string>
+    <string name="appcontrol_app_exclude_add_description">Excluir este aplicativo de outras operações no Tidy.</string>
     <string name="appcontrol_app_exclude_edit_title">Editar exclusão</string>
     <string name="appcontrol_app_exclude_edit_description">Este aplicativo está excluído de uma ou mais ferramentas.</string>
     <string name="appcontrol_tag_user">Usuário</string>
@@ -101,7 +101,7 @@
     <string name="appcontrol_progress_exporting_x">Exportando %s</string>
     <string name="appcontrol_share_list_action">Compartilhar lista</string>
     <string name="appcontrol_share_list_title">Meus Aplicativos</string>
-    <string name="appcontrol_share_list_footer">Compartilhado via SD Maid SE</string>
+    <string name="appcontrol_share_list_footer">Compartilhado via Tidy</string>
     <string name="appcontrol_force_stop_selection_action">Força parada do app</string>
     <string name="appcontrol_force_stop_action">Forçar parada</string>
     <string name="appcontrol_force_stop_confirm_title">Confirmar parada forçada</string>

@@ -5,8 +5,8 @@
         <item quantity="other">%s මුක්ත කර ඇත.</item>
     </plurals>
     <plurals name="stats_dash_body_count">
-        <item quantity="one">ඔබ ඔබේ උපකරණයට SD Maid ආරාධනා කරමින් %s ංගය මෙහෙයුම් කර ඇත.</item>
-        <item quantity="other">ඔබ ඔබේ උපකරණයට SD Maid ආරාධනා කරමින් %s ංග මෙහෙයුම් කර ඇත.</item>
+        <item quantity="one">ඔබ ඔබේ උපකරණයට Tidy ආරාධනා කරමින් %s ංගය මෙහෙයුම් කර ඇත.</item>
+        <item quantity="other">ඔබ ඔබේ උපකරණයට Tidy ආරාධනා කරමින් %s ංග මෙහෙයුම් කර ඇත.</item>
     </plurals>
     <plurals name="stats_dash_since_days">
         <item quantity="one">දින %d ක් තිස්සේ ඔබගේ අමුත්තා.</item>
@@ -26,12 +26,12 @@
     </plurals>
     <string name="stats_report_status_partial_success">අර්ධ සාර්ථකත්වය</string>
     <string name="stats_report_status_partial_failure">අසාර්ථකත්වය</string>
-    <string name="stats_settings_desc">SD Maid හි සංඛ්‍යාලේඛන, වාර්තා සහ දත්ත රඳවා ගැනීම සකසන්න.</string>
+    <string name="stats_settings_desc">Tidy හි සංඛ්‍යාලේඛන, වාර්තා සහ දත්ත රඳවා ගැනීම සකසන්න.</string>
     <string name="stats_settings_retention_category">රඳවා ගැනීම</string>
     <string name="stats_settings_retention_reports_label">සාමාන්‍ය වාර්තා</string>
-    <string name="stats_settings_retention_reports_desc">මූලික SD Maid මෙහෙයුම් වාර්තා මකා දැමීමට පෙර දින සංඛ්‍යාව.</string>
+    <string name="stats_settings_retention_reports_desc">මූලික Tidy මෙහෙයුම් වාර්තා මකා දැමීමට පෙර දින සංඛ්‍යාව.</string>
     <string name="stats_settings_retention_paths_label">විස්තරාත්මක මාර්ග තොරතුරු</string>
-    <string name="stats_settings_retention_paths_desc">SD Maid විසින් බලපෑමට ලක් වූ මාර්ග පිළිබඳ විස්තර රඳවා ගත යුතු දින සංඛ්‍යාව.</string>
+    <string name="stats_settings_retention_paths_desc">Tidy විසින් බලපෑමට ලක් වූ මාර්ග පිළිබඳ විස්තර රඳවා ගත යුතු දින සංඛ්‍යාව.</string>
     <string name="stats_settings_retention_snapshots_label">ගබඩා ඉතිහාසය</string>
     <string name="stats_settings_retention_snapshots_desc">ගබඩා ප්‍රවණතා ප්‍රස්තාරය සඳහා ගබඩා භාවිතා ගතිරූපවල තබා ගැනීමට දිනවල ගණන. පැරණි ගතිරූපවලු මකා දමනු ලැබේ.</string>
     <string name="stats_settings_reset_all_label">සියල්ල පුනරාරම්භ කරන්න</string>

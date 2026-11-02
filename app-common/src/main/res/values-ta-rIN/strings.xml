@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SD Maid SE</string>
+    <string name="app_name">Tidy</string>
     <string name="app_name_upgraded_template">%1$s %2$s</string>
     <string name="slogan_message_0">உங்கள் சேவையில்.</string>
     <string name="slogan_message_1">சுத்தமான மற்றும் ஒழுங்கான.</string>
@@ -50,7 +50,7 @@
     <string name="general_progress_loading">ஏற்றுகிறது</string>
     <string name="general_progress_loading_app_data">பயன்பாட்டு தரவை ஏற்றுகிறது</string>
     <string name="general_progress_loading_data_areas">தரவு பகுதிகளை ஏற்றுகிறது</string>
-    <string name="general_data_areas_unavailable_message">தரவு பகுதிகளை ஏற்ற முடியவில்லை. இவை SD Maid செயல்படக்கூடிய சேமிப்பு இருப்புகளாகும்.</string>
+    <string name="general_data_areas_unavailable_message">தரவு பகுதிகளை ஏற்ற முடியவில்லை. இவை Tidy செயல்படக்கூடிய சேமிப்பு இருப்புகளாகும்.</string>
     <string name="general_progress_loading_egg_0">iPhone ஐ விட வேகமாக</string>
     <string name="general_progress_loading_egg_1">கூடுதல் RAM பதிவிறக்குகிறது</string>
     <string name="general_progress_loading_egg_2">விரைவில்™</string>
@@ -182,7 +182,7 @@
     <string name="general_error_ipc_deadobject_title">சேவை இணைப்பு இழந்தது</string>
     <string name="general_error_ipc_deadobject_description">ஒரு முக்கிய சேவைக்கான தொடர்பு (உ.ம். Magisk, Porter, Shizuku, அல்லது பிற முறைமை-நிலை சேவைகள்) எதிர்பாராமல் இழக்கப்பட்டுள்ளது. தயவுசெய்து உங்கள் சாதனத்தை மீண்டும் தொடங்கவும். சிக்கல் நீடித்தால், புதுப்பிப்புகளைச் சரிபார்க்கவும் அல்லது சரிசெய்வதற்கு என்னைத் தொடர்பு கொள்ளவும்.</string>
     <string name="general_error_upgrade_required_title">மேம்படுத்தல் தேவை</string>
-    <string name="general_error_upgrade_required_description">இந்த அம்சத்திற்கு மேம்படுத்தல் தேவை. இதைப் பயன்படுத்த SD Maid SE ஐ மேம்படுத்தவும்.</string>
+    <string name="general_error_upgrade_required_description">இந்த அம்சத்திற்கு மேம்படுத்தல் தேவை. இதைப் பயன்படுத்த Tidy ஐ மேம்படுத்தவும்.</string>
     <string name="general_user_label_owner">உரிமையாளர்</string>
     <string name="general_user_label_system">கணினி</string>
     <string name="setup_title">அமைப்பு</string>
@@ -210,18 +210,18 @@
     <string name="appcontrol_systemsettings_open_title">அமைப்புகளைக் காட்டு</string>
     <string name="ui_theme_color_sunset_label">சூரிய அஸ்தமனம்</string>
     <string name="ui_theme_color_amoled_label">AMOLED</string>
-    <string name="access_blocked_root_unavailable">இந்த பண்பிற்கு root அணுகல் தேவை, ஆனால் SD Maid இந்த சாதனத்தில் அதைப் பெற முடியவில்லை.</string>
+    <string name="access_blocked_root_unavailable">இந்த பண்பிற்கு root அணுகல் தேவை, ஆனால் Tidy இந்த சாதனத்தில் அதைப் பெற முடியவில்லை.</string>
     <string name="access_blocked_root_declined">இந்த அம்சத்திற்கு root அணுகல் தேவை. நீங்கள் அமைப்பு திரையின் மூலம் இதை செயல்படுத்தலாம்.</string>
     <string name="access_blocked_root_or_shizuku">இந்த அம்சத்திற்கு root அல்லது ADB அணுக்கம் தேவை, இது இந்த சாதனத்தில் கிடைக்கவில்லை.</string>
     <string name="backup_restore_error_invalid_title">செல்லுபடியாகாத பேக்கப் கோப்பு</string>
-    <string name="backup_restore_error_invalid_body">இந்த கோப்பு SD Maid இன் செல்லுபடியான பேக்கப் அல்ல அல்லது சிதைந்துவிட்டது.</string>
-    <string name="backup_restore_error_version_body">இந்த பேக்கப் SD Maid இன் புதிய பதிப்பால் உருவாக்கப்பட்டது. தயவுசெய்து பயன்பாட்டை புதுப்பித்து மீண்டும் முயற்சிக்கவும்.</string>
+    <string name="backup_restore_error_invalid_body">இந்த கோப்பு Tidy இன் செல்லுபடியான பேக்கப் அல்ல அல்லது சிதைந்துவிட்டது.</string>
+    <string name="backup_restore_error_version_body">இந்த பேக்கப் Tidy இன் புதிய பதிப்பால் உருவாக்கப்பட்டது. தயவுசெய்து பயன்பாட்டை புதுப்பித்து மீண்டும் முயற்சிக்கவும்.</string>
     <string name="backup_restore_error_restore_failed_title">மீட்டெடுப்பு தோல்வியடைந்தது</string>
     <string name="backup_restore_error_restore_failed_body">இந்த பகுதிகளை மீட்டெடுக்க முடியவில்லை: %1$s. உங்கள் முந்தைய கட்டமைப்பு சேமிக்கப்பட்டு மீண்டும் கொண்டுவர முடியும்.</string>
     <string name="backup_restore_error_safety_title">மீட்டெடுப்பு தொடங்கப்படவில்லை</string>
-    <string name="backup_restore_error_safety_body">SD Maid உங்கள் தற்போதைய கட்டமைப்பின் பாதுகாப்பு பிரதியைச் சேமிக்க முடியவில்லை, எனவே எதுவும் மாற்றப்படவில்லை.</string>
+    <string name="backup_restore_error_safety_body">Tidy உங்கள் தற்போதைய கட்டமைப்பின் பாதுகாப்பு பிரதியைச் சேமிக்க முடியவில்லை, எனவே எதுவும் மாற்றப்படவில்லை.</string>
     <string name="backup_restore_error_busy_title">தயவுசெய்து காத்திருக்கவும்</string>
     <string name="backup_restore_error_busy_body">ஒரு சுத்தம் செய்யும் பணி அல்லது மற்றோரு பேக்கப் செயல்பாடு தற்போது இயங்கி வருகிறது. இது முடிந்தபின் மீண்டும் முயற்சி செய்யுங்கள்.</string>
     <string name="backup_restore_error_schema_title">இணக்கமற்ற பேக்கப்</string>
-    <string name="backup_restore_error_schema_body">பேக்கப்பின் தரவுத்தள வடிவம் SD Maid இந்த பதிப்புடன் போல் இல்லை. வரலாற்று தரவை மீட்டெடுத்தல் ஒரே மாதிரியான பயன்பாட்டு பதிப்புகளுக்கு இடையே மட்டுமே ஆதரிக்கப்படுகிறது.</string>
+    <string name="backup_restore_error_schema_body">பேக்கப்பின் தரவுத்தள வடிவம் Tidy இந்த பதிப்புடன் போல் இல்லை. வரலாற்று தரவை மீட்டெடுத்தல் ஒரே மாதிரியான பயன்பாட்டு பதிப்புகளுக்கு இடையே மட்டுமே ஆதரிக்கப்படுகிறது.</string>
 </resources>
